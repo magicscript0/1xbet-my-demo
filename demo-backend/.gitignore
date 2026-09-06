@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Demo data (regenerated from seed on first run)
+data/*.db
+data/*.db-*
+
+# Local environment secrets
+.env

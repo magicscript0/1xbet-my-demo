@@ -1551,7 +1551,7 @@
 
     .line 40
     .line 41
-    const-string p0, "https://hfoweytnvkf.com"
+    sget-object p0, La/wtt;->h:Ljava/lang/String;
 
     .line 42
     .line 43

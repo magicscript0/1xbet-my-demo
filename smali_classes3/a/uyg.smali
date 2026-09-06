@@ -50560,15 +50560,15 @@
 
     .line 54
     :goto_0
-    const-string v2, ""
+    sget-object v2, La/wtt;->h:Ljava/lang/String;
 
     .line 55
     .line 56
-    const-string v3, ""
+    sget-object v3, La/wtt;->h:Ljava/lang/String;
 
     .line 57
     .line 58
-    const-string v5, "https://mob-experience.space"
+    sget-object v5, La/wtt;->h:Ljava/lang/String;
 
     .line 59
     .line 60

@@ -1,0 +1,8 @@
+# Demo Cashier backend — runtime requirements
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic==2.11.4
+
+# Test requirements (not needed to run the server)
+pytest==8.3.5
+httpx==0.28.1

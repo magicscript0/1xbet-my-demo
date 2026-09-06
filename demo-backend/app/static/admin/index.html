@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin — Demo Payment Methods</title>
+  <link rel="stylesheet" href="/admin-assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>إدارة وسائل الدفع التجريبية</h1>
+    <span class="badge">DEMO</span>
+  </header>
+
+  <section class="auth">
+    <label for="token">Admin Token</label>
+    <div class="row">
+      <input id="token" type="password" placeholder="DEMO_ADMIN_TOKEN" autocomplete="off">
+      <button id="connect-btn" class="primary">اتصال</button>
+    </div>
+    <p class="hint">التوكن موجود في متغير البيئة DEMO_ADMIN_TOKEN على خادم الديمو.</p>
+  </section>
+
+  <section id="notice" class="notice hidden"></section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>وسائل الدفع</h2>
+      <button id="refresh-btn" class="ghost">تحديث</button>
+    </div>
+    <table id="methods-table">
+      <thead>
+        <tr>
+          <th>method</th><th>الاسم المعروض</th><th>رقم العرض</th>
+          <th>الحالة</th><th>version</th><th>تعديل</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="panel">
+    <h2>تعديل رقم العرض (Demo)</h2>
+    <form id="edit-form" class="form">
+      <input type="hidden" id="e-version" value="1">
+      <input type="hidden" id="e-method" value="">
+      <label>اسم العرض
+        <input id="e-display_name" required maxlength="120">
+      </label>
+      <label>رقم الحساب التجريبي
+        <input id="e-display_number" required maxlength="64"
+               pattern="[0-9 +\-]{1,64}" placeholder="00000000" dir="ltr">
+      </label>
+      <div class="two">
+        <label>الحالة
+          <select id="e-status">
+            <option value="active">active</option>
+            <option value="inactive">inactive</option>
+          </select>
+        </label>
+        <label>الترتيب
+          <input id="e-sort_order" type="number" min="0" step="1" value="0">
+        </label>
+      </div>
+      <label>icon_key
+        <input id="e-icon_key" maxlength="64" dir="ltr">
+      </label>
+      <label>وصف
+        <textarea id="e-description" rows="2" maxlength="500"></textarea>
+      </label>
+      <div class="row end">
+        <button type="button" id="save-btn" class="primary">حفظ</button>
+        <button type="button" id="delete-btn" class="danger">حذف</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="panel">
+    <h2>إضافة وسيلة دفع جديدة</h2>
+    <form id="create-form" class="form">
+      <label>method (slug)
+        <input id="c-method" required pattern="[a-z0-9_]{2,32}" dir="ltr">
+      </label>
+      <label>اسم العرض
+        <input id="c-display_name" required maxlength="120">
+      </label>
+      <label>رقم الحساب التجريبي
+        <input id="c-display_number" required maxlength="64"
+               pattern="[0-9 +\-]{1,64}" placeholder="00000000" dir="ltr">
+      </label>
+      <button type="submit" class="primary">إنشاء</button>
+    </form>
+  </section>
+
+  <script src="/admin-assets/admin.js"></script>
+</body>
+</html>

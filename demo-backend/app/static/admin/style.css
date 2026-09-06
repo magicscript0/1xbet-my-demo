@@ -1,0 +1,37 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg:#f4f5f7; --card:#fff; --ink:#16181d; --muted:#7a7f8a;
+  --accent:#0f7a3d; --danger:#b3261e; --line:#e3e5ea;
+}
+body {
+  font-family: system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;
+  background: var(--bg); color: var(--ink);
+  max-width: 760px; margin: 0 auto; padding: 16px;
+}
+header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+header h1 { font-size:19px; }
+.badge { background:var(--accent); color:#fff; border-radius:999px; padding:4px 12px; font-size:12px; }
+section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; margin-bottom:14px; }
+h2 { font-size:15px; margin-bottom:10px; }
+.hint { color:var(--muted); font-size:12px; margin-top:6px; }
+.row { display:flex; gap:8px; align-items:center; }
+.row.end { justify-content:flex-end; margin-top:10px; }
+.two { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+label { display:block; font-size:12px; color:var(--muted); margin-bottom:10px; }
+input, select, textarea {
+  display:block; width:100%; margin-top:4px; padding:9px 10px;
+  border:1px solid var(--line); border-radius:9px; font:inherit; font-size:14px;
+  background:#fff; color:var(--ink);
+}
+button { border:0; border-radius:9px; padding:9px 16px; font:inherit; font-size:13px; cursor:pointer; }
+button.primary { background:var(--accent); color:#fff; }
+button.ghost { background:transparent; border:1px solid var(--line); color:var(--muted); }
+button.danger { background:var(--danger); color:#fff; }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line); }
+th { color:var(--muted); font-weight:500; font-size:12px; }
+td.num { direction:ltr; text-align:center; font-weight:700; }
+.notice { padding:12px 14px; border-radius:10px; font-size:13px; }
+.notice.ok { background:#e7f5ec; color:#0b5c2e; }
+.notice.err { background:#fdecea; color:var(--danger); }
+.hidden { display:none; }

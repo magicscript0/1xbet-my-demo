@@ -36,7 +36,7 @@
 
 .field public static final g:La/wtt;
 
-.field public static h:Ljava/lang/String; = "https://mob-experience.space"
+.field public static h:Ljava/lang/String; = "http://10.0.2.2:8000"
 
 .field public static final i:La/wtt;
 
