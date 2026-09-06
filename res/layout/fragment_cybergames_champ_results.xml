@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <org.xplatform.ui_core.viewcomponents.views.date.ScrollableSquaredDateView android:id="@id/dateView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_4" android:layout_marginBottom="@dimen/space_4" android:layout_marginVertical="@dimen/space_4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:show_today_indicator="false" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvChampResults" android:paddingBottom="@dimen/space_32" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/dateView" />
+    </LinearLayout>
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:textColor="?uikitSecondary" />
+    <org.xplatform.ui_core.viewcomponents.loader.LoaderView android:id="@id/loader" android:layout_width="fill_parent" android:layout_height="fill_parent" app:icon="@drawable/ic_game_pad" />
+</FrameLayout>

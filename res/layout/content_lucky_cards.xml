@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.core.presentation.custom_views.cards.LuckyCardWidget android:id="@id/cardView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/space_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintBottom_toTopOf="@id/choiceView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <org.xplatform.lucky_card.presentation.views.LuckyCardChoiceView android:id="@id/choiceView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginBottom="@dimen/size_56" android:layout_marginHorizontal="@dimen/space_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

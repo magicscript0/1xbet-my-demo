@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="aggregatorCategoryFullSpanCount">6</integer>
+    <integer name="aggregatorCategoryIconLeftVirtualRowCount">7</integer>
+    <integer name="aggregatorCategoryIconSpanCount">3</integer>
+    <integer name="aggregatorCategoryRectangleSpanCount">5</integer>
+    <integer name="aggregatorGameCardCollectionGradientSpanCount">3</integer>
+    <integer name="aggregatorGameCardCollectionHorizontalBackgroundSpanCount">2</integer>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:alpha="0.3" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__0" android:pathData="M0,17.81L-0,14.191L15.973,15.502L16,16.552L0,17.81Z" />
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__1" android:pathData="M32,17.81L32,14.191L16.027,15.502L16,16.552L32,17.81Z" />
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__2" android:pathData="M17.81,32L14.191,32L15.502,16.027L16.552,16L17.81,32Z" />
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__3" android:pathData="M17.81,0L14.191,0L15.502,15.973L16.552,16L17.81,0Z" />
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__4" android:pathData="M5.966,28.593L3.407,26.034L15.629,15.667L16.39,16.391L5.966,28.593Z" />
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__5" android:pathData="M28.593,5.966L26.034,3.407L15.667,15.629L16.391,16.39L28.593,5.966Z" />
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__6" android:pathData="M28.593,26.034L26.034,28.593L15.667,16.371L16.391,15.609L28.593,26.034Z" />
+    <path android:fillColor="@drawable/$cybergame_crystal_glow__7" android:pathData="M5.966,3.407L3.407,5.966L15.629,16.333L16.391,15.609L5.966,3.407Z" />
+</vector>

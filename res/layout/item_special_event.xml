@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.DsSettingsCell android:orientation="horizontal" android:id="@id/scToggleCell" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/space_8" app:layout_constraintTop_toBottomOf="@id/tfLetters">
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/cmTitle" app:title="@string/special_event_toggle" style="@style/Widget.DSCell.Middle.Title.L" />
+        <org.xplatform.uikit.components.cells.right.DsCellRightSwitch android:id="@id/crSwitch" style="@style/Widget.DSCell.Right.Switch" />
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+</LinearLayout>

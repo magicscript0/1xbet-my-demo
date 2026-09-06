@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/uikitBackground"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/topBarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/uikitBackgroundContent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <org.xplatform.uikit.components.navigation_bar.DsNavigationBar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationBarStyle="title"
+            app:showShadow="false" />
+
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/composeViewSegmentedControl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/space_12"
+            android:layout_marginHorizontal="@dimen/extra_extra_large_horizontal_margin_dynamic" />
+
+        <org.xplatform.uikit.components.separator.DsSeparator
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1"
+            style="@style/Widget.DSSeparator.Separator60" />
+
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBarContainer" />
+
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer
+        android:id="@+id/lottieEmptyView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBarContainer" />
+
+    <org.xplatform.ui_core.viewcomponents.loader.LoaderView
+        android:id="@+id/loaderView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBarContainer" />
+
+    <org.xplatform.uikit.components.bottom_bar.DsBottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="@dimen/size_24"
+        android:visibility="gone"
+        app:bottomBarType="oneButton"
+        app:firstButtonStyle="@style/DSButton.Large.Commerce"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

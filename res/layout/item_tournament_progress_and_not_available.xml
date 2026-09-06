@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/space_8" android:layout_marginRight="@dimen/space_8" android:layout_marginHorizontal="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit_aggregator.aggregatorTournamentProgress.DSAggregatorTournamentProgress android:id="@id/aggregatorTournamentProgressView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" />
+    <TextView android:textAppearance="?textAppearanceBody2New" android:gravity="center" android:id="@id/tvNoResult" android:paddingBottom="@dimen/space_102" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/tournament_result_not_available" android:layout_weight="1.0" />
+</LinearLayout>

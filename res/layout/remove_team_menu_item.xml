@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llRemoveTeam" android:background="?uikitBackgroundContent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/size_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete_basket_new" app:tint="@color/static_red" />
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:textColor="@color/static_red" android:gravity="center_vertical" android:id="@id/tvRemoveTeam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:text="@string/remove" android:layout_marginHorizontal="@dimen/space_16" />
+</LinearLayout>

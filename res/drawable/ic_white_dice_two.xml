@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M-0.15,-0.15h24v24h-24z" />
+        <path android:fillColor="@drawable/$ic_white_dice_two__0" android:pathData="M21.625,23.85H2.075C0.847,23.85 -0.15,22.853 -0.15,21.625V2.075C-0.15,0.847 0.847,-0.15 2.075,-0.15H21.625C22.853,-0.15 23.85,0.847 23.85,2.075V21.625C23.85,22.853 22.853,23.85 21.625,23.85Z" />
+        <path android:fillColor="@drawable/$ic_white_dice_two__1" android:pathData="M11.984,22.827C18.121,22.827 23.096,17.852 23.096,11.716C23.096,5.579 18.121,0.604 11.984,0.604C5.848,0.604 0.873,5.579 0.873,11.716C0.873,17.852 5.848,22.827 11.984,22.827Z" />
+        <path android:fillColor="#ff010101" android:pathData="M8.471,8.469C9.32,7.62 9.32,6.244 8.471,5.395C7.622,4.546 6.246,4.546 5.397,5.395C4.548,6.244 4.548,7.62 5.397,8.469C6.246,9.318 7.622,9.318 8.471,8.469Z" />
+        <path android:fillColor="@drawable/$ic_white_dice_two__2" android:pathData="M8.788,6.345C9.171,6.729 8.941,7.599 8.276,8.263C7.599,8.941 6.742,9.171 6.358,8.775C5.975,8.391 6.205,7.522 6.87,6.857C7.535,6.192 8.391,5.962 8.788,6.345Z" />
+        <path android:fillColor="#ff010101" android:pathData="M18.302,18.306C19.151,17.458 19.151,16.081 18.302,15.233C17.453,14.384 16.077,14.384 15.228,15.233C14.379,16.081 14.379,17.458 15.228,18.306C16.077,19.155 17.453,19.155 18.302,18.306Z" />
+        <path android:fillColor="@drawable/$ic_white_dice_two__3" android:pathData="M18.621,16.191C19.004,16.574 18.774,17.444 18.109,18.109C17.431,18.787 16.575,19.017 16.191,18.62C15.807,18.237 16.038,17.367 16.702,16.702C17.367,16.025 18.237,15.795 18.621,16.191Z" />
+    </group>
+</vector>

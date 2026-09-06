@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:startColor="?uikitPromoCardGradientEnd" android:endColor="?uikitPromoCardGradientStart" android:angle="315.0" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_showcase_one_x_games" android:left="@dimen/space_16" android:top="@dimen/space_16" android:right="@dimen/space_16" android:bottom="@dimen/space_16" />
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/promocodeHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontalMargin="@dimen/space_8" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:padding="@dimen/size_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="?uikitSecondary" android:layout_gravity="start" android:id="@id/tvCaption" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Caption.Regular.L" />
+        <LinearLayout android:gravity="center" android:id="@id/containerButton" android:paddingLeft="@dimen/space_12" android:paddingRight="@dimen/space_12" android:layout_width="fill_parent" android:layout_height="@dimen/size_56" android:layout_marginTop="@dimen/space_12" android:paddingHorizontal="@dimen/space_12">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ic_promocode" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_24" android:src="@drawable/ic_glyph_circle_promocode" app:tint="?uikitPrimary" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?uikitPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/textButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/space_8" app:autoSizeMaxTextSize="@dimen/size_16" app:autoSizeMinTextSize="@dimen/size_8" app:autoSizeTextType="uniform" style="@style/TextStyle.Headline.Medium" />
+        </LinearLayout>
+    </LinearLayout>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerView" android:layout_width="fill_parent" android:layout_height="@dimen/size_128" android:radius="@dimen/radius_16" />
+</merge>

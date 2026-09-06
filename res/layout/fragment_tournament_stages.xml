@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/flToolbar" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationBarStyle="title" app:showSeparator="true" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llStatusView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flToolbar">
+        <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:layout_gravity="center" android:id="@id/loadingError" android:background="?uikitBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvStages" android:paddingLeft="@dimen/space_8" android:paddingTop="@dimen/space_4" android:paddingRight="@dimen/space_8" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:overScrollMode="never" android:paddingHorizontal="@dimen/space_8" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flToolbar" />
+    <org.xplatform.uikit.components.bottom_bar.DsBottomBar android:layout_gravity="bottom" android:id="@id/bottomBar" android:paddingBottom="@dimen/size_24" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomBarType="oneButton" app:firstButtonStyle="@style/DSButton.Large.Commerce" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?uikitStaticRed" />
+            <size android:height="@dimen/size_10" android:width="@dimen/size_10" />
+        </shape>
+    </item>
+    <item>
+        <inset android:drawable="@drawable/ic_glyph_popular_10dp" android:inset="@dimen/space_2" />
+    </item>
+</layer-list>

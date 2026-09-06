@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic android:id="@id/navigationBar" android:layout_width="0.0dip" android:layout_height="?actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:title="@string/notifications_title" style="@style/Widgets.BasicNavigationBar.Title">
+        <ImageView android:layout_gravity="end|center" android:id="@id/toolbarDelete" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:src="@drawable/ic_delete_basket_new" android:contentDescription="@string/empty_str" android:layout_marginHorizontal="@dimen/space_16" />
+    </org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic>
+    <org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout android:id="@id/swipeRefreshView" android:layout_width="@dimen/match_constraints" android:layout_height="@dimen/match_constraints" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingTop="@dimen/space_4" android:paddingBottom="@dimen/space_24" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

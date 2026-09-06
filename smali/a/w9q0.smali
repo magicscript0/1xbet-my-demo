@@ -1,0 +1,171 @@
+.class public abstract La/w9q0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:La/e3f0;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, La/e3f0;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, La/w9q0;->a:La/e3f0;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public static final a(La/r9q0;)La/rkb;
+    .locals 4
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v0, La/w9q0;->a:La/e3f0;
+
+    .line 5
+    .line 6
+    monitor-enter v0
+
+    .line 7
+    :try_start_0
+    const-string v1, "androidx.lifecycle.viewmodel.internal.ViewModelCoroutineScope.JOB_KEY"
+
+    .line 8
+    .line 9
+    invoke-virtual {p0, v1}, La/r9q0;->C(Ljava/lang/String;)Ljava/lang/AutoCloseable;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v1
+
+    .line 13
+    check-cast v1, La/rkb;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 14
+    .line 15
+    if-nez v1, :cond_0
+
+    .line 16
+    .line 17
+    :try_start_1
+    sget-object v1, La/nfj;->a:La/khi;
+
+    .line 18
+    .line 19
+    sget-object v1, La/ofz;->a:La/lfz;
+
+    .line 20
+    .line 21
+    invoke-virtual {v1}, La/lfz;->w()La/lfz;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v1
+    :try_end_1
+    .catch La/wb30; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljava/lang/IllegalStateException; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :catch_0
+    :try_start_2
+    sget-object v1, Lkotlin/coroutines/g;->a:Lkotlin/coroutines/g;
+
+    .line 27
+    .line 28
+    goto :goto_0
+
+    .line 29
+    :catch_1
+    sget-object v1, Lkotlin/coroutines/g;->a:Lkotlin/coroutines/g;
+
+    .line 30
+    .line 31
+    :goto_0
+    new-instance v2, La/rkb;
+
+    .line 32
+    .line 33
+    invoke-static {}, La/rh50;->j()La/ihj0;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v3
+
+    .line 37
+    invoke-interface {v1, v3}, Lkotlin/coroutines/CoroutineContext;->plus(Lkotlin/coroutines/CoroutineContext;)Lkotlin/coroutines/CoroutineContext;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v1
+
+    .line 41
+    invoke-direct {v2, v1}, La/rkb;-><init>(Lkotlin/coroutines/CoroutineContext;)V
+
+    .line 42
+    .line 43
+    .line 44
+    const-string v1, "androidx.lifecycle.viewmodel.internal.ViewModelCoroutineScope.JOB_KEY"
+
+    .line 45
+    .line 46
+    invoke-virtual {p0, v1, v2}, La/r9q0;->A(Ljava/lang/String;Ljava/lang/AutoCloseable;)V
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 47
+    .line 48
+    .line 49
+    move-object v1, v2
+
+    .line 50
+    goto :goto_1
+
+    .line 51
+    :catchall_0
+    move-exception p0
+
+    .line 52
+    goto :goto_2
+
+    .line 53
+    :cond_0
+    :goto_1
+    monitor-exit v0
+
+    .line 54
+    return-object v1
+
+    .line 55
+    :goto_2
+    monitor-exit v0
+
+    .line 56
+    throw p0
+.end method

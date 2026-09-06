@@ -1,0 +1,68 @@
+.class public final Lorg/xplatform/security/api/presentation/models/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance p0, Lorg/xplatform/security/api/presentation/models/ConfirmSendEmailScreenParams$Registration;
+
+    .line 5
+    .line 6
+    sget-object v0, Lorg/xplatform/security/api/presentation/models/SendEmailIntention$Registration;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 7
+    .line 8
+    invoke-interface {v0, p1}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    check-cast v0, Lorg/xplatform/security/api/presentation/models/SendEmailIntention$Registration;
+
+    .line 13
+    .line 14
+    invoke-virtual {p1}, Landroid/os/Parcel;->readSerializable()Ljava/io/Serializable;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p1
+
+    .line 18
+    check-cast p1, La/gnl0;
+
+    .line 19
+    .line 20
+    invoke-direct {p0, v0, p1}, Lorg/xplatform/security/api/presentation/models/ConfirmSendEmailScreenParams$Registration;-><init>(Lorg/xplatform/security/api/presentation/models/SendEmailIntention$Registration;La/gnl0;)V
+
+    .line 21
+    .line 22
+    .line 23
+    return-object p0
+.end method
+
+.method public final newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    new-array p0, p1, [Lorg/xplatform/security/api/presentation/models/ConfirmSendEmailScreenParams$Registration;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

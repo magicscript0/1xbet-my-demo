@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceSubtitle1New" android:textSize="@dimen/text_14" android:textColor="@color/static_white" android:gravity="center" android:id="@id/tvTitle" android:background="@drawable/cyber_game_statistic_title_bg" android:layout_width="fill_parent" android:layout_height="@dimen/size_32" android:text="@string/cyber_statistic_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

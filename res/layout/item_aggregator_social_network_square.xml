@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/squareSocialNetwork" android:layout_width="@dimen/size_56" android:layout_height="@dimen/size_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.LoadableShapeableImageView android:layout_gravity="center" android:id="@id/ivSocial" android:layout_width="@dimen/size_54" android:layout_height="@dimen/size_54" android:scaleType="fitCenter" app:placeholder="?uikitSocialNetworksVerticalBackground" app:shapeAppearance="@style/ShapeAppearance.Radius16" />
+</FrameLayout>

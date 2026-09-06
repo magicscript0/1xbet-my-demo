@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/cyber_cs2_counter_terrorist_round_stats_indicator" />
+    <corners android:radius="@dimen/corner_radius_8" />
+    <padding android:left="@dimen/space_4" android:top="@dimen/space_4" android:right="@dimen/space_4" android:bottom="@dimen/space_4" />
+</shape>

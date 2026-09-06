@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_8"
+    android:orientation="vertical">
+
+    <org.xplatform.uikit.components.header.DsHeader
+        android:id="@+id/bannersHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isLoading="false"
+        app:title="@string/casino_promotions_title" />
+
+    <org.xplatform.uikit.components.banner_collection.DsBannerCollection
+        android:id="@+id/bannerCollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:theme="?attr/uikitTheme" />
+
+</LinearLayout>

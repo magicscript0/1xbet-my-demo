@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:background="@color/static_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/size_52"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/bg_stage_table_shimmer" android:layout_width="@dimen/size_16" android:layout_height="@dimen/size_16" android:layout_marginStart="@dimen/space_8" />
+    <View android:background="@drawable/bg_stage_table_shimmer" android:layout_width="@dimen/size_72" android:layout_height="@dimen/size_16" android:layout_marginStart="@dimen/space_8" />
+    <View android:background="@drawable/bg_stage_table_shimmer" android:layout_width="0.0dip" android:layout_height="@dimen/size_16" android:layout_weight="1.0" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_8" />
+</LinearLayout>

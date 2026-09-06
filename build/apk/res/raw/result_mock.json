@@ -1,0 +1,6794 @@
+{
+  "count": 82,
+  "items": [
+    {
+      "globalChampId": 1,
+      "id": 504836304,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Mozambique",
+      "opp2": "Ghana",
+      "opp1Images": [
+        "playerlogo/8b7e5f1ccc9fc7ab9c6f0b2d1fdf2723.png"
+      ],
+      "opp2Images": [
+        "playerlogo/5953283ac67dc47dc4c389481b7f0a0b.png"
+      ],
+      "opp1Ids": [
+        12631
+      ],
+      "opp2Ids": [
+        12717
+      ],
+      "score": "2:2 (0:1,2:1)",
+      "dopInfo": "",
+      "dateStart": 1705952700,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:3 (1:1,5:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "4:5 (1:1,3:4)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:4 (0:2,4:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "10:32 (5:18,5:14)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:1,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 124 pts. Performance Team 1: 38 pts. Performance Team 2: 29 pts. Cards Team 1: 40 pts. Cards Team 2: 50 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 9 Cards: 9"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-2 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "3:9 (2:4,1:5)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "20:13 (14:8,6:5)"
+        },
+        {
+          "title": "Saves",
+          "score": "2:2 (1:0,1:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "12:8 (1:3,11:5)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2 - Jordan Ayew 0 - Antoine Semenyo 0 - Joseph Paintsil 0 - Mohammed Kudus Player not in the starting lineup : Zlatan Ibrahimovic , Inaki Williams , Osman Bukari , Ransford Konigsdorffer , Stanley Ratifo , Elias Gaspar Pelembe "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "1:1 (1:1,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "85",
+        "1": "Group stage. Round 3. Group B",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5cbcc"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504807326,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Guinea-Bissau",
+      "opp2": "Nigeria",
+      "opp1Images": [
+        "playerlogo/64157.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12661.png"
+      ],
+      "opp1Ids": [
+        64157
+      ],
+      "opp2Ids": [
+        12661
+      ],
+      "score": "0:1 (0:1,0:0)",
+      "dopInfo": "",
+      "dateStart": 1705942800,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:2 (1:1,2:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:3 (0:1,0:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "5:1 (2:1,3:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:6 (0:3,1:3)"
+        },
+        {
+          "title": "Fouls",
+          "score": "12:20 (6:8,6:12)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 34 pts. Performance Team 1: 9 pts. Performance Team 2: 21 pts. Cards Team 1: 0 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 5 Cards: 3"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "9:11 (3:6,6:5)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "16:20 (10:9,6:11)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:5 (1:2,0:3)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "12:11 (6:5,6:6)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Victor Osimhen 0 - Moses Simon 0 - Ogochukwu Onyeka Frank 0 - Samuel Chukwueze Player not in the starting lineup : Ademola Lookman , Alex Iwobi , Ahmed Musa , Kelechi Iheanacho , Paul Onuachu "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "1:0 (1:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "83",
+        "1": "Group stage. Round 3. Group A",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "5",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "6529204794fca712b4d5cfe8"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504836403,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Cape Verde",
+      "opp2": "Egypt",
+      "opp1Images": [
+        "playerlogo/12649.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12641.png"
+      ],
+      "opp1Ids": [
+        12649
+      ],
+      "opp2Ids": [
+        12641
+      ],
+      "score": "2:2 (1:0,1:2)",
+      "dopInfo": "",
+      "dateStart": 1705952700,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "4:8 (1:2,3:6)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:2 (0:0,1:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:7 (1:3,2:4)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:1 (2:1,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "8:10 (6:5,2:5)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 85 pts. Performance Team 1: 32 pts. Performance Team 2: 44 pts. Cards Team 1: 10 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 12 Cards: 3"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-2 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "12:5 (6:1,6:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "13:14 (5:7,8:7)"
+        },
+        {
+          "title": "Saves",
+          "score": "5:1 (3:0,2:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "6:27 (2:12,4:15)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2:2"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (2:0,3:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "85",
+        "1": "Group stage. Round 3. Group B",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "6529204794fca712b4d5cb53"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504058217,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Cape Verde",
+      "opp2": "Mozambique",
+      "opp1Images": [
+        "playerlogo/12649.png"
+      ],
+      "opp2Images": [
+        "playerlogo/8b7e5f1ccc9fc7ab9c6f0b2d1fdf2723.png"
+      ],
+      "opp1Ids": [
+        12649
+      ],
+      "opp2Ids": [
+        12631
+      ],
+      "score": "3:0 (1:0,2:0)",
+      "dopInfo": "",
+      "dateStart": 1705672800,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "1:6 (1:2,0:4)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "5:2 (3:1,2:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:2 (0:0,3:2)"
+        },
+        {
+          "title": "Fouls",
+          "score": "17:15 (9:8,8:7)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 54 pts. Performance Team 1: 38 pts. Performance Team 2: 18 pts. Cards Team 1: 10 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 7 Cards: 1"
+        },
+        {
+          "title": "Players' stats",
+          "score": "3-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "8:5 (2:3,6:2)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "18:21 (8:12,10:9)"
+        },
+        {
+          "title": "Saves",
+          "score": "2:2 (1:2,1:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:9 (7:2,4:7)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Ryan Mendes da Graca 0 - Jovane Cabral 0 - Stanley Ratifo Player not in the starting lineup : Garry Rodrigues "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "4:0 (2:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+32°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "13",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "62",
+        "20": "3",
+        "1": "Group stage. Round 2. Group B",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "6529204794fca712b4d5cc08"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504396133,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Tunisia",
+      "opp2": "Mali",
+      "opp1Images": [
+        "playerlogo/12721.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12087.png"
+      ],
+      "opp1Ids": [
+        12721
+      ],
+      "opp2Ids": [
+        12087
+      ],
+      "score": "1:1 (1:1,0:0)",
+      "dopInfo": "",
+      "dateStart": 1705780800,
+      "countSubGame": 16,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:4 (2:2,1:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:0 (0:0,2:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "1:1 (1:1,0:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "13:14 (5:6,8:8)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:5 (0:0,4:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 47 pts. Performance Team 1: 19 pts. Performance Team 2: 22 pts. Cards Team 1: 20 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 7 Cards: 2"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "10:5 (2:4,8:1)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "29:19 (20:9,9:10)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "5:12 (4:3,1:9)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:3 (0:1,3:2)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+26°C",
+        "25": "761",
+        "21": "Some cloud",
+        "24": "NNE wind, m/s",
+        "35": "0",
+        "7": "Korhogo",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "27",
+        "1": "Group stage. Round 2. Group E",
+        "22": "2",
+        "26": "Pressure, mmHg",
+        "23": "0",
+        "2": "Amadou Gon Coulibaly (Korhogo)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 52219,
+      "statId": "6529204794fca712b4d5d178"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504806991,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Equatorial Guinea",
+      "opp2": "Ivory Coast",
+      "opp1Images": [
+        "playerlogo/12651.png"
+      ],
+      "opp2Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp1Ids": [
+        12651
+      ],
+      "opp2Ids": [
+        12633
+      ],
+      "score": "4:0 (1:0,3:0)",
+      "dopInfo": "",
+      "dateStart": 1705941900,
+      "countSubGame": 16,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "1:11 (0:5,1:6)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:2 (2:1,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "7:3 (1:1,6:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:2 (0:1,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "22:21 (10:10,12:11)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 91 pts. Performance Team 1: 48 pts. Performance Team 2: 33 pts. Cards Team 1: 30 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 6 pts.     Match Score: 0 pts.    Corners: 6 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Players' stats",
+          "score": "4-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "15:4 (4:1,11:3)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "11:25 (5:10,6:15)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:3 (1:0,2:3)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "10:22 (2:7,8:15)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "4:0"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:0 (2:0,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "83",
+        "1": "Group stage. Round 3. Group A",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "5",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5cd33"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504096335,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Senegal",
+      "opp2": "Cameroon",
+      "opp1Images": [
+        "playerlogo/11815.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12725.png"
+      ],
+      "opp1Ids": [
+        11815
+      ],
+      "opp2Ids": [
+        12725
+      ],
+      "score": "3:1 (1:0,2:1)",
+      "dopInfo": "",
+      "dateStart": 1705683600,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "8:9 (6:4,2:5)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:3 (0:1,1:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:1 (1:0,2:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:0 (2:0,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:14 (5:8,9:6)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:3 (0:0,4:3)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 103 pts. Performance Team 1: 54 pts. Performance Team 2: 37 pts. Cards Team 1: 10 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 6 pts.     Match Score: 0 pts.    Corners: 6 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 17 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "3-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "10:6 (1:2,9:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "21:21 (11:11,10:10)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "5:6 (3:3,2:3)"
+        },
+        {
+          "title": "Tackles",
+          "score": "13:12 (7:8,6:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Ismaila Sarr 1 - Sadio Mane 1 - Habib Mouhamadou Diallo 0 - Lamine Camara 0 - Frank Magri Player not in the starting lineup : Karl Toko-Ekambi , Nicolas Jackson "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (1:0,4:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+30°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "NW wind, m/s",
+        "35": "3",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "50",
+        "1": "Group stage. Round 2. Group C",
+        "22": "15",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "6529204794fca712b4d5d061"
+    },
+    {
+      "globalChampId": 1,
+      "id": 502816950,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Ivory Coast",
+      "opp2": "Guinea-Bissau",
+      "opp1Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp2Images": [
+        "playerlogo/64157.png"
+      ],
+      "opp1Ids": [
+        12633
+      ],
+      "opp2Ids": [
+        64157
+      ],
+      "score": "Goals: 2 Corners: 8 Cards: 3",
+      "dopInfo": "",
+      "dateStart": 1705176000,
+      "matchInfos": {
+        "9": "+27°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "4",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "84",
+        "20": "3",
+        "1": "Group stage. Round 1. Group A",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5ccf8"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503246220,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Cameroon",
+      "opp2": "Guinea",
+      "opp1Images": [
+        "playerlogo/12725.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12625.png"
+      ],
+      "opp1Ids": [
+        12725
+      ],
+      "opp2Ids": [
+        12625
+      ],
+      "score": "1:1 (0:1,1:0)",
+      "dopInfo": "",
+      "dateStart": 1705338000,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "5:0 (1:0,4:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:1 (1:0,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "2:2 (0:2,2:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:14 (9:7,5:7)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "70:30 (70:30)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "3:4 (0:0,3:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 54 pts. Performance Team 1: 25 pts. Performance Team 2: 0 pts. Cards Team 1: 20 pts. Cards Team 2: 35 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 5 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "4:14 (2:6,2:8)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "25:21 (8:10,17:11)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:1 (1:0,0:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "13:6 (4:5,9:1)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "4:0 (3:0,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+31°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "3",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "50",
+        "1": "Group stage. Round 1. Group C",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "6529204794fca712b4d5cd76"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503279732,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Algeria",
+      "opp2": "Angola",
+      "opp1Images": [
+        "playerlogo/12637.png"
+      ],
+      "opp2Images": [
+        "playerlogo/11813.png"
+      ],
+      "opp1Ids": [
+        12637
+      ],
+      "opp2Ids": [
+        11813
+      ],
+      "score": "1:1 (1:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1705348800,
+      "countSubGame": 16,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "14:2 (7:2,7:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "4:1 (1:1,3:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:1 (2:0,1:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "4:0 (4:0,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "11:16 (4:10,7:6)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "66:34 (66:34)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:1,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 93 pts. Performance Team 1: 52 pts. Performance Team 2: 16 pts. Cards Team 1: 40 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 16 Cards: 5"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Throw-ins",
+          "score": "32:12 (12:6,20:6)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:2 (0:1,0:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "16:7 (9:4,7:3)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Baghdad Bounedjah 0 - Riyad Mahrez 0 - Youcef Belaili Player not in the starting lineup : Islam Slimani "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+27°C",
+        "25": "762",
+        "21": "Some cloud",
+        "24": "SSE wind, m/s",
+        "35": "1",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "27": "50",
+        "20": "3",
+        "1": "Group stage. Round 1. Group D",
+        "22": "8",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "6529204794fca712b4d5c85a"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503214852,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Senegal",
+      "opp2": "Republic of the Gambia",
+      "opp1Images": [
+        "playerlogo/11815.png"
+      ],
+      "opp2Images": [
+        "playerlogo/6f523cd745e27c75e28a3e904f8e10bb.png"
+      ],
+      "opp1Ids": [
+        11815
+      ],
+      "opp2Ids": [
+        12623
+      ],
+      "score": "3:0 (1:0,2:0)",
+      "dopInfo": "",
+      "dateStart": 1705327200,
+      "countSubGame": 16,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:4 (2:1,4:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "5:2 (1:1,4:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:1 (0:0,1:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "13:8 (7:1,6:7)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "66:34 (66:34)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 76 pts. Performance Team 1: 53 pts. Performance Team 2: 2 pts. Cards Team 1: 20 pts. Cards Team 2: 25 pts. Points for the first 5 mins: 13 pts.     Match Score: 10 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 10 Cards: 3"
+        },
+        {
+          "title": "Players' stats",
+          "score": "3-0 "
+        },
+        {
+          "title": "Throw-ins",
+          "score": "17:21 (10:9,7:12)"
+        },
+        {
+          "title": "Saves",
+          "score": "2:2 (0:1,2:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "12:10 (2:3,10:7)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Ismaila Sarr 0 - Krepin Diatta 0 - Sadio Mane Player not in the starting lineup : Nicolas Jackson "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:1 (0:1,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+34°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "WNW wind, m/s",
+        "35": "11",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "27": "38",
+        "20": "3",
+        "1": "Group stage. Round 1. Group C",
+        "22": "14",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "6529204794fca712b4d5d093"
+    },
+    {
+      "globalChampId": 1,
+      "id": 502816752,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Ivory Coast",
+      "opp2": "Guinea-Bissau",
+      "opp1Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp2Images": [
+        "playerlogo/64157.png"
+      ],
+      "opp1Ids": [
+        12633
+      ],
+      "opp2Ids": [
+        64157
+      ],
+      "score": "2:0 (1:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1705176000,
+      "countSubGame": 13,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:2 (4:0,2:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:1 (2:1,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:3 (2:1,2:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:1 (1:1,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "10:11 (4:6,6:5)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "61:39 (61:39)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 53 pts. Performance Team 1: 43 pts. Performance Team 2: 6 pts. Cards Team 1: 20 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 13 pts.     Match Score: 10 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-0 "
+        },
+        {
+          "title": "Throw-ins",
+          "score": "14:14 (7:6,7:8)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:2 (1:1,2:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "10:10 (6:2,4:8)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2:1"
+        }
+      ],
+      "matchInfos": {
+        "9": "+27°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "4",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "85",
+        "1": "Group stage. Round 1. Group A",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5ccf8"
+    },
+    {
+      "globalChampId": 1,
+      "id": 502992962,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Nigeria",
+      "opp2": "Equatorial Guinea",
+      "opp1Images": [
+        "playerlogo/12661.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12651.png"
+      ],
+      "opp1Ids": [
+        12661
+      ],
+      "opp2Ids": [
+        12651
+      ],
+      "score": "1:1 (1:1,0:0)",
+      "dopInfo": "",
+      "dateStart": 1705240800,
+      "countSubGame": 8,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "2:3 (1:1,1:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:2 (0:1,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "7:1 (3:1,4:0)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 44 pts. Performance Team 1: 16 pts. Performance Team 2: 19 pts. Cards Team 1: 10 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 5 Cards: 3"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "19:7 (8:4,11:3)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+31°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "44",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "68",
+        "1": "Group stage. Round 1. Group A",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "6",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5cfa7"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503040560,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Egypt",
+      "opp2": "Mozambique",
+      "opp1Images": [
+        "playerlogo/12641.png"
+      ],
+      "opp2Images": [
+        "playerlogo/8b7e5f1ccc9fc7ab9c6f0b2d1fdf2723.png"
+      ],
+      "opp1Ids": [
+        12641
+      ],
+      "opp2Ids": [
+        12631
+      ],
+      "score": "2:2 (1:0,1:2)",
+      "dopInfo": "",
+      "dateStart": 1705251600,
+      "countSubGame": 14,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "7:2 (3:2,4:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:3 (0:0,1:3)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "5:2 (3:0,2:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "9:9 (4:2,5:7)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "61:39 (61:39)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 89 pts. Performance Team 1: 41 pts. Performance Team 2: 26 pts. Cards Team 1: 10 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 10 pts.     Match Score: 10 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 9 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-2 "
+        },
+        {
+          "title": "Throw-ins",
+          "score": "19:14 (7:10,12:4)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:3 (0:2,0:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "21:6 (11:3,10:3)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2:2"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "16",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "80",
+        "20": "3",
+        "1": "Group stage. Round 1. Group B",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "6529204794fca712b4d5caff"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503078080,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Ghana",
+      "opp2": "Cape Verde",
+      "opp1Images": [
+        "playerlogo/5953283ac67dc47dc4c389481b7f0a0b.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12649.png"
+      ],
+      "opp1Ids": [
+        12717
+      ],
+      "opp2Ids": [
+        12649
+      ],
+      "score": "1:2 (0:1,1:1)",
+      "dopInfo": "",
+      "dateStart": 1705262400,
+      "countSubGame": 13,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "2:5 (0:3,2:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:3 (1:0,2:3)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "1:5 (0:2,1:3)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:3 (2:2,1:1)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "46:54 (46:54)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 69 pts. Performance Team 1: 16 pts. Performance Team 2: 35 pts. Cards Team 1: 30 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 6 pts.     Match Score: 0 pts.    Corners: 6 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 7 Cards: 6"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-2 "
+        },
+        {
+          "title": "Throw-ins",
+          "score": "19:22 (7:14,12:8)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:0 (1:0,2:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:15 (4:6,7:9)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1:2"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "761",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "86",
+        "1": "Group stage. Round 1. Group B",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "6529204794fca712b4d5c81d"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503421451,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Burkina Faso",
+      "opp2": "Mauritania",
+      "opp1Images": [
+        "playerlogo/12693.png"
+      ],
+      "opp2Images": [
+        "playerlogo/43499.png"
+      ],
+      "opp1Ids": [
+        12693
+      ],
+      "opp2Ids": [
+        43499
+      ],
+      "score": "1:0 (0:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1705413600,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:4 (0:2,3:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:2 (1:0,2:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "5:4 (1:3,4:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:1 (0:0,2:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "21:13 (10:6,11:7)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "62:38 (62:38)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:5 (0:1,4:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 56 pts. Performance Team 1: 24 pts. Performance Team 2: 12 pts. Cards Team 1: 30 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 7 Cards: 5"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "4:8 (2:5,2:3)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "27:18 (13:12,14:6)"
+        },
+        {
+          "title": "Saves",
+          "score": "4:4 (3:1,1:3)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:9 (3:7,8:2)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "1:2 (1:1,0:1)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+34°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "ENE wind m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "26",
+        "1": "Group stage. Round 1. Group D",
+        "22": "4",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "6529204794fca712b4d5c8f7"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503455887,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Tunisia",
+      "opp2": "Namibia",
+      "opp1Images": [
+        "playerlogo/12721.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12681.png"
+      ],
+      "opp1Ids": [
+        12721
+      ],
+      "opp2Ids": [
+        12681
+      ],
+      "score": "0:1 (0:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1705423500,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "8:7 (5:0,3:7)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:6 (1:3,3:3)"
+        },
+        {
+          "title": "Offsides",
+          "score": "4:2 (1:1,3:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "12:13 (8:6,4:7)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:2 (1:0,3:2)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 55 pts. Performance Team 1: 24 pts. Performance Team 2: 36 pts. Cards Team 1: 0 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 9 pts.     Match Score: 0 pts.    Corners: 9 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 15 Cards: 0"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "10:7 (6:3,4:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "28:23 (12:17,16:6)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:4 (2:1,1:3)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "10:13 (2:5,8:8)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0:1"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:0 (2:0,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "761",
+        "21": "Some cloud",
+        "24": "ENE wind m/s",
+        "35": "0",
+        "7": "Korhogo",
+        "28": "Humidity, %",
+        "27": "19",
+        "20": "3",
+        "1": "Group stage. Round 1. Group E",
+        "22": "4",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Amadou Gon Coulibaly (Korhogo)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 52219,
+      "statId": "6529204794fca712b4d5d123"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503487632,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Mali",
+      "opp2": "South Africa",
+      "opp1Images": [
+        "playerlogo/12087.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12895.png"
+      ],
+      "opp1Ids": [
+        12087
+      ],
+      "opp2Ids": [
+        12895
+      ],
+      "score": "2:0 (0:0,2:0)",
+      "dopInfo": "",
+      "dateStart": 1705435200,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "2:3 (1:2,1:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:2 (2:0,1:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "7:6 (3:5,4:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:11 (7:2,7:9)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:1 (0:0,1:1)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:3 (0:0,5:3)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 60 pts. Performance Team 1: 31 pts. Performance Team 2: 9 pts. Cards Team 1: 30 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 5 Cards: 5"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "5:8 (1:0,4:8)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "16:27 (10:13,6:14)"
+        },
+        {
+          "title": "Saves",
+          "score": "6:5 (5:3,1:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "16:12 (6:8,10:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Lassine Sinayoko 0 - Percy Tau 0 - Sekou Koita 0 - Themba Zwane Player not in the starting lineup : Moussa Doumbia "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "0:1 (0:1,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+24°C",
+        "25": "762",
+        "21": "Some cloud",
+        "24": "N wind, m/s",
+        "35": "0",
+        "7": "Korhogo",
+        "28": "Humidity, %",
+        "27": "24",
+        "20": "3",
+        "1": "Group stage. Round 1. Group E",
+        "22": "1",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Amadou Gon Coulibaly (Korhogo)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 52219,
+      "statId": "6529204794fca712b4d5cdba"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503874351,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Ivory Coast",
+      "opp2": "Nigeria",
+      "opp1Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12661.png"
+      ],
+      "opp1Ids": [
+        12633
+      ],
+      "opp2Ids": [
+        12661
+      ],
+      "score": "0:1 (0:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1705597200,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "5:6 (2:5,3:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:1 (3:0,0:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:1 (2:1,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "16:20 (6:6,10:14)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:4 (0:0,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 56 pts. Performance Team 1: 15 pts. Performance Team 2: 33 pts. Cards Team 1: 0 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "9:10 (7:2,2:8)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "20:16 (11:7,9:9)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:3 (0:3,0:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "14:11 (6:7,8:4)"
+        },
+        {
+          "title": "Tackles",
+          "score": "13:21 (13:21)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Victor Osimhen 0 - Jean-Philippe Krasso 0 - Jeremie Boga 0 - Christian Kouame 0 - Seko Fofana 0 - Samuel Chukwueze Player not in the starting lineup : Ahmed Musa , Jonathan Bamba , Karim Konate , Kelechi Iheanacho , Max Gradel , Nicolas Pepe , Sebastien Haller "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "4:0 (2:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "13",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "76",
+        "20": "3",
+        "1": "Group stage. Round 2. Group A",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5cca6"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503908004,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Egypt",
+      "opp2": "Ghana",
+      "opp1Images": [
+        "playerlogo/12641.png"
+      ],
+      "opp2Images": [
+        "playerlogo/5953283ac67dc47dc4c389481b7f0a0b.png"
+      ],
+      "opp1Ids": [
+        12641
+      ],
+      "opp2Ids": [
+        12717
+      ],
+      "score": "2:2 (0:1,2:1)",
+      "dopInfo": "",
+      "dateStart": 1705607100,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:4 (1:1,2:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "5:3 (1:1,4:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:1 (0:1,2:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:20 (7:12,7:8)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "3:4 (1:0,2:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 64 pts. Performance Team 1: 29 pts. Performance Team 2: 32 pts. Cards Team 1: 0 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 7 Cards: 1"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-2 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "2:5 (0:2,2:3)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "21:20 (12:6,9:14)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:3 (0:1,1:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:6 (1:2,10:4)"
+        },
+        {
+          "title": "Tackles",
+          "score": "21:16 (21:16)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2:2"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (3:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "10",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "83",
+        "1": "Group stage. Round 2. Group B",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "6529204794fca712b4d5c988"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503662748,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Morocco",
+      "opp2": "Tanzania",
+      "opp1Images": [
+        "playerlogo/12683.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12685.png"
+      ],
+      "opp1Ids": [
+        12683
+      ],
+      "opp2Ids": [
+        12685
+      ],
+      "score": "3:0 (1:0,2:0)",
+      "dopInfo": "",
+      "dateStart": 1705509900,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "5:2 (1:1,4:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:4 (0:2,2:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "7:0 (3:0,4:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "12:13 (5:8,7:5)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:3 (0:1,5:2)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 79 pts. Performance Team 1: 50 pts. Performance Team 2: -4 pts. Cards Team 1: 20 pts. Cards Team 2: 65 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 7 Cards: 7"
+        },
+        {
+          "title": "Players' stats",
+          "score": "3-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "4:7 (2:3,2:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "18:15 (9:10,9:5)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:4 (0:2,0:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "14:2 (8:0,6:2)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Azzedine Ounahi 1 - Youssef En-Nesyri 0 - Achraf Hakimi 0 - Selim Amallah 0 - Hakim Ziyech Player not in the starting lineup : Sofiane Boufal "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:0 (0:0,3:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+15°C",
+        "25": "764",
+        "21": "Gloomy",
+        "24": "SSE wind, m/s",
+        "35": "14",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "20": "11",
+        "27": "81",
+        "1": "Group stage. Round 1. Group F",
+        "22": "8",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "6529204794fca712b4d5ce3a"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503842338,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Equatorial Guinea",
+      "opp2": "Guinea-Bissau",
+      "opp1Images": [
+        "playerlogo/12651.png"
+      ],
+      "opp2Images": [
+        "playerlogo/64157.png"
+      ],
+      "opp1Ids": [
+        12651
+      ],
+      "opp2Ids": [
+        64157
+      ],
+      "score": "4:2 (1:1,3:1)",
+      "dopInfo": "",
+      "dateStart": 1705586400,
+      "countSubGame": 16,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "2:7 (2:1,0:6)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:0 (0:0,2:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "6:2 (2:0,4:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:2 (1:2,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "15:11 (5:5,10:6)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 93 pts. Performance Team 1: 46 pts. Performance Team 2: 41 pts. Cards Team 1: 20 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 6 Corners: 9 Cards: 2"
+        },
+        {
+          "title": "Goal kicks",
+          "score": "8:6 (2:5,6:1)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "13:28 (8:9,5:19)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:2 (0:1,1:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "8:13 (3:4,5:9)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "3 - Emilio Nsue 0 - Iban Salvador 0 - Mama Balde 0 - Mauro Rodrigues 0 - Pablo Ganet 0 - Franculino Gluda Dju Player not in the starting lineup : Jose Correia "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "3:0 (1:0,2:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "1:0 (1:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+31°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "43",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "68",
+        "20": "3",
+        "1": "Group stage. Round 2. Group A",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5d1d1"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503698565,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "DR Congo",
+      "opp2": "Zambia",
+      "opp1Images": [
+        "playerlogo/13249.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12627.png"
+      ],
+      "opp1Ids": [
+        13249
+      ],
+      "opp2Ids": [
+        12627
+      ],
+      "score": "1:1 (1:1,0:0)",
+      "dopInfo": "",
+      "dateStart": 1705521600,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "7:0 (4:0,3:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:1 (0:0,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "6:1 (3:1,3:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:1 (1:0,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "10:12 (6:8,4:4)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "3:2 (0:0,3:2)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 47 pts. Performance Team 1: 31 pts. Performance Team 2: 10 pts. Cards Team 1: 10 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 7 Cards: 2"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "3:13 (2:5,1:8)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "19:22 (10:11,9:11)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:4 (0:1,0:3)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "25:3 (10:2,15:1)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Yoane Wissa 0 - Patson Daka 0 - Cedric Bakambu 0 - Theo Bongonda 0 - Fashion Junior Sakala Player not in the starting lineup : Elia Meschak "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "1:1 (1:0,0:1)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+16°C",
+        "25": "762",
+        "21": "Gloomy",
+        "24": "SSW wind, m/s",
+        "35": "10",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "27": "77",
+        "20": "11",
+        "1": "Group stage. Round 1. Group F",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "6529204794fca712b4d5c9ec"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504807178,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Equatorial Guinea",
+      "opp2": "Ivory Coast",
+      "opp1Images": [
+        "playerlogo/12651.png"
+      ],
+      "opp2Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp1Ids": [
+        12651
+      ],
+      "opp2Ids": [
+        12633
+      ],
+      "score": "Goals: 4 Corners: 12 Cards: 5",
+      "dopInfo": "",
+      "dateStart": 1705942800,
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "82",
+        "1": "Group stage. Round 3. Group A",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "5",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5cd33"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505001055,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Guinea",
+      "opp2": "Senegal",
+      "opp1Images": [
+        "playerlogo/12625.png"
+      ],
+      "opp2Images": [
+        "playerlogo/11815.png"
+      ],
+      "opp1Ids": [
+        12625
+      ],
+      "opp2Ids": [
+        11815
+      ],
+      "score": "0:2 (0:0,0:2)",
+      "dopInfo": "",
+      "dateStart": 1706029200,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "0:6 (0:3,0:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:2 (2:1,0:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "1:2 (0:0,1:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:1 (1:0,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "16:15 (9:9,7:6)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 50 pts. Performance Team 1: 0 pts. Performance Team 2: 43 pts. Cards Team 1: 20 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 6 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-2 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "7:6 (4:2,3:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "21:25 (12:13,9:12)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "4:12 (0:5,4:7)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Ismaila Sarr 0 - Sadio Mane "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "1:0 (0:0,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+32°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "NNW wind m/s",
+        "35": "0",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "27": "40",
+        "20": "3",
+        "1": "Group stage. Round 3. Group C",
+        "22": "16",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "6529204794fca712b4d5d023"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505001799,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Republic of the Gambia",
+      "opp2": "Cameroon",
+      "opp1Images": [
+        "playerlogo/6f523cd745e27c75e28a3e904f8e10bb.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12725.png"
+      ],
+      "opp1Ids": [
+        12623
+      ],
+      "opp2Ids": [
+        12725
+      ],
+      "score": "2:3 (0:0,2:3)",
+      "dopInfo": "",
+      "dateStart": 1706028300,
+      "countSubGame": 16,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "7:5 (4:2,3:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:0 (0:0,3:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "7:3 (3:1,4:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:0 (2:0,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:9 (9:5,5:4)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:3 (0:0,4:3)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 95 pts. Performance Team 1: 41 pts. Performance Team 2: 45 pts. Cards Team 1: 30 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 5 Corners: 12 Cards: 3"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-3 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "10:12 (5:7,5:5)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "16:23 (8:15,8:8)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:5 (1:3,0:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "15:13 (6:4,9:9)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (3:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+31°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "ENE wind m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "30",
+        "1": "Group stage. Round 3. Group C",
+        "22": "4",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "6529204794fca712b4d5cf58"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505035534,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Angola",
+      "opp2": "Burkina Faso",
+      "opp1Images": [
+        "playerlogo/11813.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12693.png"
+      ],
+      "opp1Ids": [
+        11813
+      ],
+      "opp2Ids": [
+        12693
+      ],
+      "score": "2:0 (1:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1706040000,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "1:7 (1:3,0:4)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:1 (1:1,2:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "5:3 (1:1,4:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:3 (0:1,0:2)"
+        },
+        {
+          "title": "Fouls",
+          "score": "15:10 (6:7,9:3)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 56 pts. Performance Team 1: 28 pts. Performance Team 2: 21 pts. Cards Team 1: 30 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 8 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "15:5 (8:3,7:2)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "16:28 (8:13,8:15)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:3 (1:0,2:3)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "6:20 (2:9,4:11)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Bertrand Traore Player not in the starting lineup : Abdoul Tapsoba , Mohamed Konate "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (2:0,3:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+26°C",
+        "25": "760",
+        "21": "Some cloud",
+        "11": "Ivory Coast",
+        "24": "SE wind, m/s",
+        "35": "0",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "68",
+        "1": "Group stage. Round 3. Group D",
+        "22": "7",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "6529204794fca712b4d5cc55"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505035552,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Mauritania",
+      "opp2": "Algeria",
+      "opp1Images": [
+        "playerlogo/43499.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12637.png"
+      ],
+      "opp1Ids": [
+        43499
+      ],
+      "opp2Ids": [
+        12637
+      ],
+      "score": "1:0 (1:0,0:0)",
+      "dopInfo": "",
+      "dateStart": 1706040000,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "5:6 (1:2,4:4)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:3 (2:1,1:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "7:6 (3:1,4:5)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:2 (1:2,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "18:15 (8:9,10:6)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 61 pts. Performance Team 1: 30 pts. Performance Team 2: 18 pts. Cards Team 1: 30 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 11 Cards: 6"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "11:7 (5:2,6:5)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "16:31 (8:15,8:16)"
+        },
+        {
+          "title": "Saves",
+          "score": "5:6 (1:2,4:4)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "17:16 (4:6,13:10)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Baghdad Bounedjah Player not in the starting lineup : Islam Slimani , Riyad Mahrez , Youcef Belaili "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "6:0 (1:0,5:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+27°C",
+        "25": "761",
+        "21": "Some cloud",
+        "11": "Ivory Coast",
+        "24": "ENE wind m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "27": "41",
+        "20": "3",
+        "1": "Group stage. Round 3. Group D",
+        "22": "4",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "6529204794fca712b4d5c941"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505218275,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "South Africa",
+      "opp2": "Tunisia",
+      "opp1Images": [
+        "playerlogo/12895.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12721.png"
+      ],
+      "opp1Ids": [
+        12895
+      ],
+      "opp2Ids": [
+        12721
+      ],
+      "score": "0:0 (0:0,0:0)",
+      "dopInfo": "",
+      "dateStart": 1706115600,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "5:6 (2:4,3:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "2:2 (0:2,2:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:1 (0:1,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "13:9 (6:5,7:4)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:5 (0:0,4:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 33 pts. Performance Team 1: 20 pts. Performance Team 2: 23 pts. Cards Team 1: 0 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 6 pts.     Match Score: 0 pts.    Corners: 6 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 0 Corners: 11 Cards: 0"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "13:12 (6:7,7:5)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "17:21 (11:6,6:15)"
+        },
+        {
+          "title": "Saves",
+          "score": "2:2 (2:0,0:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:11 (5:6,6:5)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Anis Slimane 0 - Percy Tau 0 - Seifeddine Jaziri 0 - Themba Zwane Player not in the starting lineup : Youssef Msakni , Naim Sliti , Taha Khenissi "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "2:0 (2:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+30°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "NNE wind, m/s",
+        "35": "0",
+        "7": "Korhogo",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "22",
+        "1": "Group stage. Round 3. Group E",
+        "22": "2",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Amadou Gon Coulibaly (Korhogo)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 52219,
+      "statId": "6529204794fca712b4d5d0ef"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505218318,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Namibia",
+      "opp2": "Mali",
+      "opp1Images": [
+        "playerlogo/12681.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12087.png"
+      ],
+      "opp1Ids": [
+        12681
+      ],
+      "opp2Ids": [
+        12087
+      ],
+      "score": "0:0 (0:0,0:0)",
+      "dopInfo": "",
+      "dateStart": 1706115600,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "9:3 (4:1,5:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "1:2 (1:1,0:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:2 (2:2,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "15:15 (11:10,4:5)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:5 (0:0,4:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 39 pts. Performance Team 1: 32 pts. Performance Team 2: 14 pts. Cards Team 1: 10 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 0 Corners: 12 Cards: 1"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "7:4 (2:2,5:2)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "34:25 (12:11,22:14)"
+        },
+        {
+          "title": "Saves",
+          "score": "2:1 (1:1,1:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "5:10 (3:3,2:7)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Yves Bissouma Player not in the starting lineup : Sekou Koita , Moussa Doumbia "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "2:2 (1:1,1:1)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+16°C",
+        "25": "766",
+        "21": "Gloomy",
+        "24": "SE wind, m/s",
+        "35": "11",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "27": "82",
+        "20": "11",
+        "1": "Group stage. Round 3. Group E",
+        "22": "7",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "6529204794fca712b4d5ce7f"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505261792,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Zambia",
+      "opp2": "Morocco",
+      "opp1Images": [
+        "playerlogo/12627.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12683.png"
+      ],
+      "opp1Ids": [
+        12627
+      ],
+      "opp2Ids": [
+        12683
+      ],
+      "score": "0:1 (0:1,0:0)",
+      "dopInfo": "",
+      "dateStart": 1706125500,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:7 (0:6,3:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "2:7 (1:3,1:4)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:1 (0:0,2:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "9:17 (6:5,3:12)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "3:5 (0:0,3:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 43 pts. Performance Team 1: 9 pts. Performance Team 2: 36 pts. Cards Team 1: 0 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 10 Cards: 1"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "12:11 (8:3,4:8)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "13:17 (9:6,4:11)"
+        },
+        {
+          "title": "Saves",
+          "score": "6:2 (2:1,4:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:19 (4:11,7:8)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Hakim Ziyech 0 - Patson Daka 0 - Sofiane Boufal Player not in the starting lineup : Selim Amallah , Youssef En-Nesyri "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:0 (2:0,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+16°C",
+        "25": "765",
+        "21": "Gloomy",
+        "24": "S wind, m/s",
+        "35": "10",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "27": "78",
+        "20": "11",
+        "1": "Group stage. Round 3. Group F",
+        "22": "9",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "6529204794fca712b4d5cf0f"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504809789,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. 2023. Winner",
+      "opp1": "Africa Cup of Nations. 2023. Group A. Winner",
+      "opp2": "",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        2694405
+      ],
+      "score": "1 - Equatorial Guinea ",
+      "dopInfo": "",
+      "dateStart": 1706115600
+    },
+    {
+      "globalChampId": 1,
+      "id": 504305595,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Algeria",
+      "opp2": "Burkina Faso",
+      "opp1Images": [
+        "playerlogo/12637.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12693.png"
+      ],
+      "opp1Ids": [
+        12637
+      ],
+      "opp2Ids": [
+        12693
+      ],
+      "score": "2:2 (0:1,2:1)",
+      "dopInfo": "",
+      "dateStart": 1705759200,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "4:1 (2:0,2:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:5 (0:2,2:3)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:3 (1:2,3:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:1 (0:1,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "13:18 (6:9,7:9)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:5 (0:1,4:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 86 pts. Performance Team 1: 32 pts. Performance Team 2: 23 pts. Cards Team 1: 20 pts. Cards Team 2: 50 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 5 Cards: 7"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-2 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "6:14 (2:8,4:6)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "15:15 (8:7,7:8)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:2 (1:1,0:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "15:6 (4:2,11:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2:2"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "6:0 (2:0,4:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+35°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "WSW wind, m/s",
+        "35": "1",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "28",
+        "1": "Group stage. Round 2. Group D",
+        "22": "12",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "6529204794fca712b4d5c8a9"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504351684,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Mauritania",
+      "opp2": "Angola",
+      "opp1Images": [
+        "playerlogo/43499.png"
+      ],
+      "opp2Images": [
+        "playerlogo/11813.png"
+      ],
+      "opp1Ids": [
+        43499
+      ],
+      "opp2Ids": [
+        11813
+      ],
+      "score": "2:3 (1:1,1:2)",
+      "dopInfo": "",
+      "dateStart": 1705770000,
+      "countSubGame": 16,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:11 (5:5,1:6)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:1 (1:0,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:6 (3:3,1:3)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:3 (0:3,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "12:15 (6:5,6:10)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:4 (0:0,4:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 110 pts. Performance Team 1: 38 pts. Performance Team 2: 63 pts. Cards Team 1: 20 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 5 Corners: 17 Cards: 3"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-3 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "5:10 (4:3,1:7)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "20:12 (11:8,9:4)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:3 (2:2,1:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "14:19 (8:13,6:6)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:0 (1:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+31°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "NNE wind, m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "27": "35",
+        "20": "3",
+        "1": "Group stage. Round 2. Group D",
+        "22": "2",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "6529204794fca712b4d5cdf4"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504641719,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "South Africa",
+      "opp2": "Namibia",
+      "opp1Images": [
+        "playerlogo/12895.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12681.png"
+      ],
+      "opp1Ids": [
+        12895
+      ],
+      "opp2Ids": [
+        12681
+      ],
+      "score": "4:0 (3:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1705867200,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:2 (2:2,4:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "8:1 (5:1,3:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:6 (1:1,1:5)"
+        },
+        {
+          "title": "Fouls",
+          "score": "19:13 (8:7,11:6)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:4 (0:0,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 77 pts. Performance Team 1: 63 pts. Performance Team 2: 6 pts. Cards Team 1: 10 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 8 Cards: 1"
+        },
+        {
+          "title": "Players' stats",
+          "score": "4-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "8:9 (5:5,3:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "26:17 (10:9,16:8)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:4 (1:2,0:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "12:4 (6:4,6:0)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2 - Themba Zwane 0 - Absalom Limbondi 0 - Deon Hotto 0 - Teboho Mokoena "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "2:0 (0:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+26°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "NNE wind, m/s",
+        "35": "0",
+        "7": "Korhogo",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "21",
+        "1": "Group stage. Round 2. Group E",
+        "22": "2",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Amadou Gon Coulibaly (Korhogo)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 52219,
+      "statId": "6529204794fca712b4d5d220"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504562181,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Morocco",
+      "opp2": "DR Congo",
+      "opp1Images": [
+        "playerlogo/12683.png"
+      ],
+      "opp2Images": [
+        "playerlogo/13249.png"
+      ],
+      "opp1Ids": [
+        12683
+      ],
+      "opp2Ids": [
+        13249
+      ],
+      "score": "1:1 (1:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1705844700,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:5 (1:2,2:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:1 (2:0,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:2 (3:0,1:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "17:17 (12:4,5:13)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 66 pts. Performance Team 1: 19 pts. Performance Team 2: 25 pts. Cards Team 1: 30 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 8 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "12:6 (7:1,5:5)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "10:12 (5:3,5:9)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:3 (0:2,1:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:10 (5:4,6:6)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Yoane Wissa 0 - Cedric Bakambu 0 - Selim Amallah 0 - Sofiane Boufal 0 - Hakim Ziyech 0 - Youssef En-Nesyri "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "0:4 (0:1,0:3)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+14°C",
+        "25": "759",
+        "21": "Gloomy",
+        "24": "SSE wind, m/s",
+        "35": "22",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "27": "96",
+        "20": "11",
+        "1": "Group stage. Round 2. Group F",
+        "22": "8",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "6529204794fca712b4d5cec9"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504135208,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Guinea",
+      "opp2": "Republic of the Gambia",
+      "opp1Images": [
+        "playerlogo/12625.png"
+      ],
+      "opp2Images": [
+        "playerlogo/6f523cd745e27c75e28a3e904f8e10bb.png"
+      ],
+      "opp1Ids": [
+        12625
+      ],
+      "opp2Ids": [
+        12623
+      ],
+      "score": "1:0 (0:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1705694400,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "7:5 (3:3,4:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:2 (1:1,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "6:0 (2:0,4:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:1 (2:0,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "11:18 (5:8,6:10)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:4 (0:0,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 58 pts. Performance Team 1: 36 pts. Performance Team 2: 15 pts. Cards Team 1: 20 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 12 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "8:8 (3:5,5:3)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "25:27 (10:12,15:15)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:4 (0:2,0:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "16:7 (8:3,8:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1:0"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "2:0 (0:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+26°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "SSE wind, m/s",
+        "35": "2",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "65",
+        "1": "Group stage. Round 2. Group C",
+        "22": "8",
+        "26": "Pressure, mmHg",
+        "23": "0",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "6529204794fca712b4d5caae"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505261954,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Tanzania",
+      "opp2": "DR Congo",
+      "opp1Images": [
+        "playerlogo/12685.png"
+      ],
+      "opp2Images": [
+        "playerlogo/13249.png"
+      ],
+      "opp1Ids": [
+        12685
+      ],
+      "opp2Ids": [
+        13249
+      ],
+      "score": "0:0 (0:0,0:0)",
+      "dopInfo": "",
+      "dateStart": 1706125500,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "1:4 (1:2,0:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "0:3 (0:2,0:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:1 (0:1,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "5:9 (2:5,3:4)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:4 (0:0,4:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 18 pts. Performance Team 1: 8 pts. Performance Team 2: 17 pts. Cards Team 1: 0 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 0 Corners: 5 Cards: 1"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "5:2 (1:2,4:0)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "25:35 (14:15,11:20)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:0 (2:0,1:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "4:9 (3:5,1:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Gael Kakuta 0 - Yoane Wissa 0 - Mbwana Samata 0 - Samuel Moutoussamy 0 - Simon Msuva Player not in the starting lineup : Cedric Bakambu "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "2:0 (0:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+26°C",
+        "25": "761",
+        "21": "Some cloud",
+        "24": "E wind, m/s",
+        "35": "0",
+        "7": "Korhogo",
+        "28": "Humidity, %",
+        "27": "32",
+        "20": "3",
+        "1": "Group stage. Round 3. Group F",
+        "22": "5",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Amadou Gon Coulibaly (Korhogo)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 52219,
+      "statId": "6529204794fca712b4d5ca4f"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506653625,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Morocco",
+      "opp2": "South Africa",
+      "opp1Images": [
+        "playerlogo/12683.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12895.png"
+      ],
+      "opp1Ids": [
+        12683
+      ],
+      "opp2Ids": [
+        12895
+      ],
+      "score": "0:2 (0:0,0:2)",
+      "dopInfo": "",
+      "dateStart": 1706644800,
+      "countSubGame": 23,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:2 (2:2,4:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:3 (0:2,1:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "2:3 (0:1,2:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "4:4 (3:2,1:2)"
+        },
+        {
+          "title": "Fouls",
+          "score": "12:17 (7:7,5:10)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "54:46 (54:46)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:3 (0:0,4:3)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 76 pts. Performance Team 1: 8 pts. Performance Team 2: 31 pts. Cards Team 1: 35 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 8 Cards: 5"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-2 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "4:10 (1:3,3:7)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "14:10 (4:7,10:3)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:2 (1:0,0:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "13:5 (4:2,9:3)"
+        },
+        {
+          "title": "Tackles",
+          "score": "9:12 (4:8,5:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Evidence Makgopa 0 - Percy Tau 0 - Selim Amallah 0 - Youssef En-Nesyri Player not in the starting lineup : Sofiane Boufal , Hakim Ziyech "
+        },
+        {
+          "title": "Dribbling",
+          "score": "7:4 (3:3,4:1)"
+        },
+        {
+          "title": "Aerial battles",
+          "score": "13:6 (4:1,9:5)"
+        },
+        {
+          "title": "Expected goals",
+          "score": "2.17:0.29 (0.40:0.02, 1.77:0.27)"
+        },
+        {
+          "title": "Interceptions",
+          "score": "8:4 (2:2,6:2)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "2:0 (0:0,2:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "4:0 (1:0,3:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+19°C",
+        "25": "762",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "0",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "27": "59",
+        "20": "3",
+        "1": "Round of 16",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "65b193890d8c0bfbf189ef81"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506612180,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Mali",
+      "opp2": "Burkina Faso",
+      "opp1Images": [
+        "playerlogo/12087.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12693.png"
+      ],
+      "opp1Ids": [
+        12087
+      ],
+      "opp2Ids": [
+        12693
+      ],
+      "score": "2:1 (1:0,1:1)",
+      "dopInfo": "",
+      "dateStart": 1706634000,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "1:2 (0:1,1:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:3 (0:1,1:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:4 (2:2,2:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:3 (2:1,0:2)"
+        },
+        {
+          "title": "Fouls",
+          "score": "19:18 (13:9,6:9)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "56:44 (56:44)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 61 pts. Performance Team 1: 23 pts. Performance Team 2: 16 pts. Cards Team 1: 10 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 10 pts.     Match Score: 10 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 3 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "2-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "3:10 (1:4,2:6)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "20:26 (12:8,8:18)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:3 (2:2,1:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "14:8 (8:3,6:5)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Bertrand Traore 1 - Lassine Sinayoko 0 - Abdoul Tapsoba 0 - Mohamed Konate Player not in the starting lineup : Dango Ouattara , Mamady Bangre , Sekou Koita , Youssouf Niakat "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (1:0,4:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+30°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "NNE wind, m/s",
+        "35": "0",
+        "7": "Korhogo",
+        "28": "Humidity, %",
+        "27": "18",
+        "20": "3",
+        "1": "Round of 16",
+        "22": "2",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Amadou Gon Coulibaly (Korhogo)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 52219,
+      "statId": "65b166e00d8c0bfbf1be6e65"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506450514,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Senegal",
+      "opp2": "Ivory Coast",
+      "opp1Images": [
+        "playerlogo/11815.png"
+      ],
+      "opp2Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp1Ids": [
+        11815
+      ],
+      "opp2Ids": [
+        12633
+      ],
+      "score": "Goals: 3 Corners: 7 Cards: 6",
+      "dopInfo": "",
+      "dateStart": 1706558400,
+      "matchInfos": {
+        "9": "+25°C",
+        "25": "760",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "0",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "46",
+        "1": "Round of 16",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "65b1936b0d8c0bfbf17c2267"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506450446,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Senegal",
+      "opp2": "Ivory Coast",
+      "opp1Images": [
+        "playerlogo/11815.png"
+      ],
+      "opp2Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp1Ids": [
+        11815
+      ],
+      "opp2Ids": [
+        12633
+      ],
+      "score": "1:2 (1:0,0:1,0:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1706558400,
+      "countSubGame": 31,
+      "subGame": [
+        {
+          "title": "Extra-Time",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Penalty Shootout",
+          "score": "4:5 (4:5)"
+        },
+        {
+          "title": "Corners",
+          "score": "5:2 (2:2,3:0)"
+        },
+        {
+          "title": "Corners. Extra-Time",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "4:2 (1:0,3:2)"
+        },
+        {
+          "title": "Yellow Cards. Extra-Time",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "2:4 (1:1,1:3)"
+        },
+        {
+          "title": "Shots On Target. Extra-Time",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:2 (0:0,1:2)"
+        },
+        {
+          "title": "Offsides. Extra-Time",
+          "score": "1:1 (1:0,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "20:19 (10:8,10:11)"
+        },
+        {
+          "title": "Fouls. Extra-Time",
+          "score": "5:7 (3:4,2:3)"
+        },
+        {
+          "title": "Assists",
+          "score": "Команда 1: Short , Medium , Long , Total 79 Команда 2: Short , Medium , Long , Total 87 "
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Posts and Crossbars. Extra-Time",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "40:60 (40:60)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "2:5 (0:0,2:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 69 pts. Performance Team 1: 25 pts. Performance Team 2: 16 pts. Cards Team 1: 40 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 13 pts.     Match Score: 10 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "4:6 (2:2,2:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "20:21 (13:12,7:9)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:1 (1:0,2:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "10:5 (2:2,8:3)"
+        },
+        {
+          "title": "Tackles",
+          "score": "27:15 (11:9,16:6)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1:1"
+        },
+        {
+          "title": "Dribbling",
+          "score": "6:5 (2:5,4:0)"
+        },
+        {
+          "title": "Aerial battles",
+          "score": "16:12 (6:7,10:5)"
+        },
+        {
+          "title": "Expected goals",
+          "score": "0.55:0.56 (0.13:0.18, 0.42:0.38)"
+        },
+        {
+          "title": "Interceptions",
+          "score": "8:6 (4:3,4:3)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "1:2 (0:2,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+24°C",
+        "25": "761",
+        "21": "Some cloud",
+        "24": "W wind, m/s",
+        "35": "0",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "51",
+        "1": "Round of 16",
+        "22": "13",
+        "26": "Pressure, mmHg",
+        "23": "0",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "65b1936b0d8c0bfbf17c2267"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506423482,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Cape Verde",
+      "opp2": "Mauritania",
+      "opp1Images": [
+        "playerlogo/12649.png"
+      ],
+      "opp2Images": [
+        "playerlogo/43499.png"
+      ],
+      "opp1Ids": [
+        12649
+      ],
+      "opp2Ids": [
+        43499
+      ],
+      "score": "1:0 (0:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1706547600,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "11:1 (3:1,8:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:1 (1:0,0:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:0 (0:0,4:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "18:12 (10:6,8:6)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "69:31 (69:31)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:1,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 62 pts. Performance Team 1: 48 pts. Performance Team 2: 3 pts. Cards Team 1: 10 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 12 Cards: 2"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "9:8 (4:4,5:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "24:22 (7:12,17:10)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:3 (0:0,0:3)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "18:11 (4:4,14:7)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Mendes R 1 - Ryan Mendes da Graca 0 - Aboubakary Koita 0 - Jovane Cabral 0 - Souleymane Anne 0 - Hemeya Tanjy Player not in the starting lineup : Garry Rodrigues , Aboubakar Kamara "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (1:0,4:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "WSW wind, m/s",
+        "35": "1",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "69",
+        "20": "3",
+        "1": "Round of 16",
+        "22": "12",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "65b03c650d8c0bfbf1395444"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506225992,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Equatorial Guinea",
+      "opp2": "Guinea",
+      "opp1Images": [
+        "playerlogo/12651.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12625.png"
+      ],
+      "opp1Ids": [
+        12651
+      ],
+      "opp2Ids": [
+        12625
+      ],
+      "score": "0:1 (0:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1706461200,
+      "countSubGame": 20,
+      "subGame": [
+        {
+          "title": "Extra-Time",
+          "score": "0:0 (0:0)"
+        },
+        {
+          "title": "Corners",
+          "score": "2:2 (1:1,1:1)"
+        },
+        {
+          "title": "Corners. Extra-Time",
+          "score": "0:0 (0:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "0:4 (0:0,0:4)"
+        },
+        {
+          "title": "Offsides",
+          "score": "1:1 (1:0,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "12:18 (6:9,6:9)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "52:48 (52:48)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "1:3 (0:0,1:3)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 45 pts. Performance Team 1: -4 pts. Performance Team 2: 21 pts. Cards Team 1: 25 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 4 Cards: 2"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "11:3 (6:1,5:2)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "11:19 (5:12,6:7)"
+        },
+        {
+          "title": "Saves",
+          "score": "3:0 (0:0,3:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "5:10 (3:3,2:7)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Aguibou Camara 0 - Iban Salvador 0 - Morgan Guilavogui Player not in the starting lineup : Francois Kamano "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "0:2 (0:0,0:2)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "1",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "65",
+        "1": "Round of 16",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "65b03c650d8c0bfbf13954bf"
+    },
+    {
+      "globalChampId": 1,
+      "id": 507248106,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Nigeria",
+      "opp2": "Angola",
+      "opp1Images": [
+        "playerlogo/12661.png"
+      ],
+      "opp2Images": [
+        "playerlogo/11813.png"
+      ],
+      "opp1Ids": [
+        12661
+      ],
+      "opp2Ids": [
+        11813
+      ],
+      "score": "1:0 (1:0,0:0)",
+      "dopInfo": "",
+      "dateStart": 1706893200,
+      "countSubGame": 15,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "4:7 (1:5,3:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:3 (0:0,1:3)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:2 (2:1,1:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:3 (1:1,1:2)"
+        },
+        {
+          "title": "Fouls",
+          "score": "15:19 (8:9,7:10)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "45:55 (45:55)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:5 (0:0,4:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 55 pts. Performance Team 1: 27 pts. Performance Team 2: 21 pts. Cards Team 1: 10 pts. Cards Team 2: 30 pts. Points for the first 5 mins: 6 pts.     Match Score: 0 pts.    Corners: 6 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 11 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-0 "
+        },
+        {
+          "title": "Saves",
+          "score": "2:2 (1:1,1:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "13:10 (6:5,7:5)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1 - Ademola Lookman 0 - Alex Iwobi 0 - Victor Osimhen 0 - Mabululu 0 - Moses Simon 0 - Jacinto Gelson Dala 0 - Joe Aribo Player not in the starting lineup : Ahmed Musa , Joe Aribo , Samuel Chukwueze , Kelechi Iheanacho "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+30°C",
+        "25": "756",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "5",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "76",
+        "20": "3",
+        "1": "Round of 8",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "65b57e5d0d8c0bfbf1823781"
+    },
+    {
+      "globalChampId": 1,
+      "id": 507285303,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "DR Congo",
+      "opp2": "Guinea",
+      "opp1Images": [
+        "playerlogo/13249.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12625.png"
+      ],
+      "opp1Ids": [
+        13249
+      ],
+      "opp2Ids": [
+        12625
+      ],
+      "score": "3:1 (1:1,2:0)",
+      "dopInfo": "",
+      "dateStart": 1706904000,
+      "countSubGame": 15,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:4 (1:2,2:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:2 (1:0,0:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:3 (1:2,2:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "15:18 (6:8,9:10)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "38:62 (38:62)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:5 (0:0,4:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 90 pts. Performance Team 1: 39 pts. Performance Team 2: 22 pts. Cards Team 1: 10 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 3 pts.     Match Score: 0 pts.    Corners: 3 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 4 Corners: 7 Cards: 3"
+        },
+        {
+          "title": "Players' stats",
+          "score": "3-1 "
+        },
+        {
+          "title": "Saves",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "12:7 (6:3,6:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "3:1"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "87",
+        "20": "3",
+        "1": "Round of 8",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "3",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "65b6e1d30d8c0bfbf11aeb9a"
+    },
+    {
+      "globalChampId": 1,
+      "id": 507497939,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Mali",
+      "opp2": "Ivory Coast",
+      "opp1Images": [
+        "playerlogo/12087.png"
+      ],
+      "opp2Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp1Ids": [
+        12087
+      ],
+      "opp2Ids": [
+        12633
+      ],
+      "score": "1:2 (0:0,1:1,0:1)",
+      "dopInfo": "",
+      "dateStart": 1706979600,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Extra-Time",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Penalty Shootout",
+          "score": "0:0 (0:0)"
+        },
+        {
+          "title": "Corners",
+          "score": "7:2 (2:0,5:2)"
+        },
+        {
+          "title": "Corners. Extra-Time",
+          "score": "3:0 (1:0,2:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:3 (2:3,1:0)"
+        },
+        {
+          "title": "Yellow Cards. Extra-Time",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:2 (1:0,2:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:1 (1:1,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "25:12 (11:8,14:4)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "57:43 (57:43)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:1,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 85 pts. Performance Team 1: 31 pts. Performance Team 2: 6 pts. Cards Team 1: 30 pts. Cards Team 2: 55 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Saves",
+          "score": "1:2 (0:1,1:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "7:7 (3:2,4:5)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1:1"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "NE wind, m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "22",
+        "1": "Round of 8",
+        "22": "3",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "65b94bfd0d8c0bfbf1070d43"
+    },
+    {
+      "globalChampId": 1,
+      "id": 507542389,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Cape Verde",
+      "opp2": "South Africa",
+      "opp1Images": [
+        "playerlogo/12649.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12895.png"
+      ],
+      "opp1Ids": [
+        12649
+      ],
+      "opp2Ids": [
+        12895
+      ],
+      "score": "0:1 (0:0,0:0,0:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1706990400,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Extra-Time",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Penalty Shootout",
+          "score": "1:2 (1:2)"
+        },
+        {
+          "title": "Corners",
+          "score": "9:1 (4:0,5:1)"
+        },
+        {
+          "title": "Corners. Extra-Time",
+          "score": "1:3 (0:2,1:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "2:3 (0:1,2:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:13 (6:4,8:9)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "51:49 (51:49)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:2 (0:0,5:2)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 33 pts. Performance Team 1: 32 pts. Performance Team 2: 8 pts. Cards Team 1: 10 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 1 Corners: 10 Cards: 1"
+        },
+        {
+          "title": "Players' stats",
+          "score": "0-0 "
+        },
+        {
+          "title": "Saves",
+          "score": "3:2 (1:0,2:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "19:10 (6:6,13:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Garry Rodrigues 0 - Mendes R 0 - Percy Tau 0 - Themba Zwane 0 - Evidence Makgopa 0 - Jovane Cabral 0 - Ryan Mendes da Graca "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+26°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "NNW wind m/s",
+        "35": "0",
+        "7": "Yamoussoukro",
+        "28": "Humidity, %",
+        "27": "47",
+        "20": "3",
+        "1": "Round of 8",
+        "22": "16",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Yamoussoukro (Yamoussoukro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 29210,
+      "statId": "65b9746c0d8c0bfbf15b6522"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506262903,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Egypt",
+      "opp2": "DR Congo",
+      "opp1Images": [
+        "playerlogo/12641.png"
+      ],
+      "opp2Images": [
+        "playerlogo/13249.png"
+      ],
+      "opp1Ids": [
+        12641
+      ],
+      "opp2Ids": [
+        13249
+      ],
+      "score": "1:2 (1:1,0:0,0:0,0:1)",
+      "dopInfo": "",
+      "dateStart": 1706472000,
+      "countSubGame": 21,
+      "subGame": [
+        {
+          "title": "Penalty Shootout",
+          "score": "7:8 (7:8)"
+        },
+        {
+          "title": "Corners",
+          "score": "2:4 (1:0,1:4)"
+        },
+        {
+          "title": "Corners. Extra-Time",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:1 (0:1,3:0)"
+        },
+        {
+          "title": "Yellow Cards. Extra-Time",
+          "score": "0:2 (0:1,0:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:1 (1:1,2:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:0 (0:0,2:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:18 (7:11,7:7)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "66:34 (66:34)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:4 (0:0,4:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 60 pts. Performance Team 1: 16 pts. Performance Team 2: 22 pts. Cards Team 1: 30 pts. Cards Team 2: 10 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 6 Cards: 4"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "7:4 (2:2,5:2)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "14:25 (6:17,8:8)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:2 (0:0,0:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "9:8 (5:4,4:4)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1:1"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "2:0 (1:0,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+22°C",
+        "25": "764",
+        "21": "Some cloud",
+        "24": "SW wind, m/s",
+        "35": "0",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "27": "30",
+        "20": "3",
+        "1": "Round of 16",
+        "22": "11",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "65b1935d0d8c0bfbf17669ef"
+    },
+    {
+      "globalChampId": 1,
+      "id": 507498100,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Mali",
+      "opp2": "Ivory Coast",
+      "opp1Images": [
+        "playerlogo/12087.png"
+      ],
+      "opp2Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp1Ids": [
+        12087
+      ],
+      "opp2Ids": [
+        12633
+      ],
+      "score": "Goals: 3 Corners: 9 Cards: 7",
+      "dopInfo": "",
+      "dateStart": 1706979600,
+      "matchInfos": {
+        "9": "+31°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "N wind, m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "22",
+        "1": "Round of 8",
+        "22": "1",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "65b94bfd0d8c0bfbf1070d43"
+    },
+    {
+      "globalChampId": 1,
+      "id": 508395443,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Ivory Coast",
+      "opp2": "DR Congo",
+      "opp1Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp2Images": [
+        "playerlogo/13249.png"
+      ],
+      "opp1Ids": [
+        12633
+      ],
+      "opp2Ids": [
+        13249
+      ],
+      "score": "1:0 (0:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1707336000,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:6 (2:5,4:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "2:2 (0:2,2:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:1 (0:0,0:1)"
+        },
+        {
+          "title": "Fouls",
+          "score": "13:17 (8:7,5:10)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "57:43 (57:43)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:5 (0:0,5:5)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 46 pts. Performance Team 1: 33 pts. Performance Team 2: 18 pts. Cards Team 1: 0 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-0 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "5:12 (1:6,4:6)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "19:27 (9:11,10:16)"
+        },
+        {
+          "title": "Saves",
+          "score": "2:1 (2:0,0:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "14:7 (6:3,8:4)"
+        },
+        {
+          "title": "Tackles",
+          "score": "8:18 (5:12,3:6)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "1:0"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "0:0 (0:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "84",
+        "20": "3",
+        "1": "Round of 4",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "65bebbed0d8c0bfbf108c9de"
+    },
+    {
+      "globalChampId": 1,
+      "id": 508354222,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Nigeria",
+      "opp2": "South Africa",
+      "opp1Images": [
+        "playerlogo/12661.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12895.png"
+      ],
+      "opp1Ids": [
+        12661
+      ],
+      "opp2Ids": [
+        12895
+      ],
+      "score": "2:1 (0:0,1:1,0:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1707325200,
+      "countSubGame": 27,
+      "subGame": [
+        {
+          "title": "Extra-Time",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Penalty Shootout",
+          "score": "4:2 (4:2)"
+        },
+        {
+          "title": "Corners",
+          "score": "4:2 (1:2,3:0)"
+        },
+        {
+          "title": "Corners. Extra-Time",
+          "score": "1:2 (0:1,1:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Yellow Cards. Extra-Time",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "3:5 (2:3,1:2)"
+        },
+        {
+          "title": "Offsides",
+          "score": "0:1 (0:1,0:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "18:8 (8:4,10:4)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "42:58 (42:58)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "2:2 (0:0,2:2)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 58 pts. Performance Team 1: 22 pts. Performance Team 2: 16 pts. Cards Team 1: 0 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 6 Cards: 0"
+        },
+        {
+          "title": "Players' stats",
+          "score": "1-1 "
+        },
+        {
+          "title": "Goal kicks",
+          "score": "8:6 (3:3,5:3)"
+        },
+        {
+          "title": "Goal kicks. Extra-Time",
+          "score": "2:1 (2:0,0:1)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "17:20 (10:8,7:12)"
+        },
+        {
+          "title": "Throw-ins. Extra-Time",
+          "score": "2:4 (2:1,0:3)"
+        },
+        {
+          "title": "Saves",
+          "score": "4:2 (3:2,1:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "8:13 (4:4,4:9)"
+        },
+        {
+          "title": "Tackles",
+          "score": "9:18 (9:18)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "0 - Ademola Lookman 0 - Alex Iwobi 0 - Victor Osimhen 0 - Moses Simon 0 - Evidence Makgopa Player not in the starting lineup : Samuel Chukwueze "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "VAR Checks. Extra-Time",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:0 (0:0,3:0)"
+        },
+        {
+          "title": "Medical Team. Extra-Time",
+          "score": "0:0 (0:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "760",
+        "21": "Some cloud",
+        "11": "Afrika",
+        "24": "NNE wind, m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "23",
+        "1": "Round of 4",
+        "22": "2",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "65bec93e0d8c0bfbf1982957"
+    },
+    {
+      "globalChampId": 1,
+      "id": 504606037,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Zambia",
+      "opp2": "Tanzania",
+      "opp1Images": [
+        "playerlogo/12627.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12685.png"
+      ],
+      "opp1Ids": [
+        12627
+      ],
+      "opp2Ids": [
+        12685
+      ],
+      "score": "1:1 (0:1,1:0)",
+      "dopInfo": "",
+      "dateStart": 1705855500,
+      "countSubGame": 15,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "5:3 (1:1,4:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:0 (2:0,0:0)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:2 (1:1,3:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "3:0 (1:0,2:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "18:9 (12:5,6:4)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:4 (0:0,5:4)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 60 pts. Performance Team 1: 15 pts. Performance Team 2: 19 pts. Cards Team 1: 45 pts. Cards Team 2: 0 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 8 Cards: 3"
+        },
+        {
+          "title": "Goal kicks",
+          "score": "5:7 (3:4,2:3)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "23:11 (9:5,14:6)"
+        },
+        {
+          "title": "Saves",
+          "score": "1:3 (0:1,1:2)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:6 (4:4,7:2)"
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "2:4 (1:1,1:3)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+16°C",
+        "25": "760",
+        "21": "Gloomy",
+        "24": "SE wind, m/s",
+        "35": "10",
+        "7": "San Pedro",
+        "28": "Humidity, %",
+        "27": "91",
+        "20": "11",
+        "1": "Group stage. Round 2. Group F",
+        "22": "7",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Laurent Pokou (San-Pedro)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 51017,
+      "statId": "6529204794fca712b4d5cb91"
+    },
+    {
+      "globalChampId": 1,
+      "id": 506002916,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Nigeria",
+      "opp2": "Cameroon",
+      "opp1Images": [
+        "playerlogo/12661.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12725.png"
+      ],
+      "opp1Ids": [
+        12661
+      ],
+      "opp2Ids": [
+        12725
+      ],
+      "score": "2:0 (1:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1706385600,
+      "countSubGame": 18,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "3:1 (1:0,2:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:2 (0:0,2:2)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:0 (3:0,1:0)"
+        },
+        {
+          "title": "Offsides",
+          "score": "4:0 (3:0,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "21:19 (11:8,10:11)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "42:58 (42:58)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "4:3 (0:0,4:3)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 44 pts. Performance Team 1: 34 pts. Performance Team 2: 3 pts. Cards Team 1: 20 pts. Cards Team 2: 20 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 2 Corners: 4 Cards: 4"
+        },
+        {
+          "title": "Goal kicks",
+          "score": "8:5 (4:1,4:4)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "30:19 (16:9,14:10)"
+        },
+        {
+          "title": "Saves",
+          "score": "0:2 (0:2,0:0)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "8:6 (3:2,5:4)"
+        },
+        {
+          "title": "Tackles",
+          "score": "17:17 (17:17)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2 - Ademola Lookman 0 - Alex Iwobi 0 - Victor Osimhen 0 - Georges-Kevin Nkoudou 0 - Karl Toko-Ekambi 0 - Kelechi Iheanacho 0 - Moses Simon 0 - Frank Magri Player not in the starting lineup : Ahmed Musa , Joe Aribo , Samuel Chukwueze "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "1:0 (1:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "5:0 (2:0,3:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+27°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "W wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "20": "3",
+        "27": "79",
+        "1": "Round of 16",
+        "22": "13",
+        "26": "Pressure, mmHg",
+        "23": "1",
+        "2": "Félix Houphouët-Boigny (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 836,
+      "statId": "65b03c650d8c0bfbf139532c"
+    },
+    {
+      "globalChampId": 1,
+      "id": 505955688,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Angola",
+      "opp2": "Namibia",
+      "opp1Images": [
+        "playerlogo/11813.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12681.png"
+      ],
+      "opp1Ids": [
+        11813
+      ],
+      "opp2Ids": [
+        12681
+      ],
+      "score": "3:0 (2:0,1:0)",
+      "dopInfo": "",
+      "dateStart": 1706374800,
+      "countSubGame": 17,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "6:3 (3:1,3:2)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:2 (0:1,0:1)"
+        },
+        {
+          "title": "Shots On Target",
+          "score": "4:3 (2:2,2:1)"
+        },
+        {
+          "title": "Offsides",
+          "score": "2:0 (1:0,1:0)"
+        },
+        {
+          "title": "Fouls",
+          "score": "14:20 (7:9,7:11)"
+        },
+        {
+          "title": "Posts and Crossbars",
+          "score": "1:0 (0:0,1:0)"
+        },
+        {
+          "title": "Ball Possession",
+          "score": "48:52 (48:52)"
+        },
+        {
+          "title": "Substitutions",
+          "score": "5:4 (1:1,4:3)"
+        },
+        {
+          "title": "Alternative Outcomes",
+          "score": "Match total: 83 pts. Performance Team 1: 43 pts. Performance Team 2: -1 pts. Cards Team 1: 25 pts. Cards Team 2: 45 pts. Points for the first 5 mins: 0 pts.     Match Score: 0 pts.    Corners: 0 pts.    Cards: 0 pts."
+        },
+        {
+          "title": "Accumulator Outcomes",
+          "score": "Goals: 3 Corners: 9 Cards: 4"
+        },
+        {
+          "title": "Goal kicks",
+          "score": "9:3 (4:1,5:2)"
+        },
+        {
+          "title": "Throw-ins",
+          "score": "26:19 (10:10,16:9)"
+        },
+        {
+          "title": "Saves",
+          "score": "2:1 (1:0,1:1)"
+        },
+        {
+          "title": "Shots Towards The Goal",
+          "score": "11:11 (4:4,7:7)"
+        },
+        {
+          "title": "Duel between Players (Goals)",
+          "score": "2 - Jacinto Gelson Dala 1 - Mabululu 0 - Aprocious Petrus 0 - Bethuel Muzeu 0 - Deon Hotto 0 - Gilberto 0 - Peter Shalulile 0 - Deivi Vieira Player not in the starting lineup : Ambrosini Antonio Cabaca Salvador "
+        },
+        {
+          "title": "VAR Checks",
+          "score": "0:0 (0:0,0:0)"
+        },
+        {
+          "title": "Medical Team",
+          "score": "3:0 (1:0,2:0)"
+        }
+      ],
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "759",
+        "21": "Some cloud",
+        "24": "NNE wind, m/s",
+        "35": "0",
+        "7": "Bouake",
+        "28": "Humidity, %",
+        "27": "22",
+        "20": "3",
+        "1": "Round of 16",
+        "22": "2",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "City Stadium de Bouaké (Bouake)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 625,
+      "statId": "65b166c70d8c0bfbf1b5bf05"
+    },
+    {
+      "globalChampId": 1,
+      "id": 490047987,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. 2023. Winner",
+      "opp1": "Africa Cup of Nations. 2023. Group D. Winner",
+      "opp2": "",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        2694411
+      ],
+      "score": "1 - Angola 2 - Burkina Faso ",
+      "dopInfo": "",
+      "dateStart": 1705993200
+    },
+    {
+      "globalChampId": 1,
+      "id": 490047986,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. 2023. Winner",
+      "opp1": "Africa Cup of Nations. 2023. Group C. Winner",
+      "opp2": "",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        2694409
+      ],
+      "score": "1 - Senegal ",
+      "dopInfo": "",
+      "dateStart": 1705993200
+    },
+    {
+      "globalChampId": 1,
+      "id": 490047989,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. 2023. Winner",
+      "opp1": "Africa Cup of Nations. 2023. Group F. Winner",
+      "opp2": "",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        2694415
+      ],
+      "score": "1 - Morocco 2 - DR Congo 3 - Zambia 4 - Tanzania ",
+      "dopInfo": "",
+      "dateStart": 1706106613
+    },
+    {
+      "globalChampId": 1,
+      "id": 508395668,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Ivory Coast",
+      "opp2": "DR Congo",
+      "opp1Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp2Images": [
+        "playerlogo/13249.png"
+      ],
+      "opp1Ids": [
+        12633
+      ],
+      "opp2Ids": [
+        13249
+      ],
+      "score": "Goals: 1 Corners: 12 Cards: 0",
+      "dopInfo": "",
+      "dateStart": 1707336000,
+      "matchInfos": {
+        "9": "+28°C",
+        "25": "759",
+        "11": "Afrika",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "2",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "82",
+        "20": "3",
+        "1": "Round of 4",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "2",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "65bebbed0d8c0bfbf108c9de"
+    },
+    {
+      "globalChampId": 1,
+      "id": 490047985,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. 2023. Winner",
+      "opp1": "Africa Cup of Nations. 2023. Group B. Winner",
+      "opp2": "",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        2694407
+      ],
+      "score": "1 - Cape Verde ",
+      "dopInfo": "",
+      "dateStart": 1705993200
+    },
+    {
+      "globalChampId": 1,
+      "id": 490047988,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. 2023. Winner",
+      "opp1": "Africa Cup of Nations. 2023. Group E. Winner",
+      "opp2": "",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        2694413
+      ],
+      "score": "1 - Mali ",
+      "dopInfo": "",
+      "dateStart": 1706079600
+    },
+    {
+      "globalChampId": 1,
+      "id": 503874446,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "Ivory Coast",
+      "opp2": "Nigeria",
+      "opp1Images": [
+        "playerlogo/cad806fb27fe61ef5fa5e19bfc256780.png"
+      ],
+      "opp2Images": [
+        "playerlogo/12661.png"
+      ],
+      "opp1Ids": [
+        12633
+      ],
+      "opp2Ids": [
+        12661
+      ],
+      "score": "Goals: 1 Corners: 11 Cards: 1",
+      "dopInfo": "",
+      "dateStart": 1705597200,
+      "matchInfos": {
+        "9": "+29°C",
+        "25": "758",
+        "21": "Some cloud",
+        "24": "SSW wind, m/s",
+        "35": "13",
+        "7": "Abidjan",
+        "28": "Humidity, %",
+        "27": "76",
+        "20": "3",
+        "1": "Group stage. Round 2. Group A",
+        "22": "10",
+        "26": "Pressure, mmHg",
+        "23": "4",
+        "2": "Alassane Ouattara (Abidjan)",
+        "36": "Precipitation, %"
+      },
+      "stadiumId": 35427,
+      "statId": "6529204794fca712b4d5cca6"
+    },
+    {
+      "globalChampId": 1,
+      "id": 503614855,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "5:6(2:3,3:3)",
+      "dopInfo": "3 Matches",
+      "dateStart": 1705759200,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "13:16(9:7,4:9)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "6:6 (1:2,5:4)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 2"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 503810049,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "6:2(4:1,2:1)",
+      "dopInfo": "3 Matches",
+      "dateStart": 1705845600,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "14:10(4:5,10:5)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "6:1 (4:0,2:1)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 2"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 503618668,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "6:5(1:2,5:3)",
+      "dopInfo": "3 Matches",
+      "dateStart": 1705586400,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "10:17(5:7,5:10)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:2 (0:1,2:1)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 2"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 503292730,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "4:1(2:1,2:0)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1705510800,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "12:2(5:1,7:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:5 (0:2,3:3)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 1"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 503810052,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "8:5(2:2,6:3)",
+      "dopInfo": "4 Matches",
+      "dateStart": 1705942800,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "14:24(3:9,11:15)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "8:12 (3:3,5:9)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 3"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 504652106,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "5:5(2:0,3:5)",
+      "dopInfo": "4 Matches",
+      "dateStart": 1706029200,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "13:24(6:10,7:14)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "11:6 (5:3,6:3)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 3"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 505575536,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "5:0(3:0,2:0)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1706374800,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "9:4(4:1,5:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:4 (0:1,2:3)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Round of 16"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 506011157,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "2:3(1:0,1:3)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1706634000,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "7:4(2:3,5:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:6 (0:3,2:3)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Round of 16"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 506011156,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "2:1(1:0,1:1)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1706547600,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "16:3(5:3,11:0)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "5:3 (2:0,3:3)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Round of 16"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 506987822,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "4:1(2:1,2:0)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1706893200,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "7:11(2:7,5:4)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "2:5 (1:0,1:5)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Round of 8"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 503292512,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "3:1(0:0,3:1)",
+      "dopInfo": "3 Matches",
+      "dateStart": 1705413600,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "13:14(6:4,7:10)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "6:4 (3:0,3:4)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 502802134,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "4:5(2:2,2:3)",
+      "dopInfo": "3 Matches",
+      "dateStart": 1705240800,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "11:10(4:6,7:4)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "5:8 (1:1,4:7)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 1"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 503582367,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "7:1(2:0,5:1)",
+      "dopInfo": "3 Matches",
+      "dateStart": 1705672800,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "16:20(10:9,6:11)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "4:5 (1:2,3:3)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 2"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 504652107,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "0:1(0:1,0:0)",
+      "dopInfo": "4 Matches",
+      "dateStart": 1706115600,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "18:20(7:13,11:7)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "1:2 (1:1,0:1)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 3"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 505895951,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "1:2(1:1,0:1)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1706461200,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "4:6(2:1,2:5)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "3:2 (0:2,3:0)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Round of 16"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 507951289,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "2:1(0:0,2:1)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1707325200,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "10:8(3:7,7:1)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "0:0 (0:0,0:0)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Round of 4"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 506987824,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. Statistics play-off round",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "5:2(2:1,3:1)",
+      "dopInfo": "Round of 8, 4 Matches",
+      "dateStart": 1706893200
+    },
+    {
+      "globalChampId": 1,
+      "id": 506987823,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "1:1(0:0,1:1)",
+      "dopInfo": "2 Matches",
+      "dateStart": 1706979600,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "16:3(6:0,10:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "4:3 (3:3,1:0)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Round of 8"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 502928086,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "5:2(2:1,3:1)",
+      "dopInfo": "3 Matches",
+      "dateStart": 1705327200,
+      "countSubGame": 2,
+      "subGame": [
+        {
+          "title": "Corners",
+          "score": "25:6(10:3,15:3)"
+        },
+        {
+          "title": "Yellow Cards",
+          "score": "8:2 (3:1,5:1)"
+        }
+      ],
+      "matchInfos": {
+        "1": "Group stage. Round 1"
+      }
+    },
+    {
+      "globalChampId": 1,
+      "id": 505575535,
+      "sportId": 1,
+      "champName": "Africa Cup of Nations. Statistics play-off round",
+      "opp1": "1st teams",
+      "opp2": "2nd teams",
+      "opp1Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp2Images": [
+        "playerlogo/teamdefault.png"
+      ],
+      "opp1Ids": [
+        68967
+      ],
+      "opp2Ids": [
+        68969
+      ],
+      "score": "10:6(6:1,4:5)",
+      "dopInfo": "8 Matches",
+      "dateStart": 1706374800,
+      "matchInfos": {
+        "1": "Round of 16"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/webGameView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/gameToolbar" android:background="@color/static_transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/elevation_0" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_back_games" style="@style/Widget.AppTheme.Toolbar.New">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <org.xplatform.core.presentation.demo_mode.OnexGameDemoButton android:id="@id/demoButton" android:visibility="invisible" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:layout_marginEnd="@dimen/space_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/bonus_button" app:layout_constraintTop_toTopOf="parent" />
+                <org.xplatform.core.presentation.bonuses.views.GamesBonusButtonViewNew android:id="@id/bonus_button" android:visibility="gone" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:layout_marginEnd="@dimen/space_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.MaterialToolbar>
+        <org.xplatform.core.presentation.balance.OnexGamesBalanceViewOld android:id="@id/onex_game_balance" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/gameToolbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.47" />
+        <org.xplatform.ui_core.viewcomponents.scroll_view.NestedTouchScrollView android:id="@id/webScrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/gameToolbar" app:layout_constraintVertical_bias="0.0">
+            <org.xplatform.web.impl.presentation.game.old.views.BaseWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </org.xplatform.ui_core.viewcomponents.scroll_view.NestedTouchScrollView>
+        <FrameLayout android:id="@id/splashLayout" android:background="@color/static_black" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+            <org.xplatform.ui_core.viewcomponents.layouts.frame.ProgressBarWithGamePad android:layout_gravity="center" android:id="@id/loaderView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/progressView" android:background="@color/static_black_20" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </FrameLayout>
+        <org.xplatform.core.presentation.views.tax_message.TaxMessageView android:id="@id/vTaxMessage" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium_horizontal_margin_dynamic" android:layout_marginTop="@dimen/space_8" android:layout_marginRight="@dimen/medium_horizontal_margin_dynamic" android:layout_marginBottom="@dimen/space_8" android:layout_marginHorizontal="@dimen/medium_horizontal_margin_dynamic" android:layout_marginVertical="@dimen/space_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/gameToolbar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/webGameBonuses" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

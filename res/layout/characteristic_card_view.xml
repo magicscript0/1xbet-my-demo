@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/onex_game_card_background" android:padding="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_4" android:elevation="@dimen/elevation_2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="?uikitTextPrimary" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/space_8" app:drawableTint="?uikitPrimary" />
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:id="@id/tvSubTitle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

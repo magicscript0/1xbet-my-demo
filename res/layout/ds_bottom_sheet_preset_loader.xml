@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.loader.DsLoader android:layout_gravity="center" android:id="@id/loader" android:visibility="visible" android:layout_width="@dimen/size_32" android:layout_height="@dimen/size_32" android:layout_marginTop="@dimen/size_36" android:layout_marginBottom="@dimen/size_36" android:indeterminateTint="?uikitSecondary60" style="@style/Widget.DSLoader" />
+</FrameLayout>

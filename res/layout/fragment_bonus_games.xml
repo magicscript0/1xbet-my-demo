@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="@drawable/ic_back_games" app:navigationIconTint="?uikitSecondary" style="@style/Widget.AppTheme.Toolbar.New" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:paddingLeft="@dimen/space_8" android:paddingRight="@dimen/space_8" android:paddingBottom="@dimen/space_16" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:paddingHorizontal="@dimen/space_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/appBar" />
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/appBar" />
+    <FrameLayout android:id="@id/loading_container" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:elevation="@dimen/size_10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/appBar">
+        <org.xplatform.ui_core.viewcomponents.layouts.frame.ProgressBarWithSendClock android:layout_gravity="center" android:id="@id/iv_loader" android:layout_width="@dimen/size_60" android:layout_height="@dimen/size_60" app:isAnimation="true" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

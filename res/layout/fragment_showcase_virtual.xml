@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_menu_content" android:paddingLeft="@dimen/space_4" android:paddingTop="@dimen/space_4" android:paddingRight="@dimen/space_4" android:paddingBottom="@dimen/space_24" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:splitMotionEvents="false" android:paddingHorizontal="@dimen/space_4" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include android:id="@id/progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/showcase_child_progress" />
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view1" android:background="@drawable/rounded_background_16" android:layout_width="@dimen/shimmer_size_152" android:layout_height="@dimen/shimmer_size_12" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:backgroundTint="?uikitBackgroundGroup" android:layout_marginHorizontal="@dimen/space_16" />
+    <View android:id="@id/view2" android:background="@drawable/rounded_background_16" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_size_100" android:layout_marginLeft="@dimen/space_16" android:layout_marginTop="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:backgroundTint="?uikitBackgroundGroup" android:layout_marginHorizontal="@dimen/space_16" />
+</LinearLayout>

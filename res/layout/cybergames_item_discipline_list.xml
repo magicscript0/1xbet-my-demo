@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.category_card_collection.DsCategoryCardCollection android:theme="?uikitTheme" android:id="@id/vCategoryCardCollection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" style="@style/Widget.DSBannerCollection.RectangleVertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/clContent"
+    android:layout_height="@dimen/size_144"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_banner_prize">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/static_white"
+        android:layout_marginBottom="@dimen/space_4"
+        android:textSize="@dimen/bet_header_host_guest_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvPrizeSum"
+        tools:text="Призовой фонд" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvPrizeSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceHeadline6MediumNew"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/static_white"
+        android:textSize="@dimen/text_32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        tools:text="$ 30,000" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/static_white"
+        android:layout_marginTop="@dimen/space_4"
+        android:textSize="@dimen/bet_header_host_guest_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPrizeSum"
+        tools:text="1 мая 2023 00:01 - 1 августа 2023 23:59 (GMT)" />
+</androidx.constraintlayout.widget.ConstraintLayout>

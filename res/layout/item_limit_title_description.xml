@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?uikitBackgroundContent" android:paddingLeft="@dimen/space_16" android:paddingRight="@dimen/space_16" android:paddingBottom="@dimen/space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:paddingHorizontal="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceSubtitle2MediumNew" android:textColor="?uikitPrimary" android:id="@id/tvTitle" android:paddingTop="@dimen/space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bet_limit_title" />
+    <TextView android:textAppearance="?textAppearanceBody2New" android:id="@id/tvDescription" android:paddingTop="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/deposit_limits_requirements" />
+</LinearLayout>

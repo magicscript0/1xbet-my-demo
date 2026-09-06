@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="fill_parent" android:layout_height="@dimen/size_8" />
+    <TextView android:textColor="?uikitSecondary" android:id="@id/description_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" style="@style/TextAppearance.Headline.Regular" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="fill_parent" android:layout_height="@dimen/size_16" />
+</LinearLayout>

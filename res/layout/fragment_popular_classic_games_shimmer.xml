@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="@dimen/space_8" android:paddingRight="@dimen/space_8" android:paddingBottom="@dimen/space_26" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerSportOne" android:layout_width="fill_parent" android:layout_height="@dimen/size_198" android:layout_marginTop="@dimen/space_8" android:radius="@dimen/radius_10" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerSportTwo" android:layout_width="fill_parent" android:layout_height="@dimen/size_198" android:layout_marginTop="@dimen/space_8" android:radius="@dimen/radius_10" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shimmerSportOne" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerSportThree" android:layout_width="fill_parent" android:layout_height="@dimen/size_198" android:layout_marginTop="@dimen/space_8" android:radius="@dimen/radius_10" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shimmerSportTwo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

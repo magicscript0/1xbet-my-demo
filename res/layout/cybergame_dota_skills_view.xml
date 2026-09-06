@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.cyber.dota.impl.presentation.statistic.skills.view.DotaSkillsHeroesTableView android:id="@id/heroes" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <org.xplatform.cyber.dota.impl.presentation.statistic.skills.view.DotaSkillsViewContainer android:id="@id/skillsContainer" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/size_180" />
+    <org.xplatform.cyber.dota.impl.presentation.common.DotaAdditionalTeamInformationView android:id="@id/additionalInformation" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

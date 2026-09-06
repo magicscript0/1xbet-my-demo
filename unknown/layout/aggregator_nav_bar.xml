@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <View
+        android:id="@+id/view_shadow"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="@dimen/bottom_navigation_view_height"
+        android:background="@drawable/shadow_reverse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_navigation_view_height"
+        android:background="?attr/uikitBackgroundContent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAggregatorPromo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/space_8"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_8"
+        android:text="@string/promo"
+        android:textAppearance="?attr/textAppearanceCaptionMediumNew"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMaxTextSize="@dimen/text_12"
+        app:autoSizeMinTextSize="@dimen/text_10"
+        app:drawableTint="?attr/uikitSecondary"
+        app:drawableTopCompat="@drawable/ic_aggregator_promo"
+        app:layout_constraintBottom_toBottomOf="@id/view_background"
+        app:layout_constraintEnd_toStartOf="@+id/tvAggregatorFavorites"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAggregatorFavorites"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/favorites_name"
+        android:background="?attr/selectableItemBackground"
+        android:paddingBottom="@dimen/space_8"
+        android:paddingTop="@dimen/space_8"
+        android:textAppearance="?attr/textAppearanceCaptionMediumNew"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMaxTextSize="@dimen/text_12"
+        app:autoSizeMinTextSize="@dimen/text_10"
+        app:drawableTint="?attr/uikitSecondary"
+        app:drawableTopCompat="@drawable/ic_icons_favourites"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/flMyAggregator"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tvAggregatorPromo" />
+
+    <FrameLayout
+        android:id="@+id/flMyAggregator"
+        android:layout_width="0dp"
+        android:layout_height="78dp"
+        android:paddingBottom="@dimen/space_8"
+        app:layout_constraintEnd_toStartOf="@+id/tvAggregatorProviders"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tvAggregatorFavorites"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivBackground"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="top|center_horizontal"
+            android:background="?attr/uikitPrimary"
+            android:elevation="@dimen/elevation_4"
+            android:padding="4dp"
+            android:scaleType="centerInside"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.AppTheme.Circle"
+            app:srcCompat="@drawable/ic_my_aggregator"
+            app:strokeColor="@color/static_white"
+            app:strokeWidth="2dp"
+            app:tint="@color/static_white" />
+
+        <TextView
+            android:id="@+id/tvMyAggregator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="vertical"
+            android:text="@string/my_casino"
+            android:textAllCaps="false"
+            android:textAppearance="?attr/textAppearanceCaptionMediumNew"
+            android:maxLines="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMaxTextSize="@dimen/text_12"
+            app:autoSizeMinTextSize="@dimen/text_10" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tvAggregatorProviders"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/providers"
+        android:textAllCaps="false"
+        android:background="?attr/selectableItemBackground"
+        android:textAppearance="?attr/textAppearanceCaptionMediumNew"
+        android:paddingBottom="@dimen/space_8"
+        android:paddingTop="@dimen/space_8"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMaxTextSize="@dimen/text_12"
+        app:autoSizeMinTextSize="@dimen/text_10"
+        app:drawableTint="?attr/uikitSecondary"
+        app:drawableTopCompat="@drawable/ic_icons_providers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvAggregatorCategories"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/flMyAggregator" />
+
+    <TextView
+        android:id="@+id/tvAggregatorCategories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/categories"
+        android:textAllCaps="false"
+        android:background="?attr/selectableItemBackground"
+        android:textAppearance="?attr/textAppearanceCaptionMediumNew"
+        android:paddingBottom="@dimen/space_8"
+        android:paddingTop="@dimen/space_8"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMaxTextSize="@dimen/text_12"
+        app:autoSizeMinTextSize="@dimen/text_10"
+        app:drawableTint="?attr/uikitSecondary"
+        app:drawableTopCompat="@drawable/ic_aggregator_categories"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tvAggregatorProviders" />
+
+
+</merge>

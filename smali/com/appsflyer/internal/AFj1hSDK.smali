@@ -1,0 +1,542 @@
+.class public final Lcom/appsflyer/internal/AFj1hSDK;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field final getRevenue:Landroid/content/Intent;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Intent;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 5
+    .line 6
+    .line 7
+    iput-object p1, p0, Lcom/appsflyer/internal/AFj1hSDK;->getRevenue:Landroid/content/Intent;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method private final AFAdRevenueData(Lkotlin/jvm/functions/Function0;Ljava/lang/String;Ljava/lang/Object;Z)Ljava/lang/Object;
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lkotlin/jvm/functions/Function0<",
+            "+TT;>;",
+            "Ljava/lang/String;",
+            "TT;Z)TT;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/appsflyer/internal/AFj1hSDK;->getRevenue:Landroid/content/Intent;
+
+    .line 2
+    .line 3
+    monitor-enter v0
+
+    .line 4
+    :try_start_0
+    sget-object v1, La/qqc0;->b:La/lqc0;
+
+    .line 5
+    .line 6
+    invoke-interface {p1}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 10
+    goto :goto_0
+
+    .line 11
+    :catchall_0
+    move-exception v1
+
+    .line 12
+    :try_start_1
+    sget-object v2, La/qqc0;->b:La/lqc0;
+
+    .line 13
+    .line 14
+    new-instance v2, La/nqc0;
+
+    .line 15
+    .line 16
+    invoke-direct {v2, v1}, La/nqc0;-><init>(Ljava/lang/Throwable;)V
+
+    .line 17
+    .line 18
+    .line 19
+    move-object v1, v2
+
+    .line 20
+    :goto_0
+    const-class v2, Ljava/util/ConcurrentModificationException;
+
+    .line 21
+    .line 22
+    sget-object v3, La/pib0;->a:La/qib0;
+
+    .line 23
+    .line 24
+    invoke-virtual {v3, v2}, La/qib0;->b(Ljava/lang/Class;)La/ecw;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v2
+
+    .line 28
+    const-class v4, Ljava/lang/ArrayIndexOutOfBoundsException;
+
+    .line 29
+    .line 30
+    invoke-virtual {v3, v4}, La/qib0;->b(Ljava/lang/Class;)La/ecw;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v4
+
+    .line 34
+    const/4 v5, 0x2
+
+    .line 35
+    new-array v5, v5, [La/ecw;
+
+    .line 36
+    .line 37
+    const/4 v6, 0x0
+
+    .line 38
+    aput-object v2, v5, v6
+
+    .line 39
+    .line 40
+    const/4 v2, 0x1
+
+    .line 41
+    aput-object v4, v5, v2
+
+    .line 42
+    .line 43
+    invoke-static {v1}, La/qqc0;->a(Ljava/lang/Object;)Ljava/lang/Throwable;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object v2
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_2
+
+    .line 47
+    if-nez v2, :cond_0
+
+    .line 48
+    .line 49
+    goto :goto_3
+
+    .line 50
+    :cond_0
+    :try_start_2
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object v1
+
+    .line 54
+    invoke-virtual {v3, v1}, La/qib0;->b(Ljava/lang/Class;)La/ecw;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v1
+
+    .line 58
+    invoke-static {v1, v5}, La/kx3;->u(Ljava/lang/Object;[Ljava/lang/Object;)Z
+
+    .line 59
+    .line 60
+    .line 61
+    move-result v1
+
+    .line 62
+    if-eqz v1, :cond_2
+
+    .line 63
+    .line 64
+    if-eqz p4, :cond_1
+
+    .line 65
+    .line 66
+    invoke-direct {p0, p1, p2, p3, v6}, Lcom/appsflyer/internal/AFj1hSDK;->AFAdRevenueData(Lkotlin/jvm/functions/Function0;Ljava/lang/String;Ljava/lang/Object;Z)Ljava/lang/Object;
+
+    .line 67
+    .line 68
+    .line 69
+    move-result-object p0
+
+    .line 70
+    goto :goto_1
+
+    .line 71
+    :catchall_1
+    move-exception p0
+
+    .line 72
+    goto :goto_2
+
+    .line 73
+    :cond_1
+    invoke-static {p2, v2, v6, v6}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V
+
+    .line 74
+    .line 75
+    .line 76
+    move-object p0, p3
+
+    .line 77
+    :goto_1
+    move-object v1, p0
+
+    .line 78
+    goto :goto_3
+
+    .line 79
+    :cond_2
+    throw v2
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    .line 80
+    :goto_2
+    :try_start_3
+    sget-object p1, La/qqc0;->b:La/lqc0;
+
+    .line 81
+    .line 82
+    new-instance p1, La/nqc0;
+
+    .line 83
+    .line 84
+    invoke-direct {p1, p0}, La/nqc0;-><init>(Ljava/lang/Throwable;)V
+
+    .line 85
+    .line 86
+    .line 87
+    move-object v1, p1
+
+    .line 88
+    :goto_3
+    invoke-static {v1}, La/qqc0;->a(Ljava/lang/Object;)Ljava/lang/Throwable;
+
+    .line 89
+    .line 90
+    .line 91
+    move-result-object p0
+
+    .line 92
+    if-nez p0, :cond_3
+
+    .line 93
+    .line 94
+    move-object p3, v1
+
+    .line 95
+    goto :goto_4
+
+    .line 96
+    :cond_3
+    invoke-static {p2, p0, v6, v6}, Lcom/appsflyer/AFLogger;->afErrorLog(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_2
+
+    .line 97
+    .line 98
+    .line 99
+    :goto_4
+    monitor-exit v0
+
+    .line 100
+    return-object p3
+
+    .line 101
+    :catchall_2
+    move-exception p0
+
+    .line 102
+    monitor-exit v0
+
+    .line 103
+    throw p0
+.end method
+
+
+# virtual methods
+.method public final H_(Ljava/lang/String;)Landroid/os/Parcelable;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T::",
+            "Landroid/os/Parcelable;",
+            ">(",
+            "Ljava/lang/String;",
+            ")TT;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lcom/appsflyer/internal/AFj1hSDK$5;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p0, p1}, Lcom/appsflyer/internal/AFj1hSDK$5;-><init>(Lcom/appsflyer/internal/AFj1hSDK;Ljava/lang/String;)V
+
+    .line 7
+    .line 8
+    .line 9
+    const-string v1, "Error while trying to read "
+
+    .line 10
+    .line 11
+    const-string v2, " extra from intent"
+
+    .line 12
+    .line 13
+    invoke-static {v1, p1, v2}, La/ey90;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    const/4 v1, 0x0
+
+    .line 18
+    const/4 v2, 0x1
+
+    .line 19
+    invoke-direct {p0, v0, p1, v1, v2}, Lcom/appsflyer/internal/AFj1hSDK;->AFAdRevenueData(Lkotlin/jvm/functions/Function0;Ljava/lang/String;Ljava/lang/Object;Z)Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object p0
+
+    .line 23
+    check-cast p0, Landroid/os/Parcelable;
+
+    .line 24
+    .line 25
+    return-object p0
+.end method
+
+.method public final I_(Ljava/lang/String;J)Landroid/content/Intent;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lcom/appsflyer/internal/AFj1hSDK$2;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p0, p1, p2, p3}, Lcom/appsflyer/internal/AFj1hSDK$2;-><init>(Lcom/appsflyer/internal/AFj1hSDK;Ljava/lang/String;J)V
+
+    .line 7
+    .line 8
+    .line 9
+    const-string p2, "Error while trying to write "
+
+    .line 10
+    .line 11
+    const-string p3, " extra to intent"
+
+    .line 12
+    .line 13
+    invoke-static {p2, p1, p3}, La/ey90;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    const/4 p2, 0x0
+
+    .line 18
+    const/4 p3, 0x1
+
+    .line 19
+    invoke-direct {p0, v0, p1, p2, p3}, Lcom/appsflyer/internal/AFj1hSDK;->AFAdRevenueData(Lkotlin/jvm/functions/Function0;Ljava/lang/String;Ljava/lang/Object;Z)Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object p0
+
+    .line 23
+    check-cast p0, Landroid/content/Intent;
+
+    .line 24
+    .line 25
+    return-object p0
+.end method
+
+.method public final getCurrencyIso4217Code(Ljava/lang/String;)Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lcom/appsflyer/internal/AFj1hSDK$1;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p0, p1}, Lcom/appsflyer/internal/AFj1hSDK$1;-><init>(Lcom/appsflyer/internal/AFj1hSDK;Ljava/lang/String;)V
+
+    .line 7
+    .line 8
+    .line 9
+    const-string v1, "Error while trying to read "
+
+    .line 10
+    .line 11
+    const-string v2, " extra from intent"
+
+    .line 12
+    .line 13
+    invoke-static {v1, p1, v2}, La/ey90;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    const/4 v1, 0x0
+
+    .line 18
+    const/4 v2, 0x1
+
+    .line 19
+    invoke-direct {p0, v0, p1, v1, v2}, Lcom/appsflyer/internal/AFj1hSDK;->AFAdRevenueData(Lkotlin/jvm/functions/Function0;Ljava/lang/String;Ljava/lang/Object;Z)Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object p0
+
+    .line 23
+    check-cast p0, Ljava/lang/String;
+
+    .line 24
+    .line 25
+    return-object p0
+.end method
+
+.method public final getMonetizationNetwork(Ljava/lang/String;)Z
+    .locals 3
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lcom/appsflyer/internal/AFj1hSDK$4;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p0, p1}, Lcom/appsflyer/internal/AFj1hSDK$4;-><init>(Lcom/appsflyer/internal/AFj1hSDK;Ljava/lang/String;)V
+
+    .line 7
+    .line 8
+    .line 9
+    const-string v1, "Error while trying to check presence of "
+
+    .line 10
+    .line 11
+    const-string v2, " extra from intent"
+
+    .line 12
+    .line 13
+    invoke-static {v1, p1, v2}, La/ey90;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    .line 18
+    .line 19
+    const/4 v2, 0x1
+
+    .line 20
+    invoke-direct {p0, v0, p1, v1, v2}, Lcom/appsflyer/internal/AFj1hSDK;->AFAdRevenueData(Lkotlin/jvm/functions/Function0;Ljava/lang/String;Ljava/lang/Object;Z)Ljava/lang/Object;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p0
+
+    .line 24
+    check-cast p0, Ljava/lang/Boolean;
+
+    .line 25
+    .line 26
+    if-eqz p0, :cond_0
+
+    .line 27
+    .line 28
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 29
+    .line 30
+    .line 31
+    move-result p0
+
+    .line 32
+    return p0
+
+    .line 33
+    :cond_0
+    return v2
+.end method

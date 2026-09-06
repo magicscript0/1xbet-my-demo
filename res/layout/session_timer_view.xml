@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="?uikitTheme" android:background="?uikitBackgroundContent" android:paddingLeft="@dimen/space_16" android:paddingTop="@dimen/space_8" android:paddingRight="@dimen/space_16" android:paddingBottom="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_16" android:paddingVertical="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/rounded_background_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="?uikitBackground">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/size_24">
+            <TextView android:textSize="@dimen/text_14" android:textColor="?uikitSecondary" android:id="@id/titleTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/session_timer_title" android:fontFamily="@font/roboto_regular" android:layout_marginEnd="@dimen/space_4" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

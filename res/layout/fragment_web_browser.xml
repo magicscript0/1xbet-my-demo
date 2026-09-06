@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.ui_core.viewcomponents.webview.FixedWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" />
+    <include android:id="@id/webProgress" layout="@layout/view_progress_bar" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:id="@id/clErrorData" android:background="?uikitBackgroundContent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/lineErrorDataTop" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.192" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/lineErrorDataLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.198" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/lineErrorDataRight" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.8" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/lineErrorDataBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.51" />
+        <ImageView android:id="@id/ivErrorData" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/lineErrorDataBottom" app:layout_constraintEnd_toEndOf="@id/lineErrorDataRight" app:layout_constraintStart_toStartOf="@id/lineErrorDataLeft" app:layout_constraintTop_toBottomOf="@id/lineErrorDataTop" app:srcCompat="@drawable/ic_get_data_error" />
+        <TextView android:textAppearance="?textAppearanceBody2MediumPrimaryNew" android:textSize="@dimen/text_22" android:gravity="center" android:id="@id/tvErrorData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_44" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivErrorData" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/errorView" android:background="@color/static_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/navigationBar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:showSeparator="true" style="@style/Widgets.BasicNavigationBar.Title" />
+</FrameLayout>

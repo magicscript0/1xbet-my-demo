@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="background_video" type="id" />
+    <item name="background_lottie" type="id" />
+    <item name="background_image" type="id" />
+
+    <item name="updateAvailableView" type="id" />
+    <item name="dropDownCardsView" type="id" />
+    <item name="dropDownCardTextView" type="id" />
+
+
+    <item name="topGradientView" type="id" />
+    <item name="bottomGradientView" type="id" />
+
+    <!--    Id'шники используемые в рамках downloadProgressView-->
+    <item name="downloadLabel" type="id" />
+    <item name="downloadDescription" type="id" />
+    <item name="downloadValue" type="id" />
+    <item name="downloadBarContainer" type="id" />
+    <item name="circleDownloadBar" type="id" />
+    <item name="thinLineDownloadBar" type="id" />
+    <item name="thickLineDownloadBar" type="id" />
+    <item name="thickLineWithIconDownloadBar" type="id" />
+
+</resources>

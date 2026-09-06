@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/champ_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:textColor="?uikitSecondary" />
+    <org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout android:id="@id/refresh" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/barrier" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:paddingTop="@dimen/space_4" android:paddingBottom="@dimen/space_40" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" android:paddingStart="@dimen/space_8" android:paddingEnd="@dimen/space_8" />
+    </org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout>
+    <include android:id="@id/selection" layout="@layout/cybergame_view_bottom_slider" />
+    <androidx.constraintlayout.widget.Barrier android:orientation="vertical" android:id="@id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierAllowsGoneWidgets="true" app:barrierDirection="top" app:barrierMargin="@dimen/space_16" app:constraint_referenced_ids="selection" />
+</androidx.constraintlayout.widget.ConstraintLayout>

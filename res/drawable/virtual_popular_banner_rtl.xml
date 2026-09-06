@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/popular_virtual_banner" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

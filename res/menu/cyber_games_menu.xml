@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search_new" android:id="@id/actionSearch" android:visible="true" android:title="@string/search" app:actionLayout="@layout/view_no_hint_icon_search_view" app:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/ic_calendar" android:id="@id/actionCalendar" android:visible="false" app:iconTint="?uikitSecondary" app:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/ic_promo_bonus" android:id="@id/actionOpenBonus" android:title="@string/bonus" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.DSShimmer.Primary"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/shimmer_size_360">
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shimmer_size_360"
+        android:layout_marginHorizontal="@dimen/space_8"
+        android:layout_marginVertical="@dimen/space_4"
+        android:radius="@dimen/radius_16" />
+</FrameLayout>

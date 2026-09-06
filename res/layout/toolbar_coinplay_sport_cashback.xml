@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/cashbackToolbar" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_size" app:navigationIcon="@drawable/ic_back_games" app:navigationIconTint="?uikitSecondary">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clToolbarInfo" android:background="?uikitBackgroundContent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?textAppearanceCaptionNew" android:gravity="center" android:id="@id/tvBalanceName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_6" android:text="@string/your_cashback" android:layout_marginEnd="@dimen/space_48" app:layout_constraintBottom_toTopOf="@id/tvToolbarBalanceMoney" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textAppearance="?textAppearanceHeadline6MediumNew" android:textSize="@dimen/text_20" android:gravity="center" android:id="@id/tvToolbarBalanceMoney" android:layout_width="0.0dip" android:layout_height="wrap_content" android:textDirection="ltr" android:layout_marginEnd="@dimen/space_48" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvBalanceName" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+    <TextView android:textAppearance="?textAppearanceHeadline6MediumNew" android:textColor="?uikitSecondary" android:gravity="center" android:id="@id/tvToolbarTitle" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/sport_cashback" android:fontFamily="sans-serif-medium" />
+</FrameLayout>

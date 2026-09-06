@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceSubtitle2MediumNew" android:textSize="@dimen/text_14" android:textColor="?uikitPrimary" android:gravity="center" android:background="?uikitBackgroundContent" android:paddingBottom="@dimen/space_24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/match_progress_tie_break_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

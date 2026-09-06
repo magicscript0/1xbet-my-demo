@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:theme="?uikitTheme" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <org.xplatform.uikit.components.text_field.DsTextField android:id="@id/tfBetInput" android:layout_width="0.0dip" android:layout_height="wrap_content" android:digits="0123456789." android:layout_weight="1.0" android:inputType="numberDecimal" android:imeOptions="actionDone" app:helperTextColor="?uikitSecondary" style="@style/Widget.DSTextField.Filled.Stepper" />
+        <org.xplatform.uikit.components.buttons.DsButton android:id="@id/btnMakeBet" android:layout_width="wrap_content" android:layout_height="@dimen/size_40" android:layout_marginTop="@dimen/space_6" android:maxWidth="@dimen/makebet_btn_max_width" android:minWidth="@dimen/space_92" android:layout_marginStart="@dimen/space_8" app:dsButtonLabel="@string/coupon_make_bet_make" style="@style/DSButton.Large.Commerce" />
+    </LinearLayout>
+</merge>

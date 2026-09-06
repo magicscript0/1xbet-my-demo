@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.ui_core.viewcomponents.motion.BaseAppBarMotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/uikitBackgroundContent"
+    android:minHeight="?attr/actionBarSize"
+    app:layoutDescription="@xml/tournaments_full_info_collapsible_header_picture_head_scene"
+    app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+    tools:showIn="@layout/tournament_full_info_picture_head_style_fragment">
+
+    <View
+        android:id="@+id/topScreen"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <View
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <View
+        android:id="@+id/marginBottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_tournament_banner" />
+
+    <View
+        android:id="@+id/vBlackoutTop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/tournament_full_info_header_gradient_top"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/vBlackoutBottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/tournament_full_info_header_gradient_bottom"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitleStart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="bottom"
+        android:maxLines="2"
+        android:textAppearance="@style/TextAppearance.Title.Bold.XL"
+        android:textColor="?attr/uikitStaticWhite"
+        android:textDirection="locale"
+        app:autoSizeMaxTextSize="@dimen/text_32"
+        app:autoSizeMinTextSize="@dimen/text_16"
+        app:autoSizeStepGranularity="4sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/tvTitleEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_48"
+        android:layout_marginStart="@dimen/space_48"
+        android:layout_marginEnd="@dimen/space_48"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.Title.Medium.M"
+        android:textColor="?attr/uikitStaticWhite"
+        android:textDirection="locale"
+        app:autoSizeMaxTextSize="@dimen/text_20"
+        app:autoSizeMinTextSize="@dimen/text_12"
+        app:autoSizeTextType="uniform" />
+
+    <View
+        android:id="@+id/btnBackBackground"
+        android:layout_width="@dimen/icon_size_36"
+        android:layout_height="@dimen/icon_size_36"
+        android:background="@drawable/circle_preload_view_disable" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@drawable/ic_arrow_back"
+        tools:ignore="ContentDescription" />
+
+    <org.xplatform.uikit.components.chips.ChipGroup
+        android:id="@+id/tagGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_24"
+        android:paddingStart="@dimen/space_16"
+        android:paddingTop="@dimen/size_8"
+        android:paddingEnd="@dimen/space_16"
+        android:paddingBottom="@dimen/size_4"
+        app:chipSpacingHorizontal="@dimen/space_4"
+        app:chipSpacingVertical="@dimen/space_4"
+        app:singleLine="false">
+
+        <org.xplatform.uikit.components.tag.DsTag
+            android:id="@+id/tagStatus"
+            style="@style/Widget.DSTag.RectangularL.Filled.WhiteTransparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <org.xplatform.uikit.components.tag.DsTag
+            android:id="@+id/tagStages"
+            style="@style/Widget.DSTag.RectangularL.Filled.WhiteTransparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="@string/tournament_with_steps"
+            android:visibility="gone"
+            android:maxLines="1" />
+
+    </org.xplatform.uikit.components.chips.ChipGroup>
+
+</org.xplatform.ui_core.viewcomponents.motion.BaseAppBarMotionLayout>

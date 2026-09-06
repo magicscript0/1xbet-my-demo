@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic android:id="@id/navigationBar" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_size" app:showShadow="false" app:title="@string/security_settings" style="@style/Widgets.BasicNavigationBar.Title" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/tabLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

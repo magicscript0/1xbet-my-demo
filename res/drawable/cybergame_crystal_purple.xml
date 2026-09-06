@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="18.0dip" android:viewportWidth="18.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0.708,0h17v24h-17z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__0" android:pathData="M9.307,0.3L0.551,6.2V18L9.307,23.9L18.064,18V6.2L9.307,0.3Z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__1" android:pathData="M9.307,23.9V18.4L13.884,14.9L14.581,15.8L18.064,18L9.307,23.9Z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__2" android:pathData="M0.551,6.2L4.034,8.5L5.427,9.4L9.407,6.1L9.307,4.8V0.3L0.551,6.2Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M0.551,6.2L4.034,8.5L5.427,9.4L9.407,6.1L9.307,4.8V0.3L0.551,6.2Z" android:strokeAlpha="0.3" android:fillAlpha="0.3" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__3" android:pathData="M18.064,6.2L14.581,8.5L11.596,9L9.407,6.1L9.307,0.3L18.064,6.2Z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__4" android:pathData="M0.551,18L4.233,15.7L5.327,14.9L9.307,18.1V19.4V23.9L0.551,18Z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__5" android:pathData="M7.118,10.3C7.019,10.3 4.133,8.5 4.133,8.5L0.551,6.2V18L5.029,15.1L7.118,10.3Z" android:strokeAlpha="0.6" android:fillAlpha="0.6" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__6" android:pathData="M13.288,9.4L14.581,8.5L18.064,6.2V18L13.188,14.9" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__7" android:pathData="M4.034,8.5V15.8L9.308,19.4L14.581,15.8V8.5L9.308,4.8L4.034,8.5Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M12.094,6.7L6.322,17.3L4.034,15.8V13.7L10.701,5.9C10.8,5.8 12.094,6.7 12.094,6.7Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+        <path android:fillColor="#ffffffff" android:pathData="M4.034,15.8V8.5L9.308,4.8L14.581,8.5L9.308,5L4.133,8.5L4.034,15.8Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M4.133,15.8L9.308,19.4L14.582,15.8V8.5L14.482,15.7L9.308,19.2L4.133,15.8Z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__8" android:pathData="M9.307,0.6L17.765,6.3V17.9L9.307,23.6L0.849,17.9V6.3L9.307,0.6ZM9.307,0.3L0.551,6.2V18L9.307,23.9L18.064,18V6.2L9.307,0.3Z" android:strokeAlpha="0.7" android:fillAlpha="0.7" />
+        <path android:fillColor="#ffffffff" android:pathData="M9.308,0.6V5H9.208L9.308,0.6Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M0.75,6.3L4.034,8.5L4.133,8.4L0.75,6.3Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M0.849,17.8L4.033,15.6V15.8L0.849,17.8Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M9.308,19.3V19.4V23.6L9.108,19.2" />
+        <path android:fillColor="#ffffffff" android:pathData="M14.481,15.6L14.581,15.8L17.865,17.8L14.481,15.6Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M17.765,6.4L14.581,8.5H14.481L17.765,6.4Z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__9" android:pathData="M11.695,4.9C11.695,6.3 10.601,7.4 9.208,7.4C7.815,7.4 6.621,6.3 6.621,4.9C6.621,3.5 7.715,2.4 9.108,2.4C10.601,2.3 11.695,3.5 11.695,4.9Z" />
+        <path android:fillColor="@drawable/$cybergame_crystal_purple__10" android:pathData="M5.725,15.6C5.725,16.4 5.128,17 4.332,17C3.536,17 2.839,16.4 2.839,15.6C2.839,14.8 3.436,14.2 4.232,14.2C5.029,14.1 5.725,14.8 5.725,15.6Z" android:strokeAlpha="0.7" android:fillAlpha="0.7" />
+    </group>
+</vector>

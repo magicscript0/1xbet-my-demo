@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/authorizationButton" android:layout_width="wrap_content" android:layout_height="wrap_content" app:dsButtonSize="small" app:dsButtonStyle="primary" app:dsButtonType="label" />
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/registrationButton" android:layout_width="wrap_content" android:layout_height="wrap_content" app:dsButtonSize="small" app:dsButtonStyle="commerce" app:dsButtonType="label" />
+</FrameLayout>

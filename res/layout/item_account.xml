@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:theme="?uikitTheme" android:id="@id/accountItem" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/avatarPlaceholder" android:src="@drawable/ic_glyph_circle_profile" style="@style/Widget.DSCell.Left.Icon" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/accountId" android:layout_marginStart="@dimen/space_4" android:layout_marginEnd="@dimen/space_16" style="@style/Widget.DSCell.Middle.Title.L" />
+    <org.xplatform.uikit.components.cells.right.DsCellRightLabel android:id="@id/iconCheck" android:layout_marginStart="@dimen/space_4" app:icon="@drawable/ic_check_white" app:iconTint="?uikitPrimary" style="@style/Widget.DSCell.Right.Label.Icon" />
+    <org.xplatform.uikit.components.separator.DsSeparator android:id="@id/sellSeparator" style="@style/Widget.DSSeparator.Cell" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

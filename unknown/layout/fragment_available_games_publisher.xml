@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/uikitBackground">
+
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar
+        android:id="@+id/navigationBarAggregator"
+        app:navigationBarStyle="title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/available_games_title" />
+
+    <org.xplatform.uikit.components.separator.DsSeparator
+        android:id="@+id/dsSeparator"
+        style="@style/Widget.DSSeparator.Separator60"
+        app:layout_constraintTop_toBottomOf="@+id/navigationBarAggregator" />
+
+    <org.xplatform.uikit_aggregator.aggregatorgamecardcollection.AggregatorGameCardCollection
+        android:id="@+id/recycler_view"
+        style="@style/Widget.AggregatorGameCardCollection.BackgroundL.Vertical"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/space_24"
+        android:scrollbarStyle="outsideOverlay"
+        app:scrollablePaddingStart="@dimen/space_12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dsSeparator"
+        app:paging="true" />
+
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer
+        android:id="@+id/error_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/uikitBackground"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dsSeparator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

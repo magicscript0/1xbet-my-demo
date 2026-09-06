@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/cyber_synthetic_victory_formula_end_gradient_score_bg" android:endColor="@color/cyber_synthetic_victory_formula_end_gradient_score_bg" android:angle="270.0" android:centerColor="@color/static_white" />
+            <corners android:radius="@dimen/radius_8" />
+        </shape>
+    </item>
+    <item android:left="@dimen/size_1" android:top="@dimen/size_1" android:right="@dimen/size_1" android:bottom="@dimen/size_1">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radius_8" />
+            <solid android:color="@color/cyber_synthetic_victory_formula_score_bg" />
+        </shape>
+    </item>
+</layer-list>

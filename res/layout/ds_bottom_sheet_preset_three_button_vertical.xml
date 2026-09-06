@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.bottom_sheet.presets.PresetButtonsLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/dsButtonFirst" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/dsButtonSecond" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/dsButtonThird" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</org.xplatform.uikit.components.bottom_sheet.presets.PresetButtonsLinearLayout>

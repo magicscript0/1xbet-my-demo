@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/shimmerViewLargeBanner" layout="@layout/shimmer_large_banner" />
+    <include layout="@layout/shimmer_games_slider" />
+    <include layout="@layout/shimmer_games_slider" />
+    <org.xplatform.uikit_web_games.game_collection_section.GameCollectionShimmer android:id="@id/gameCollectionShimmerOne" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" />
+    <org.xplatform.uikit_web_games.game_collection_section.GameCollectionShimmer android:id="@id/gameCollectionShimmerTwo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" />
+</LinearLayout>

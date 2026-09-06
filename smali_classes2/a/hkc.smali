@@ -1,0 +1,20 @@
+.class public final La/hkc;
+.super La/wyr0;
+.source "SourceFile"
+
+
+# static fields
+.field public static j:La/hkc;
+
+
+# virtual methods
+.method public final Y()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "com.google.firebase.perf.SdkDisabledVersions"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

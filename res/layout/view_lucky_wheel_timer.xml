@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_12" android:textColor="@color/static_white" android:gravity="center" android:id="@id/tvHours" android:background="@drawable/bg_timer_item" android:layout_width="@dimen/size_20" android:layout_height="@dimen/size_18" />
+    <TextView android:textSize="@dimen/text_12" android:textColor="@color/static_white" android:id="@id/tvDividerHoursMinutes" android:layout_width="wrap_content" android:layout_height="@dimen/size_18" android:layout_marginLeft="@dimen/space_2" android:layout_marginRight="@dimen/space_2" android:text=":" android:layout_marginHorizontal="@dimen/space_2" />
+    <TextView android:textSize="@dimen/text_12" android:textColor="@color/static_white" android:gravity="center" android:id="@id/tvMinutes" android:background="@drawable/bg_timer_item" android:layout_width="@dimen/size_20" android:layout_height="@dimen/size_18" />
+    <TextView android:textSize="@dimen/text_12" android:textColor="@color/static_white" android:id="@id/tvDividerMinutesSeconds" android:layout_width="wrap_content" android:layout_height="@dimen/size_18" android:layout_marginLeft="@dimen/space_2" android:layout_marginRight="@dimen/space_2" android:text=":" android:layout_marginHorizontal="@dimen/space_2" />
+    <TextView android:textSize="@dimen/text_12" android:textColor="@color/static_white" android:gravity="center" android:id="@id/tvSeconds" android:background="@drawable/bg_timer_item" android:layout_width="@dimen/size_20" android:layout_height="@dimen/size_18" />
+</merge>

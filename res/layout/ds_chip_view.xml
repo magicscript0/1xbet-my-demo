@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:layout_marginBottom="@dimen/space_8" android:layout_marginVertical="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/chipsContainer" android:background="@drawable/rounded_background_14" android:paddingTop="@dimen/space_6" android:paddingBottom="@dimen/space_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/size_32" android:paddingStart="@dimen/space_12" android:paddingEnd="@dimen/space_16" android:paddingVertical="@dimen/space_6">
+        <androidx.cardview.widget.CardView android:id="@id/leftIconCard" android:visibility="gone" android:layout_width="@dimen/size_20" android:layout_height="@dimen/size_20" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/size_4" app:cardElevation="0.0dip" app:cardUseCompatPadding="false">
+            <ImageView android:id="@id/leftIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:ellipsize="end" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="no" android:paddingStart="@dimen/space_4" style="@style/TextStyle.Text.Regular" />
+        <TextView android:id="@id/value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" android:layout_marginStart="@dimen/space_4" style="@style/TextStyle.Text.Medium" />
+        <androidx.cardview.widget.CardView android:id="@id/rightIconCard" android:visibility="gone" android:layout_width="@dimen/size_20" android:layout_height="@dimen/size_20" android:layout_marginStart="@dimen/space_8" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/card_size_30" app:cardElevation="0.0dip" app:cardUseCompatPadding="false">
+            <ImageView android:id="@id/rightIcon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</merge>

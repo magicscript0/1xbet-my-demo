@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.search_field.TextInputLayout android:id="@id/textInputLayout" android:layout_width="fill_parent" android:layout_height="@dimen/size_40" android:layoutDirection="locale" style="@style/Widget.DSSearchField.TextInputLayout">
+        <org.xplatform.uikit.components.search_field.TextInputEditText android:textColorHint="?uikitSecondary" android:ellipsize="end" android:id="@id/textInputEditText" android:padding="0.0dip" android:saveEnabled="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:textCursorDrawable="@drawable/text_field_cursor" style="@style/TextStyle.Headline.Regular.TextPrimary" />
+    </org.xplatform.uikit.components.search_field.TextInputLayout>
+</merge>

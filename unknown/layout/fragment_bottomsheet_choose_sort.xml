@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_corner_background"
+    android:backgroundTint="?attr/uikitBackgroundContent"
+    android:paddingBottom="@dimen/space_16"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="30dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/space_8"
+        android:background="@drawable/bg_bottom_sheet_top_view" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:gravity="center"
+        android:textAppearance="?textAppearanceSubtitle2BoldNew"
+        android:textSize="@dimen/text_18"
+        android:text="@string/casino_providers_choose_sort_type" />
+
+
+    <TextView
+        android:id="@+id/tvPopularSortType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/space_20"
+        android:layout_marginHorizontal="@dimen/space_16"
+        android:gravity="start"
+        android:textDirection="locale"
+        android:textAppearance="?textAppearanceSubtitle1New"
+        android:text="@string/casino_sort_type_popular" />
+
+    <View
+        android:layout_marginHorizontal="@dimen/space_16"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_1"
+        android:background="?attr/uikitSeparator30" />
+
+    <TextView
+        android:id="@+id/tvAZSortType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/space_20"
+        android:layout_marginHorizontal="@dimen/space_16"
+        android:textDirection="locale"
+        android:gravity="start"
+        android:textAppearance="?textAppearanceSubtitle1New"
+        android:text="@string/sort_type_a_z" />
+
+    <View
+        android:layout_marginHorizontal="@dimen/space_16"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_1"
+        android:background="?attr/uikitSeparator30" />
+
+    <TextView
+        android:id="@+id/tvZASortType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/space_20"
+        android:layout_marginHorizontal="@dimen/space_16"
+        android:gravity="start"
+        android:textDirection="locale"
+        android:textAppearance="?textAppearanceSubtitle1New"
+        android:text="@string/sort_type_z_a" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/containerCard" android:padding="@dimen/space_8" android:layout_width="@dimen/size_138" android:layout_height="@dimen/size_80" android:layout_marginTop="@dimen/space_4" android:layout_marginStart="@dimen/space_4">
+        <TextView android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextStyle.Text.Medium.StaticBlack" />
+        <org.xplatform.uikit.components.tag.DsTag android:ellipsize="end" android:id="@id/tagCashback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:maxLines="1" style="@style/Widget.DSTag.RectangularS.Green" />
+        <org.xplatform.uikit.components.tag.DsTag android:ellipsize="end" android:id="@id/tagCoef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_4" android:maxLines="1" style="@style/Widget.DSTag.RectangularS.Yellow" />
+    </LinearLayout>
+    <org.xplatform.uikit.components.badges.DsBadge android:id="@id/badgeLock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_glyph_lock" android:backgroundTint="?uikitBackgroundContent" style="@style/Widget.DSBadge.Market.Block" />
+</merge>

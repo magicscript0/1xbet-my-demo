@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:theme="?uikitTheme" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/llTitleWithButtons" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.buttons.DsButton android:id="@id/btnPrevBlock" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_32" style="@style/DSButton.ExtraSmall.Tertiary.IconCircle" />
+        <TextView android:textColor="?uikitTextPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_8" android:layout_marginRight="@dimen/space_8" android:maxLines="1" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/space_8" style="@style/TextAppearance.Title.Bold.M" />
+        <org.xplatform.uikit.components.buttons.DsButton android:id="@id/btnNextBlock" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_32" style="@style/DSButton.ExtraSmall.Tertiary.IconCircle" />
+    </LinearLayout>
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:id="@id/spacing" android:layout_width="fill_parent" android:layout_height="@dimen/size_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llTitleWithButtons" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="?uikitTheme" android:id="@id/game_container" android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.separator.DsSeparator android:id="@id/toolbarElevation" android:elevation="@dimen/elevation_2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.DSSeparator.Separator60" />
+    <org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/space_1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:paddingLeft="@dimen/large_horizontal_margin_dynamic" android:paddingTop="@dimen/space_12" android:paddingRight="@dimen/large_horizontal_margin_dynamic" android:paddingBottom="@dimen/space_28" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" android:paddingHorizontal="@dimen/large_horizontal_margin_dynamic" />
+    </org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout>
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

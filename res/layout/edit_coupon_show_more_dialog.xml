@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="fill_parent" android:layout_height="@dimen/space_8" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recycler" android:background="@drawable/background_round_statuses" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:backgroundTint="?uikitBackgroundContent" />
+</LinearLayout>

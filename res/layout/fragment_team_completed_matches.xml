@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationBarStyle="title" app:navigationIcon="@drawable/ic_arrow_back" app:navigationIconTint="?uikitSecondary" app:showSeparator="true" app:title="@string/completed_matches" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout android:orientation="vertical" android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <include layout="@layout/shimmer_item_completed_matches" />
+        <include layout="@layout/shimmer_item_completed_matches" />
+        <include layout="@layout/shimmer_item_completed_matches" />
+        <include layout="@layout/shimmer_item_completed_matches" />
+    </org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout>
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

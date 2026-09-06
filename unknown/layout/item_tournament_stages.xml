@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_aggregator.aggregatortournamentstagecollection.DsAggregatorTournamentStageCollection
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aggregatorTournamentStageCollectionView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginTop="@dimen/space_8" />

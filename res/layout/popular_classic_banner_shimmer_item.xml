@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="fill_parent" android:layout_height="@dimen/size_110" android:layout_marginLeft="@dimen/medium_horizontal_margin_dynamic" android:layout_marginTop="@dimen/space_8" android:layout_marginRight="@dimen/medium_horizontal_margin_dynamic" android:scaleType="centerCrop" android:radius="@dimen/radius_20" android:layout_marginHorizontal="@dimen/medium_horizontal_margin_dynamic" />
+</FrameLayout>

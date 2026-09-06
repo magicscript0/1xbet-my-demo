@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:background="?uikitBackgroundContent" android:paddingTop="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.separator.DsSeparator android:layout_width="fill_parent" android:layout_height="@dimen/size_1" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvFilters" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <org.xplatform.uikit.components.separator.DsSeparator android:layout_width="fill_parent" android:layout_height="@dimen/size_1" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetTwoButtons android:id="@id/actionButtons" android:layout_width="fill_parent" android:layout_height="@dimen/size_56" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" app:endButtonText="@string/apply_action" app:firstButtonStyle="@style/DSButton.Large.Secondary" app:secondButtonStyle="@style/DSButton.Large.Primary" app:startButtonText="@string/reset" />
+</LinearLayout>
