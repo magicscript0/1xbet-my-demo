@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/scRadioBtnContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_horizontal_margin_dynamic" android:layout_marginRight="@dimen/large_horizontal_margin_dynamic" android:layout_marginHorizontal="@dimen/large_horizontal_margin_dynamic"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/cliSectionIcon" style="@style/Widget.DSCell.Left.Icon" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/cmtSectionName" style="@style/Widget.DSCell.Middle.Title.L" />
+    <org.xplatform.uikit.components.cells.right.DsCellRightRadioButton android:id="@id/crrbSection" style="@style/Widget.DSCell.Right.RadioButton" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

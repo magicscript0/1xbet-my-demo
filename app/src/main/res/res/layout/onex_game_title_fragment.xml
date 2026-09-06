@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="@color/static_white" android:layout_gravity="center" android:id="@id/game_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:id="@id/title_shimmer" android:background="@drawable/loader_title" android:layout_width="@dimen/space_64" android:layout_height="@dimen/space_12" />
+</FrameLayout>

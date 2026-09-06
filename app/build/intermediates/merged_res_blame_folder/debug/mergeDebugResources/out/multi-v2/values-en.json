@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,156,237,314,367,436,484,545,635,690,757,843",
+                        "endColumns": "97,79,75,51,67,46,59,88,53,65,84,60",
+                        "endOffsets": "150,231,308,361,430,478,539,629,684,751,837,899"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,233,309,361,429,476,536,625,679,745,830",
+                        "endColumns": "97,79,75,51,67,46,59,88,53,65,84,60",
+                        "endOffsets": "148,228,304,356,424,471,531,620,674,740,825,886"
+                    }
+                }
+            ]
+        }
+    ]
+}

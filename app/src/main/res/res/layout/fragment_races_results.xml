@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/navigationBar" android:layout_width="0.0dp" android:layout_height="?actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:title="@string/races_result" style="@style/Widgets.BasicNavigationBar.Title" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvPeriods" android:background="@color/static_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_8" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" />
+    <org.xplatform.ui_core.viewcomponents.views.scrollable_table.scrollable.ScrollablePanel android:id="@id/spRatingHistory" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/space_16" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/rvPeriods" />
+    <org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout android:orientation="vertical" android:id="@id/shimmer" android:layout_width="match_parent" android:layout_height="0.0dp" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar">
+        <include layout="@layout/shimmer_races_results_top" />
+        <include layout="@layout/shimmer_races_results" />
+        <include layout="@layout/shimmer_races_results" />
+        <include layout="@layout/shimmer_races_results" />
+    </org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout>
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/space_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/rvPeriods" app:layout_goneMarginTop="0.0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:windowBackground="@color/static_transparent" android:id="@id/baseBottomSheetView" android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/additionalTopContainer" android:tag="designSystemBottomSheetDialogAdditionalTopContainer" android:paddingLeft="@dimen/space_16" android:paddingTop="@dimen/space_12" android:paddingRight="@dimen/space_16" android:paddingBottom="@dimen/space_32" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_16" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/topContainer" android:tag="designSystemBottomSheetDialogTopContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginTop="@dimen/space_20" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" />
+        <FrameLayout android:id="@id/middleContainer" android:tag="designSystemBottomSheetDialogMiddleContainer" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/bottomContainer" android:tag="designSystemBottomSheetDialogBottomContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/progressView" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <org.xplatform.uikit.components.loader.DsLoader android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="?uikitSecondary60" />
+    </FrameLayout>
+    <View android:layout_gravity="center_horizontal" android:id="@id/topView" android:background="@drawable/rounded_background_360_bottomsheet" android:layout_width="@dimen/size_36" android:layout_height="@dimen/size_4" android:layout_marginTop="@dimen/space_8" />
+</FrameLayout>

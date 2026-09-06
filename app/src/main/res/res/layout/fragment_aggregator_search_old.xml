@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/search_frame" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/navigationBarAggregator" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationBarStyle="title" />
+    <org.xplatform.uikit.components.separator.DsSeparator android:layout_width="match_parent" app:layout_constraintTop_toBottomOf="@id/navigationBarAggregator" style="@style/Widget.DSSeparator.Separator60" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerViewCategories" android:paddingBottom="@dimen/space_28" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/space_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBarAggregator" />
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:textColor="?uikitSecondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

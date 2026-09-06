@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/header" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrierBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="header" />
+    <org.xplatform.uikit_aggregator.aggregatorprovidercardcollection.AggregatorProviderCardCollection android:id="@id/vAggregatorProviderCardCollection" android:paddingLeft="@dimen/medium_horizontal_margin_dynamic" android:paddingTop="@dimen/space_8" android:paddingRight="@dimen/medium_horizontal_margin_dynamic" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintTop_toBottomOf="@id/barrierBottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/size_50"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceCaptionMediumNew" android:textSize="@dimen/text_12" android:id="@id/tvDateStart" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_6" android:layout_marginBottom="@dimen/space_4" />
+    <TextView android:textAppearance="?textAppearanceCaptionMediumNew" android:textSize="@dimen/text_12" android:id="@id/tvDateEnd" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

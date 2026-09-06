@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:paddingLeft="@dimen/space_12" android:paddingRight="@dimen/space_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/shimmerOne" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" app:headerType="small" app:isLoading="true" style="@style/Widget.DSShimmer.Primary" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerTwo" android:layout_width="match_parent" android:layout_height="@dimen/shimmer_size_192" android:radius="@dimen/radius_16" style="@style/Widget.DSShimmer.Primary" />
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/shimmerThree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_12" app:headerType="small" app:isLoading="true" style="@style/Widget.DSShimmer.Primary" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerFour" android:layout_width="match_parent" android:layout_height="@dimen/shimmer_size_128" android:radius="@dimen/radius_16" style="@style/Widget.DSShimmer.Primary" />
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/shimmerFive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_12" app:headerType="small" app:isLoading="true" style="@style/Widget.DSShimmer.Primary" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerSix" android:layout_width="match_parent" android:layout_height="@dimen/shimmer_size_128" android:radius="@dimen/radius_16" style="@style/Widget.DSShimmer.Primary" />
+</LinearLayout>

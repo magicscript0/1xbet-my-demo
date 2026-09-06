@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-h360dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,119,178,237,307,375,433,501,573",
+                        "endColumns": "60,57,57,68,66,56,66,70,70",
+                        "endOffsets": "113,172,231,301,369,427,495,567,639"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,174,232,301,368,425,492,563",
+                        "endColumns": "60,57,57,68,66,56,66,70,70",
+                        "endOffsets": "111,169,227,296,363,420,487,558,629"
+                    }
+                }
+            ]
+        }
+    ]
+}

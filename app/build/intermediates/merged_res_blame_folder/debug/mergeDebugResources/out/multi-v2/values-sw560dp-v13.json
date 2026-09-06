@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-sw560dp-v13/values-sw560dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-sw560dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "85",
+                        "endOffsets": "138"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                },
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-sw560dp\\integers.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "57,139,221,304,376,444,510",
+                        "endColumns": "80,80,81,70,66,64,61",
+                        "endOffsets": "133,215,298,370,438,504,567"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "141,222,303,385,456,523,588",
+                        "endColumns": "80,80,81,70,66,64,61",
+                        "endOffsets": "217,298,380,451,518,583,645"
+                    }
+                }
+            ]
+        }
+    ]
+}

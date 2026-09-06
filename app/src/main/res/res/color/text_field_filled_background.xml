@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:color="?uikitInputBackground60" android:alpha="0.5" app:state_error="false" />
+    <item android:color="?uikitWarningTint" app:state_error="true" />
+    <item android:color="?uikitInputBackground60" />
+</selector>

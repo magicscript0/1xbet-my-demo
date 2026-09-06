@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dp</dimen>
+    <dimen name="abc_dialog_fixed_height_major">60.000004%</dimen>
+    <dimen name="abc_dialog_fixed_height_minor">90.0%</dimen>
+    <dimen name="abc_dialog_fixed_width_major">60.000004%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">90.0%</dimen>
+    <dimen name="abc_dialog_min_width_major">55.000008%</dimen>
+    <dimen name="abc_dialog_min_width_minor">79.99999%</dimen>
+    <dimen name="games_content_horizontal_margin">68.0dp</dimen>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.Material3.Dark.DialogWhenLarge" parent="@style/Base.Theme.Material3.Dark.Dialog.FixedSize"/>
+    <style name="Base.Theme.Material3.Light.DialogWhenLarge" parent="@style/Base.Theme.Material3.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.Material3Expressive.Dark.DialogWhenLarge" parent="@style/Base.Theme.Material3Expressive.Dark.Dialog.FixedSize"/>
+    <style name="Base.Theme.Material3Expressive.Light.DialogWhenLarge" parent="@style/Base.Theme.Material3Expressive.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.DialogWhenLarge" parent="@style/Base.Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="@style/Base.Theme.MaterialComponents.Light.Dialog.FixedSize"/>
+</resources>

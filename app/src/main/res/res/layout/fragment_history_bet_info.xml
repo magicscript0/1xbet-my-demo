@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clHistoryBetInfoRootContainer" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/toolbar" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout android:id="@id/historySwipeRefreshView" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toTopOf="@id/flSale" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@id/betInfo" layout="@layout/layout_bet_info" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                <include android:id="@id/qrCodeContainer" layout="@layout/bet_info_qr_code_item_layout" />
+                <Space android:layout_width="match_parent" android:layout_height="@dimen/space_24" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout>
+    <View android:background="@drawable/background_shade_new" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/size_24" app:layout_constraintBottom_toTopOf="@id/shadowBarrier" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/shadowBarrier" android:layout_width="0.0dp" android:layout_height="0.0dp" app:barrierDirection="top" app:barrierMargin="@dimen/space_16" app:constraint_referenced_ids="flSale" />
+    <LinearLayout android:orientation="vertical" android:id="@id/flSale" android:background="@drawable/bg_rounded_top_corners_16dp_new" android:paddingLeft="@dimen/space_16" android:paddingRight="@dimen/space_16" android:paddingBottom="@dimen/space_16" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="?uikitBackgroundContent" android:paddingHorizontal="@dimen/space_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.material.button.MaterialButton android:layout_gravity="center_vertical" android:id="@id/btnSale" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" android:layout_marginBottom="@dimen/space_8" style="@style/Widget.AppTheme.SolidButton.New" />
+        <com.google.android.material.button.MaterialButton android:layout_gravity="center_vertical" android:id="@id/btnRepeatCoupon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:layout_marginBottom="@dimen/space_8" android:text="@string/duplicate_coupon" style="@style/Widget.AppTheme.SolidButton.New.SurfaceLight" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/progress" android:background="@color/static_black_20" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="56.0dp" android:indeterminate="true" android:indeterminateTint="?uikitSecondary" />
+    </FrameLayout>
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

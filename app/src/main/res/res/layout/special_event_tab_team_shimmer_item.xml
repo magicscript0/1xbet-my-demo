@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:id="@id/root" android:layout_width="@dimen/size_64" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerOne" android:layout_width="@dimen/size_64" android:layout_height="@dimen/size_64" android:radius="@dimen/radius_16" style="@style/Widget.DSShimmer.Primary" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_gravity="center" android:id="@id/shimmerTwo" android:layout_width="@dimen/size_56" android:layout_height="@dimen/size_8" android:layout_marginTop="@dimen/space_4" android:layout_marginBottom="@dimen/space_2" android:radius="@dimen/radius_16" style="@style/Widget.DSShimmer.Primary" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_gravity="center" android:id="@id/shimmerThree" android:layout_width="@dimen/space_40" android:layout_height="@dimen/size_8" android:radius="@dimen/radius_16" style="@style/Widget.DSShimmer.Primary" />
+</LinearLayout>

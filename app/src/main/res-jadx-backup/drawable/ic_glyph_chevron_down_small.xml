@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:name="chevron"
+        android:fillColor="#ffffff"
+        android:pathData="M18.719 9.134C18.328 8.743 17.695 8.743 17.304 9.134L12 14.438 6.696 9.134C6.305 8.743 5.672 8.743 5.281 9.134 4.891 9.524 4.891 10.157 5.281 10.548L11.187 16.453C11.636 16.902 12.364 16.902 12.813 16.453L18.719 10.548C19.109 10.157 19.109 9.524 18.719 9.134Z"
+        android:fillType="evenOdd"/>
+</vector>

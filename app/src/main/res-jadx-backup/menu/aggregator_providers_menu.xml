@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_glyph_search_secondary"
+        android:id="@+id/search"
+        android:title="@string/search"
+        app:actionViewClass="org.xplatform.ui_core.viewcomponents.views.search.SearchMaterialViewNew"
+        app:iconTint="?attr/uikitSecondary"
+        app:showAsAction="collapseActionView|always"/>
+    <item
+        android:icon="@drawable/glyph_info_circle_secondary"
+        android:id="@+id/info"
+        android:title="@string/rules"
+        app:iconTint="?attr/uikitSecondary"
+        app:showAsAction="ifRoom"/>
+</menu>

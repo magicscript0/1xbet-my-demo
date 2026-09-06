@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.LoadableShapeableImageView android:id="@id/ivBanner" android:tag="bannerImage" android:layout_width="@dimen/size_104" android:layout_height="@dimen/size_64" android:scaleType="centerCrop" app:shapeAppearance="@style/ShapeAppearance.Radius16" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llActionCard" android:background="@drawable/rounded_background_16_content" android:paddingLeft="@dimen/space_8" android:paddingRight="@dimen/space_8" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/space_8">
+        <ImageView android:id="@id/ivActionCardIcon" android:layout_width="@dimen/size_20" android:layout_height="@dimen/size_20" android:layout_marginEnd="@dimen/space_8" app:tint="?uikitPrimary" />
+        <TextView android:textColor="?uikitPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/tvActionCardLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextAppearance.Text.Medium" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/llText" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_8" android:layout_marginStart="@dimen/size_104">
+        <org.xplatform.uikit_aggregator.aggregatorgamecardcollection.view.GameCardBackgroundLTextView android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_2" android:maxLines="2" android:textDirection="locale" style="@style/TextStyle.Text.Medium.TextPrimary" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <org.xplatform.uikit_aggregator.aggregatorgamecardcollection.view.GameCardHorizontalBackgroundTag android:ellipsize="end" android:id="@id/tag" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="@dimen/space_4" style="@style/Widget.DSTag.RectangularS.Primary" />
+            <TextView android:ellipsize="end" android:id="@id/tvSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" android:paddingEnd="@dimen/space_36" style="@style/TextStyle.Caption.Regular.L.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center" android:id="@id/ivAction" android:paddingLeft="@dimen/space_8" android:paddingTop="@dimen/space_22" android:paddingRight="@dimen/space_8" android:paddingBottom="@dimen/space_22" android:layout_width="@dimen/size_36" android:layout_height="@dimen/size_64" android:contentDescription="@null" android:paddingHorizontal="@dimen/space_8" android:paddingVertical="@dimen/space_22" app:tint="?uikitPrimary" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:radius="@dimen/radius_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

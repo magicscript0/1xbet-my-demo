@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.phone_text_field.DsPhoneTextField android:id="@id/phoneTextField" android:layout_width="match_parent" android:layout_height="wrap_content" app:codeChevronVisible="true" app:codeHint="@string/restore_password_by_phone_code_hint" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:phoneHint="@string/restore_password_by_phone_hint"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

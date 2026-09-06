@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit_sport.sport_cell.DsSportCell android:id="@id/cellRoot" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_4" android:layout_marginRight="@dimen/space_4" android:layout_marginHorizontal="@dimen/space_4" app:sportCellRoundCorners="round_16" app:sportCellSeparatorAvailable="false" style="@style/Widget.SportCell">
+        <org.xplatform.uikit_sport.sport_cell.left.SportCellLeftView android:id="@id/cellLeft" android:visibility="gone" style="@style/Widget.SportCell.SportCellLeft" />
+        <org.xplatform.uikit_sport.sport_cell.middle.SportCellMiddleView android:id="@id/cellMiddle" style="@style/Widget.SportCell.SportCellMiddle" />
+        <org.xplatform.uikit_sport.sport_cell.right.SportCellRightView android:id="@id/cellRight" android:visibility="gone" app:sportCellRightCounterStyle="secondary" style="@style/Widget.SportCell.SportCellRight" />
+    </org.xplatform.uikit_sport.sport_cell.DsSportCell>
+</FrameLayout>

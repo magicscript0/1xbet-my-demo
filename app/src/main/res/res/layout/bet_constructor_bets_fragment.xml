@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic android:id="@id/navigationBar" android:layout_width="0.0dp" android:layout_height="?actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:title="@string/betconstructor" style="@style/Widgets.BasicNavigationBar.Title">
+        <ImageView android:layout_gravity="end" android:id="@id/ivOneClickSettings" android:padding="@dimen/space_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_glyph_filter_inactive" app:tint="?uikitSecondary" />
+    </org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic>
+    <FrameLayout android:id="@id/flContent" android:background="?uikitBackground" android:clipChildren="false" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar">
+        <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:textColor="?uikitSecondary" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvBetsList" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_4" android:layout_marginRight="@dimen/space_4" android:layout_marginHorizontal="@dimen/space_4" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <TextView android:textAppearance="?textAppearanceBody2New" android:gravity="center" android:id="@id/tvNoBetsMessage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginTop="@dimen/space_32" android:layout_marginRight="@dimen/space_16" android:layout_marginBottom="@dimen/space_32" android:text="@string/no_available_bets_hint" android:layout_marginHorizontal="@dimen/space_16" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/relatedContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/flProgress" android:background="@color/static_black_60" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </FrameLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:id="@id/parentSimpleBet" android:paddingLeft="@dimen/space_16" android:paddingRight="@dimen/space_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/size_20" />
+    <org.xplatform.toto_jackpot.impl.presentation.fragments.bet.simple.PresetGameCardJackpot android:id="@id/presetGameCard" android:background="@drawable/rounded_uikit_background_16" android:padding="@dimen/space_12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toto_jackpot_title" style="@style/TextStyle.Headline.Medium.TextPrimary" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_2" android:text="@string/options_selected" style="@style/TextStyle.Caption.Regular.L.Secondary" />
+        <TextView android:id="@id/tvCoeff" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextStyle.Title.Bold.M.TextPrimary" />
+    </org.xplatform.toto_jackpot.impl.presentation.fragments.bet.simple.PresetGameCardJackpot>
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/size_8" />
+    <include android:id="@id/presetBalance" layout="@layout/preset_balance_jackpot" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/size_4" />
+    <org.xplatform.toto_jackpot.impl.presentation.fragments.bet.simple.PresetBetInputJackpot android:id="@id/presetBetInputView" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.text_field.DsTextField android:id="@id/textField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="numberDecimal" android:layout_marginEnd="@dimen/space_8" app:errorIcon="@null" app:helperTextSize="@dimen/text_12" app:placeholder="@string/bet_enter_sum" app:textFieldEndStyle="none" style="@style/Widget.DSTextField.Filled" />
+        <org.xplatform.uikit.components.buttons.DsButton android:id="@id/dsButtonBet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_6" android:layout_marginStart="@dimen/space_8" app:dsButtonLabel="@string/coupon_make_bet_make" style="@style/DSButton.Large.Commerce" />
+    </org.xplatform.toto_jackpot.impl.presentation.fragments.bet.simple.PresetBetInputJackpot>
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/size_8" />
+    <TextView android:gravity="center" android:id="@id/taxInfoTV" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/toto_jackpot_tax_info" style="@style/TextStyle.Headline.Regular.Secondary" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/size_8" />
+</LinearLayout>

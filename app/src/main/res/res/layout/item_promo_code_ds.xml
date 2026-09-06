@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:theme="?uikitTheme" android:id="@id/promoCodeItem" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/ivPromoCode" android:layout_width="@dimen/icon_size_40" android:layout_height="@dimen/icon_size_40" style="@style/Widget.DSCell.Left.Icon" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/promoCodeInfo" android:layout_marginStart="@dimen/space_4" android:layout_marginEnd="@dimen/space_16" style="@style/Widget.DSCell.Middle.Title.L" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

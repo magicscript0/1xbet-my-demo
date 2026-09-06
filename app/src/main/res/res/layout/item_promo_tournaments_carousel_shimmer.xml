@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tournamentHeaderShimmer" android:layout_width="@dimen/size_120" android:layout_height="@dimen/size_20" android:layout_marginLeft="@dimen/space_12" android:layout_marginTop="@dimen/space_36" android:layout_marginRight="@dimen/space_12" android:layout_marginHorizontal="@dimen/space_12" layout="@layout/view_promo_item_loader" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTournaments" android:paddingLeft="@dimen/space_12" android:paddingRight="@dimen/space_12" android:paddingBottom="@dimen/space_4" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_4" android:paddingHorizontal="@dimen/space_12" />
+</LinearLayout>

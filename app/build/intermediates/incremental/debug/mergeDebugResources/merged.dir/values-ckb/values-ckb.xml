@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_widget_description">دەستگەیشتنێکی خێرا بە هەموو یارییە دڵخوازەکانت</string>
+    <string name="popular_live_widget_description">ڕووداوە بەناوبانگەکانی ڕاستەوخۆ</string>
+    <string name="widget_fast_access">ده‌ستگه‌یشتنی خێرا</string>
+    <string name="widget_fast_access_description">ده‌ستگه‌یشتنی خێرا بۆ تایبه‌تمه‌ندیه‌ سه‌ره‌كییه‌كان</string>
+    <string name="widget_favorite">دڵخوازەکان</string>
+    <string name="widget_popular_line">پێش یارییە بەناوبانگەکان</string>
+    <string name="widget_popular_line_description">ڕووداوە بەناوبانگەکانی پێش یارییەکە</string>
+    <string name="widget_popular_live">زیندووی بەناوبانگ</string>
+</resources>

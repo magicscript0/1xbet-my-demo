@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/navigationBar" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationBarStyle="title" />
+    <org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout android:id="@id/swipeRefreshView" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerFeed" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_32" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="1" />
+    </org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout>
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" app:textColor="?uikitSecondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

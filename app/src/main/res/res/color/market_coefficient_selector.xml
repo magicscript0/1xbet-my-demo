@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="false" android:color="?uikitStaticGreen" android:alpha="0.5" app:state_higher="true" />
+    <item android:state_enabled="false" android:color="?uikitStaticRed" android:alpha="0.5" app:state_lower="true" />
+    <item android:state_enabled="false" android:color="?uikitTextPrimary" android:alpha="0.5" />
+    <item android:color="?uikitStaticGreen" app:state_higher="true" />
+    <item android:color="?uikitStaticRed" app:state_lower="true" />
+    <item android:color="?uikitTextPrimary" />
+</selector>

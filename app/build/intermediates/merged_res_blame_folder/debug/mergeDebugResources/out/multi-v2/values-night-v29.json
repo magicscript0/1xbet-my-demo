@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-night-v29/values-night-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-night-v29\\colors.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,110,164",
+                        "endColumns": "51,52,51",
+                        "endOffsets": "104,158,211"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,107,160",
+                        "endColumns": "51,52,51",
+                        "endOffsets": "102,155,207"
+                    }
+                }
+            ]
+        }
+    ]
+}

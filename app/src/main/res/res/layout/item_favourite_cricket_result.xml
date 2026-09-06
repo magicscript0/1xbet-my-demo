@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.eventcard.container.results.ResultFavoritesEventCard android:theme="?uikitTheme" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit_sport.eventcard.top.EventCardHeader android:id="@id/gameCardTypeHeader" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <org.xplatform.uikit_sport.eventcard.middle.EventCardMiddleCricket android:id="@id/gameCardTypeMiddle" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <org.xplatform.uikit_sport.eventcard.info.EventCardInfoFavorites android:id="@id/gameCardTypeInfo" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</org.xplatform.uikit_sport.eventcard.container.results.ResultFavoritesEventCard>

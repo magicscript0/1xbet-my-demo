@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceBody2MediumNew" android:textSize="@dimen/african_roulette_field_text_size" android:textColor="@color/static_white" android:layout_gravity="center" android:id="@id/txtCell" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/roboto_medium" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/imgChip" android:visibility="gone" android:layout_width="@dimen/african_roulette_chip_size" android:layout_height="@dimen/african_roulette_chip_size" android:src="@drawable/chip_new" android:adjustViewBounds="true" android:layout_marginStart="3.0dp" android:elevation="@dimen/space_6" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_aggregator.aggregatorGiftCard.DsAggregatorGiftCard android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium_horizontal_margin_dynamic" android:layout_marginTop="@dimen/space_4" android:layout_marginRight="@dimen/medium_horizontal_margin_dynamic" android:layout_marginBottom="@dimen/space_4" android:layout_marginHorizontal="@dimen/medium_horizontal_margin_dynamic" android:layout_marginVertical="@dimen/space_4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

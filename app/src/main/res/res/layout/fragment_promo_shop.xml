@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:orientation="horizontal" android:id="@id/bonusContainer" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways|snap">
+            <LinearLayout android:theme="?uikitTheme" android:paddingTop="@dimen/space_16" android:paddingBottom="@dimen/space_6" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin">
+                <org.xplatform.uikit.components.account_info.DsAccountInfo android:id="@id/accountInfoWidget" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_horizontal_margin_dynamic" android:layout_marginRight="@dimen/large_horizontal_margin_dynamic" android:layout_marginHorizontal="@dimen/large_horizontal_margin_dynamic" app:buttonStyle="@style/DSButton.Medium.Primary" app:buttonText="@string/promo_bonus_request_pts" app:currency="@string/pts_symbol" app:label="@string/promo_bonus_title" style="@style/Widget.DSAccountInfo.Large.WithButton" />
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPromoShops" android:background="?uikitBackground" android:paddingBottom="@dimen/space_48" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:id="@id/shimmer" android:visibility="gone" layout="@layout/view_promo_shop_shimmer" />
+    <org.xplatform.uikit.components.lottie.LottieView android:layout_gravity="center" android:id="@id/errorView" android:background="?uikitBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

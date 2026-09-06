@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.ui_core.viewcomponents.layouts.constraint.ShimmerConstraintLayout android:id="@id/shimmerStageTable" android:background="@drawable/background_round_background_new" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header" android:background="@drawable/bg_stage_table_header_shimmer" android:layout_width="0.0dp" android:layout_height="@dimen/size_52" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/includeHeader" layout="@layout/shimmer_results_grid_row_layout" />
+    </FrameLayout>
+    <View android:id="@id/separator" android:background="?uikitSeparator" android:layout_width="0.0dp" android:layout_height="@dimen/divider_1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+    <LinearLayout android:orientation="vertical" android:background="?uikitBackgroundContent" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/separator">
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+        <include layout="@layout/shimmer_stage_table_row_layout" />
+    </LinearLayout>
+</org.xplatform.ui_core.viewcomponents.layouts.constraint.ShimmerConstraintLayout>

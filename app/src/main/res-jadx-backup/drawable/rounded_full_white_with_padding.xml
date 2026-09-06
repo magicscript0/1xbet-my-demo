@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/space_2"
+        android:top="@dimen/space_2"
+        android:right="@dimen/space_2"
+        android:bottom="@dimen/space_2">
+        <shape>
+            <solid android:color="?attr/uikitStaticWhite"/>
+            <corners android:radius="@dimen/radius_full"/>
+        </shape>
+    </item>
+</layer-list>

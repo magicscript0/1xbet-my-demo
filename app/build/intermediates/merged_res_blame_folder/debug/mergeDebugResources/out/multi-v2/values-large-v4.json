@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,119,187,250,317,379,444,508",
+                        "endColumns": "60,66,61,65,60,63,62,64",
+                        "endOffsets": "113,181,244,311,373,438,502,568"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,183,245,311,372,436,499",
+                        "endColumns": "60,66,61,65,60,63,62,64",
+                        "endOffsets": "111,178,240,306,367,431,494,559"
+                    }
+                },
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-large\\styles.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,170,295,418,543,686,831,962",
+                        "endColumns": "111,123,121,123,141,143,129,141",
+                        "endOffsets": "164,289,412,537,680,825,956,1099"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "564,675,798,919,1042,1183,1326,1455",
+                        "endColumns": "110,122,120,122,140,142,128,140",
+                        "endOffsets": "670,793,914,1037,1178,1321,1450,1591"
+                    }
+                }
+            ]
+        }
+    ]
+}

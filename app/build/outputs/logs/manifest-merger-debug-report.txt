@@ -1,0 +1,1911 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:2:1-1102:12
+INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:2:1-1102:12
+INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:2:1-1102:12
+INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:2:1-1102:12
+	package
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:7:5-33
+		INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml
+	android:compileSdkVersionCodename
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:6:5-43
+	android:versionName
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml
+	android:compileSdkVersion
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:5:5-35
+	xmlns:android
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml
+	platformBuildVersionName
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:9:5-34
+	platformBuildVersionCode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:8:5-34
+uses-sdk
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:10:5-12:40
+INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:10:5-12:40
+INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:10:5-12:40
+	android:targetSdkVersion
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:12:9-38
+		INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:11:9-35
+		INJECTED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:17:22-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:21:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:23:5-25:37
+	android:maxSdkVersion
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:25:9-35
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:24:9-64
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:26:22-71
+uses-permission#android.permission.USE_SIP
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:27:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:28:5-70
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:28:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:29:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:30:5-77
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:30:22-75
+uses-permission#android.permission.ACCESS_ALL_DOWNLOADS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:31:5-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:31:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:32:5-64
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:32:22-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:33:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:34:22-74
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:35:5-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:36:22-76
+uses-permission#android.permission.HIGH_SAMPLING_RATE_SENSORS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:37:22-82
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:38:5-67
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:38:22-65
+uses-permission-sdk-23#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:39:5-84
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:39:29-82
+uses-permission-sdk-23#android.permission.ACCESS_ALL_DOWNLOADS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:40:5-85
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:40:29-83
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:41:5-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:41:19-67
+uses-feature#android.hardware.camera
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:42:5-59
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:42:19-57
+uses-feature#android.software.sip
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:43:5-45:35
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:44:9-44
+uses-feature#android.hardware.sip.voip
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:46:5-48:35
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:48:9-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:47:9-49
+uses-feature#android.hardware.wifi
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:49:5-51:35
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:51:9-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:50:9-45
+uses-feature#android.hardware.microphone
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:52:5-54:35
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:54:9-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:53:9-51
+queries
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:55:5-131:15
+package#com.google.android.apps.authenticator2
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:56:9-73
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:56:18-71
+package#com.vkontakte.android
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:57:9-56
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:57:18-54
+package#ru.sberbankmobile
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:58:9-52
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:58:18-50
+intent#action:name:android.intent.action.SEND
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:59:9-61:18
+action#android.intent.action.SEND
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:60:13-64
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:60:21-62
+intent#action:name:android.intent.action.VIEW+data:scheme:http
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:62:9-65:18
+action#android.intent.action.VIEW
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+data
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+	android:path
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:689:21-37
+	android:host
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+	android:scheme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+	android:pathPrefix
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:252:21-47
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:66:9-68:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:67:13-89
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:67:21-87
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:69:9-71:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:70:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:70:21-70
+intent#action:name:android.intent.action.GET_CONTENT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:72:9-74:18
+action#android.intent.action.GET_CONTENT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:73:13-71
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:73:21-69
+intent#action:name:org.chromium.intent.action.PAY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:75:9-77:18
+action#org.chromium.intent.action.PAY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:76:13-68
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:76:21-66
+intent#action:name:org.chromium.intent.action.IS_READY_TO_PAY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:78:9-80:18
+action#org.chromium.intent.action.IS_READY_TO_PAY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:79:13-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:79:21-78
+intent#action:name:org.chromium.intent.action.UPDATE_PAYMENT_DETAILS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:81:9-83:18
+action#org.chromium.intent.action.UPDATE_PAYMENT_DETAILS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:82:13-87
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:82:21-85
+intent#action:name:com.huawei.hms.core.aidlservice
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:84:9-86:18
+action#com.huawei.hms.core.aidlservice
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:85:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:85:21-67
+intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:87:9-89:18
+action#androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:88:13-85
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:88:21-83
+intent#action:name:android.intent.action.MAIN
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:90:9-92:18
+action#android.intent.action.MAIN
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:13-64
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:21-62
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:93:9-96:18
+intent#action:name:com.yandex.auth.action.YA_SDK_LOGIN
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:97:9-99:18
+action#com.yandex.auth.action.YA_SDK_LOGIN
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:98:13-73
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:98:21-71
+package#com.yandex.browser
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:100:9-53
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:100:18-51
+package#ru.yandex.searchplugin
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:101:9-57
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:101:18-55
+package#com.yandex.searchapp
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:102:9-55
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:102:18-53
+package#ru.yandex.taxi
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:103:9-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:103:18-47
+package#ru.yandex.mail
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:104:9-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:104:18-47
+package#ru.yandex.disk
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:105:9-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:105:18-47
+package#com.yandex.bank
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:106:9-50
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:106:18-48
+package#ru.yandex.key
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:107:9-48
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:107:18-46
+package#ru.yandex.auth.client
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:108:9-56
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:108:18-54
+intent#action:name:com.appsflyer.referrer.INSTALL_PROVIDER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:109:9-111:18
+action#com.appsflyer.referrer.INSTALL_PROVIDER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:110:13-77
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:110:21-75
+package#com.facebook.katana
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:112:9-54
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:112:18-52
+package#com.instagram.android
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:113:9-56
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:113:18-54
+package#com.facebook.lite
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:114:9-52
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:114:18-50
+package#com.samsung.android.mapsagent
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:115:9-64
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:115:18-62
+package#ru.ok.android
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:116:9-48
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:116:18-46
+intent#action:name:com.vkontakte.android.action.SDK_AUTH
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:117:9-119:18
+action#com.vkontakte.android.action.SDK_AUTH
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:118:13-75
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:118:21-73
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:http
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:120:9-124:18
+category#android.intent.category.BROWSABLE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+package#com.huawei.hwid
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:125:9-50
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:125:18-48
+package#com.huawei.android.pushagent
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:126:9-63
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:126:18-61
+intent#action:name:com.huawei.hms.core
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:127:9-129:18
+action#com.huawei.hms.core
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:128:13-57
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:128:21-55
+package#com.huawei.works
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:130:9-51
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:130:18-49
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:132:5-134:37
+	android:minSdkVersion
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:134:9-35
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:133:9-71
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:135:5-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:135:22-80
+uses-feature#android.hardware.camera.any
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:136:5-63
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:136:19-61
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:137:5-85
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:137:22-83
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:138:5-71
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:138:22-69
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:139:5-97
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:139:22-95
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:140:5-81
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:140:22-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:141:5-109
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:141:22-107
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:142:5-87
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:142:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:143:5-81
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:143:22-79
+uses-permission#com.samsung.android.mapsagent.permission.READ_APP_INFO
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:144:5-93
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:144:22-91
+uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:145:5-105
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:145:22-103
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:146:5-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:146:22-78
+permission#org.xbet.client.eg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:147:5-149:46
+	android:protectionLevel
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:149:9-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:148:9-83
+uses-permission#org.xbet.client.eg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:150:5-98
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:150:22-96
+uses-feature#android.hardware.camera.front
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:151:5-153:35
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:153:9-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:152:9-53
+uses-feature#android.hardware.camera.flash
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:154:5-156:35
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:156:9-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:155:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:157:5-159:35
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:159:9-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:158:9-57
+permission#org.xbet.client.eg.permission.PROCESS_PUSH_MSG
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:160:5-162:46
+	android:protectionLevel
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:162:9-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:161:9-70
+permission#org.xbet.client.eg.permission.PUSH_PROVIDER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:163:5-165:46
+	android:protectionLevel
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:165:9-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:164:9-67
+permission#org.xbet.client.eg.permission.PUSH_WRITE_PROVIDER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:166:5-168:46
+	android:protectionLevel
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:168:9-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:167:9-73
+uses-permission#org.xbet.client.eg.permission.PROCESS_PUSH_MSG
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:169:5-85
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:169:22-83
+uses-permission#org.xbet.client.eg.permission.PUSH_PROVIDER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:170:5-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:170:22-80
+application
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:171:5-1101:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:186:9-52
+	android:extractNativeLibs
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:179:9-41
+	android:roundIcon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:184:9-54
+	android:largeHeap
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:177:9-33
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:174:9-43
+	android:networkSecurityConfig
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:183:9-69
+	android:supportsRtl
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:178:9-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:173:9-41
+	android:appComponentFactory
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:185:9-77
+	android:fullBackupContent
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:180:9-64
+	android:supportsPictureInPicture
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:182:9-49
+	android:resizeableActivity
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:181:9-42
+	android:allowBackup
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:176:9-36
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:172:9-40
+	android:dataExtractionRules
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:187:9-75
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:175:9-58
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:188:9-190:53
+	android:resource
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:190:13-51
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:189:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:191:9-193:53
+	android:resource
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:193:13-51
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:192:13-84
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:194:9-196:35
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:196:13-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:195:13-70
+meta-data#push_kit_auto_init_enabled
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:197:9-199:36
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:199:13-34
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:198:13-54
+activity#org.xplatform.client1.features.appactivity.ApplicationActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:200:9-214:20
+	android:screenOrientation
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:206:13-49
+	android:launchMode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:205:13-43
+	android:hardwareAccelerated
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:209:13-47
+	android:windowSoftInputMode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:208:13-52
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:204:13-36
+	android:roundIcon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:210:13-58
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:207:13-82
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:202:13-47
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:201:13-51
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:203:13-90
+property#android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:211:13-213:39
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:213:17-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:212:17-92
+activity-alias#org.xplatform.client1.LauncherAliasLegacy
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:215:9-226:26
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:218:13-36
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:219:13-36
+	android:targetActivity
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:220:13-100
+	android:roundIcon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:221:13-65
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:216:13-54
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:217:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:222:13-225:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:224:17-76
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:224:27-74
+activity-alias#org.xplatform.client1.LauncherAliasColor
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:227:9-239:26
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:230:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:231:13-36
+	android:targetActivity
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:232:13-100
+	android:roundIcon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:233:13-58
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:228:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:229:13-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:234:13-238:29
+category#android.intent.category.DEFAULT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+activity#org.xplatform.client1.features.appactivity.IntentForwardingActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:240:9-285:20
+	android:noHistory
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:244:13-37
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:243:13-36
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:241:13-56
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:242:13-95
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/domain+data:pathPrefix:/line+data:scheme:https
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:245:13-253:29
+	android:autoVerify
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:245:28-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/domain+data:pathPrefix:/live+data:scheme:https
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:254:13-262:29
+	android:autoVerify
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:254:28-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/appsflyer_host+data:scheme:https
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:263:13-270:29
+	android:autoVerify
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:263:28-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:open+data:host:openapp+data:host:telegramBot+data:scheme:@string/deeplink_scheme+data:scheme:@string/deeplink_scheme+data:scheme:@string/deeplink_scheme
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:271:13-284:29
+service#org.xplatform.feature.online_call.impl.service.OnlineCallService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:286:9-293:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:288:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:287:13-92
+intent-filter#action:name:org.xplatform.feature.online_call.impl.service.OnlineCallService.STOP_CALL+action:name:org.xplatform.feature.online_call.impl.service.OnlineCallService.STOP_SERVICE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:289:13-292:29
+action#org.xplatform.feature.online_call.impl.service.OnlineCallService.STOP_CALL
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:290:17-116
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:290:25-114
+action#org.xplatform.feature.online_call.impl.service.OnlineCallService.STOP_SERVICE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:291:17-119
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:291:25-117
+service#org.xplatform.game_broadcasting.impl.presentation.video.window_screen.GameVideoWindowService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:294:9-296:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:296:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:295:13-120
+service#org.xplatform.game_broadcasting.impl.presentation.zone.window_screen.GameZoneWindowService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:297:9-299:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:299:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:298:13-118
+receiver#com.appsflyer.SingleInstallBroadcastReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:300:9-306:20
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:302:13-36
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:301:13-72
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:303:13-305:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:304:17-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:304:25-76
+receiver#org.xplatform.prophylaxis.impl.prophylaxis.presentation.ProphylaxisAlarmReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:307:9-116
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:307:19-114
+provider#androidx.core.content.FileProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:308:9-316:20
+	android:grantUriPermissions
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:312:13-47
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:311:13-62
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:310:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:309:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:313:13-315:57
+	android:resource
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:315:17-55
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:314:17-67
+meta-data#com.google.android.gms.version
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:317:9-319:68
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:319:13-66
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:318:13-58
+meta-data#CHANNEL
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:320:9-322:56
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:322:13-54
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:321:13-35
+receiver#org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveDefaultProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:323:9-338:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:327:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:324:13-56
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:328:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:325:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:326:13-107
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.LOCALE_CHANGED+action:name:android.intent.action.USER_PRESENT+action:name:update_time_broadcast
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+action#android.intent.action.USER_PRESENT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+action#update_time_broadcast
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+action#android.intent.action.LOCALE_CHANGED
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+meta-data#android.appwidget.provider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+	android:resource
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+receiver#org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveLargeProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:339:9-354:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:343:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:340:13-56
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:344:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:341:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:342:13-105
+receiver#org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveSmallProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:355:9-370:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:359:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:356:13-56
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:360:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:357:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:358:13-105
+receiver#org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineDefaultProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:371:9-386:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:375:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:372:13-56
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:376:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:373:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:374:13-107
+receiver#org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineLargeProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:387:9-402:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:391:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:388:13-56
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:392:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:389:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:390:13-105
+receiver#org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineSmallProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:403:9-418:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:407:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:404:13-56
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:408:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:405:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:406:13-105
+receiver#org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesDefaultProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:419:9-434:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:423:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:420:13-52
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:424:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:421:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:422:13-110
+receiver#org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesLargeProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:435:9-450:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:439:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:436:13-52
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:440:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:437:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:438:13-108
+receiver#org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesSmallProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:451:9-466:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:455:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:452:13-52
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:456:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:453:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:454:13-108
+service#org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:467:9-474:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:470:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:469:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:468:13-99
+intent-filter#action:name:android.intent.action.PACKAGE_REPLACED
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:471:13-473:29
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:17-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:25-78
+service#org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveSmallService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:475:9-482:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:478:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:477:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:476:13-104
+service#org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:483:9-490:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:486:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:485:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:484:13-99
+service#org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineSmallService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:491:9-498:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:494:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:493:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:492:13-104
+service#org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:499:9-506:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:502:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:501:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:500:13-102
+service#org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesSmallService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:507:9-514:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:510:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:509:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:508:13-107
+receiver#org.xplatform.widget.impl.presentation.quickavailable.widget.MySectionsWidget
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:515:9-530:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:519:13-35
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:516:13-55
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:520:13-37
+	android:icon
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:517:13-47
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:518:13-105
+provider#androidx.startup.InitializationProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:531:9-550:20
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:534:13-70
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:533:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:532:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:535:13-537:51
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:537:17-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:536:17-68
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:538:13-540:51
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:540:17-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:539:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:541:13-543:51
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:543:17-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:542:17-78
+meta-data#okhttp3.internal.platform.PlatformInitializer
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:544:13-546:51
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:546:17-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:545:17-77
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:547:13-549:51
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:549:17-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:548:17-85
+provider#org.platform.migration.MigrationContentProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:551:9-555:50
+	android:grantUriPermissions
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:555:13-48
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:554:13-72
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:553:13-36
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:552:13-75
+receiver#org.xplatform.authenticator.impl.ConfirmationAuthenticatorBroadcastReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:556:9-563:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:558:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:559:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:557:13-103
+intent-filter#action:name:org.xplatform.authenticator.confirmation
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:560:13-562:29
+action#org.xplatform.authenticator.confirmation
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:561:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:561:25-80
+service#org.xplatform.app_update.impl.presentation.apk_service.AppUpdateDownloadApkService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:564:9-567:55
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:566:13-37
+	android:foregroundServiceType
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:567:13-53
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:565:13-110
+receiver#org.xplatform.authreminder.impl.data.AuthReminderBroadcastReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:568:9-102
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:568:19-100
+receiver#org.xplatform.authreminder.impl.CheckAuthReminderBroadcastReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:569:9-576:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:571:13-36
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:572:13-36
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:570:13-94
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:573:13-575:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:574:17-78
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:574:25-76
+service#org.xplatform.background_video.impl.presentation.BackgroundVideoService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:577:9-579:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:579:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:578:13-99
+service#org.xplatform.services.mobile_services.impl.presentation.services.HuaweiMessagingService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:580:9-588:19
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:582:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:583:13-37
+	android:stopWithTask
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:584:13-41
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:581:13-116
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:585:13-587:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:586:17-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:586:25-78
+service#org.xplatform.services.mobile_services.impl.presentation.services.GoogleMessagingService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:589:9-596:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:591:13-37
+	android:stopWithTask
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:592:13-41
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:590:13-116
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:593:13-595:29
+	android:priority
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:798:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:594:17-77
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:594:25-75
+meta-data#firebase_analytics_collection_enabled
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:597:9-599:35
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:599:13-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:598:13-65
+meta-data#google_analytics_default_allow_analytics_storage
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:600:9-602:35
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:602:13-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:601:13-76
+meta-data#google_analytics_default_allow_ad_storage
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:603:9-605:35
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:605:13-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:604:13-69
+meta-data#google_analytics_default_allow_ad_user_data
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:606:9-608:35
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:608:13-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:607:13-71
+meta-data#google_analytics_default_allow_ad_personalization_signals
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:609:9-611:35
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:611:13-33
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:610:13-85
+uses-library#androidx.camera.extensions.impl
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:612:9-614:39
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:614:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:613:13-59
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:615:9-622:19
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:617:13-36
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:618:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:616:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:619:13-621:88
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:621:17-86
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:620:17-103
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:623:9-675:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:625:13-37
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:626:13-43
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:624:13-84
+meta-data#com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:627:13-629:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:629:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:628:17-112
+meta-data#com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:630:13-632:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:632:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:631:17-109
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:633:13-635:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:635:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:634:17-109
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:636:13-638:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:638:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:637:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:639:13-641:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:641:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:640:17-119
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:642:13-644:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:644:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:643:17-139
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:645:13-647:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:647:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:646:17-126
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:648:13-650:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:650:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:649:17-115
+meta-data#com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:651:13-653:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:653:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:652:17-117
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:654:13-656:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:656:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:655:17-128
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:657:13-659:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:659:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:658:17-117
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:660:13-662:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:662:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:661:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:663:13-665:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:665:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:664:17-127
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:666:13-668:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:668:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:667:17-109
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:669:13-671:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:671:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:670:17-109
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:672:13-674:84
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:674:17-82
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:673:17-115
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:676:9-691:20
+	android:excludeFromRecents
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:680:13-46
+	android:launchMode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:681:13-44
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:679:13-36
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:677:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:678:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:682:13-690:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:692:9-707:20
+	android:excludeFromRecents
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:696:13-46
+	android:launchMode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:697:13-44
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:695:13-36
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:693:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:694:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:698:13-706:29
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:708:9-715:19
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:710:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:711:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:709:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:712:13-714:103
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:714:17-101
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:713:17-76
+activity#androidx.credentials.playservices.controllers.identityauth.HiddenActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:716:9-722:47
+	android:fitsSystemWindows
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:722:13-45
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:719:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:720:13-37
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:721:13-87
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:717:13-48
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:718:13-101
+activity#androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:723:9-729:47
+	android:fitsSystemWindows
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:729:13-45
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:726:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:727:13-37
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:728:13-87
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:724:13-48
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:725:13-129
+activity#androidx.biometric.internal.ui.FingerprintDialogActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:730:9-734:39
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:732:13-70
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:734:13-37
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:731:13-64
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:733:13-84
+activity#com.yandex.authsdk.internal.AuthSdkActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:735:9-738:73
+	android:label
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:737:13-29
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:736:13-61
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:738:13-71
+activity#com.yandex.authsdk.internal.ChromeTabLoginActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:739:9-742:45
+	android:launchMode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:742:13-43
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:740:13-61
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:741:13-78
+activity#com.yandex.authsdk.internal.WebViewLoginActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:743:9-746:85
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:746:13-83
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:744:13-49
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:745:13-76
+activity#com.yandex.authsdk.internal.ChromeTabDataActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:747:9-768:20
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:750:13-36
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:748:13-61
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:749:13-77
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:yxa088414ac82149538dd816fd742c7526.oauth.yandex.ru+data:path:/auth/finish+data:scheme:http+data:scheme:https
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:751:13-759:29
+	android:autoVerify
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:751:28-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:path:/auth/finish+data:scheme:yxa088414ac82149538dd816fd742c7526
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:760:13-767:29
+activity-alias#com.yandex.authsdk.YandexOauthClientIdActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:769:9-773:89
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:771:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:772:13-36
+	android:targetActivity
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:773:13-87
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:770:13-74
+meta-data#com.yandex.auth.CLIENT_ID
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:774:9-776:63
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:776:13-61
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:775:13-53
+meta-data#com.yandex.auth.OAUTH_HOST
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:777:9-779:46
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:779:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:778:13-54
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:780:9-782:42
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:782:13-40
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:781:13-84
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:783:9-793:20
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:786:13-36
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:785:13-73
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:784:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:787:13-789:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:788:17-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:788:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:790:13-792:39
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:792:17-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:791:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:794:9-801:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:796:13-37
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:797:13-43
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:795:13-82
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:802:9-805:39
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:804:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:805:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:803:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:806:9-809:39
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:808:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:809:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:807:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:810:9-814:39
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:813:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:814:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:812:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:811:13-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:815:9-819:48
+	android:excludeFromRecents
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:819:13-46
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:818:13-37
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:816:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:817:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:820:9-824:50
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:823:13-36
+	android:visibleToInstantApps
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:824:13-48
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:822:13-107
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:821:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:825:9-828:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:828:13-37
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:826:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:827:13-79
+service#com.google.firebase.sessions.SessionLifecycleService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:829:9-832:39
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:831:13-36
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:832:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:830:13-80
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:833:9-838:45
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:836:13-74
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:835:13-37
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:838:13-43
+	android:initOrder
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:837:13-36
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:834:13-77
+uses-library#androidx.window.extensions
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:839:9-841:39
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:841:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:840:13-54
+uses-library#androidx.window.sidecar
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:842:9-844:39
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:844:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:843:13-51
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:845:9-847:38
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:847:13-36
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:846:13-71
+uses-library#android.ext.adservices
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:848:9-850:39
+	android:required
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:850:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:849:13-50
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:851:9-856:46
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:854:13-70
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:855:13-36
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:853:13-69
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:856:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:852:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:857:9-861:46
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:859:13-77
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:860:13-37
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:861:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:858:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:862:9-866:46
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:864:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:865:13-37
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:866:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:863:13-88
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:867:9-875:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:869:13-36
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:870:13-37
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:871:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:868:13-88
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:876:9-885:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:879:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:880:13-36
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:878:13-57
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:881:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:877:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:882:13-884:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:883:17-87
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:883:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:886:9-889:45
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:888:13-37
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:889:13-43
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:887:13-74
+activity#ru.ok.android.sdk.OkAuthActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:890:9-894:61
+	android:launchMode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:893:13-43
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:892:13-37
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:894:13-59
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:891:13-60
+activity#ru.ok.android.sdk.OkPostingActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:895:9-897:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:897:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:896:13-63
+activity#ru.ok.android.sdk.OkAppInviteActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:898:9-900:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:900:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:899:13-65
+activity#ru.ok.android.sdk.OkAppSuggestActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:901:9-903:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:903:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:902:13-66
+activity#com.vk.api.sdk.ui.VKWebViewAuthActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:904:9-906:69
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:905:13-60
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:906:13-67
+activity#com.vk.api.sdk.ui.VKCaptchaActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:907:9-909:65
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:908:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:909:13-63
+activity#com.vk.api.sdk.ui.VKConfirmationActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:910:9-912:70
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:911:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:912:13-68
+provider#com.vk.api.sdk.internal.VKInitProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:913:9-917:70
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:915:13-69
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:917:13-68
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:916:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:914:13-66
+meta-data#VKSdkVersion
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:918:9-920:36
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:920:13-34
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:919:13-40
+meta-data#VKSdkVersionCode
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:921:9-923:33
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:923:13-31
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:922:13-44
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:924:9-930:19
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:926:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:925:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:927:13-929:38
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:929:17-36
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:928:17-94
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:931:9-949:20
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:934:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:935:13-36
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:933:13-57
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:936:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:932:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:937:13-939:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:938:17-90
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:938:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:940:13-942:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:941:17-84
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:941:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:943:13-945:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:944:17-87
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:944:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:946:13-948:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:947:17-94
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:947:25-92
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:950:9-953:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:953:13-37
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:952:13-69
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:951:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:954:9-956:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:956:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:955:13-132
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:957:9-963:62
+	android:screenOrientation
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:962:13-56
+	android:clearTaskOnLaunch
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:960:13-45
+	android:stateNotNeeded
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:961:13-42
+	android:windowSoftInputMode
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:963:13-60
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:958:13-54
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:959:13-74
+activity#com.jakewharton.processphoenix.PhoenixActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:964:9-968:41
+	android:process
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:968:13-39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:967:13-37
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:965:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:966:13-74
+service#com.jakewharton.processphoenix.PhoenixService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:969:9-972:41
+	android:process
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:972:13-39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:971:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:970:13-73
+meta-data#com.huawei.hms.client.service.name:ads-identifier
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:973:9-975:56
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:975:13-54
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:974:13-77
+receiver#com.huawei.hms.support.api.push.PushMsgReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:976:9-985:20
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:979:13-36
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:978:13-80
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:980:13-43
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:977:13-75
+intent-filter#action:name:com.huawei.intent.action.PUSH+action:name:com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:981:13-984:29
+action#com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:982:17-84
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:982:25-82
+action#com.huawei.intent.action.PUSH
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:983:17-71
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:983:25-69
+receiver#com.huawei.hms.support.api.push.PushReceiver
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:986:9-995:20
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:989:13-36
+	android:permission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:988:13-80
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:990:13-43
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:987:13-72
+intent-filter#action:name:com.huawei.android.push.intent.RECEIVE+action:name:com.huawei.android.push.intent.REGISTRATION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:991:13-994:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:992:17-85
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:992:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:993:17-80
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:993:25-78
+service#com.huawei.hms.support.api.push.service.HmsMsgService
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:996:9-1006:19
+	android:process
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1000:13-43
+	android:enabled
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:998:13-35
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:999:13-36
+	android:directBootAware
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1001:13-43
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:997:13-81
+intent-filter#action:name:com.huawei.push.msg.NOTIFY_MSG+action:name:com.huawei.push.msg.PASSBY_MSG
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1002:13-1005:29
+action#com.huawei.push.msg.NOTIFY_MSG
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1003:17-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1003:25-70
+action#com.huawei.push.msg.PASSBY_MSG
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1004:17-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1004:25-70
+provider#com.huawei.hms.support.api.push.PushProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1007:9-1012:76
+	android:readPermission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1009:13-81
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1012:13-74
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1011:13-36
+	android:writePermission
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1010:13-88
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1008:13-72
+meta-data#com.huawei.hms.client.service.name:push
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1013:9-1015:46
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1015:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1014:13-67
+meta-data#com.huawei.hms.min_api_level:push:push
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1016:9-1018:32
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1018:13-30
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1017:13-66
+activity#com.huawei.hms.support.api.push.TransActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1019:9-1021:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1021:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1020:13-73
+activity#com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1022:9-1031:20
+	android:excludeFromRecents
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1026:13-46
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1025:13-37
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1027:13-53
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1023:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1024:13-90
+meta-data#distractionOptimized
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1028:13-1030:39
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1030:17-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1029:17-52
+activity#com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1032:9-1040:20
+	android:excludeFromRecents
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1036:13-46
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1035:13-37
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1033:13-72
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1034:13-96
+meta-data#com.huawei.hms.client.service.name:hwid
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1041:9-1043:46
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1043:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1042:13-67
+meta-data#com.huawei.hms.min_api_level:hwid:hwid
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1044:9-1046:32
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1046:13-30
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1045:13-66
+meta-data#com.huawei.hms.min_api_level:hwid:account
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1047:9-1049:33
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1049:13-31
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1048:13-69
+provider#com.huawei.hms.aaid.InitProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1050:9-1054:38
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1053:13-70
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1052:13-37
+	android:initOrder
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1054:13-36
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1051:13-60
+meta-data#com.huawei.hms.client.service.name:opendevice
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1055:9-1057:52
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1057:13-50
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1056:13-73
+meta-data#com.huawei.hms.min_api_level:opendevice:push
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1058:9-1060:32
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1060:13-30
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1059:13-72
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1061:9-1063:46
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1063:13-44
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1062:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1064:9-1066:32
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1066:13-30
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1065:13-69
+meta-data#availableLoaded
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1067:9-1069:34
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1069:13-32
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1068:13-43
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1070:9-1074:44
+	android:stateNotNeeded
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1074:13-42
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1073:13-37
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1071:13-62
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1072:13-93
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1075:9-1078:77
+	android:authorities
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1078:13-75
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1077:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1076:13-90
+service#com.huawei.agconnect.core.ServiceDiscovery
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1079:9-1081:39
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1081:13-37
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1080:13-70
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1082:9-1096:20
+	android:screenOrientation
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1087:13-47
+	android:excludeFromRecents
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1086:13-46
+	android:hardwareAccelerated
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1089:13-47
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1085:13-37
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1088:13-131
+	android:theme
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1083:13-52
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1084:13-66
+meta-data#hwc-theme
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1090:13-1092:76
+	android:value
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1092:17-74
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1091:17-41
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1097:9-1100:108
+	android:exported
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1099:13-37
+	android:configChanges
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1100:13-106
+	android:name
+		ADDED from C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1098:13-73

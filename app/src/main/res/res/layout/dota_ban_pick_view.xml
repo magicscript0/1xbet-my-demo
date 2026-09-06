@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.cyber.game.core.presentation.dota.banpick.view.DotaBanPickItemView android:id="@id/rootItem" android:background="@drawable/dota_item_bg" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_8" android:layout_width="match_parent" android:layout_height="@dimen/size_88" android:paddingVertical="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

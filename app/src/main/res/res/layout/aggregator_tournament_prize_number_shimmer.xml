@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_20" android:layout_marginTop="@dimen/space_10" android:layout_marginBottom="@dimen/space_10" android:radius="@dimen/radius_full" android:layout_marginStart="@dimen/extra_large_horizontal_margin_dynamic" style="@style/Widget.DSShimmer.Primary" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium_horizontal_margin_dynamic">
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_104" android:radius="@dimen/radius_12" android:layout_marginEnd="@dimen/space_8" style="@style/Widget.DSShimmer.Primary" />
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_104" android:radius="@dimen/radius_12" android:layout_marginEnd="@dimen/space_8" style="@style/Widget.DSShimmer.Primary" />
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_104" android:radius="@dimen/radius_12" android:layout_marginEnd="@dimen/space_8" style="@style/Widget.DSShimmer.Primary" />
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_104" android:radius="@dimen/radius_12" android:layout_marginEnd="@dimen/space_8" style="@style/Widget.DSShimmer.Primary" />
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_104" android:radius="@dimen/radius_12" android:layout_marginEnd="@dimen/space_8" style="@style/Widget.DSShimmer.Primary" />
+    </LinearLayout>
+</merge>

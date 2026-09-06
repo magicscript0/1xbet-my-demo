@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="?uikitTheme" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/composeView" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/statistic_background_image_height" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/mainLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/size_210">
+        <FrameLayout android:id="@id/parentLayout" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/stageNetRecyclerView" android:paddingBottom="@dimen/space_24" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+            <org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/shimmerBottom" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <include layout="@layout/layout_search_panel" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_16" android:layout_marginRight="@dimen/size_16" android:layout_marginHorizontal="@dimen/size_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.segmented_control.DsSegmentedGroup android:id="@id/segmentedGroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.segmented_control.DsSegmentItem android:id="@id/tabOne" style="@style/Widget.DSSegmentedItem" />
+        <org.xplatform.uikit.components.segmented_control.DsSegmentItem android:id="@id/tabTwo" style="@style/Widget.DSSegmentedItem" />
+    </org.xplatform.uikit.components.segmented_control.DsSegmentedGroup>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:theme="?uikitTheme" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/space_32" style="@style/Widget.DSCell.Middle.Title.L" />
+    <org.xplatform.uikit.components.cells.right.DsCellRightListCheckBox android:id="@id/rbGroupSelector" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.DSCell.Right.ListCheckBox" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

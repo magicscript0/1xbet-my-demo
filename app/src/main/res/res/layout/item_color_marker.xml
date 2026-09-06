@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:theme="?uikitTheme" android:layout_width="match_parent" android:layout_height="@dimen/size_48" app:first="true" app:last="true" style="@style/Widget.DSCell.Settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/title" style="@style/Widget.DSCell.Middle.Title.L" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="?uikitTheme" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" app:headerType="small" app:horizontalMargin="@dimen/space_16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/cell_account" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/icon_account" app:tint="@color/wallet_icon_background" style="@style/Widget.DSCell.Left.Icon.Back" />
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/account_name" style="@style/Widget.DSCell.Middle.Title.L" />
+        <org.xplatform.uikit.components.cells.right.DsCellRightLabel android:id="@id/account_balance_value" style="@style/Widget.DSCell.Right.Label" />
+        <org.xplatform.uikit.components.separator.DsSeparator android:id="@id/separator_bottom" style="@style/Widget.DSSeparator.Cell" />
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+</androidx.constraintlayout.widget.ConstraintLayout>

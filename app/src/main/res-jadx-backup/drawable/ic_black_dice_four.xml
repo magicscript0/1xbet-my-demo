@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group>
+        <clip-path android:pathData="M-0.15,-0.15h24v24h-24z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__0_res_0x7f080084"
+            android:pathData="M21.625,23.85H2.075C0.847,23.85 -0.15,22.853 -0.15,21.625V2.075C-0.15,0.847 0.847,-0.15 2.075,-0.15H21.625C22.853,-0.15 23.85,0.847 23.85,2.075V21.625C23.85,22.853 22.853,23.85 21.625,23.85Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__1_res_0x7f080085"
+            android:pathData="M11.984,22.827C18.121,22.827 23.096,17.852 23.096,11.716C23.096,5.579 18.121,0.604 11.984,0.604C5.848,0.604 0.873,5.579 0.873,11.716C0.873,17.852 5.848,22.827 11.984,22.827Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__2_res_0x7f080086"
+            android:pathData="M6.934,9.107C8.134,9.107 9.107,8.134 9.107,6.934C9.107,5.733 8.134,4.76 6.934,4.76C5.733,4.76 4.76,5.733 4.76,6.934C4.76,8.134 5.733,9.107 6.934,9.107Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__3_res_0x7f080087"
+            android:pathData="M8.788,6.345C9.171,6.729 8.941,7.599 8.276,8.263C7.599,8.941 6.742,9.171 6.358,8.775C5.975,8.391 6.205,7.522 6.87,6.857C7.535,6.192 8.391,5.962 8.788,6.345Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__4_res_0x7f080088"
+            android:pathData="M16.767,9.107C17.967,9.107 18.94,8.134 18.94,6.934C18.94,5.733 17.967,4.76 16.767,4.76C15.566,4.76 14.593,5.733 14.593,6.934C14.593,8.134 15.566,9.107 16.767,9.107Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__5_res_0x7f080089"
+            android:pathData="M18.621,6.345C19.004,6.729 18.774,7.599 18.109,8.263C17.431,8.941 16.575,9.171 16.191,8.775C15.807,8.391 16.038,7.522 16.702,6.857C17.367,6.192 18.237,5.962 18.621,6.345Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__6_res_0x7f08008a"
+            android:pathData="M6.934,18.94C8.134,18.94 9.107,17.967 9.107,16.766C9.107,15.566 8.134,14.593 6.934,14.593C5.733,14.593 4.76,15.566 4.76,16.766C4.76,17.967 5.733,18.94 6.934,18.94Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__7_res_0x7f08008b"
+            android:pathData="M8.788,16.191C9.171,16.575 8.941,17.444 8.276,18.109C7.599,18.787 6.742,19.017 6.358,18.62C5.975,18.237 6.205,17.367 6.87,16.702C7.535,16.025 8.391,15.795 8.788,16.191Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__8_res_0x7f08008c"
+            android:pathData="M16.767,18.94C17.967,18.94 18.94,17.967 18.94,16.766C18.94,15.566 17.967,14.593 16.767,14.593C15.566,14.593 14.593,15.566 14.593,16.766C14.593,17.967 15.566,18.94 16.767,18.94Z"/>
+        <path
+            android:fillColor="@drawable/_ic_black_dice_four__9_res_0x7f08008d"
+            android:pathData="M18.621,16.191C19.004,16.575 18.774,17.444 18.109,18.109C17.431,18.787 16.575,19.017 16.191,18.62C15.807,18.237 16.038,17.367 16.702,16.702C17.367,16.025 18.237,15.795 18.621,16.191Z"/>
+    </group>
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="?uikitBackgroundContent" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_back" app:title="@string/winter_game_result_title" app:titleCentered="true" app:titleTextAppearance="?textAppearanceHeadline6MediumNew" style="@style/Widget.AppTheme.Toolbar.New" />
+    <org.xplatform.ui_core.viewcomponents.views.scrollable_table.scrollable.ScrollablePanel android:id="@id/panelView" android:background="@drawable/background_round_background_new" android:layout_width="match_parent" android:layout_height="0.0dp" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout android:orientation="vertical" android:id="@id/shimmer" android:background="?uikitBackgroundContent" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layoutDirection="ltr" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <include layout="@layout/shimmer_winter_game_result_header" />
+        <include layout="@layout/shimmer_item_winter_game_result" />
+        <include layout="@layout/shimmer_item_winter_game_result" />
+    </org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout>
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

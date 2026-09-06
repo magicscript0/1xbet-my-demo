@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/rootContainer" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp" app:layout_behavior="org.xplatform.special_event.impl.utils.recyclerview.SpecialEventBehavior">
+        <include android:id="@id/header" layout="@layout/special_event_main_header" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@id/content" layout="@layout/special_event_main_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

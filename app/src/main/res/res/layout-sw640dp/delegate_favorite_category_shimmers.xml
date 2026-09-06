@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:id="@id/shimmersContainer" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_20" android:layout_marginTop="@dimen/space_10" android:layout_marginBottom="@dimen/space_10" android:radius="@dimen/radius_full" android:layout_marginStart="@dimen/space_40" android:layout_marginVertical="@dimen/space_10" style="@style/Widget.DSShimmer.Primary" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_32" android:layout_marginRight="@dimen/space_32" android:layout_marginBottom="@dimen/space_8" android:layout_marginHorizontal="@dimen/space_32">
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="0.0dp" android:layout_height="@dimen/size_200" android:layout_weight="1.0" android:radius="@dimen/radius_16" android:layout_marginEnd="@dimen/space_4" style="@style/Widget.DSShimmer.Primary" />
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="0.0dp" android:layout_height="@dimen/size_200" android:layout_weight="1.0" android:radius="@dimen/radius_16" android:layout_marginStart="@dimen/space_4" style="@style/Widget.DSShimmer.Primary" />
+    </LinearLayout>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_128" android:layout_height="@dimen/size_20" android:layout_marginTop="@dimen/space_10" android:layout_marginBottom="@dimen/space_10" android:radius="@dimen/radius_full" android:layout_marginStart="@dimen/space_40" android:layout_marginVertical="@dimen/space_10" style="@style/Widget.DSShimmer.Primary" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_32" android:layout_marginRight="@dimen/space_32" android:layout_marginBottom="@dimen/space_8" android:layout_marginHorizontal="@dimen/space_32">
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="0.0dp" android:layout_height="@dimen/size_200" android:layout_weight="1.0" android:radius="@dimen/radius_16" android:layout_marginEnd="@dimen/space_4" style="@style/Widget.DSShimmer.Primary" />
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="0.0dp" android:layout_height="@dimen/size_200" android:layout_weight="1.0" android:radius="@dimen/radius_16" android:layout_marginStart="@dimen/space_4" style="@style/Widget.DSShimmer.Primary" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_widget_description">Rask tilgang til alle favorittkampene dine</string>
+    <string name="popular_live_widget_description">Populære liveeventer</string>
+    <string name="widget_fast_access">Bokoti ya lombangu</string>
+    <string name="widget_fast_access_description">Bokoti ya lombangu na fonctions principales</string>
+    <string name="widget_favorite">Favoritter</string>
+    <string name="widget_popular_line">Populært før kamp</string>
+    <string name="widget_popular_line_description">Populære eventer før kamp</string>
+    <string name="widget_popular_live">Populært live</string>
+</resources>

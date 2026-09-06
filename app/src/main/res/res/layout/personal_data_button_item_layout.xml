@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/scItem" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_12" app:first="true" app:last="true">
+        <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/cliIcon" style="@style/Widget.DSCell.Left.Icon.Back" />
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/cmtTitle" style="@style/Widget.DSCell.Middle.Title.L" />
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+</FrameLayout>

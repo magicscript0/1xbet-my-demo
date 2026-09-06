@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:layout_marginRight="4.0dp" android:layout_marginHorizontal="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/image" style="@style/Widget.DSCell.Left.Icon.Tintless" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/title" app:titleTextColor="?uikitTextPrimary" app:titleTextStyle="@style/TextAppearance.Headline.Regular" style="@style/Widget.DSCell.Middle.Title.L" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

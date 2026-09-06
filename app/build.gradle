@@ -4,7 +4,7 @@ plugins {
 
 android {
 	namespace "org.xbet.client.eg"
-    compileSdkVersion 37
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId 'org.xbet.client.eg'

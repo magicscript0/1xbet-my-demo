@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/ic_glyph_chevron_up_small">
+    <target
+        android:name="chevron"
+        android:animation="@anim/chevron_up_to_down_animation"/>
+</animated-vector>

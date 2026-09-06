@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/space_12" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/firstEventShimmer" layout="@layout/edit_event_shimmer_item" />
+    <include android:id="@id/secondEventShimmer" layout="@layout/edit_event_shimmer_item" />
+    <include android:id="@id/thirdEventShimmer" layout="@layout/edit_event_shimmer_item" />
+    <include android:id="@id/fourthEventShimmer" layout="@layout/edit_event_shimmer_item" />
+</LinearLayout>

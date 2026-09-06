@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/cybergame_roulette_view_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/statisticsRv" android:paddingLeft="@dimen/space_8" android:paddingRight="@dimen/space_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_8" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</FrameLayout>

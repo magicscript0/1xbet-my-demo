@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="@color/static_transparent" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height_size" android:elevation="0.0dp" app:navigationIcon="@drawable/ic_back_games" app:navigationIconTint="?uikitSecondary" app:title="@string/registration" style="@style/Widget.AppTheme.Toolbar.New" />
+    <org.xplatform.ui_core.viewcomponents.webview.FixedWebView android:id="@id/webView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/toolbar_height_size" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_height_size" android:indeterminate="true" />
+</FrameLayout>

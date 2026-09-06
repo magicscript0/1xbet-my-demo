@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rootDisciplineList" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:tag="cyberDisciplineRecyclerView" android:paddingTop="@dimen/space_12" android:paddingBottom="@dimen/space_24" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:id="@id/shimmer" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/disciplines_list_shimmers" />
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

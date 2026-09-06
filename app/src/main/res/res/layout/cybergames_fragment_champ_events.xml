@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/сyberGamesChampEventContainer" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_28" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:alpha_anim_enabled="false" app:textColor="?uikitSecondary" />
+</FrameLayout>

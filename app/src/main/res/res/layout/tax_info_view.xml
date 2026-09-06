@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bet_info_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/headerContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_12">
+        <ImageView android:id="@id/headerIv" android:layout_width="@dimen/icon_size_16" android:layout_height="@dimen/icon_size_16" android:src="@drawable/ic_glyph_info_circle_filled" android:layout_marginEnd="@dimen/space_8" />
+        <TextView android:textColor="?uikitTextPrimary" android:ellipsize="end" android:id="@id/taxTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tax_bonus_empty" android:maxLines="1" android:layout_marginEnd="@dimen/space_4" style="@style/TextAppearance.Caption.Regular.L" />
+        <TextView android:id="@id/taxAmount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Space android:id="@id/headerSpace" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/headerShimmer" android:layout_width="0.0dp" android:layout_height="@dimen/size_14" android:layout_weight="1.0" android:radius="@dimen/shimmer_size_360" style="@style/Widget.DSShimmer.Primary" />
+        <org.xplatform.uikit.components.accordion.DsAccordion android:id="@id/expandArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.DSAccordion.Primary" />
+    </LinearLayout>
+    <include android:id="@id/expandableContentShimmers" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_12" layout="@layout/tax_expandable_content_shimmers" />
+    <LinearLayout android:orientation="vertical" android:id="@id/expandableContent" android:paddingLeft="@dimen/space_12" android:paddingRight="@dimen/space_12" android:paddingBottom="@dimen/space_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_12">
+        <TextView android:textColor="?uikitSecondary" android:id="@id/tvInfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/finaly_sum_bet_description" style="@style/TextAppearance.Caption.Regular.L" />
+    </LinearLayout>
+</LinearLayout>

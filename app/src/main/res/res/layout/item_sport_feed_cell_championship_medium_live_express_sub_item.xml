@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.sport_cell.DsSportCell android:id="@id/cellChampionshipMediumSubItem" app:sportCellBackgroundTint="?uikitBackgroundGroupSecondary" app:sportCellSeparatorAvailable="false" style="@style/Widget.SportCell"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit_sport.sport_cell.left.SportCellLeftView android:id="@id/cellLeft" app:sportCellLeftIconTint="?uikitSecondary" style="@style/Widget.SportCell.SportCellLeft.Icon" />
+    <org.xplatform.uikit_sport.sport_cell.middle.SportCellMiddleView android:id="@id/cellMiddle" style="@style/Widget.SportCell.SportCellMiddle.Static.M" />
+    <org.xplatform.uikit_sport.sport_cell.right.SportCellRightView android:id="@id/cellRight" app:sportCellRightStyleType="counter" style="@style/Widget.SportCell.SportFeedCellRight.Medium" />
+</org.xplatform.uikit_sport.sport_cell.DsSportCell>

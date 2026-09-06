@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/title" android:paddingLeft="@dimen/space_16" android:paddingTop="@dimen/space_8" android:paddingRight="@dimen/space_16" android:paddingBottom="@dimen/space_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:paddingHorizontal="@dimen/space_16" android:paddingVertical="@dimen/space_8" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/button" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" />
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/title" style="@style/DSButton.Medium.Tertiary" />
+</merge>

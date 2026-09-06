@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/uikitBackgroundGroup"/>
+            <corners
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="8dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="4dp"
+        android:right="4dp"
+        android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#00ff0000"
+                android:endColor="@color/static_black_10"
+                android:angle="90"
+                android:centerX="4%"
+                android:centerColor="@color/static_black_10"/>
+            <corners
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="8dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="4dp"
+        android:right="4dp"
+        android:bottom="4dp">
+        <ripple android:color="?attr/uikitRipple">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="?attr/uikitBackground"/>
+                    <corners
+                        android:bottomLeftRadius="8dp"
+                        android:bottomRightRadius="8dp"/>
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

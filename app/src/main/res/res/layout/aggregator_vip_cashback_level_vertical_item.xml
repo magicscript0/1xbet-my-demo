@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/size_138" android:layout_height="@dimen/size_138"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivLock" android:background="@drawable/rounded_background_10" android:padding="@dimen/space_6" android:layout_width="@dimen/size_32" android:layout_height="@dimen/size_32" android:src="@drawable/ic_glyph_lock" android:importantForAccessibility="no" android:backgroundTint="?uikitBackgroundContent" app:tint="?uikitSecondary" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/space_8" android:layout_width="@dimen/size_138" android:layout_height="@dimen/size_138">
+        <ImageView android:id="@id/ivIcon" android:background="@drawable/circle_background" android:padding="@dimen/space_8" android:layout_width="@dimen/size_52" android:layout_height="@dimen/size_52" android:importantForAccessibility="no" android:backgroundTint="?uikitStaticWhite" />
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:maxLines="1" style="@style/TextStyle.Text.Medium.StaticBlack" />
+        <org.xplatform.uikit.components.tag.DsTag android:ellipsize="end" android:id="@id/tagCashback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:maxLines="1" style="@style/Widget.DSTag.RectangularS.Green" />
+        <org.xplatform.uikit.components.tag.DsTag android:ellipsize="end" android:id="@id/tagCoef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_4" android:maxLines="1" style="@style/Widget.DSTag.RectangularS.Yellow" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" app:headerType="large" />
+    <org.xplatform.ui_core.viewcomponents.views.large_banner_games_collection.LargeBannerGamesCollection android:id="@id/bannerGamesCollection" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

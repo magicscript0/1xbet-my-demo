@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/uikitBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showSeparator="true"
+        app:title="@string/coefficient_type"
+        style="@style/Widgets.BasicNavigationBar.Title"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <org.xplatform.uikit.components.views.OptimizedScrollRecyclerView
+            android:id="@+id/coefTypeRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"/>
+        <org.xplatform.uikit.components.lottie.LottieView
+            android:layout_gravity="center"
+            android:id="@+id/lottieEmptyView"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:textColor="?attr/uikitSecondary"/>
+    </FrameLayout>
+</LinearLayout>

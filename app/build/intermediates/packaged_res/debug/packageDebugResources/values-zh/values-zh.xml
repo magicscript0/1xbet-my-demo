@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_widget_description">快速访问所有您喜爱的比赛</string>
+    <string name="popular_live_widget_description">热门滚球赛事</string>
+    <string name="widget_fast_access">快速访问</string>
+    <string name="widget_fast_access_description">主功能快速访问。</string>
+    <string name="widget_favorite">喜爱</string>
+    <string name="widget_popular_line">热门赛前</string>
+    <string name="widget_popular_line_description">热门赛前赛事</string>
+    <string name="widget_popular_live">热门滚球</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/clSportCollectionItemContainer" android:layout_width="@dimen/size_56" android:layout_height="@dimen/size_64"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.LoadableShapeableImageView android:layout_gravity="center_horizontal" android:id="@id/ivIcon" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_24" android:layout_marginLeft="@dimen/space_14" android:layout_marginTop="@dimen/space_8" android:layout_marginRight="@dimen/space_14" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginHorizontal="@dimen/space_14" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?uikitPrimary" />
+    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space_4" android:minHeight="@dimen/size_24" android:maxLines="2" style="@style/TextStyle.Caption.Medium.M.TextPrimary" />
+</FrameLayout>

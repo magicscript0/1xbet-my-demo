@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic android:id="@id/navigationBar" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/feature_toggles" style="@style/Widgets.BasicNavigationBar.Title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTestSections" android:paddingTop="@dimen/space_16" android:paddingBottom="@dimen/space_16" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/space_12" android:layout_marginRight="@dimen/space_12" android:layout_marginHorizontal="@dimen/space_12" android:paddingVertical="@dimen/space_16" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

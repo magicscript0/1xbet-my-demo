@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:id="@id/root" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/settingsMakeBetToolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:showSeparator="true" app:title="@string/make_bet_settings_title" style="@style/Widgets.BasicNavigationBar.Title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/settingsMakeBetRv" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/settingsMakeBetProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

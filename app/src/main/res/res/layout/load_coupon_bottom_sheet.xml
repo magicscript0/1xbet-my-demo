@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:background="?uikitBackgroundContent" android:paddingLeft="@dimen/space_16" android:paddingTop="@dimen/space_8" android:paddingRight="@dimen/space_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.text_field.DsTextField android:id="@id/textFiledCoupon" android:layout_width="match_parent" android:layout_height="wrap_content" android:digits="@string/promo_available_symbols" android:inputType="textNoSuggestions" android:imeOptions="actionDone" app:hint="@string/input_coupon_code" style="@style/Widget.DSTextField.Basic.Multiline" />
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/btnLoadCoupon" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" android:layout_marginBottom="@dimen/space_8" app:dsButtonLabel="@string/upload" style="@style/DSButton.Large.Primary" />
+</LinearLayout>

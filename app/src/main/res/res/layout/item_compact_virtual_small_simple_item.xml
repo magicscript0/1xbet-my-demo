@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.menu.DsMenuCompactCell android:theme="?uikitTheme" android:id="@id/cell" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/size_52" app:badge="dot" app:iconTint="?uikitPrimary" style="@style/Widget.DSCell.MenuCompact"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

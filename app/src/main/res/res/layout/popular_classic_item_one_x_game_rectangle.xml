@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="?uikitTheme" android:layout_width="@dimen/size_144" android:layout_height="@dimen/size_96"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.ui_core.viewcomponents.imageview.RoundCornerImageView android:id="@id/ivGameImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null" app:cornerRadiusImageView="@dimen/corner_radius_16" />
+    <ImageView android:layout_gravity="bottom" android:background="@drawable/bg_round_corners_with_gradient" android:layout_width="match_parent" android:layout_height="@dimen/size_48" android:contentDescription="@null" />
+    <TextView android:textAppearance="?textAppearanceCaptionMediumPrimaryNew" android:textColor="@color/static_white" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/tvGameName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12" android:layout_marginRight="@dimen/space_12" android:layout_marginBottom="@dimen/space_8" android:lines="2" android:textAlignment="viewStart" android:layout_marginHorizontal="@dimen/space_12" />
+    <FrameLayout android:id="@id/flTechnicalWorks" android:background="@drawable/bg_round_corners_16_with_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_technical_works" android:scaleType="center" android:contentDescription="@null" />
+    </FrameLayout>
+</FrameLayout>

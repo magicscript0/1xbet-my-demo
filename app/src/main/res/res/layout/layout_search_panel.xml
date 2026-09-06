@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/searchPanel" android:background="?uikitBackgroundContent" android:paddingLeft="@dimen/size_12" android:paddingTop="@dimen/size_8" android:paddingRight="@dimen/size_12" android:paddingBottom="@dimen/size_8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/size_12" android:paddingVertical="@dimen/size_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textAppearance="?textAppearanceTitleMedium" android:id="@id/searchResult" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="end" android:id="@id/previousImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_glyph_chevron_up_small" android:layout_marginEnd="@dimen/size_32" />
+        <ImageView android:layout_gravity="end" android:id="@id/nextImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_glyph_chevron_down_small" />
+    </FrameLayout>
+</merge>

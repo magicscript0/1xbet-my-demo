@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.team_logo.DsTeamLogo android:id="@id/teamLogo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/space_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/teamName" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.DSSportTeamLogo.Size32" />
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/teamName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/teamLogo" app:layout_constraintTop_toTopOf="parent" style="@style/TextStyle.Text.Medium.Shrink.TextPrimary" />
+</merge>

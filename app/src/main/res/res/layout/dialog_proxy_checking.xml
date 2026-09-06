@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/space_16" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress" android:visibility="visible" android:layout_width="@dimen/size_40" android:layout_height="@dimen/size_40" android:indeterminateOnly="true" android:indeterminateTint="?uikitPrimary" />
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_24" android:layout_marginTop="@dimen/space_16" android:layout_marginRight="@dimen/space_24" android:text="@string/proxy_checking_connection" android:layout_marginHorizontal="@dimen/space_24" />
+    <View android:id="@id/buttonsDivider1" android:background="?uikitSeparator" android:layout_width="match_parent" android:layout_height="@dimen/size_1" android:layout_marginTop="@dimen/space_24" />
+    <com.google.android.material.button.MaterialButton android:textAppearance="?textAppearanceSubtitle1MediumNew" android:textColor="?uikitPrimary" android:gravity="center" android:id="@id/btnCancel" android:padding="@dimen/space_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:textAllCaps="false" style="@style/Widget.AppTheme.TextButton.New" />
+</LinearLayout>

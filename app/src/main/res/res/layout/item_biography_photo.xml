@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/static_transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.ui_core.viewcomponents.imageview.RoundCornerImageView android:id="@id/ivPhoto" android:layout_width="match_parent" android:layout_height="@dimen/size_200" android:layout_marginTop="@dimen/space_16" android:scaleType="center" app:cornerRadiusImageView="@dimen/corner_radius_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="?uikitBackground" />
+    <ImageView android:id="@id/ivNoPhoto" android:visibility="gone" android:layout_width="@dimen/size_48" android:layout_height="@dimen/size_48" app:layout_constraintBottom_toBottomOf="@id/ivPhoto" app:layout_constraintEnd_toEndOf="@id/ivPhoto" app:layout_constraintStart_toStartOf="@id/ivPhoto" app:layout_constraintTop_toTopOf="@id/ivPhoto" app:srcCompat="@drawable/ic_no_photo_placeholder" />
+</androidx.constraintlayout.widget.ConstraintLayout>

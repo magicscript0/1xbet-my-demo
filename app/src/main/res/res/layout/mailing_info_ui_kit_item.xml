@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.footer.DsFooter android:theme="?uikitTheme" android:id="@id/tv_mailing_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mailing_management_info_desc" style="@style/Widget.DSFooter"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

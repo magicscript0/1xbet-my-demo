@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceBody2New" android:gravity="center" android:id="@id/tvNoResult" android:paddingBottom="@dimen/space_112" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/space_8" android:layout_marginRight="@dimen/space_8" android:text="@string/tournament_result_not_available" android:layout_marginHorizontal="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

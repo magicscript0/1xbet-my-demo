@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contentView" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.views.LoadableShapeableImageView android:id="@id/imageView" android:layout_width="@dimen/size_92" android:layout_height="@dimen/space_92" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="bottom" android:layout_gravity="start" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="@dimen/space_30" android:layout_marginTop="@dimen/space_12" android:layout_marginBottom="@dimen/space_46" android:maxLines="2" android:layout_marginStart="@dimen/size_106" android:layout_marginEnd="@dimen/space_56" app:autoSizeMaxTextSize="@dimen/text_18" app:autoSizeMinTextSize="@dimen/text_12" app:autoSizeTextType="uniform" style="@style/TextAppearance.Title.Medium.S" />
+        <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="top" android:layout_gravity="start" android:id="@id/descriptionTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_48" android:maxLines="2" android:layout_marginStart="@dimen/size_106" android:layout_marginEnd="@dimen/space_56" style="@style/TextAppearance.Caption.Regular.L" />
+        <ImageView android:layout_gravity="end" android:id="@id/iconView" android:layout_width="@dimen/size_32" android:layout_height="@dimen/size_32" android:layout_marginTop="@dimen/space_30" android:layout_marginEnd="@dimen/size_16" />
+    </FrameLayout>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerView" android:layout_width="match_parent" android:layout_height="@dimen/size_92" android:radius="@dimen/radius_16" />
+</merge>

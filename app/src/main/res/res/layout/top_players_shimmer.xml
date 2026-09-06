@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.ui_core.viewcomponents.layouts.constraint.ShimmerConstraintLayout android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/shimmer1" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/top_players_shimmer_list_item" />
+    <include android:id="@id/shimmer2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_32" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shimmer1" layout="@layout/top_players_shimmer_list_item" />
+    <include android:id="@id/shimmer3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_32" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shimmer2" layout="@layout/top_players_shimmer_list_item" />
+</org.xplatform.ui_core.viewcomponents.layouts.constraint.ShimmerConstraintLayout>

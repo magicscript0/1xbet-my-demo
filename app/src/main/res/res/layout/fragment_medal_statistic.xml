@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="?uikitTheme" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" app:title="@string/medal_rank" />
+    <include android:id="@id/iHeader" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/toolbar" layout="@layout/medals_statistic_header" />
+    <include android:id="@id/iShimmer" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" layout="@layout/layout_medal_statistic_shimmers" />
+    <org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout android:id="@id/srlRefresh" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iHeader">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvMedalStatistic" android:paddingBottom="@dimen/space_24" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </org.xplatform.ui_core.viewcomponents.swiperefreshlayout.SwipeRefreshLayout>
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:layout_gravity="center" android:id="@id/levLottie" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" app:text_res="@string/error_get_data" />
+    <View android:id="@id/touchArea" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

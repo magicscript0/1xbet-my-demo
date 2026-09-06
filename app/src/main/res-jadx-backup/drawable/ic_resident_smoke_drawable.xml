@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item
+        android:duration="150"
+        android:drawable="@drawable/ic_resident_smoke_drawable_1"/>
+    <item
+        android:duration="150"
+        android:drawable="@drawable/ic_resident_smoke_drawable_2"/>
+    <item
+        android:duration="150"
+        android:drawable="@drawable/ic_resident_smoke_drawable_3"/>
+    <item
+        android:duration="150"
+        android:drawable="@drawable/ic_resident_smoke_drawable_4"/>
+    <item
+        android:duration="150"
+        android:drawable="@drawable/ic_resident_smoke_drawable_5"/>
+    <item
+        android:duration="150"
+        android:drawable="@drawable/ic_resident_smoke_drawable_6"/>
+    <item
+        android:duration="150"
+        android:drawable="@drawable/ic_resident_smoke_drawable_7"/>
+</animation-list>

@@ -1,0 +1,164 @@
+{
+  "id": 583990003,
+  "constId": 242196955,
+  "events": [
+    {
+      "type": 9,
+      "parameter": 0.5,
+      "cf": 1.015,
+      "cfView": "1.015"
+    },
+    {
+      "type": 9,
+      "parameter": 1.0,
+      "cf": 1.034,
+      "cfView": "1.034"
+    },
+    {
+      "type": 9,
+      "parameter": 1.5,
+      "cf": 1.24,
+      "cfView": "1.24"
+    },
+    {
+      "type": 9,
+      "parameter": 2.0,
+      "cf": 1.363,
+      "cfView": "1.363"
+    },
+    {
+      "type": 9,
+      "parameter": 2.5,
+      "cf": 1.832,
+      "cfView": "1.832",
+      "isCenter": true
+    },
+    {
+      "type": 9,
+      "parameter": 3.0,
+      "cf": 2.26,
+      "cfView": "2.26"
+    },
+    {
+      "type": 9,
+      "parameter": 3.5,
+      "cf": 2.78,
+      "cfView": "2.78"
+    },
+    {
+      "type": 9,
+      "parameter": 4.0,
+      "cf": 4.25,
+      "cfView": "4.25"
+    },
+    {
+      "type": 9,
+      "parameter": 4.5,
+      "cf": 4.75,
+      "cfView": "4.75"
+    },
+    {
+      "type": 9,
+      "parameter": 5.0,
+      "cf": 7.5,
+      "cfView": "7.5"
+    },
+    {
+      "type": 10,
+      "parameter": 0.5,
+      "cf": 8.8,
+      "cfView": "8.8"
+    },
+    {
+      "type": 10,
+      "parameter": 1.0,
+      "cf": 8.4,
+      "cfView": "8.4"
+    },
+    {
+      "type": 10,
+      "parameter": 1.5,
+      "cf": 3.74,
+      "cfView": "3.74"
+    },
+    {
+      "type": 10,
+      "parameter": 2.0,
+      "cf": 3.04,
+      "cfView": "3.04"
+    },
+    {
+      "type": 10,
+      "parameter": 2.5,
+      "cf": 2.13,
+      "cfView": "2.13",
+      "isCenter": true
+    },
+    {
+      "type": 10,
+      "parameter": 3.0,
+      "cf": 1.61,
+      "cfView": "1.61"
+    },
+    {
+      "type": 10,
+      "parameter": 3.5,
+      "cf": 1.4,
+      "cfView": "1.4"
+    },
+    {
+      "type": 10,
+      "parameter": 4.0,
+      "cf": 1.175,
+      "cfView": "1.175"
+    },
+    {
+      "type": 10,
+      "parameter": 4.5,
+      "cf": 1.128,
+      "cfView": "1.128"
+    },
+    {
+      "type": 10,
+      "parameter": 5.0,
+      "cf": 1.029,
+      "cfView": "1.029"
+    },
+    {
+      "type": 9,
+      "parameter": 5.5,
+      "cf": 10.5,
+      "cfView": "10.5"
+    },
+    {
+      "type": 10,
+      "parameter": 5.5,
+      "cf": 1.04,
+      "cfView": "1.04"
+    },
+    {
+      "type": 9,
+      "parameter": 6.5,
+      "cf": 23,
+      "cfView": "23"
+    },
+    {
+      "type": 9,
+      "parameter": 7.5,
+      "cf": 50,
+      "cfView": "50"
+    },
+    {
+      "type": 10,
+      "parameter": 6.5,
+      "cf": 1.012,
+      "cfView": "1.012"
+    },
+    {
+      "type": 10,
+      "parameter": 7.5,
+      "cf": 1.002,
+      "cfView": "1.002"
+    }
+  ]
+}

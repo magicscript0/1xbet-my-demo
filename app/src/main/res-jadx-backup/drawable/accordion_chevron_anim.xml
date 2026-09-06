@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_expanded="true"
+        android:id="@+id/up"
+        android:drawable="@drawable/ic_glyph_chevron_up_small"/>
+    <item
+        android:state_expanded="false"
+        android:id="@+id/down"
+        android:drawable="@drawable/ic_glyph_chevron_down_small"/>
+    <transition
+        android:drawable="@drawable/accordion_down_to_up_animation"
+        android:toId="@+id/up"
+        android:fromId="@+id/down"/>
+    <transition
+        android:drawable="@drawable/accordion_up_to_down_animation"
+        android:toId="@+id/down"
+        android:fromId="@+id/up"/>
+</animated-selector>

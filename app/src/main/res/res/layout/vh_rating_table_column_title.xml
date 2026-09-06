@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/space_8" android:paddingRight="@dimen/space_8" android:layout_width="wrap_content" android:layout_height="@dimen/size_50" android:paddingHorizontal="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:gravity="center" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="ltr" />
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:gravity="center" android:id="@id/tvSubTitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="ltr" />
+</LinearLayout>

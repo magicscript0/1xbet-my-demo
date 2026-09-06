@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/size_62"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_12" android:id="@id/tvGender" android:paddingBottom="@dimen/space_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/TextStyle.Text.Regular.Secondary" />
+    <org.xplatform.uikit.components.chips.DsChipGroup android:id="@id/chipGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_4" app:itemSpacing="@dimen/space_8" app:singleSelection="true">
+        <org.xplatform.uikit.components.chips.DsChip android:id="@id/chipMale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" app:dsChipLabel="@string/male" style="@style/DSChip.Secondary" />
+        <org.xplatform.uikit.components.chips.DsChip android:id="@id/chipFemale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" app:dsChipLabel="@string/female" style="@style/DSChip.Secondary" />
+    </org.xplatform.uikit.components.chips.DsChipGroup>
+</androidx.appcompat.widget.LinearLayoutCompat>

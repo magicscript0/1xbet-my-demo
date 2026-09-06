@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/bonusAccountCell" android:layout_width="match_parent" android:layout_height="wrap_content" app:backgroundTint="?uikitBackground" app:first="true" app:last="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/categoryIcon" app:backgroundTint="?uikitBackgroundContent" app:srcCompat="@drawable/ic_slots_new" app:tint="?uikitPrimary" style="@style/Widget.DSCell.Left.Icon.Back" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/navigateToTitle" app:subtitle="@string/uses_bonus_account" app:subtitleMaxLines="2" style="@style/Widget.DSCell.Middle.Title.L" />
+    <org.xplatform.uikit.components.cells.right.DsCellRightLabel app:srcCompat="@drawable/glyph_chevron_right_small" app:tint="?uikitSecondary" style="@style/Widget.DSCell.Right.Label.Icon" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

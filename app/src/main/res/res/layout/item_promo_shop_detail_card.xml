@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.ui_core.viewcomponents.imageview.RoundCornerImageView android:id="@id/ivPromoShopImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" app:cornerRadiusImageView="@dimen/radius_12" />
+    <View android:layout_gravity="bottom" android:background="@drawable/promo_shop_gradient" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textAppearance="?textAppearanceSubtitle2BoldNew" android:textColor="@color/static_white" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/tvPromoShopName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12" android:layout_marginRight="@dimen/space_12" android:layout_marginBottom="@dimen/space_12" android:maxLines="2" android:layout_marginHorizontal="@dimen/space_12" />
+    <FrameLayout android:id="@id/flChipContainer" android:background="@drawable/bg_rounded_corners_8dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="?uikitBackground">
+        <TextView android:textAppearance="?textAppearanceBody1BoldNew" android:textSize="@dimen/text_10" android:textColor="@color/static_white" android:id="@id/tvChip" android:background="@drawable/bg_rounded_corners_8dp" android:paddingLeft="@dimen/space_4" android:paddingRight="@dimen/space_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space_2" android:backgroundTint="@color/static_green" android:paddingHorizontal="@dimen/space_4" />
+    </FrameLayout>
+</FrameLayout>

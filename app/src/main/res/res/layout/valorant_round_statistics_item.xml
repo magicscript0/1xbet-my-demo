@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/space_6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_10" android:textColor="@color/static_white_80" android:gravity="center" android:id="@id/tvRoundNumber" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_24" />
+    <include android:id="@id/firstTeamWinIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/valorant_round_indicator_item" />
+    <include android:id="@id/secondTeamWinIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:layout_marginBottom="@dimen/space_4" layout="@layout/valorant_round_indicator_item" />
+</LinearLayout>

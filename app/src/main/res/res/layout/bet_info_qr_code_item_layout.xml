@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qrCodeContainer" android:background="@drawable/rounded_background_8_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_8" android:layout_marginTop="@dimen/space_8" android:layout_marginRight="@dimen/space_8" android:elevation="@dimen/elevation_2" android:layout_marginHorizontal="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" android:text="@string/coupon_qr_code" style="@style/TextStyle.Title.Medium.S.TextPrimary" />
+    <ImageView android:id="@id/qrCodeIv" android:layout_width="@dimen/size_180" android:layout_height="@dimen/size_180" android:layout_marginTop="@dimen/space_28" android:layout_marginBottom="@dimen/space_28" android:layout_marginVertical="@dimen/space_28" />
+</LinearLayout>

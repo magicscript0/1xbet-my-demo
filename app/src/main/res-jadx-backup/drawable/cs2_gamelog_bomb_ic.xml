@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="13dp"
+    android:width="13dp"
+    android:viewportWidth="13"
+    android:viewportHeight="13">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M7.105,2.08L7.599,1.645C8.293,1.035 9.259,0.84 10.134,1.135C11.027,1.436 11.686,2.2 11.853,3.127L11.895,3.36C12.062,4.286 11.783,5.237 11.141,5.925L10.348,6.775"
+        android:strokeColor="@drawable/_cs2_gamelog_bomb_ic__0_res_0x7f080007"
+        android:strokeWidth="1"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M2.882,8.266L2.447,8.193C1.837,8.092 1.328,7.672 1.11,7.093C0.889,6.502 1.006,5.837 1.417,5.358L1.52,5.238C1.93,4.759 2.542,4.502 3.171,4.544L3.947,4.596"
+        android:strokeColor="@drawable/_cs2_gamelog_bomb_ic__1_res_0x7f080008"
+        android:strokeWidth="1"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__2_res_0x7f08000c"
+        android:pathData="M9.039,1.899H4.039C3.211,1.899 2.539,2.57 2.539,3.399V10.399C2.539,11.227 3.211,11.899 4.039,11.899H9.039C9.867,11.899 10.539,11.227 10.539,10.399V3.399C10.539,2.57 9.867,1.899 9.039,1.899Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__3_res_0x7f08000d"
+        android:pathData="M9.039,2.899H4.039C3.763,2.899 3.539,3.123 3.539,3.399V3.899C3.539,4.175 3.763,4.399 4.039,4.399H9.039C9.315,4.399 9.539,4.175 9.539,3.899V3.399C9.539,3.123 9.315,2.899 9.039,2.899Z"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9.039,2.399H4.039C3.487,2.399 3.039,2.847 3.039,3.399V3.899C3.039,4.451 3.487,4.899 4.039,4.899H9.039C9.591,4.899 10.039,4.451 10.039,3.899V3.399C10.039,2.847 9.591,2.399 9.039,2.399Z"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.25"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__4_res_0x7f08000e"
+        android:pathData="M5.039,6.649C5.039,6.373 4.815,6.149 4.539,6.149C4.263,6.149 4.039,6.373 4.039,6.649C4.039,6.925 4.263,7.149 4.539,7.149C4.815,7.149 5.039,6.925 5.039,6.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__5_res_0x7f08000f"
+        android:pathData="M7.039,6.649C7.039,6.373 6.815,6.149 6.539,6.149C6.263,6.149 6.039,6.373 6.039,6.649C6.039,6.925 6.263,7.149 6.539,7.149C6.815,7.149 7.039,6.925 7.039,6.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__6_res_0x7f080010"
+        android:pathData="M9.039,6.649C9.039,6.373 8.815,6.149 8.539,6.149C8.263,6.149 8.039,6.373 8.039,6.649C8.039,6.925 8.263,7.149 8.539,7.149C8.815,7.149 9.039,6.925 9.039,6.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__7_res_0x7f080011"
+        android:pathData="M5.039,8.649C5.039,8.373 4.815,8.149 4.539,8.149C4.263,8.149 4.039,8.373 4.039,8.649C4.039,8.925 4.263,9.149 4.539,9.149C4.815,9.149 5.039,8.925 5.039,8.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__8_res_0x7f080012"
+        android:pathData="M7.039,8.649C7.039,8.373 6.815,8.149 6.539,8.149C6.263,8.149 6.039,8.373 6.039,8.649C6.039,8.925 6.263,9.149 6.539,9.149C6.815,9.149 7.039,8.925 7.039,8.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__9_res_0x7f080013"
+        android:pathData="M9.039,8.649C9.039,8.373 8.815,8.149 8.539,8.149C8.263,8.149 8.039,8.373 8.039,8.649C8.039,8.925 8.263,9.149 8.539,9.149C8.815,9.149 9.039,8.925 9.039,8.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__10_res_0x7f080009"
+        android:pathData="M5.039,10.649C5.039,10.373 4.815,10.149 4.539,10.149C4.263,10.149 4.039,10.373 4.039,10.649C4.039,10.925 4.263,11.149 4.539,11.149C4.815,11.149 5.039,10.925 5.039,10.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__11_res_0x7f08000a"
+        android:pathData="M7.039,10.649C7.039,10.373 6.815,10.149 6.539,10.149C6.263,10.149 6.039,10.373 6.039,10.649C6.039,10.925 6.263,11.149 6.539,11.149C6.815,11.149 7.039,10.925 7.039,10.649Z"/>
+    <path
+        android:fillColor="@drawable/_cs2_gamelog_bomb_ic__12_res_0x7f08000b"
+        android:pathData="M9.039,10.649C9.039,10.373 8.815,10.149 8.539,10.149C8.263,10.149 8.039,10.373 8.039,10.649C8.039,10.925 8.263,11.149 8.539,11.149C8.815,11.149 9.039,10.925 9.039,10.649Z"/>
+</vector>

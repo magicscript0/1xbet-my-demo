@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/clGameRootContainer" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.sportgame.classic.impl.presentation.views.matchinfo.MatchInfoContainerView android:id="@id/matchInfoContainer" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <org.xplatform.sportgame.classic.impl.presentation.views.GameScreenToolbarView android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" />
+    <org.xplatform.sportgame.classic.impl.presentation.views.SubGamesContainerView android:id="@id/bettingContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <org.xplatform.sportgame.core.presentation.GameScreenRelatedContainerView android:id="@id/relatedContainer" android:background="?uikitBackground" android:paddingLeft="@dimen/medium_horizontal_margin_dynamic" android:paddingRight="@dimen/medium_horizontal_margin_dynamic" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsMenuCell android:theme="?uikitTheme" android:layout_width="match_parent" android:layout_height="@dimen/size_64" style="@style/Widget.DSCell.Menu"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/left" app:backgroundTint="?uikitPrimary" app:badge="dot" app:tint="?uikitStaticWhite" style="@style/Widget.DSCell.Left.Icon.Back" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/middle" style="@style/Widget.DSCell.Middle.Title.S" />
+</org.xplatform.uikit.components.cells.DsMenuCell>

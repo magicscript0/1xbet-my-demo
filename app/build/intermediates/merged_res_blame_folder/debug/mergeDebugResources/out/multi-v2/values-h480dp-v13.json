@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-h480dp-v13/values-h480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-h480dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "57,133,206,281",
+                        "endColumns": "74,71,73,71",
+                        "endOffsets": "127,200,275,348"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,202,276",
+                        "endColumns": "74,71,73,71",
+                        "endOffsets": "125,197,271,343"
+                    }
+                }
+            ]
+        }
+    ]
+}

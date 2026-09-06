@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/social_button_default_background" android:paddingLeft="@dimen/space_2" android:paddingTop="@dimen/space_8" android:paddingRight="@dimen/space_2" android:paddingBottom="@dimen/space_8" android:layout_width="match_parent" android:layout_height="@dimen/size_56" android:minWidth="@dimen/size_56" android:paddingHorizontal="@dimen/space_2" android:paddingVertical="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.accordion.DsAccordion android:layout_gravity="center" android:id="@id/accordion" android:layout_width="@dimen/size_40" android:layout_height="@dimen/size_40" style="@style/Widget.DSAccordion.Clear" />
+</FrameLayout>

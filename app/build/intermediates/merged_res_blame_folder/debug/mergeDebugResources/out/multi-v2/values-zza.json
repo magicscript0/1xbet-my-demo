@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-zza/values-zza.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-zza\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,160,248,311,418,472,538,631",
+                        "endColumns": "101,86,61,105,52,64,91,62",
+                        "endOffsets": "154,242,305,412,466,532,625,689"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,244,306,412,465,530,622",
+                        "endColumns": "101,86,61,105,52,64,91,62",
+                        "endOffsets": "152,239,301,407,460,525,617,680"
+                    }
+                }
+            ]
+        }
+    ]
+}

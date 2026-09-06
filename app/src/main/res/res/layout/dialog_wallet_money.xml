@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/space_24" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetTitle android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/walletMoneyTitle" android:layout_width="match_parent" android:layout_height="wrap_content" app:titleTextStyle="@style/TextStyle.Title.Bold.M.TextPrimary" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/space_8" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/space_16" />
+    <include android:id="@id/walletBalance" layout="@layout/ds_bottom_sheet_wallet_balance" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/space_16" />
+    <org.xplatform.uikit.components.text_field.DsTextField android:id="@id/editSum" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" style="@style/Widget.DSTextField.Filled" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/space_16" />
+    <include android:id="@id/transferAmount" layout="@layout/ds_bottom_sheet_transfer_amount" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/space_8" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetButton android:id="@id/actionButton" android:layout_width="match_parent" android:layout_height="wrap_content" app:presetButtonStyle="@style/DSButton.Large.Primary" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="match_parent" android:layout_height="@dimen/space_8" />
+</LinearLayout>

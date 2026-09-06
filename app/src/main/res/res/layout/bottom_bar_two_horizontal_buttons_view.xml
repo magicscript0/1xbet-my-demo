@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/bottomBarFirstButton" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large_horizontal_margin_dynamic" android:layout_marginEnd="@dimen/space_6" app:layout_constraintEnd_toStartOf="@id/bottomBarSecondButton" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_goneMarginEnd="0.0dp" style="@style/DSButton.Large.Primary" />
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/bottomBarSecondButton" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_6" android:layout_marginEnd="@dimen/large_horizontal_margin_dynamic" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/bottomBarFirstButton" app:layout_goneMarginStart="0.0dp" style="@style/DSButton.Large.Primary" />
+</merge>

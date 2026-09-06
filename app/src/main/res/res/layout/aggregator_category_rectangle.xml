@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:paddingLeft="@dimen/space_8" android:paddingTop="@dimen/space_8" android:paddingRight="@dimen/space_8" android:paddingBottom="@dimen/space_8" android:layout_width="wrap_content" android:layout_height="@dimen/size_104" android:paddingHorizontal="@dimen/space_8" android:paddingVertical="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/view_icon" android:background="@drawable/circle_background" android:layout_width="@dimen/size_40" android:layout_height="@dimen/size_40" android:layout_margin="@dimen/space_8" android:backgroundTint="?uikitBackground">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="@dimen/size_24" app:tint="?uikitPrimary" />
+    </FrameLayout>
+    <TextView android:textColor="?uikitTextPrimary" android:ellipsize="end" android:gravity="bottom" android:layout_gravity="start|bottom" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_48" android:layout_marginBottom="@dimen/space_8" android:maxLines="2" android:paddingEnd="@dimen/space_8" android:layout_marginStart="@dimen/space_8" app:autoSizeMaxTextSize="@dimen/text_12" app:autoSizeMinTextSize="@dimen/text_10" app:autoSizeTextType="uniform" style="@style/TextAppearance.Caption.Medium.L" />
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/size_104" android:radius="@dimen/radius_16" />
+</merge>

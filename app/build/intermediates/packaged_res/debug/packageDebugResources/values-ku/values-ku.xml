@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_widget_description">Xwegihandina bilez ji bo tevahîya maçên we yên favorî</string>
+    <string name="popular_live_widget_description">Çalakîya zindî ya popûler</string>
+    <string name="widget_fast_access">Gîyana bilez</string>
+    <string name="widget_fast_access_description">Gîyana bilez jibo taybetên esas</string>
+    <string name="widget_favorite">Favorî</string>
+    <string name="widget_popular_line">Bêriya maçê ya popûler</string>
+    <string name="widget_popular_line_description">Çalakîya bêriya maçê ya popûler</string>
+    <string name="widget_popular_live">Popûler zindî</string>
+</resources>

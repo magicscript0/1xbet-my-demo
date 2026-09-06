@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="?attr/uikitCommerce"
+        android:pathData="M0,12C0,8.272 0,6.409 0.609,4.939C1.421,2.978 2.978,1.421 4.939,0.609C6.409,0 8.272,0 12,0H20C23.728,0 25.591,0 27.062,0.609C29.022,1.421 30.579,2.978 31.391,4.939C32,6.409 32,8.272 32,12C32,15.727 32,17.591 31.391,19.062C30.579,21.022 29.022,22.579 27.062,23.391C25.591,24 23.728,24 20,24H12C8.272,24 6.409,24 4.939,23.391C2.978,22.579 1.421,21.022 0.609,19.062C0,17.591 0,15.727 0,12Z"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M16,6C16.552,6 17,6.448 17,7V11H21C21.552,11 22,11.448 22,12C22,12.552 21.552,13 21,13H17V17C17,17.552 16.552,18 16,18C15.448,18 15,17.552 15,17V13H11C10.448,13 10,12.552 10,12C10,11.448 10.448,11 11,11H15V7C15,6.448 15.448,6 16,6Z"
+        android:fillType="evenOdd"/>
+</vector>

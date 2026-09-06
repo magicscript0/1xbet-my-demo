@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dp" android:width="16.0dp" android:autoMirrored="true" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M16,16l-16,-0l-0,-16l16,-0z" />
+        <path android:fillColor="@color/deposit_limit_pending_icon_selector" android:pathData="M10,4.69C10,4.066 9.246,3.754 8.805,4.195L5.495,7.505C5.222,7.778 5.222,8.222 5.495,8.495L8.805,11.805C9.246,12.246 10,11.934 10,11.31L10,4.69Z" />
+    </group>
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?uikitBackgroundGroup" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_4" android:layout_marginRight="@dimen/space_4" android:layout_marginBottom="@dimen/space_4" android:layout_marginHorizontal="@dimen/space_4" app:cardElevation="2.0dp" style="@style/Widget.AppTheme.CardView.New">
+        <LinearLayout android:orientation="horizontal" android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="@dimen/space_56">
+            <org.xplatform.uikit.components.team_logo.DsTeamLogo android:id="@id/photo" android:layout_width="@dimen/icon_size_32" android:layout_height="@dimen/icon_size_32" android:layout_marginTop="@dimen/space_12" android:layout_marginBottom="@dimen/space_12" android:layout_marginStart="@dimen/space_12" style="@style/Widget.DSSportTeamLogo.Size32" />
+            <TextView android:textAppearance="?textAppearanceSubtitle2BoldNew" android:textColor="?uikitTextPrimary" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="@dimen/space_12" android:layout_marginEnd="@dimen/space_12" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

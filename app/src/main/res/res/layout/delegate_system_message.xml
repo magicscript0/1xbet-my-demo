@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_40" android:layout_marginRight="@dimen/space_40" android:layout_marginBottom="@dimen/space_8" android:maxWidth="@dimen/size_240" android:layout_marginHorizontal="@dimen/space_40"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.ui_core.viewcomponents.views.FixedSelectionTextView android:textSize="@dimen/text_12" android:textColor="?uikitSecondary" android:gravity="center" android:autoLink="web|phone" android:id="@id/txtMessage" android:background="@drawable/message_system_bg" android:paddingLeft="@dimen/space_12" android:paddingTop="@dimen/space_8" android:paddingRight="@dimen/space_12" android:paddingBottom="@dimen/space_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_12" android:paddingVertical="@dimen/space_8" />
+</LinearLayout>

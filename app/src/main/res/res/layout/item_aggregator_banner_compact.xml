@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.main_menu.impl.presentation.common.views.AggregatorBanner android:id="@id/bannerCompact" style="@style/AggregatorBanner.Compact"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

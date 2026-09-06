@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/cyber_synthetic_crystal_item_bg"/>
+    <corners android:radius="@dimen/radius_12"/>
+    <stroke
+        android:width="@dimen/size_2"
+        android:color="@color/cyber_synthetic_crystal_stroke"/>
+</shape>

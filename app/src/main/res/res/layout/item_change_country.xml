@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:paddingTop="@dimen/space_16" android:paddingBottom="@dimen/space_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/space_16" android:paddingVertical="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.text_field.DsTextField android:id="@id/tfCountry" android:layout_width="match_parent" android:layout_height="wrap_content" app:drawableTint="?colorSecondary" app:endIcon="@drawable/ic_glyph_chevron_right" app:hint="@string/test_country" style="@style/Widget.DSTextField.Basic.Icon" />
+        <org.xplatform.uikit.components.buttons.DsButton android:id="@id/bResetCountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" app:dsButtonLabel="@string/clear_country" style="@style/DSButton.Large.Primary" />
+    </LinearLayout>
+</org.xplatform.uikit.components.cells.DsSettingsCell>

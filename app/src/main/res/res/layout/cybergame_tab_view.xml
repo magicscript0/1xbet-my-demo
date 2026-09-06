@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatCheckedTextView android:textSize="@dimen/text_14" android:textColor="@color/static_white" android:gravity="center" android:id="@id/tabTitle" android:background="@drawable/cybergame_tab_bg" android:paddingLeft="@dimen/space_16" android:paddingRight="@dimen/space_16" android:layout_width="wrap_content" android:layout_height="@dimen/size_32" android:layout_marginEnd="@dimen/space_8" android:paddingHorizontal="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

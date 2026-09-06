@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/perMonthContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16">
+        <TextView android:textAppearance="?textAppearanceSubtitle1New" android:gravity="center_vertical" android:id="@id/perMonthTitle" android:layout_width="match_parent" android:layout_height="@dimen/icon_size_56" android:text="@string/for_month" />
+        <View android:id="@id/divider" android:background="?uikitSeparator30" android:layout_width="match_parent" android:layout_height="@dimen/space_1" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/periodContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16">
+        <TextView android:textAppearance="?textAppearanceSubtitle1New" android:gravity="center_vertical" android:id="@id/periodTitle" android:layout_width="match_parent" android:layout_height="@dimen/icon_size_56" android:text="@string/history_filter_set_period" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

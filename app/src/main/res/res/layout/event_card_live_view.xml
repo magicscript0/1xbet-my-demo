@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/size_40" android:minHeight="@dimen/size_26"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.timer.DsTimer android:layout_gravity="center" android:id="@id/timer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_2" style="@style/Widget.DSTimer.Decrementing" />
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_8" android:layout_marginTop="@dimen/space_4" android:layout_marginRight="@dimen/space_8" android:maxLines="2" android:layout_marginHorizontal="@dimen/space_8" style="@style/TextStyle.Caption.Regular.L.Secondary" />
+</merge>

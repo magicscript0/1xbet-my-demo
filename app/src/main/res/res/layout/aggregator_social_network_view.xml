@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/socialNetworkLl" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/socialHeader" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/socialHeaderLabel" android:paddingBottom="@dimen/space_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/space_12" style="@style/TextStyle.Title.Bold.M.Shrink.Alt.TextPrimary" />
+    <TextView android:ellipsize="end" android:id="@id/socialSubHeader" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextStyle.Caption.Regular.L.Secondary" />
+    <org.xplatform.uikit.components.views.OptimizedScrollRecyclerView android:layout_gravity="center" android:id="@id/rvSocialNetworks" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

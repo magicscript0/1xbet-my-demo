@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="100dp"
+    android:width="88dp"
+    android:viewportWidth="88"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="@drawable/_cybergame_dice_poker_white_cup__0_res_0x7f080072"
+        android:pathData="M75.6,49.5L49.9,98.7C49.9,98.7 33.7,101.8 17.4,92C0.2,81.6 0,72.1 0,72.1L22.1,23L75.6,49.5Z"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M69.5,53.4C64.6,53.8 55.1,51.6 44.4,46.1C33.7,40.6 28.8,37.5 24.8,33.5C21.6,30.3 20.6,26.6 20.6,26.6L23.3,21L76.3,48.4L74.4,52C74.4,52.1 73,53.1 69.5,53.4Z"
+        android:strokeAlpha="0.3"
+        android:fillAlpha="0.24"/>
+    <path
+        android:fillColor="@drawable/_cybergame_dice_poker_white_cup__1_res_0x7f080073"
+        android:pathData="M79,47.6C79,47.6 74.4,56.5 45.3,41.5C19.9,28.4 20.8,19.1 20.8,19.1L26.6,4.7L87,34.1L79,47.6Z"/>
+    <path
+        android:fillColor="@drawable/_cybergame_dice_poker_white_cup__2_res_0x7f080074"
+        android:pathData="M86.9,34.3C88.8,30.2 76.9,20.4 60.2,12.4C43.5,4.4 28.4,1.1 26.4,5.2C24.5,9.3 36.4,19.1 53.1,27.1C69.8,35.1 85,38.4 86.9,34.3ZM83.7,32.5C85.3,29.3 74.5,20.9 59.7,13.8C44.9,6.6 31.6,3.4 30,6.7C28.4,9.9 39.2,18.3 54,25.4C68.8,32.5 82.1,35.7 83.7,32.5Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_cybergame_dice_poker_white_cup__3_res_0x7f080075"
+        android:pathData="M83.7,32.5C82.1,35.7 68.9,32.6 54.1,25.4C39.3,18.2 28.5,9.9 30,6.7C31.5,3.5 44.8,6.6 59.6,13.8C74.4,21 85.2,29.2 83.7,32.5Z"/>
+</vector>

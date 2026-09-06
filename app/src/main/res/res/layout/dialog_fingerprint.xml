@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_64" android:src="@drawable/ic_fingerprint" app:tint="?uikitPrimary" />
+    <TextView android:textAppearance="?textAppearanceBody1New" android:gravity="center_horizontal" android:id="@id/tvError" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_32" android:text="@string/fingerprint_dialog_subtitle" android:layout_marginStart="@dimen/space_24" android:layout_marginEnd="@dimen/space_24" />
+    <TextView android:textAppearance="?textAppearanceBody1MediumNew" android:textColor="?uikitPrimary" android:id="@id/tvCancel" android:padding="@dimen/space_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_48" android:layout_marginBottom="@dimen/space_16" android:text="@string/cancel" android:layout_marginStart="@dimen/space_16" />
+</LinearLayout>

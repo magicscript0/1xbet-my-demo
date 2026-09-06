@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/games_mania_finish_cell_text_color"/>
+    <corners android:radius="2dp"/>
+    <stroke
+        android:width="2dp"
+        android:color="@color/games_mania_circle_stroke_color"/>
+</shape>

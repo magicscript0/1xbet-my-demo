@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsShimmerCell android:theme="?uikitTheme" android:layout_marginTop="@dimen/space_8" app:first="true" app:last="true" app:showLongTitle="true" style="@style/Widget.DSCell.Shimmers.Settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

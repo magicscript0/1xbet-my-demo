@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/space_8" android:paddingTop="@dimen/space_18" android:paddingRight="@dimen/space_8" android:paddingBottom="@dimen/space_18" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_8" android:paddingVertical="@dimen/space_18"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view1" android:background="@drawable/group_bg_rounded_corners_new" android:layout_width="@dimen/size_70" android:layout_height="@dimen/size_16" />
+    <View android:id="@id/view2" android:background="@drawable/group_bg_rounded_corners_new" android:layout_width="match_parent" android:layout_height="@dimen/size_16" android:layout_marginStart="@dimen/space_16" />
+</LinearLayout>

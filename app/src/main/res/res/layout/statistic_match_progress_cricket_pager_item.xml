@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/size_300"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvMatchProgress" android:paddingBottom="@dimen/space_18" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <org.xplatform.ui_core.viewcomponents.layouts.frame.ProgressBarWithSandClockNew android:layout_gravity="center" android:id="@id/loader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?textAppearanceBody1New" android:layout_gravity="center" android:id="@id/emptyView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/statistic_empty_data" app:drawableTopCompat="@drawable/ic_empty_data" />
+</FrameLayout>

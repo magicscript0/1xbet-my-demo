@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_logo_container_height">108dp</dimen>
+    <dimen name="app_logo_container_width">216dp</dimen>
+    <dimen name="drop_down_card_width">256dp</dimen>
+    <dimen name="sportsman_item_height">30dp</dimen>
+    <dimen name="sportsman_item_width">24dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:id="@id/timePickerMiddle" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/disallowInterceptView" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/view_disallow_intercept" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetTwoButtons android:orientation="horizontal" android:id="@id/timePickerButtons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" app:endButtonText="@string/apply_action" app:firstButtonStyle="@style/DSButton.Large.Secondary" app:secondButtonStyle="@style/DSButton.Large.Primary" app:startButtonText="@string/cancel" />
+</LinearLayout>

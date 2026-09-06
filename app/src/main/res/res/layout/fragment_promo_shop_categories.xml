@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic android:id="@id/navigationBar" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="@dimen/elevation_2" app:showShadow="false" style="@style/Widgets.BasicNavigationBar.Title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvCategories" android:paddingTop="@dimen/space_12" android:paddingBottom="@dimen/space_48" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include android:id="@id/shimmer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/space_8" layout="@layout/view_promo_shop_categories_shimmer" />
+    <org.xplatform.uikit.components.lottie.LottieView android:layout_gravity="center" android:id="@id/errorView" android:background="?uikitBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.text_field.DsTextField android:textColor="?uikitSecondary" android:id="@id/clickableTextField" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:inputType="none" app:hint="@string/reg_country_x" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.DSTextField.Basic.Chevron" />
+    <View android:id="@id/overlayView" android:background="@android:color/transparent" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="@id/clickableTextField" app:layout_constraintEnd_toEndOf="@id/clickableTextField" app:layout_constraintStart_toStartOf="@id/clickableTextField" app:layout_constraintTop_toTopOf="@id/clickableTextField" />
+</androidx.constraintlayout.widget.ConstraintLayout>

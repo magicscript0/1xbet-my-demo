@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_aggregator.aggregatortournamentrules.DSAggregatorTournamentRules android:id="@id/prizeRules" android:paddingLeft="@dimen/medium_horizontal_margin_dynamic" android:paddingRight="@dimen/medium_horizontal_margin_dynamic" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_8" android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

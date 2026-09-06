@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-sw640dp-v13/values-sw640dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-sw640dp\\integers.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "57,122,197,262,332,411",
+                        "endColumns": "63,73,63,68,77,89",
+                        "endOffsets": "116,191,256,326,405,496"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,119,193,257,326,404",
+                        "endColumns": "63,73,63,68,77,89",
+                        "endOffsets": "114,188,252,321,399,489"
+                    }
+                }
+            ]
+        }
+    ]
+}

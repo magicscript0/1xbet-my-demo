@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:gravity="center" android:layout_gravity="center" android:id="@id/sectorButtonContainer" android:paddingTop="@dimen/float_margin_8" android:paddingBottom="@dimen/float_margin_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="1" android:paddingVertical="@dimen/float_margin_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.spin_and_win.presentation.views.SpinAndWinButton android:id="@id/x2Btn" android:layout_width="@dimen/spin_and_win_btn_width" android:layout_height="@dimen/spin_and_win_btn_height" android:layout_marginBottom="@dimen/space_2" />
+    <org.xplatform.spin_and_win.presentation.views.SpinAndWinButton android:id="@id/x4Btn" android:layout_width="@dimen/spin_and_win_btn_width" android:layout_height="@dimen/spin_and_win_btn_height" android:layout_marginBottom="@dimen/space_2" />
+    <org.xplatform.spin_and_win.presentation.views.SpinAndWinButton android:id="@id/x5Btn" android:layout_width="@dimen/spin_and_win_btn_width" android:layout_height="@dimen/spin_and_win_btn_height" android:layout_marginBottom="@dimen/space_2" />
+    <org.xplatform.spin_and_win.presentation.views.SpinAndWinButton android:id="@id/x7Btn" android:layout_width="@dimen/spin_and_win_btn_width" android:layout_height="@dimen/spin_and_win_btn_height" android:layout_marginBottom="@dimen/space_2" />
+    <org.xplatform.spin_and_win.presentation.views.SpinAndWinButton android:id="@id/x10Btn" android:layout_width="@dimen/spin_and_win_btn_width" android:layout_height="@dimen/spin_and_win_btn_height" android:layout_marginBottom="@dimen/space_2" />
+    <org.xplatform.spin_and_win.presentation.views.SpinAndWinButton android:id="@id/x20Btn" android:layout_width="@dimen/spin_and_win_btn_width" android:layout_height="@dimen/spin_and_win_btn_height" android:layout_marginBottom="@dimen/space_2" />
+</GridLayout>

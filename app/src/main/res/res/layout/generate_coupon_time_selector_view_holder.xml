@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="?uikitTheme" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:id="@id/elementTv" android:paddingTop="@dimen/space_10" android:paddingBottom="@dimen/space_10" android:layout_width="0.0dp" android:layout_height="wrap_content" android:paddingVertical="@dimen/space_10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/cellRightRadioButton" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <org.xplatform.uikit.components.cells.right.DsCellRightRadioButton android:id="@id/cellRightRadioButton" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.DSCell.Right.RadioButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

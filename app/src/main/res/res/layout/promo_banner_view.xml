@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="@dimen/size_72"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/uiKitBannerShimmerView" android:tag="promoBannerShimmer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/size_72" android:radius="@dimen/radius_16" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/uiKitBannerShapeableImageViewBackground" android:background="@drawable/promo_banner_background" android:layout_width="match_parent" android:layout_height="@dimen/size_72" android:src="@drawable/promo_banner_icon" android:scaleType="fitEnd" app:shapeAppearance="@style/ShapeAppearance.Radius16" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/uiKitPromoBannerData" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_96">
+        <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/uiKitPromoBannerLabelText" android:tag="labelText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextStyle.Caption.Regular.L.StaticWhite" />
+        <org.xplatform.uikit.components.views.CustomEndEllipsizeTextView android:id="@id/uiKitPromoBannerValueText" android:tag="amountText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="@dimen/space_4" style="@style/TextStyle.Title.Bold.M.Shrink.StaticWhite" />
+    </LinearLayout>
+</merge>

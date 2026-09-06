@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-land\\integers.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,122,186,239,305",
+                        "endColumns": "63,62,51,64,66",
+                        "endOffsets": "116,180,233,299,367"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1395,1459,1522,1574,1639",
+                        "endColumns": "63,62,51,64,66",
+                        "endOffsets": "1454,1517,1569,1634,1701"
+                    }
+                },
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-land\\styles.xml",
+                    "from": {
+                        "startLines": "2,6,12,18,30,36",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "57,250,670,1064,1834,2245",
+                        "endLines": "5,11,17,29,35,38",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "244,664,1058,1828,2239,2483"
+                    },
+                    "to": {
+                        "startLines": "26,30,36,42,54,60",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1706,1895,2309,2697,3455,3860",
+                        "endLines": "29,35,41,53,59,62",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "1890,2304,2692,3450,3855,4096"
+                    }
+                },
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-land\\bools.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,94",
+                        "endColumns": "35,38",
+                        "endOffsets": "88,128"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,91",
+                        "endColumns": "35,38",
+                        "endOffsets": "86,125"
+                    }
+                },
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,130,204,275,353,430,498,568,641,716,788,860,945,1038,1117,1188,1258",
+                        "endColumns": "71,72,69,76,75,66,68,71,73,70,70,83,91,77,69,68,79",
+                        "endOffsets": "124,198,269,347,424,492,562,635,710,782,854,939,1032,1111,1182,1252,1333"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "130,202,275,345,422,498,565,634,706,780,851,922,1006,1098,1176,1246,1315",
+                        "endColumns": "71,72,69,76,75,66,68,71,73,70,70,83,91,77,69,68,79",
+                        "endOffsets": "197,270,340,417,493,560,629,701,775,846,917,1001,1093,1171,1241,1310,1390"
+                    }
+                }
+            ]
+        }
+    ]
+}

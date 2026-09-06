@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackgroundContent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceOverline" android:textColor="?uikitTextPrimary" android:gravity="center" android:id="@id/tvBall" android:background="@drawable/circle" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_24" android:includeFontPadding="false" android:textAlignment="center" android:backgroundTint="?uikitBackground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

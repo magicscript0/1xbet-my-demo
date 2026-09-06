@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_back" app:navigationIconTint="?uikitSecondary" style="@style/Widget.AppTheme.Toolbar.New" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerView" android:paddingLeft="@dimen/space_8" android:paddingRight="@dimen/space_8" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/space_8" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?actionBarSize">
+        <org.xplatform.uikit.components.lottie.LottieView android:id="@id/emptyView" android:background="?uikitBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:file_name="@string/lottie_history_empty" app:textColor="?uikitSecondary" app:text_res="@string/participate_actions_and_win" />
+        <com.google.android.material.button.MaterialButton android:enabled="true" android:layout_gravity="bottom" android:id="@id/authorizeButton" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" android:layout_marginBottom="@dimen/space_24" android:text="@string/make_login" android:layout_weight="0.0" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_16" app:layout_constraintBottom_toBottomOf="parent" style="@style/Widget.AppTheme.SolidButton.New" />
+    </LinearLayout>
+    <include android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/view_progress_bar" />
+</FrameLayout>

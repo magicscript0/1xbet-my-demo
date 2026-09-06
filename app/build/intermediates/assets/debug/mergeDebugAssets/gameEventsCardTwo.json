@@ -1,0 +1,188 @@
+{
+  "id": 586461073,
+  "constId": 243732285,
+  "events": [
+    {
+      "type": 9,
+      "parameter": 1.5,
+      "cf": 1.117,
+      "cfView": "1.117"
+    },
+    {
+      "type": 9,
+      "parameter": 2.0,
+      "cf": 1.17,
+      "cfView": "1.17"
+    },
+    {
+      "type": 9,
+      "parameter": 2.5,
+      "cf": 1.444,
+      "cfView": "1.444"
+    },
+    {
+      "type": 9,
+      "parameter": 3.0,
+      "cf": 1.69,
+      "cfView": "1.69"
+    },
+    {
+      "type": 9,
+      "parameter": 3.5,
+      "cf": 2.194,
+      "cfView": "2.194",
+      "isCenter": true
+    },
+    {
+      "type": 9,
+      "parameter": 4.0,
+      "cf": 2.875,
+      "cfView": "2.875"
+    },
+    {
+      "type": 9,
+      "parameter": 4.5,
+      "cf": 3.38,
+      "cfView": "3.38"
+    },
+    {
+      "type": 9,
+      "parameter": 5.0,
+      "cf": 5.1,
+      "cfView": "5.1"
+    },
+    {
+      "type": 9,
+      "parameter": 5.5,
+      "cf": 5.45,
+      "cfView": "5.45"
+    },
+    {
+      "type": 9,
+      "parameter": 6.0,
+      "cf": 8.3,
+      "cfView": "8.3"
+    },
+    {
+      "type": 10,
+      "parameter": 1.5,
+      "cf": 4.95,
+      "cfView": "4.95"
+    },
+    {
+      "type": 10,
+      "parameter": 2.0,
+      "cf": 4.33,
+      "cfView": "4.33"
+    },
+    {
+      "type": 10,
+      "parameter": 2.5,
+      "cf": 2.62,
+      "cfView": "2.62"
+    },
+    {
+      "type": 10,
+      "parameter": 3.0,
+      "cf": 2.12,
+      "cfView": "2.12"
+    },
+    {
+      "type": 10,
+      "parameter": 3.5,
+      "cf": 1.755,
+      "cfView": "1.755",
+      "isCenter": true
+    },
+    {
+      "type": 10,
+      "parameter": 4.0,
+      "cf": 1.4,
+      "cfView": "1.4"
+    },
+    {
+      "type": 10,
+      "parameter": 4.5,
+      "cf": 1.285,
+      "cfView": "1.285"
+    },
+    {
+      "type": 10,
+      "parameter": 5.0,
+      "cf": 1.123,
+      "cfView": "1.123"
+    },
+    {
+      "type": 10,
+      "parameter": 5.5,
+      "cf": 1.093,
+      "cfView": "1.093"
+    },
+    {
+      "type": 10,
+      "parameter": 6.0,
+      "cf": 1.016,
+      "cfView": "1.016"
+    },
+    {
+      "type": 9,
+      "parameter": 1.0,
+      "cf": 1.01,
+      "cfView": "1.01"
+    },
+    {
+      "type": 10,
+      "parameter": 0.5,
+      "cf": 21,
+      "cfView": "21"
+    },
+    {
+      "type": 10,
+      "parameter": 1.0,
+      "cf": 16.5,
+      "cfView": "16.5"
+    },
+    {
+      "type": 9,
+      "parameter": 0.5,
+      "cf": 1.008,
+      "cfView": "1.008"
+    },
+    {
+      "type": 9,
+      "parameter": 6.5,
+      "cf": 13,
+      "cfView": "13"
+    },
+    {
+      "type": 9,
+      "parameter": 7.5,
+      "cf": 23,
+      "cfView": "23"
+    },
+    {
+      "type": 9,
+      "parameter": 8.5,
+      "cf": 50,
+      "cfView": "50"
+    },
+    {
+      "type": 10,
+      "parameter": 6.5,
+      "cf": 1.04,
+      "cfView": "1.04"
+    },
+    {
+      "type": 10,
+      "parameter": 7.5,
+      "cf": 1.012,
+      "cfView": "1.012"
+    },
+    {
+      "type": 10,
+      "parameter": 8.5,
+      "cf": 1.002,
+      "cfView": "1.002"
+    }
+  ]
+}

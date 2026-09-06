@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:drawable="@drawable/rounded_background_16"
+        app:order_first="true"
+        app:order_last="true"/>
+    <item
+        android:drawable="@drawable/cell_last_background"
+        app:order_last="true"/>
+    <item
+        android:drawable="@drawable/cell_first_background"
+        app:order_first="true"/>
+    <item
+        android:drawable="@drawable/rounded_full"
+        app:round_full="true"/>
+    <item
+        android:drawable="@drawable/rounded_background_16"
+        app:round_16="true"/>
+    <item
+        android:drawable="@drawable/rounded_background_12"
+        app:round_12="true"/>
+    <item
+        android:drawable="@drawable/rounded_background_8"
+        app:round_8="true"/>
+    <item>
+        <shape android:shape="rectangle"/>
+    </item>
+</selector>

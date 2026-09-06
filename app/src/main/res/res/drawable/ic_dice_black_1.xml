@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dp" android:width="20.0dp" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h20v20h-20z" />
+        <path android:fillColor="@drawable/$ic_dice_black_1__0" android:pathData="M0,6.4C0,4.16 0,3.04 0.436,2.184C0.819,1.431 1.431,0.819 2.184,0.436C3.04,0 4.16,0 6.4,0H13.6C15.84,0 16.96,0 17.816,0.436C18.569,0.819 19.181,1.431 19.564,2.184C20,3.04 20,4.16 20,6.4V13.6C20,15.84 20,16.96 19.564,17.816C19.181,18.569 18.569,19.181 17.816,19.564C16.96,20 15.84,20 13.6,20H6.4C4.16,20 3.04,20 2.184,19.564C1.431,19.181 0.819,18.569 0.436,17.816C0,16.96 0,15.84 0,13.6V6.4Z" />
+        <path android:fillColor="@drawable/$ic_dice_black_1__1" android:pathData="M10,19.261C15.113,19.261 19.259,15.116 19.259,10.002C19.259,4.888 15.113,0.742 10,0.742C4.886,0.742 0.74,4.888 0.74,10.002C0.74,15.116 4.886,19.261 10,19.261Z" />
+        <path android:fillColor="@drawable/$ic_dice_black_1__2" android:pathData="M10.001,11.81C11.001,11.81 11.812,10.999 11.812,9.999C11.812,8.998 11.001,8.188 10.001,8.188C9,8.188 8.189,8.998 8.189,9.999C8.189,10.999 9,11.81 10.001,11.81Z" />
+        <path android:fillColor="@drawable/$ic_dice_black_1__3" android:pathData="M11.535,9.509C11.854,9.829 11.663,10.554 11.108,11.108C10.544,11.672 9.83,11.864 9.51,11.534C9.191,11.214 9.382,10.49 9.936,9.936C10.501,9.371 11.215,9.179 11.535,9.509Z" />
+    </group>
+</vector>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-my-rZG/values-my-rZG.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-my-rZG\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "57,232,538,585,817,869,923",
+                        "endColumns": "173,304,45,230,50,52,80",
+                        "endOffsets": "226,532,579,811,863,917,999"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,229,534,580,811,862,915",
+                        "endColumns": "173,304,45,230,50,52,80",
+                        "endOffsets": "224,529,575,806,857,910,991"
+                    }
+                }
+            ]
+        }
+    ]
+}

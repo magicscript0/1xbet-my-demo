@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.buttons.DsButton android:theme="@style/UiKit" android:id="@id/butAuthEntryPointMore" android:layout_width="wrap_content" android:layout_height="wrap_content" app:dsButtonIconRes="@drawable/ic_glyph_more_horizontally" style="@style/DSButton.Large.Quaternary.IconCircle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

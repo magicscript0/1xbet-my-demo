@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.OptimizedScrollRecyclerView android:id="@id/footerRecyclerView" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_24" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:textColor="?uikitSecondary" />
+</FrameLayout>

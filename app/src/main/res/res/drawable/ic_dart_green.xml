@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/darts_live_dart_height" android:width="@dimen/darts_live_dart_width" android:viewportWidth="20.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#8c9191" android:pathData="M3.854,24L7.149,14.589L9.031,14.118L5.266,24H3.854Z" />
+    <path android:fillColor="#ff81b03f" android:pathData="M19.855,7.683C19.229,6.524 12.796,6.428 10.443,6.742C11.607,9.984 11.138,11.205 13.737,15.213C15.68,14.605 20.481,8.842 19.855,7.683Z" />
+    <path android:fillColor="#9ad240" android:pathData="M8.561,0C8.18,2.208 6.337,6 4.796,7.059C5.894,7.059 8.372,7.529 11.384,7.529C10.633,7.325 9.502,0 8.561,0Z" />
+    <path android:fillColor="#ffa4df3f" android:pathData="M0.09,13.436C1.219,5.53 8.247,6.274 11.384,7.529L7.149,16.941C5.894,16.314 1.972,14.565 0.09,13.436Z" />
+    <path android:fillColor="#ff9ed740" android:pathData="M11.384,7.529C15.525,11.67 14.365,18.667 13.267,21.647L6.678,16.941C7.619,14.902 9.878,10.165 11.384,7.529Z" />
+</vector>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.buttons.DsButton android:id="@id/redOfPaginationButton" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/DSButton.Large.Secondary"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceBody1BoldNew" android:textSize="@dimen/text_10" android:textColor="?uikitTextPrimary" android:gravity="center" android:id="@id/ruleTitle" android:background="@drawable/cybergame_synthetic_settoemezzo_rule_value_bg" android:layout_width="@dimen/icon_size_16" android:layout_height="@dimen/icon_size_16" android:layout_marginTop="@dimen/space_4" android:layout_marginBottom="@dimen/space_4" android:layout_marginEnd="@dimen/space_8" android:layout_marginVertical="@dimen/space_4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.xbet.client.eg.app-mergeDebugResources-2:/values-sw431dp-v13/values-sw431dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\APK-Recovery\\jadx-source-git\\app\\src\\main\\res\\values-sw431dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,118,178",
+                        "endColumns": "59,58,54",
+                        "endOffsets": "112,172,228"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,115,174",
+                        "endColumns": "59,58,54",
+                        "endOffsets": "110,169,224"
+                    }
+                }
+            ]
+        }
+    ]
+}

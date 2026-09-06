@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_fixed_width_major">50.0%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">70.00001%</dimen>
+    <dimen name="abc_dialog_min_width_major">45.000004%</dimen>
+    <dimen name="abc_dialog_min_width_minor">72.0%</dimen>
+    <dimen name="jackpot_text_size">32.0sp</dimen>
+    <dimen name="spin_and_win_btn_height">90.0dp</dimen>
+    <dimen name="spin_and_win_btn_width">180.0dp</dimen>
+</resources>

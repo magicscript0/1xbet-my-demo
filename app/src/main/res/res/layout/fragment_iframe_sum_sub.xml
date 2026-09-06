@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/verificationToolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height_size" app:layout_constraintTop_toTopOf="parent" app:menu="@menu/sum_sub_menu" app:navigationIcon="@drawable/ic_glyph_arrow_left" app:navigationIconTint="?uikitSecondary" app:title="@string/verification" style="@style/Widget.AppTheme.Toolbar.New" />
+    <org.xplatform.ui_core.viewcomponents.webview.FixedWebView android:id="@id/webView" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/verificationToolbar" />
+    <FrameLayout android:id="@id/progressView" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/verificationToolbar">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="@id/webView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/verificationToolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

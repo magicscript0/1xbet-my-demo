@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?uikitBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chip_recycler_view" android:background="?uikitBackgroundContent" android:paddingTop="@dimen/space_8" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/daily_winner_header_fg" />
+        <View android:id="@id/daily_winner_divider" android:background="?uikitSeparator" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <FrameLayout android:background="?uikitBackgroundContent" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:file_name="@string/lottie_history_empty" app:textColor="?uikitSecondary" app:text_res="@string/please_wait" />
+            <View android:layout_gravity="top" android:id="@id/daily_winner_shadow" android:background="@drawable/shadow" android:layout_width="match_parent" android:layout_height="4.0dp" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cLayout2" android:background="@drawable/bottom_shape_round_inactive" android:padding="@dimen/space_8" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_4" android:elevation="@dimen/elevation_4">
+            <TextView android:textAppearance="?textAppearanceCaptionNew" android:id="@id/tvPlace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dt_your_place" android:layout_marginStart="@dimen/space_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textAppearance="?textAppearanceSubtitle2MediumNew" android:id="@id/tvPlaceValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/space_8" app:layout_constraintBottom_toBottomOf="@id/tvPlace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tvPlace" />
+            <TextView android:textAppearance="?textAppearanceCaptionNew" android:id="@id/tvPoints" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_10" android:text="@string/your_points" app:layout_constraintBottom_toBottomOf="@id/tvPointsValue" app:layout_constraintStart_toStartOf="@id/tvPlace" app:layout_constraintTop_toTopOf="@id/tvPointsValue" />
+            <TextView android:textAppearance="?textAppearanceSubtitle2MediumNew" android:id="@id/tvPointsValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" app:layout_constraintEnd_toEndOf="@id/tvPlaceValue" app:layout_constraintTop_toBottomOf="@id/tvPlaceValue" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <View android:layout_gravity="top" android:background="?uikitSeparator" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</FrameLayout>

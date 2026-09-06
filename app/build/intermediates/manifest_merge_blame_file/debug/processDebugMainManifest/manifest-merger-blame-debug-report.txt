@@ -1,0 +1,2393 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.xbet.client.eg"
+4    platformBuildVersionCode="37"
+5    platformBuildVersionName="17"
+6    android:compileSdkVersion="37"
+7    android:compileSdkVersionCodename="17"
+8    android:versionCode="25600003"
+9    android:versionName="1xbet_eg-v256.0.3" >
+10
+11    <uses-sdk
+11-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:10:5-12:40
+12        android:minSdkVersion="24"
+12-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:11:9-35
+13        android:targetSdkVersion="37" />
+13-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:12:9-38
+14
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:13:5-65
+15-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:13:22-63
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:14:5-66
+16-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:14:22-64
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:15:5-78
+17-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:15:22-76
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:16:5-74
+18-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:16:22-72
+19    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+19-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:17:5-73
+19-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:17:22-71
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:18:5-78
+20-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:18:22-76
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:19:5-75
+21-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:19:22-73
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:20:5-67
+22-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:20:22-65
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:21:5-76
+23-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:21:22-74
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:22:5-80
+24-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:22:22-78
+25    <uses-permission
+25-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:23:5-25:37
+26        android:name="android.permission.READ_EXTERNAL_STORAGE"
+26-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:24:9-64
+27        android:maxSdkVersion="32" />
+27-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:25:9-35
+28    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+28-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:26:5-73
+28-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:26:22-71
+29    <uses-permission android:name="android.permission.USE_SIP" />
+29-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:27:5-65
+29-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:27:22-63
+30    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+30-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:28:5-70
+30-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:28:22-68
+31    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+31-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:29:5-79
+31-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:29:22-77
+32    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+32-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:30:5-77
+32-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:30:22-75
+33    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+33-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:31:5-78
+33-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:31:22-76
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:32:5-64
+34-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:32:22-62
+35    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+35-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:33:5-80
+35-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:33:22-78
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:34:5-76
+36-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:34:22-74
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:35:5-78
+37-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:35:22-76
+38    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+38-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:36:5-78
+38-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:36:22-76
+39    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+39-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:37:5-84
+39-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:37:22-82
+40    <uses-permission android:name="android.permission.GET_TASKS" />
+40-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:38:5-67
+40-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:38:22-65
+41
+42    <uses-permission-sdk-23 android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+42-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:39:5-84
+42-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:39:29-82
+43    <uses-permission-sdk-23 android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+43-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:40:5-85
+43-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:40:29-83
+44
+45    <uses-feature android:name="android.hardware.camera.autofocus" />
+45-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:41:5-69
+45-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:41:19-67
+46    <uses-feature android:name="android.hardware.camera" />
+46-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:42:5-59
+46-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:42:19-57
+47    <uses-feature
+47-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:43:5-45:35
+48        android:name="android.software.sip"
+48-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:44:9-44
+49        android:required="false" />
+49-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:45:9-33
+50    <uses-feature
+50-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:46:5-48:35
+51        android:name="android.hardware.sip.voip"
+51-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:47:9-49
+52        android:required="false" />
+52-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:48:9-33
+53    <uses-feature
+53-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:49:5-51:35
+54        android:name="android.hardware.wifi"
+54-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:50:9-45
+55        android:required="false" />
+55-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:51:9-33
+56    <uses-feature
+56-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:52:5-54:35
+57        android:name="android.hardware.microphone"
+57-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:53:9-51
+58        android:required="false" />
+58-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:54:9-33
+59
+60    <queries>
+60-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:55:5-131:15
+61        <package android:name="com.google.android.apps.authenticator2" />
+61-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:56:9-73
+61-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:56:18-71
+62        <package android:name="com.vkontakte.android" />
+62-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:57:9-56
+62-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:57:18-54
+63        <package android:name="ru.sberbankmobile" />
+63-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:58:9-52
+63-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:58:18-50
+64
+65        <intent>
+65-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:59:9-61:18
+66            <action android:name="android.intent.action.SEND" />
+66-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:60:13-64
+66-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:60:21-62
+67        </intent>
+68        <intent>
+68-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:62:9-65:18
+69            <action android:name="android.intent.action.VIEW" />
+69-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+69-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+70
+71            <data android:scheme="http" />
+71-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+71-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+72        </intent>
+73        <intent>
+73-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:66:9-68:18
+74            <action android:name="android.support.customtabs.action.CustomTabsService" />
+74-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:67:13-89
+74-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:67:21-87
+75        </intent>
+76        <intent>
+76-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:69:9-71:18
+77            <action android:name="android.media.action.IMAGE_CAPTURE" />
+77-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:70:13-72
+77-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:70:21-70
+78        </intent>
+79        <intent>
+79-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:72:9-74:18
+80            <action android:name="android.intent.action.GET_CONTENT" />
+80-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:73:13-71
+80-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:73:21-69
+81        </intent>
+82        <intent>
+82-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:75:9-77:18
+83            <action android:name="org.chromium.intent.action.PAY" />
+83-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:76:13-68
+83-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:76:21-66
+84        </intent>
+85        <intent>
+85-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:78:9-80:18
+86            <action android:name="org.chromium.intent.action.IS_READY_TO_PAY" />
+86-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:79:13-80
+86-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:79:21-78
+87        </intent>
+88        <intent>
+88-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:81:9-83:18
+89            <action android:name="org.chromium.intent.action.UPDATE_PAYMENT_DETAILS" />
+89-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:82:13-87
+89-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:82:21-85
+90        </intent>
+91        <intent>
+91-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:84:9-86:18
+92            <action android:name="com.huawei.hms.core.aidlservice" />
+92-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:85:13-69
+92-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:85:21-67
+93        </intent>
+94        <intent>
+94-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:87:9-89:18
+95            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+95-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:88:13-85
+95-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:88:21-83
+96        </intent>
+97        <intent>
+97-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:90:9-92:18
+98            <action android:name="android.intent.action.MAIN" />
+98-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:13-64
+98-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:21-62
+99        </intent>
+100        <intent>
+100-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:93:9-96:18
+101            <action android:name="android.intent.action.VIEW" />
+101-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+101-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+102
+103            <data android:scheme="https" />
+103-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+103-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+104        </intent>
+105        <intent>
+105-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:97:9-99:18
+106            <action android:name="com.yandex.auth.action.YA_SDK_LOGIN" />
+106-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:98:13-73
+106-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:98:21-71
+107        </intent>
+108
+109        <package android:name="com.yandex.browser" />
+109-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:100:9-53
+109-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:100:18-51
+110        <package android:name="ru.yandex.searchplugin" />
+110-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:101:9-57
+110-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:101:18-55
+111        <package android:name="com.yandex.searchapp" />
+111-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:102:9-55
+111-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:102:18-53
+112        <package android:name="ru.yandex.taxi" />
+112-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:103:9-49
+112-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:103:18-47
+113        <package android:name="ru.yandex.mail" />
+113-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:104:9-49
+113-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:104:18-47
+114        <package android:name="ru.yandex.disk" />
+114-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:105:9-49
+114-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:105:18-47
+115        <package android:name="com.yandex.bank" />
+115-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:106:9-50
+115-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:106:18-48
+116        <package android:name="ru.yandex.key" />
+116-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:107:9-48
+116-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:107:18-46
+117        <package android:name="ru.yandex.auth.client" />
+117-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:108:9-56
+117-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:108:18-54
+118
+119        <intent>
+119-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:109:9-111:18
+120            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER" />
+120-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:110:13-77
+120-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:110:21-75
+121        </intent>
+122
+123        <package android:name="com.facebook.katana" />
+123-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:112:9-54
+123-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:112:18-52
+124        <package android:name="com.instagram.android" />
+124-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:113:9-56
+124-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:113:18-54
+125        <package android:name="com.facebook.lite" />
+125-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:114:9-52
+125-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:114:18-50
+126        <package android:name="com.samsung.android.mapsagent" />
+126-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:115:9-64
+126-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:115:18-62
+127        <package android:name="ru.ok.android" />
+127-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:116:9-48
+127-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:116:18-46
+128
+129        <intent>
+129-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:117:9-119:18
+130            <action android:name="com.vkontakte.android.action.SDK_AUTH" />
+130-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:118:13-75
+130-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:118:21-73
+131        </intent>
+132        <intent>
+132-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:120:9-124:18
+133            <action android:name="android.intent.action.VIEW" />
+133-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+133-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+134
+135            <category android:name="android.intent.category.BROWSABLE" />
+135-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+135-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+136
+137            <data android:scheme="http" />
+137-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+137-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+138        </intent>
+139
+140        <package android:name="com.huawei.hwid" />
+140-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:125:9-50
+140-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:125:18-48
+141        <package android:name="com.huawei.android.pushagent" />
+141-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:126:9-63
+141-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:126:18-61
+142
+143        <intent>
+143-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:127:9-129:18
+144            <action android:name="com.huawei.hms.core" />
+144-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:128:13-57
+144-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:128:21-55
+145        </intent>
+146
+147        <package android:name="com.huawei.works" />
+147-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:130:9-51
+147-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:130:18-49
+148    </queries>
+149
+150    <uses-permission
+150-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:132:5-134:37
+151        android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+151-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:133:9-71
+152        android:minSdkVersion="34" />
+152-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:134:9-35
+153    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+153-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:135:5-82
+153-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:135:22-80
+154
+155    <uses-feature android:name="android.hardware.camera.any" />
+155-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:136:5-63
+155-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:136:19-61
+156
+157    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+157-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:137:5-85
+157-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:137:22-83
+158    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+158-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:138:5-71
+158-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:138:22-69
+159    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+159-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:139:5-97
+159-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:139:22-95
+160    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+160-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:140:5-81
+160-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:140:22-79
+161    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+161-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:141:5-109
+161-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:141:22-107
+162    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+162-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:142:5-87
+162-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:142:22-85
+163    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+163-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:143:5-81
+163-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:143:22-79
+164    <uses-permission android:name="com.samsung.android.mapsagent.permission.READ_APP_INFO" />
+164-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:144:5-93
+164-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:144:22-91
+165    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+165-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:145:5-105
+165-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:145:22-103
+166    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+166-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:146:5-80
+166-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:146:22-78
+167
+168    <permission
+168-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:147:5-149:46
+169        android:name="org.xbet.client.eg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+169-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:148:9-83
+170        android:protectionLevel="signature" />
+170-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:149:9-44
+171
+172    <uses-permission android:name="org.xbet.client.eg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+172-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:150:5-98
+172-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:150:22-96
+173
+174    <uses-feature
+174-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:151:5-153:35
+175        android:name="android.hardware.camera.front"
+175-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:152:9-53
+176        android:required="false" />
+176-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:153:9-33
+177    <uses-feature
+177-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:154:5-156:35
+178        android:name="android.hardware.camera.flash"
+178-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:155:9-53
+179        android:required="false" />
+179-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:156:9-33
+180    <uses-feature
+180-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:157:5-159:35
+181        android:name="android.hardware.screen.landscape"
+181-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:158:9-57
+182        android:required="false" />
+182-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:159:9-33
+183
+184    <permission
+184-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:160:5-162:46
+185        android:name="org.xbet.client.eg.permission.PROCESS_PUSH_MSG"
+185-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:161:9-70
+186        android:protectionLevel="signature" />
+186-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:162:9-44
+187    <permission
+187-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:163:5-165:46
+188        android:name="org.xbet.client.eg.permission.PUSH_PROVIDER"
+188-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:164:9-67
+189        android:protectionLevel="signature" />
+189-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:165:9-44
+190    <permission
+190-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:166:5-168:46
+191        android:name="org.xbet.client.eg.permission.PUSH_WRITE_PROVIDER"
+191-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:167:9-73
+192        android:protectionLevel="signature" />
+192-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:168:9-44
+193
+194    <uses-permission android:name="org.xbet.client.eg.permission.PROCESS_PUSH_MSG" />
+194-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:169:5-85
+194-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:169:22-83
+195    <uses-permission android:name="org.xbet.client.eg.permission.PUSH_PROVIDER" />
+195-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:170:5-82
+195-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:170:22-80
+196
+197    <application
+197-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:171:5-1101:19
+198        android:name="org.platform.app.ApplicationLoader"
+198-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:175:9-58
+199        android:allowBackup="false"
+199-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:176:9-36
+200        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+200-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:185:9-77
+201        android:dataExtractionRules="@xml/appsflyer_data_extraction_rules"
+201-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:187:9-75
+202        android:debuggable="true"
+203        android:extractNativeLibs="true"
+203-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:179:9-41
+204        android:fullBackupContent="@xml/appsflyer_backup_rules"
+204-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:180:9-64
+205        android:icon="@mipmap/ic_launcher"
+205-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:174:9-43
+206        android:label="@string/app_name"
+206-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:173:9-41
+207        android:largeHeap="true"
+207-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:177:9-33
+208        android:networkSecurityConfig="@xml/network_security_config"
+208-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:183:9-69
+209        android:requestLegacyExternalStorage="true"
+209-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:186:9-52
+210        android:resizeableActivity="true"
+210-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:181:9-42
+211        android:roundIcon="@mipmap/ic_launcher_round"
+211-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:184:9-54
+212        android:supportsPictureInPicture="false"
+212-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:182:9-49
+213        android:supportsRtl="true"
+213-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:178:9-35
+214        android:theme="@style/AppTheme" >
+214-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:172:9-40
+215        <meta-data
+215-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:188:9-190:53
+216            android:name="com.google.firebase.messaging.default_notification_icon"
+216-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:189:13-83
+217            android:resource="@mipmap/ic_launcher" />
+217-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:190:13-51
+218        <meta-data
+218-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:191:9-193:53
+219            android:name="com.google.firebase.messaging.default_notification_color"
+219-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:192:13-84
+220            android:resource="@mipmap/ic_launcher" />
+220-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:193:13-51
+221        <meta-data
+221-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:194:9-196:35
+222            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+222-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:195:13-70
+223            android:value="face" />
+223-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:196:13-33
+224        <meta-data
+224-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:197:9-199:36
+225            android:name="push_kit_auto_init_enabled"
+225-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:198:13-54
+226            android:value="false" />
+226-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:199:13-34
+227
+228        <activity
+228-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:200:9-214:20
+229            android:name="org.xplatform.client1.features.appactivity.ApplicationActivity"
+229-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:203:13-90
+230            android:configChanges="layoutDirection|screenSize|orientation|locale"
+230-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:207:13-82
+231            android:exported="true"
+231-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:204:13-36
+232            android:hardwareAccelerated="true"
+232-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:209:13-47
+233            android:icon="@mipmap/ic_launcher"
+233-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:202:13-47
+234            android:launchMode="singleTop"
+234-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:205:13-43
+235            android:roundIcon="@mipmap/ic_launcher_round"
+235-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:210:13-58
+236            android:screenOrientation="portrait"
+236-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:206:13-49
+237            android:theme="@style/AppTheme.Splash"
+237-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:201:13-51
+238            android:windowSoftInputMode="adjustPan" >
+238-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:208:13-52
+239            <property
+239-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:211:13-213:39
+240                android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
+240-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:212:17-92
+241                android:value="true" />
+241-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:213:17-37
+242        </activity>
+243
+244        <activity-alias
+244-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:227:9-239:26
+245            android:name="org.xplatform.client1.LauncherAliasColor"
+245-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:229:13-68
+246            android:enabled="true"
+246-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:230:13-35
+247            android:exported="true"
+247-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:231:13-36
+248            android:icon="@mipmap/ic_launcher"
+248-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:228:13-47
+249            android:roundIcon="@mipmap/ic_launcher_round"
+249-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:233:13-58
+250            android:targetActivity="org.xplatform.client1.features.appactivity.ApplicationActivity" >
+250-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:232:13-100
+251            <intent-filter>
+251-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:234:13-238:29
+252                <action android:name="android.intent.action.MAIN" />
+252-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:13-64
+252-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:21-62
+253
+254                <category android:name="android.intent.category.DEFAULT" />
+254-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+254-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+255                <category android:name="android.intent.category.LAUNCHER" />
+255-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:224:17-76
+255-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:224:27-74
+256            </intent-filter>
+257        </activity-alias>
+258        <activity-alias
+258-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:215:9-226:26
+259            android:name="org.xplatform.client1.LauncherAliasLegacy"
+259-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:217:13-69
+260            android:enabled="false"
+260-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:218:13-36
+261            android:exported="true"
+261-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:219:13-36
+262            android:icon="@mipmap/ic_launcher_legacy"
+262-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:216:13-54
+263            android:roundIcon="@mipmap/ic_launcher_legacy_round"
+263-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:221:13-65
+264            android:targetActivity="org.xplatform.client1.features.appactivity.ApplicationActivity" >
+264-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:220:13-100
+265            <intent-filter>
+265-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:222:13-225:29
+266                <action android:name="android.intent.action.MAIN" />
+266-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:13-64
+266-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:91:21-62
+267
+268                <category android:name="android.intent.category.LAUNCHER" />
+268-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:224:17-76
+268-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:224:27-74
+269            </intent-filter>
+270        </activity-alias>
+271
+272        <activity
+272-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:240:9-285:20
+273            android:name="org.xplatform.client1.features.appactivity.IntentForwardingActivity"
+273-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:242:13-95
+274            android:exported="true"
+274-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:243:13-36
+275            android:noHistory="true"
+275-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:244:13-37
+276            android:theme="@style/AppTheme.Transparent" >
+276-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:241:13-56
+277            <intent-filter android:autoVerify="true" >
+277-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:245:13-253:29
+277-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:245:28-53
+278                <action android:name="android.intent.action.VIEW" />
+278-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+278-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+279
+280                <category android:name="android.intent.category.DEFAULT" />
+280-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+280-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+281                <category android:name="android.intent.category.BROWSABLE" />
+281-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+281-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+282
+283                <data
+283-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+284                    android:host="@string/domain"
+284-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+285                    android:pathPrefix="/line"
+285-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:252:21-47
+286                    android:scheme="https" />
+286-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+287            </intent-filter>
+288            <intent-filter android:autoVerify="true" >
+288-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:254:13-262:29
+288-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:254:28-53
+289                <action android:name="android.intent.action.VIEW" />
+289-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+289-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+290
+291                <category android:name="android.intent.category.DEFAULT" />
+291-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+291-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+292                <category android:name="android.intent.category.BROWSABLE" />
+292-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+292-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+293
+294                <data
+294-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+295                    android:host="@string/domain"
+295-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+296                    android:pathPrefix="/live"
+296-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:252:21-47
+297                    android:scheme="https" />
+297-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+298            </intent-filter>
+299            <intent-filter android:autoVerify="true" >
+299-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:263:13-270:29
+299-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:263:28-53
+300                <action android:name="android.intent.action.VIEW" />
+300-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+300-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+301
+302                <category android:name="android.intent.category.DEFAULT" />
+302-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+302-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+303                <category android:name="android.intent.category.BROWSABLE" />
+303-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+303-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+304
+305                <data
+305-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+306                    android:host="@string/appsflyer_host"
+306-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+307                    android:scheme="https" />
+307-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+308            </intent-filter>
+309            <intent-filter>
+309-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:271:13-284:29
+310                <action android:name="android.intent.action.VIEW" />
+310-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+310-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+311
+312                <category android:name="android.intent.category.DEFAULT" />
+312-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+312-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+313                <category android:name="android.intent.category.BROWSABLE" />
+313-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+313-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+314
+315                <data
+315-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+316                    android:host="openapp"
+316-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+317                    android:scheme="@string/deeplink_scheme" />
+317-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+318                <data
+318-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+319                    android:host="open"
+319-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+320                    android:scheme="@string/deeplink_scheme" />
+320-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+321                <data
+321-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+322                    android:host="telegramBot"
+322-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+323                    android:scheme="@string/deeplink_scheme" />
+323-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+324            </intent-filter>
+325        </activity>
+326
+327        <service
+327-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:286:9-293:19
+328            android:name="org.xplatform.feature.online_call.impl.service.OnlineCallService"
+328-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:287:13-92
+329            android:exported="false" >
+329-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:288:13-37
+330            <intent-filter>
+330-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:289:13-292:29
+331                <action android:name="org.xplatform.feature.online_call.impl.service.OnlineCallService.STOP_CALL" />
+331-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:290:17-116
+331-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:290:25-114
+332                <action android:name="org.xplatform.feature.online_call.impl.service.OnlineCallService.STOP_SERVICE" />
+332-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:291:17-119
+332-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:291:25-117
+333            </intent-filter>
+334        </service>
+335        <service
+335-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:294:9-296:39
+336            android:name="org.xplatform.game_broadcasting.impl.presentation.video.window_screen.GameVideoWindowService"
+336-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:295:13-120
+337            android:exported="false" />
+337-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:296:13-37
+338        <service
+338-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:297:9-299:39
+339            android:name="org.xplatform.game_broadcasting.impl.presentation.zone.window_screen.GameZoneWindowService"
+339-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:298:13-118
+340            android:exported="false" />
+340-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:299:13-37
+341
+342        <receiver
+342-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:300:9-306:20
+343            android:name="com.appsflyer.SingleInstallBroadcastReceiver"
+343-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:301:13-72
+344            android:exported="true" >
+344-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:302:13-36
+345            <intent-filter>
+345-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:303:13-305:29
+346                <action android:name="com.android.vending.INSTALL_REFERRER" />
+346-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:304:17-78
+346-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:304:25-76
+347            </intent-filter>
+348        </receiver>
+349        <receiver android:name="org.xplatform.prophylaxis.impl.prophylaxis.presentation.ProphylaxisAlarmReceiver" />
+349-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:307:9-116
+349-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:307:19-114
+350
+351        <provider
+351-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:308:9-316:20
+352            android:name="androidx.core.content.FileProvider"
+352-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:309:13-62
+353            android:authorities="org.xbet.client.eg.provider"
+353-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:311:13-62
+354            android:exported="false"
+354-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:310:13-37
+355            android:grantUriPermissions="true" >
+355-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:312:13-47
+356            <meta-data
+356-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:313:13-315:57
+357                android:name="android.support.FILE_PROVIDER_PATHS"
+357-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:314:17-67
+358                android:resource="@xml/provider_paths" />
+358-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:315:17-55
+359        </provider>
+360
+361        <meta-data
+361-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:317:9-319:68
+362            android:name="com.google.android.gms.version"
+362-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:318:13-58
+363            android:value="@integer/google_play_services_version" />
+363-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:319:13-66
+364        <meta-data
+364-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:320:9-322:56
+365            android:name="CHANNEL"
+365-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:321:13-35
+366            android:value="@string/appsflyer_channel" />
+366-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:322:13-54
+367
+368        <receiver
+368-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:323:9-338:20
+369            android:name="org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveDefaultProvider"
+369-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:326:13-107
+370            android:enabled="true"
+370-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:327:13-35
+371            android:exported="false"
+371-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:328:13-37
+372            android:icon="@mipmap/ic_launcher"
+372-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:325:13-47
+373            android:label="@string/widget_popular_live" >
+373-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:324:13-56
+374            <intent-filter>
+374-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+375                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+375-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+375-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+376                <action android:name="android.intent.action.USER_PRESENT" />
+376-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+376-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+377                <action android:name="update_time_broadcast" />
+377-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+377-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+378                <action android:name="android.intent.action.LOCALE_CHANGED" />
+378-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+378-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+379            </intent-filter>
+380
+381            <meta-data
+381-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+382                android:name="android.appwidget.provider"
+382-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+383                android:resource="@xml/app_widget_top_live_default_info" />
+383-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+384        </receiver>
+385        <receiver
+385-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:339:9-354:20
+386            android:name="org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveLargeProvider"
+386-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:342:13-105
+387            android:enabled="true"
+387-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:343:13-35
+388            android:exported="false"
+388-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:344:13-37
+389            android:icon="@mipmap/ic_launcher"
+389-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:341:13-47
+390            android:label="@string/widget_popular_live" >
+390-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:340:13-56
+391            <intent-filter>
+391-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+392                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+392-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+392-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+393                <action android:name="android.intent.action.USER_PRESENT" />
+393-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+393-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+394                <action android:name="update_time_broadcast" />
+394-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+394-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+395                <action android:name="android.intent.action.LOCALE_CHANGED" />
+395-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+395-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+396            </intent-filter>
+397
+398            <meta-data
+398-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+399                android:name="android.appwidget.provider"
+399-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+400                android:resource="@xml/app_widget_top_live_large_info" />
+400-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+401        </receiver>
+402        <receiver
+402-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:355:9-370:20
+403            android:name="org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveSmallProvider"
+403-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:358:13-105
+404            android:enabled="true"
+404-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:359:13-35
+405            android:exported="false"
+405-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:360:13-37
+406            android:icon="@mipmap/ic_launcher"
+406-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:357:13-47
+407            android:label="@string/widget_popular_live" >
+407-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:356:13-56
+408            <intent-filter>
+408-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+409                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+409-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+409-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+410                <action android:name="android.intent.action.USER_PRESENT" />
+410-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+410-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+411                <action android:name="update_time_broadcast" />
+411-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+411-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+412                <action android:name="android.intent.action.LOCALE_CHANGED" />
+412-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+412-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+413            </intent-filter>
+414
+415            <meta-data
+415-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+416                android:name="android.appwidget.provider"
+416-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+417                android:resource="@xml/app_widget_top_live_small_info" />
+417-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+418        </receiver>
+419        <receiver
+419-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:371:9-386:20
+420            android:name="org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineDefaultProvider"
+420-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:374:13-107
+421            android:enabled="true"
+421-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:375:13-35
+422            android:exported="false"
+422-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:376:13-37
+423            android:icon="@mipmap/ic_launcher"
+423-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:373:13-47
+424            android:label="@string/widget_popular_line" >
+424-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:372:13-56
+425            <intent-filter>
+425-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+426                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+426-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+426-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+427                <action android:name="android.intent.action.USER_PRESENT" />
+427-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+427-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+428                <action android:name="update_time_broadcast" />
+428-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+428-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+429                <action android:name="android.intent.action.LOCALE_CHANGED" />
+429-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+429-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+430            </intent-filter>
+431
+432            <meta-data
+432-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+433                android:name="android.appwidget.provider"
+433-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+434                android:resource="@xml/app_widget_top_line_default_info" />
+434-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+435        </receiver>
+436        <receiver
+436-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:387:9-402:20
+437            android:name="org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineLargeProvider"
+437-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:390:13-105
+438            android:enabled="true"
+438-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:391:13-35
+439            android:exported="false"
+439-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:392:13-37
+440            android:icon="@mipmap/ic_launcher"
+440-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:389:13-47
+441            android:label="@string/widget_popular_line" >
+441-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:388:13-56
+442            <intent-filter>
+442-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+443                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+443-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+443-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+444                <action android:name="android.intent.action.USER_PRESENT" />
+444-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+444-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+445                <action android:name="update_time_broadcast" />
+445-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+445-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+446                <action android:name="android.intent.action.LOCALE_CHANGED" />
+446-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+446-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+447            </intent-filter>
+448
+449            <meta-data
+449-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+450                android:name="android.appwidget.provider"
+450-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+451                android:resource="@xml/app_widget_top_line_large_info" />
+451-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+452        </receiver>
+453        <receiver
+453-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:403:9-418:20
+454            android:name="org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineSmallProvider"
+454-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:406:13-105
+455            android:enabled="true"
+455-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:407:13-35
+456            android:exported="false"
+456-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:408:13-37
+457            android:icon="@mipmap/ic_launcher"
+457-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:405:13-47
+458            android:label="@string/widget_popular_line" >
+458-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:404:13-56
+459            <intent-filter>
+459-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+460                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+460-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+460-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+461                <action android:name="android.intent.action.USER_PRESENT" />
+461-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+461-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+462                <action android:name="update_time_broadcast" />
+462-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+462-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+463                <action android:name="android.intent.action.LOCALE_CHANGED" />
+463-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+463-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+464            </intent-filter>
+465
+466            <meta-data
+466-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+467                android:name="android.appwidget.provider"
+467-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+468                android:resource="@xml/app_widget_top_line_small_info" />
+468-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+469        </receiver>
+470        <receiver
+470-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:419:9-434:20
+471            android:name="org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesDefaultProvider"
+471-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:422:13-110
+472            android:enabled="true"
+472-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:423:13-35
+473            android:exported="false"
+473-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:424:13-37
+474            android:icon="@mipmap/ic_launcher"
+474-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:421:13-47
+475            android:label="@string/widget_favorite" >
+475-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:420:13-52
+476            <intent-filter>
+476-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+477                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+477-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+477-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+478                <action android:name="android.intent.action.USER_PRESENT" />
+478-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+478-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+479                <action android:name="update_time_broadcast" />
+479-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+479-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+480                <action android:name="android.intent.action.LOCALE_CHANGED" />
+480-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+480-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+481            </intent-filter>
+482
+483            <meta-data
+483-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+484                android:name="android.appwidget.provider"
+484-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+485                android:resource="@xml/app_widget_favorites_default_info" />
+485-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+486        </receiver>
+487        <receiver
+487-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:435:9-450:20
+488            android:name="org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesLargeProvider"
+488-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:438:13-108
+489            android:enabled="true"
+489-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:439:13-35
+490            android:exported="false"
+490-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:440:13-37
+491            android:icon="@mipmap/ic_launcher"
+491-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:437:13-47
+492            android:label="@string/widget_favorite" >
+492-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:436:13-52
+493            <intent-filter>
+493-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+494                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+494-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+494-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+495                <action android:name="android.intent.action.USER_PRESENT" />
+495-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+495-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+496                <action android:name="update_time_broadcast" />
+496-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+496-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+497                <action android:name="android.intent.action.LOCALE_CHANGED" />
+497-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+497-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+498            </intent-filter>
+499
+500            <meta-data
+500-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+501                android:name="android.appwidget.provider"
+501-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+502                android:resource="@xml/app_widget_favorites_large_info" />
+502-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+503        </receiver>
+504        <receiver
+504-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:451:9-466:20
+505            android:name="org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesSmallProvider"
+505-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:454:13-108
+506            android:enabled="true"
+506-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:455:13-35
+507            android:exported="false"
+507-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:456:13-37
+508            android:icon="@mipmap/ic_launcher"
+508-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:453:13-47
+509            android:label="@string/widget_favorite" >
+509-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:452:13-52
+510            <intent-filter>
+510-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+511                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+511-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+511-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+512                <action android:name="android.intent.action.USER_PRESENT" />
+512-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+512-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+513                <action android:name="update_time_broadcast" />
+513-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+513-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+514                <action android:name="android.intent.action.LOCALE_CHANGED" />
+514-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+514-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+515            </intent-filter>
+516
+517            <meta-data
+517-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+518                android:name="android.appwidget.provider"
+518-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+519                android:resource="@xml/app_widget_favorites_small_info" />
+519-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+520        </receiver>
+521
+522        <service
+522-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:467:9-474:19
+523            android:name="org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveService"
+523-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:468:13-99
+524            android:exported="false"
+524-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:470:13-37
+525            android:permission="android.permission.BIND_REMOTEVIEWS" >
+525-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:469:13-69
+526            <intent-filter>
+526-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:471:13-473:29
+527                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+527-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:17-80
+527-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:25-78
+528            </intent-filter>
+529        </service>
+530        <service
+530-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:475:9-482:19
+531            android:name="org.xplatform.widget.impl.presentation.top.live.AppWidgetTopLiveSmallService"
+531-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:476:13-104
+532            android:exported="false"
+532-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:478:13-37
+533            android:permission="android.permission.BIND_REMOTEVIEWS" >
+533-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:477:13-69
+534            <intent-filter>
+534-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:471:13-473:29
+535                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+535-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:17-80
+535-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:25-78
+536            </intent-filter>
+537        </service>
+538        <service
+538-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:483:9-490:19
+539            android:name="org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineService"
+539-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:484:13-99
+540            android:exported="false"
+540-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:486:13-37
+541            android:permission="android.permission.BIND_REMOTEVIEWS" >
+541-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:485:13-69
+542            <intent-filter>
+542-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:471:13-473:29
+543                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+543-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:17-80
+543-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:25-78
+544            </intent-filter>
+545        </service>
+546        <service
+546-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:491:9-498:19
+547            android:name="org.xplatform.widget.impl.presentation.top.line.AppWidgetTopLineSmallService"
+547-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:492:13-104
+548            android:exported="false"
+548-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:494:13-37
+549            android:permission="android.permission.BIND_REMOTEVIEWS" >
+549-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:493:13-69
+550            <intent-filter>
+550-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:471:13-473:29
+551                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+551-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:17-80
+551-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:25-78
+552            </intent-filter>
+553        </service>
+554        <service
+554-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:499:9-506:19
+555            android:name="org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesService"
+555-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:500:13-102
+556            android:exported="false"
+556-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:502:13-37
+557            android:permission="android.permission.BIND_REMOTEVIEWS" >
+557-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:501:13-69
+558            <intent-filter>
+558-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:471:13-473:29
+559                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+559-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:17-80
+559-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:25-78
+560            </intent-filter>
+561        </service>
+562        <service
+562-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:507:9-514:19
+563            android:name="org.xplatform.widget.impl.presentation.favorites.AppWidgetFavoritesSmallService"
+563-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:508:13-107
+564            android:exported="false"
+564-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:510:13-37
+565            android:permission="android.permission.BIND_REMOTEVIEWS" >
+565-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:509:13-69
+566            <intent-filter>
+566-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:471:13-473:29
+567                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+567-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:17-80
+567-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:472:25-78
+568            </intent-filter>
+569        </service>
+570
+571        <receiver
+571-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:515:9-530:20
+572            android:name="org.xplatform.widget.impl.presentation.quickavailable.widget.MySectionsWidget"
+572-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:518:13-105
+573            android:enabled="true"
+573-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:519:13-35
+574            android:exported="false"
+574-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:520:13-37
+575            android:icon="@mipmap/ic_launcher"
+575-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:517:13-47
+576            android:label="@string/widget_fast_access" >
+576-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:516:13-55
+577            <intent-filter>
+577-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:329:13-334:29
+578                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+578-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:17-83
+578-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:330:25-81
+579                <action android:name="android.intent.action.USER_PRESENT" />
+579-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:17-76
+579-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:331:25-74
+580                <action android:name="update_time_broadcast" />
+580-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:17-63
+580-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:332:25-61
+581                <action android:name="android.intent.action.LOCALE_CHANGED" />
+581-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:17-78
+581-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:333:25-76
+582            </intent-filter>
+583
+584            <meta-data
+584-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:335:13-337:75
+585                android:name="android.appwidget.provider"
+585-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:336:17-58
+586                android:resource="@xml/app_widget_quick_available" />
+586-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:337:17-73
+587        </receiver>
+588
+589        <provider
+589-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:531:9-550:20
+590            android:name="androidx.startup.InitializationProvider"
+590-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:532:13-67
+591            android:authorities="org.xbet.client.eg.androidx-startup"
+591-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:534:13-70
+592            android:exported="false" >
+592-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:533:13-37
+593            <meta-data
+593-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:535:13-537:51
+594                android:name="androidx.work.WorkManagerInitializer"
+594-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:536:17-68
+595                android:value="androidx.startup" />
+595-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:537:17-49
+596            <meta-data
+596-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:538:13-540:51
+597                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+597-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:539:17-75
+598                android:value="androidx.startup" />
+598-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:540:17-49
+599            <meta-data
+599-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:541:13-543:51
+600                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+600-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:542:17-78
+601                android:value="androidx.startup" />
+601-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:543:17-49
+602            <meta-data
+602-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:544:13-546:51
+603                android:name="okhttp3.internal.platform.PlatformInitializer"
+603-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:545:17-77
+604                android:value="androidx.startup" />
+604-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:546:17-49
+605            <meta-data
+605-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:547:13-549:51
+606                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+606-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:548:17-85
+607                android:value="androidx.startup" />
+607-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:549:17-49
+608        </provider>
+609        <provider
+609-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:551:9-555:50
+610            android:name="org.platform.migration.MigrationContentProvider"
+610-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:552:13-75
+611            android:authorities="org.xbet.client.eg.migration.provider"
+611-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:554:13-72
+612            android:exported="true"
+612-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:553:13-36
+613            android:grantUriPermissions="false" />
+613-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:555:13-48
+614
+615        <receiver
+615-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:556:9-563:20
+616            android:name="org.xplatform.authenticator.impl.ConfirmationAuthenticatorBroadcastReceiver"
+616-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:557:13-103
+617            android:enabled="true"
+617-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:558:13-35
+618            android:exported="false" >
+618-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:559:13-37
+619            <intent-filter>
+619-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:560:13-562:29
+620                <action android:name="org.xplatform.authenticator.confirmation" />
+620-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:561:17-82
+620-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:561:25-80
+621            </intent-filter>
+622        </receiver>
+623
+624        <service
+624-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:564:9-567:55
+625            android:name="org.xplatform.app_update.impl.presentation.apk_service.AppUpdateDownloadApkService"
+625-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:565:13-110
+626            android:exported="false"
+626-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:566:13-37
+627            android:foregroundServiceType="dataSync" />
+627-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:567:13-53
+628
+629        <receiver android:name="org.xplatform.authreminder.impl.data.AuthReminderBroadcastReceiver" />
+629-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:568:9-102
+629-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:568:19-100
+630        <receiver
+630-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:569:9-576:20
+631            android:name="org.xplatform.authreminder.impl.CheckAuthReminderBroadcastReceiver"
+631-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:570:13-94
+632            android:enabled="false"
+632-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:571:13-36
+633            android:exported="true" >
+633-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:572:13-36
+634            <intent-filter>
+634-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:573:13-575:29
+635                <action android:name="android.intent.action.BOOT_COMPLETED" />
+635-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:574:17-78
+635-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:574:25-76
+636            </intent-filter>
+637        </receiver>
+638
+639        <service
+639-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:577:9-579:39
+640            android:name="org.xplatform.background_video.impl.presentation.BackgroundVideoService"
+640-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:578:13-99
+641            android:exported="false" />
+641-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:579:13-37
+642        <service
+642-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:580:9-588:19
+643            android:name="org.xplatform.services.mobile_services.impl.presentation.services.HuaweiMessagingService"
+643-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:581:13-116
+644            android:enabled="true"
+644-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:582:13-35
+645            android:exported="false"
+645-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:583:13-37
+646            android:stopWithTask="false" >
+646-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:584:13-41
+647            <intent-filter>
+647-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:585:13-587:29
+648                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+648-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:586:17-80
+648-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:586:25-78
+649            </intent-filter>
+650        </service>
+651        <service
+651-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:589:9-596:19
+652            android:name="org.xplatform.services.mobile_services.impl.presentation.services.GoogleMessagingService"
+652-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:590:13-116
+653            android:exported="false"
+653-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:591:13-37
+654            android:stopWithTask="false" >
+654-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:592:13-41
+655            <intent-filter>
+655-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:593:13-595:29
+656                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+656-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:594:17-77
+656-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:594:25-75
+657            </intent-filter>
+658        </service>
+659
+660        <meta-data
+660-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:597:9-599:35
+661            android:name="firebase_analytics_collection_enabled"
+661-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:598:13-65
+662            android:value="true" />
+662-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:599:13-33
+663        <meta-data
+663-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:600:9-602:35
+664            android:name="google_analytics_default_allow_analytics_storage"
+664-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:601:13-76
+665            android:value="true" />
+665-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:602:13-33
+666        <meta-data
+666-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:603:9-605:35
+667            android:name="google_analytics_default_allow_ad_storage"
+667-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:604:13-69
+668            android:value="true" />
+668-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:605:13-33
+669        <meta-data
+669-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:606:9-608:35
+670            android:name="google_analytics_default_allow_ad_user_data"
+670-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:607:13-71
+671            android:value="true" />
+671-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:608:13-33
+672        <meta-data
+672-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:609:9-611:35
+673            android:name="google_analytics_default_allow_ad_personalization_signals"
+673-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:610:13-85
+674            android:value="true" />
+674-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:611:13-33
+675
+676        <uses-library
+676-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:612:9-614:39
+677            android:name="androidx.camera.extensions.impl"
+677-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:613:13-59
+678            android:required="false" />
+678-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:614:13-37
+679
+680        <service
+680-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:615:9-622:19
+681            android:name="androidx.camera.core.impl.MetadataHolderService"
+681-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:616:13-75
+682            android:enabled="false"
+682-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:617:13-36
+683            android:exported="false" >
+683-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:618:13-37
+684            <meta-data
+684-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:619:13-621:88
+685                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+685-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:620:17-103
+686                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+686-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:621:17-86
+687        </service>
+688        <service
+688-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:623:9-675:19
+689            android:name="com.google.firebase.components.ComponentDiscoveryService"
+689-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:624:13-84
+690            android:directBootAware="true"
+690-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:626:13-43
+691            android:exported="false" >
+691-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:625:13-37
+692            <meta-data
+692-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:627:13-629:84
+693                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar"
+693-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:628:17-112
+694                android:value="com.google.firebase.components.ComponentRegistrar" />
+694-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:629:17-82
+695            <meta-data
+695-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:630:13-632:84
+696                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+696-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:631:17-109
+697                android:value="com.google.firebase.components.ComponentRegistrar" />
+697-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:632:17-82
+698            <meta-data
+698-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:633:13-635:84
+699                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+699-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:634:17-109
+700                android:value="com.google.firebase.components.ComponentRegistrar" />
+700-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:635:17-82
+701            <meta-data
+701-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:636:13-638:84
+702                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+702-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:637:17-122
+703                android:value="com.google.firebase.components.ComponentRegistrar" />
+703-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:638:17-82
+704            <meta-data
+704-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:639:13-641:84
+705                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+705-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:640:17-119
+706                android:value="com.google.firebase.components.ComponentRegistrar" />
+706-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:641:17-82
+707            <meta-data
+707-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:642:13-644:84
+708                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+708-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:643:17-139
+709                android:value="com.google.firebase.components.ComponentRegistrar" />
+709-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:644:17-82
+710            <meta-data
+710-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:645:13-647:84
+711                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+711-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:646:17-126
+712                android:value="com.google.firebase.components.ComponentRegistrar" />
+712-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:647:17-82
+713            <meta-data
+713-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:648:13-650:84
+714                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+714-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:649:17-115
+715                android:value="com.google.firebase.components.ComponentRegistrar" />
+715-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:650:17-82
+716            <meta-data
+716-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:651:13-653:84
+717                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+717-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:652:17-117
+718                android:value="com.google.firebase.components.ComponentRegistrar" />
+718-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:653:17-82
+719            <meta-data
+719-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:654:13-656:84
+720                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+720-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:655:17-128
+721                android:value="com.google.firebase.components.ComponentRegistrar" />
+721-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:656:17-82
+722            <meta-data
+722-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:657:13-659:84
+723                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+723-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:658:17-117
+724                android:value="com.google.firebase.components.ComponentRegistrar" />
+724-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:659:17-82
+725            <meta-data
+725-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:660:13-662:84
+726                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+726-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:661:17-130
+727                android:value="com.google.firebase.components.ComponentRegistrar" />
+727-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:662:17-82
+728            <meta-data
+728-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:663:13-665:84
+729                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+729-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:664:17-127
+730                android:value="com.google.firebase.components.ComponentRegistrar" />
+730-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:665:17-82
+731            <meta-data
+731-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:666:13-668:84
+732                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+732-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:667:17-109
+733                android:value="com.google.firebase.components.ComponentRegistrar" />
+733-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:668:17-82
+734            <meta-data
+734-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:669:13-671:84
+735                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+735-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:670:17-109
+736                android:value="com.google.firebase.components.ComponentRegistrar" />
+736-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:671:17-82
+737            <meta-data
+737-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:672:13-674:84
+738                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+738-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:673:17-115
+739                android:value="com.google.firebase.components.ComponentRegistrar" />
+739-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:674:17-82
+740        </service>
+741
+742        <activity
+742-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:676:9-691:20
+743            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+743-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:678:13-80
+744            android:excludeFromRecents="true"
+744-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:680:13-46
+745            android:exported="true"
+745-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:679:13-36
+746            android:launchMode="singleTask"
+746-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:681:13-44
+747            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+747-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:677:13-72
+748            <intent-filter>
+748-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:682:13-690:29
+749                <action android:name="android.intent.action.VIEW" />
+749-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+749-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+750
+751                <category android:name="android.intent.category.DEFAULT" />
+751-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+751-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+752                <category android:name="android.intent.category.BROWSABLE" />
+752-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+752-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+753
+754                <data
+754-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+755                    android:host="firebase.auth"
+755-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+756                    android:path="/"
+756-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:689:21-37
+757                    android:scheme="genericidp" />
+757-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+758            </intent-filter>
+759        </activity>
+760        <activity
+760-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:692:9-707:20
+761            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+761-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:694:13-79
+762            android:excludeFromRecents="true"
+762-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:696:13-46
+763            android:exported="true"
+763-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:695:13-36
+764            android:launchMode="singleTask"
+764-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:697:13-44
+765            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+765-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:693:13-72
+766            <intent-filter>
+766-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:698:13-706:29
+767                <action android:name="android.intent.action.VIEW" />
+767-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+767-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+768
+769                <category android:name="android.intent.category.DEFAULT" />
+769-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+769-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+770                <category android:name="android.intent.category.BROWSABLE" />
+770-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+770-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+771
+772                <data
+772-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+773                    android:host="firebase.auth"
+773-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+774                    android:path="/"
+774-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:689:21-37
+775                    android:scheme="recaptcha" />
+775-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+776            </intent-filter>
+777        </activity>
+778
+779        <service
+779-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:708:9-715:19
+780            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+780-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:709:13-94
+781            android:enabled="true"
+781-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:710:13-35
+782            android:exported="false" >
+782-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:711:13-37
+783            <meta-data
+783-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:712:13-714:103
+784                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+784-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:713:17-76
+785                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+785-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:714:17-101
+786        </service>
+787
+788        <activity
+788-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:716:9-722:47
+789            android:name="androidx.credentials.playservices.controllers.identityauth.HiddenActivity"
+789-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:718:13-101
+790            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+790-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:721:13-87
+791            android:enabled="true"
+791-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:719:13-35
+792            android:exported="false"
+792-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:720:13-37
+793            android:fitsSystemWindows="true"
+793-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:722:13-45
+794            android:theme="@style/Theme.Hidden" />
+794-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:717:13-48
+795        <activity
+795-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:723:9-729:47
+796            android:name="androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity"
+796-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:725:13-129
+797            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+797-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:728:13-87
+798            android:enabled="true"
+798-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:726:13-35
+799            android:exported="false"
+799-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:727:13-37
+800            android:fitsSystemWindows="true"
+800-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:729:13-45
+801            android:theme="@style/Theme.Hidden" />
+801-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:724:13-48
+802        <activity
+802-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:730:9-734:39
+803            android:name="androidx.biometric.internal.ui.FingerprintDialogActivity"
+803-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:733:13-84
+804            android:exported="false"
+804-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:734:13-37
+805            android:label="@string/fingerprint_dialog_activity_label"
+805-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:732:13-70
+806            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+806-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:731:13-64
+807        <activity
+807-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:735:9-738:73
+808            android:name="com.yandex.authsdk.internal.AuthSdkActivity"
+808-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:738:13-71
+809            android:label=""
+809-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:737:13-29
+810            android:theme="@style/Theme.AuthSdk.Transparent" />
+810-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:736:13-61
+811        <activity
+811-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:739:9-742:45
+812            android:name="com.yandex.authsdk.internal.ChromeTabLoginActivity"
+812-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:741:13-78
+813            android:launchMode="singleTop"
+813-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:742:13-43
+814            android:theme="@style/Theme.AuthSdk.Transparent" />
+814-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:740:13-61
+815        <activity
+815-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:743:9-746:85
+816            android:name="com.yandex.authsdk.internal.WebViewLoginActivity"
+816-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:745:13-76
+817            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+817-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:746:13-83
+818            android:theme="@style/Theme.AuthSdk" />
+818-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:744:13-49
+819        <activity
+819-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:747:9-768:20
+820            android:name="com.yandex.authsdk.internal.ChromeTabDataActivity"
+820-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:749:13-77
+821            android:exported="true"
+821-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:750:13-36
+822            android:theme="@style/Theme.AuthSdk.Transparent" >
+822-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:748:13-61
+823            <intent-filter android:autoVerify="true" >
+823-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:751:13-759:29
+823-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:751:28-53
+824                <action android:name="android.intent.action.VIEW" />
+824-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+824-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+825
+826                <category android:name="android.intent.category.DEFAULT" />
+826-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+826-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+827                <category android:name="android.intent.category.BROWSABLE" />
+827-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+827-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+828
+829                <data android:scheme="http" />
+829-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+829-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+830                <data android:scheme="https" />
+830-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+830-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+831                <data android:host="yxa088414ac82149538dd816fd742c7526.oauth.yandex.ru" />
+831-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+831-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:251:21-50
+832                <data android:path="/auth/finish" />
+832-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+832-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:689:21-37
+833            </intent-filter>
+834            <intent-filter>
+834-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:760:13-767:29
+835                <action android:name="android.intent.action.VIEW" />
+835-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:13-64
+835-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:63:21-62
+836
+837                <category android:name="android.intent.category.DEFAULT" />
+837-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:17-75
+837-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:236:27-73
+838                <category android:name="android.intent.category.BROWSABLE" />
+838-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:13-73
+838-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:122:23-71
+839
+840                <data
+840-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:13-42
+841                    android:path="/auth/finish"
+841-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:689:21-37
+842                    android:scheme="yxa088414ac82149538dd816fd742c7526" />
+842-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:64:19-40
+843            </intent-filter>
+844        </activity>
+845
+846        <activity-alias
+846-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:769:9-773:89
+847            android:name="com.yandex.authsdk.YandexOauthClientIdActivity"
+847-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:770:13-74
+848            android:enabled="true"
+848-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:771:13-35
+849            android:exported="true"
+849-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:772:13-36
+850            android:targetActivity="com.yandex.authsdk.internal.ChromeTabDataActivity" />
+850-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:773:13-87
+851
+852        <meta-data
+852-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:774:9-776:63
+853            android:name="com.yandex.auth.CLIENT_ID"
+853-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:775:13-53
+854            android:value="a088414ac82149538dd816fd742c7526" />
+854-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:776:13-61
+855        <meta-data
+855-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:777:9-779:46
+856            android:name="com.yandex.auth.OAUTH_HOST"
+856-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:778:13-54
+857            android:value="oauth.yandex.ru" />
+857-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:779:13-44
+858        <meta-data
+858-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:780:9-782:42
+859            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+859-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:781:13-84
+860            android:value="GlideModule" />
+860-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:782:13-40
+861
+862        <receiver
+862-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:783:9-793:20
+863            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+863-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:784:13-78
+864            android:exported="true"
+864-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:786:13-36
+865            android:permission="com.google.android.c2dm.permission.SEND" >
+865-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:785:13-73
+866            <intent-filter>
+866-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:787:13-789:29
+867                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+867-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:788:17-80
+867-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:788:25-78
+868            </intent-filter>
+869
+870            <meta-data
+870-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:790:13-792:39
+871                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+871-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:791:17-92
+872                android:value="true" />
+872-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:792:17-37
+873        </receiver>
+874
+875        <service
+875-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:794:9-801:19
+876            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+876-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:795:13-82
+877            android:directBootAware="true"
+877-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:797:13-43
+878            android:exported="false" >
+878-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:796:13-37
+879            <intent-filter android:priority="-500" >
+879-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:593:13-595:29
+879-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:798:28-51
+880                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+880-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:594:17-77
+880-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:594:25-75
+881            </intent-filter>
+882        </service>
+883
+884        <receiver
+884-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:802:9-805:39
+885            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+885-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:803:13-85
+886            android:enabled="true"
+886-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:804:13-35
+887            android:exported="false" />
+887-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:805:13-37
+888
+889        <service
+889-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:806:9-809:39
+890            android:name="com.google.android.gms.measurement.AppMeasurementService"
+890-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:807:13-84
+891            android:enabled="true"
+891-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:808:13-35
+892            android:exported="false" />
+892-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:809:13-37
+893        <service
+893-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:810:9-814:39
+894            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+894-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:811:13-87
+895            android:enabled="true"
+895-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:813:13-35
+896            android:exported="false"
+896-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:814:13-37
+897            android:permission="android.permission.BIND_JOB_SERVICE" />
+897-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:812:13-69
+898
+899        <activity
+899-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:815:9-819:48
+900            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+900-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:817:13-93
+901            android:excludeFromRecents="true"
+901-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:819:13-46
+902            android:exported="false"
+902-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:818:13-37
+903            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+903-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:816:13-72
+904
+905        <service
+905-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:820:9-824:50
+906            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+906-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:821:13-89
+907            android:exported="true"
+907-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:823:13-36
+908            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+908-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:822:13-107
+909            android:visibleToInstantApps="true" />
+909-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:824:13-48
+910
+911        <activity
+911-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:825:9-828:39
+912            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+912-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:827:13-79
+913            android:exported="false"
+913-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:828:13-37
+914            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+914-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:826:13-72
+915
+916        <service
+916-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:829:9-832:39
+917            android:name="com.google.firebase.sessions.SessionLifecycleService"
+917-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:830:13-80
+918            android:enabled="false"
+918-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:831:13-36
+919            android:exported="false" />
+919-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:832:13-37
+920
+921        <provider
+921-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:833:9-838:45
+922            android:name="com.google.firebase.provider.FirebaseInitProvider"
+922-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:834:13-77
+923            android:authorities="org.xbet.client.eg.firebaseinitprovider"
+923-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:836:13-74
+924            android:directBootAware="true"
+924-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:838:13-43
+925            android:exported="false"
+925-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:835:13-37
+926            android:initOrder="100" />
+926-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:837:13-36
+927
+928        <uses-library
+928-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:839:9-841:39
+929            android:name="androidx.window.extensions"
+929-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:840:13-54
+930            android:required="false" />
+930-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:841:13-37
+931        <uses-library
+931-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:842:9-844:39
+932            android:name="androidx.window.sidecar"
+932-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:843:13-51
+933            android:required="false" />
+933-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:844:13-37
+934
+935        <activity
+935-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:845:9-847:38
+936            android:name="androidx.compose.ui.tooling.PreviewActivity"
+936-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:846:13-71
+937            android:exported="true" />
+937-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:847:13-36
+938
+939        <uses-library
+939-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:848:9-850:39
+940            android:name="android.ext.adservices"
+940-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:849:13-50
+941            android:required="false" />
+941-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:850:13-37
+942
+943        <service
+943-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:851:9-856:46
+944            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+944-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:852:13-84
+945            android:directBootAware="false"
+945-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:856:13-44
+946            android:enabled="@bool/enable_system_job_service_default"
+946-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:854:13-70
+947            android:exported="true"
+947-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:855:13-36
+948            android:permission="android.permission.BIND_JOB_SERVICE" />
+948-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:853:13-69
+949        <service
+949-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:857:9-861:46
+950            android:name="androidx.work.impl.foreground.SystemForegroundService"
+950-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:858:13-81
+951            android:directBootAware="false"
+951-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:861:13-44
+952            android:enabled="@bool/enable_system_foreground_service_default"
+952-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:859:13-77
+953            android:exported="false" />
+953-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:860:13-37
+954
+955        <receiver
+955-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:862:9-866:46
+956            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+956-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:863:13-88
+957            android:directBootAware="false"
+957-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:866:13-44
+958            android:enabled="true"
+958-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:864:13-35
+959            android:exported="false" />
+959-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:865:13-37
+960        <receiver
+960-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:867:9-875:20
+961            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+961-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:868:13-88
+962            android:directBootAware="false"
+962-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:871:13-44
+963            android:enabled="false"
+963-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:869:13-36
+964            android:exported="false" >
+964-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:870:13-37
+965            <intent-filter>
+965-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:573:13-575:29
+966                <action android:name="android.intent.action.BOOT_COMPLETED" />
+966-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:574:17-78
+966-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:574:25-76
+967            </intent-filter>
+968        </receiver>
+969        <receiver
+969-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:876:9-885:20
+970            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+970-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:877:13-78
+971            android:directBootAware="false"
+971-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:881:13-44
+972            android:enabled="true"
+972-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:879:13-35
+973            android:exported="true"
+973-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:880:13-36
+974            android:permission="android.permission.DUMP" >
+974-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:878:13-57
+975            <intent-filter>
+975-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:882:13-884:29
+976                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+976-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:883:17-87
+976-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:883:25-85
+977            </intent-filter>
+978        </receiver>
+979
+980        <service
+980-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:886:9-889:45
+981            android:name="androidx.room.MultiInstanceInvalidationService"
+981-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:887:13-74
+982            android:directBootAware="true"
+982-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:889:13-43
+983            android:exported="false" />
+983-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:888:13-37
+984
+985        <activity
+985-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:890:9-894:61
+986            android:name="ru.ok.android.sdk.OkAuthActivity"
+986-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:891:13-60
+987            android:configChanges="screenSize|orientation"
+987-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:894:13-59
+988            android:exported="false"
+988-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:892:13-37
+989            android:launchMode="singleTop" />
+989-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:893:13-43
+990        <activity
+990-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:895:9-897:39
+991            android:name="ru.ok.android.sdk.OkPostingActivity"
+991-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:896:13-63
+992            android:exported="false" />
+992-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:897:13-37
+993        <activity
+993-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:898:9-900:39
+994            android:name="ru.ok.android.sdk.OkAppInviteActivity"
+994-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:899:13-65
+995            android:exported="false" />
+995-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:900:13-37
+996        <activity
+996-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:901:9-903:39
+997            android:name="ru.ok.android.sdk.OkAppSuggestActivity"
+997-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:902:13-66
+998            android:exported="false" />
+998-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:903:13-37
+999        <activity
+999-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:904:9-906:69
+1000            android:name="com.vk.api.sdk.ui.VKWebViewAuthActivity"
+1000-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:906:13-67
+1001            android:theme="@style/WebViewAuthActivityTheme" />
+1001-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:905:13-60
+1002        <activity
+1002-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:907:9-909:65
+1003            android:name="com.vk.api.sdk.ui.VKCaptchaActivity"
+1003-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:909:13-63
+1004            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+1004-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:908:13-72
+1005        <activity
+1005-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:910:9-912:70
+1006            android:name="com.vk.api.sdk.ui.VKConfirmationActivity"
+1006-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:912:13-68
+1007            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+1007-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:911:13-72
+1008
+1009        <provider
+1009-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:913:9-917:70
+1010            android:name="com.vk.api.sdk.internal.VKInitProvider"
+1010-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:914:13-66
+1011            android:authorities="org.xbet.client.eg.VKInitProvider"
+1011-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:917:13-68
+1012            android:enabled="@bool/com_vk_sdk_init_provider_enabled"
+1012-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:915:13-69
+1013            android:exported="false" />
+1013-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:916:13-37
+1014
+1015        <meta-data
+1015-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:918:9-920:36
+1016            android:name="VKSdkVersion"
+1016-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:919:13-40
+1017            android:value="4.1.0" />
+1017-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:920:13-34
+1018        <meta-data
+1018-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:921:9-923:33
+1019            android:name="VKSdkVersionCode"
+1019-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:922:13-44
+1020            android:value="33" />
+1020-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:923:13-31
+1021
+1022        <service
+1022-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:924:9-930:19
+1023            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+1023-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:925:13-103
+1024            android:exported="false" >
+1024-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:926:13-37
+1025            <meta-data
+1025-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:927:13-929:38
+1026                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+1026-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:928:17-94
+1027                android:value="cct" />
+1027-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:929:17-36
+1028        </service>
+1029
+1030        <receiver
+1030-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:931:9-949:20
+1031            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+1031-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:932:13-76
+1032            android:directBootAware="false"
+1032-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:936:13-44
+1033            android:enabled="true"
+1033-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:934:13-35
+1034            android:exported="true"
+1034-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:935:13-36
+1035            android:permission="android.permission.DUMP" >
+1035-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:933:13-57
+1036            <intent-filter>
+1036-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:937:13-939:29
+1037                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+1037-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:938:17-90
+1037-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:938:25-88
+1038            </intent-filter>
+1039            <intent-filter>
+1039-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:940:13-942:29
+1040                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+1040-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:941:17-84
+1040-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:941:25-82
+1041            </intent-filter>
+1042            <intent-filter>
+1042-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:943:13-945:29
+1043                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+1043-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:944:17-87
+1043-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:944:25-85
+1044            </intent-filter>
+1045            <intent-filter>
+1045-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:946:13-948:29
+1046                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+1046-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:947:17-94
+1046-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:947:25-92
+1047            </intent-filter>
+1048        </receiver>
+1049
+1050        <service
+1050-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:950:9-953:39
+1051            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+1051-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:951:13-117
+1052            android:exported="false"
+1052-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:953:13-37
+1053            android:permission="android.permission.BIND_JOB_SERVICE" />
+1053-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:952:13-69
+1054
+1055        <receiver
+1055-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:954:9-956:39
+1056            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+1056-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:955:13-132
+1057            android:exported="false" />
+1057-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:956:13-37
+1058
+1059        <activity
+1059-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:957:9-963:62
+1060            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+1060-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:959:13-74
+1061            android:clearTaskOnLaunch="true"
+1061-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:960:13-45
+1062            android:screenOrientation="sensorLandscape"
+1062-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:962:13-56
+1063            android:stateNotNeeded="true"
+1063-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:961:13-42
+1064            android:theme="@style/zxing_CaptureTheme"
+1064-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:958:13-54
+1065            android:windowSoftInputMode="stateAlwaysHidden" />
+1065-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:963:13-60
+1066        <activity
+1066-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:964:9-968:41
+1067            android:name="com.jakewharton.processphoenix.PhoenixActivity"
+1067-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:966:13-74
+1068            android:exported="false"
+1068-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:967:13-37
+1069            android:process=":phoenix"
+1069-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:968:13-39
+1070            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+1070-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:965:13-72
+1071
+1072        <service
+1072-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:969:9-972:41
+1073            android:name="com.jakewharton.processphoenix.PhoenixService"
+1073-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:970:13-73
+1074            android:exported="false"
+1074-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:971:13-37
+1075            android:process=":phoenix" />
+1075-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:972:13-39
+1076
+1077        <meta-data
+1077-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:973:9-975:56
+1078            android:name="com.huawei.hms.client.service.name:ads-identifier"
+1078-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:974:13-77
+1079            android:value="ads-identifier:3.4.83.301" />
+1079-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:975:13-54
+1080
+1081        <receiver
+1081-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:976:9-985:20
+1082            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+1082-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:977:13-75
+1083            android:directBootAware="true"
+1083-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:980:13-43
+1084            android:exported="true"
+1084-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:979:13-36
+1085            android:permission="org.xbet.client.eg.permission.PROCESS_PUSH_MSG" >
+1085-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:978:13-80
+1086            <intent-filter>
+1086-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:981:13-984:29
+1087                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+1087-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:982:17-84
+1087-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:982:25-82
+1088                <action android:name="com.huawei.intent.action.PUSH" />
+1088-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:983:17-71
+1088-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:983:25-69
+1089            </intent-filter>
+1090        </receiver>
+1091        <receiver
+1091-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:986:9-995:20
+1092            android:name="com.huawei.hms.support.api.push.PushReceiver"
+1092-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:987:13-72
+1093            android:directBootAware="true"
+1093-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:990:13-43
+1094            android:exported="true"
+1094-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:989:13-36
+1095            android:permission="org.xbet.client.eg.permission.PROCESS_PUSH_MSG" >
+1095-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:988:13-80
+1096            <intent-filter>
+1096-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:991:13-994:29
+1097                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+1097-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:992:17-85
+1097-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:992:25-83
+1098                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+1098-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:993:17-80
+1098-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:993:25-78
+1099            </intent-filter>
+1100        </receiver>
+1101
+1102        <service
+1102-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:996:9-1006:19
+1103            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+1103-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:997:13-81
+1104            android:directBootAware="true"
+1104-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1001:13-43
+1105            android:enabled="true"
+1105-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:998:13-35
+1106            android:exported="true"
+1106-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:999:13-36
+1107            android:process=":pushservice" >
+1107-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1000:13-43
+1108            <intent-filter>
+1108-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1002:13-1005:29
+1109                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+1109-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1003:17-72
+1109-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1003:25-70
+1110                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+1110-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1004:17-72
+1110-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1004:25-70
+1111            </intent-filter>
+1112        </service>
+1113
+1114        <provider
+1114-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1007:9-1012:76
+1115            android:name="com.huawei.hms.support.api.push.PushProvider"
+1115-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1008:13-72
+1116            android:authorities="org.xbet.client.eg.huawei.push.provider"
+1116-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1012:13-74
+1117            android:exported="true"
+1117-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1011:13-36
+1118            android:readPermission="org.xbet.client.eg.permission.PUSH_PROVIDER"
+1118-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1009:13-81
+1119            android:writePermission="org.xbet.client.eg.permission.PUSH_WRITE_PROVIDER" />
+1119-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1010:13-88
+1120
+1121        <meta-data
+1121-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1013:9-1015:46
+1122            android:name="com.huawei.hms.client.service.name:push"
+1122-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1014:13-67
+1123            android:value="push:6.13.0.301" />
+1123-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1015:13-44
+1124        <meta-data
+1124-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1016:9-1018:32
+1125            android:name="com.huawei.hms.min_api_level:push:push"
+1125-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1017:13-66
+1126            android:value="1" />
+1126-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1018:13-30
+1127
+1128        <activity
+1128-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1019:9-1021:39
+1129            android:name="com.huawei.hms.support.api.push.TransActivity"
+1129-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1020:13-73
+1130            android:exported="false" />
+1130-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1021:13-37
+1131        <activity
+1131-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1022:9-1031:20
+1132            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+1132-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1024:13-90
+1133            android:configChanges="fontScale|uiMode"
+1133-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1027:13-53
+1134            android:excludeFromRecents="true"
+1134-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1026:13-46
+1135            android:exported="false"
+1135-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1025:13-37
+1136            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+1136-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1023:13-72
+1137            <meta-data
+1137-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1028:13-1030:39
+1138                android:name="distractionOptimized"
+1138-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1029:17-52
+1139                android:value="true" />
+1139-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1030:17-37
+1140        </activity>
+1141        <activity
+1141-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1032:9-1040:20
+1142            android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"
+1142-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1034:13-96
+1143            android:excludeFromRecents="true"
+1143-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1036:13-46
+1144            android:exported="false"
+1144-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1035:13-37
+1145            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+1145-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1033:13-72
+1146            <meta-data
+1146-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1028:13-1030:39
+1147                android:name="distractionOptimized"
+1147-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1029:17-52
+1148                android:value="true" />
+1148-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1030:17-37
+1149        </activity>
+1150
+1151        <meta-data
+1151-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1041:9-1043:46
+1152            android:name="com.huawei.hms.client.service.name:hwid"
+1152-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1042:13-67
+1153            android:value="hwid:6.14.0.300" />
+1153-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1043:13-44
+1154        <meta-data
+1154-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1044:9-1046:32
+1155            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+1155-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1045:13-66
+1156            android:value="1" />
+1156-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1046:13-30
+1157        <meta-data
+1157-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1047:9-1049:33
+1158            android:name="com.huawei.hms.min_api_level:hwid:account"
+1158-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1048:13-69
+1159            android:value="13" />
+1159-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1049:13-31
+1160
+1161        <provider
+1161-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1050:9-1054:38
+1162            android:name="com.huawei.hms.aaid.InitProvider"
+1162-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1051:13-60
+1163            android:authorities="org.xbet.client.eg.aaidinitprovider"
+1163-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1053:13-70
+1164            android:exported="false"
+1164-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1052:13-37
+1165            android:initOrder="500" />
+1165-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1054:13-36
+1166
+1167        <meta-data
+1167-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1055:9-1057:52
+1168            android:name="com.huawei.hms.client.service.name:opendevice"
+1168-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1056:13-73
+1169            android:value="opendevice:6.13.0.301" />
+1169-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1057:13-50
+1170        <meta-data
+1170-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1058:9-1060:32
+1171            android:name="com.huawei.hms.min_api_level:opendevice:push"
+1171-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1059:13-72
+1172            android:value="1" />
+1172-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1060:13-30
+1173        <meta-data
+1173-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1061:9-1063:46
+1174            android:name="com.huawei.hms.client.service.name:base"
+1174-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1062:13-67
+1175            android:value="base:6.13.0.303" />
+1175-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1063:13-44
+1176        <meta-data
+1176-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1064:9-1066:32
+1177            android:name="com.huawei.hms.min_api_level:base:hmscore"
+1177-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1065:13-69
+1178            android:value="1" />
+1178-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1066:13-30
+1179        <meta-data
+1179-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1067:9-1069:34
+1180            android:name="availableLoaded"
+1180-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1068:13-43
+1181            android:value="yes" />
+1181-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1069:13-32
+1182
+1183        <activity
+1183-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1070:9-1074:44
+1184            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+1184-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1072:13-93
+1185            android:exported="false"
+1185-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1073:13-37
+1186            android:stateNotNeeded="true"
+1186-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1074:13-42
+1187            android:theme="@style/Theme.PlayCore.Transparent" />
+1187-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1071:13-62
+1188
+1189        <provider
+1189-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1075:9-1078:77
+1190            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+1190-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1076:13-90
+1191            android:authorities="org.xbet.client.eg.AGCInitializeProvider"
+1191-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1078:13-75
+1192            android:exported="false" />
+1192-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1077:13-37
+1193
+1194        <service
+1194-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1079:9-1081:39
+1195            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+1195-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1080:13-70
+1196            android:exported="false" />
+1196-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1081:13-37
+1197
+1198        <activity
+1198-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1082:9-1096:20
+1199            android:name="com.huawei.hms.activity.BridgeActivity"
+1199-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1084:13-66
+1200            android:configChanges="fontScale|layoutDirection|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|locale"
+1200-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1088:13-131
+1201            android:excludeFromRecents="true"
+1201-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1086:13-46
+1202            android:exported="false"
+1202-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1085:13-37
+1203            android:hardwareAccelerated="true"
+1203-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1089:13-47
+1204            android:screenOrientation="behind"
+1204-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1087:13-47
+1205            android:theme="@style/Base_Translucent" >
+1205-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1083:13-52
+1206            <meta-data
+1206-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1090:13-1092:76
+1207                android:name="hwc-theme"
+1207-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1091:17-41
+1208                android:value="androidhwext:style/Theme.Emui.Translucent" />
+1208-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1092:17-74
+1209            <meta-data
+1209-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1028:13-1030:39
+1210                android:name="distractionOptimized"
+1210-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1029:17-52
+1211                android:value="true" />
+1211-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1030:17-37
+1212        </activity>
+1213        <activity
+1213-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1097:9-1100:108
+1214            android:name="com.huawei.hms.activity.EnableServiceActivity"
+1214-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1098:13-73
+1215            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+1215-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1100:13-106
+1216            android:exported="false" />
+1216-->C:\APK-Recovery\jadx-source-git\app\src\main\AndroidManifest.xml:1099:13-37
+1217    </application>
+1218
+1219</manifest>

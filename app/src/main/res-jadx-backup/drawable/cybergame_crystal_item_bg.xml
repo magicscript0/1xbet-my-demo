@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="26dp"
+    android:width="26dp"
+    android:viewportWidth="26"
+    android:viewportHeight="26">
+    <path
+        android:fillColor="@drawable/_cybergame_crystal_item_bg__0_res_0x7f080035"
+        android:pathData="M0.25,4C0.25,1.929 1.929,0.25 4,0.25H22C24.071,0.25 25.75,1.929 25.75,4V22C25.75,24.071 24.071,25.75 22,25.75H4C1.929,25.75 0.25,24.071 0.25,22V4Z"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0.25,4C0.25,1.929 1.929,0.25 4,0.25H22C24.071,0.25 25.75,1.929 25.75,4V22C25.75,24.071 24.071,25.75 22,25.75H4C1.929,25.75 0.25,24.071 0.25,22V4Z"
+        android:strokeColor="@drawable/_cybergame_crystal_item_bg__1_res_0x7f080036"
+        android:strokeWidth="0.5"/>
+</vector>

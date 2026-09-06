@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/ivRedCards" android:layout_width="@dimen/space_12" android:layout_height="@dimen/space_12" app:srcCompat="@drawable/ic_red_card_new" />
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="@color/static_white" android:layout_gravity="center" android:id="@id/tvRedCards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_4" />
+    <ImageView android:layout_gravity="center" android:id="@id/ivYellowCards" android:layout_width="@dimen/space_12" android:layout_height="@dimen/space_12" android:layout_marginStart="@dimen/space_16" app:srcCompat="@drawable/ic_yellow_card_new" />
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="@color/static_white" android:layout_gravity="center" android:id="@id/tvYellowCards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_4" />
+    <ImageView android:layout_gravity="center" android:id="@id/ivCorners" android:layout_width="@dimen/space_12" android:layout_height="@dimen/space_12" android:layout_marginStart="@dimen/space_16" app:srcCompat="@drawable/ic_corner" />
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="@color/static_white" android:layout_gravity="center" android:id="@id/tvCorners" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_4" />
+</merge>

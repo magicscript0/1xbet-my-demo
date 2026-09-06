@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="206dp"
+    android:width="210dp"
+    android:viewportWidth="210"
+    android:viewportHeight="206">
+    <path
+        android:fillColor="@drawable/_cybergame_crystal_field_bg__0_res_0x7f08002b"
+        android:pathData="M4,0.5L206,0.5A3.5,3.5 0,0 1,209.5 4L209.5,202A3.5,3.5 0,0 1,206 205.5L4,205.5A3.5,3.5 0,0 1,0.5 202L0.5,4A3.5,3.5 0,0 1,4 0.5z"
+        android:fillAlpha="0.85"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M4,0.5L206,0.5A3.5,3.5 0,0 1,209.5 4L209.5,202A3.5,3.5 0,0 1,206 205.5L4,205.5A3.5,3.5 0,0 1,0.5 202L0.5,4A3.5,3.5 0,0 1,4 0.5z"
+        android:strokeColor="@drawable/_cybergame_crystal_field_bg__1_res_0x7f08002c"
+        android:strokeWidth="1"/>
+</vector>

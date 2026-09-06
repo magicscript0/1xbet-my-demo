@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:theme="?uikitTheme" android:background="@drawable/rounded_background_24" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_horizontal_margin_dynamic" android:layout_marginRight="@dimen/large_horizontal_margin_dynamic" android:layout_marginHorizontal="@dimen/large_horizontal_margin_dynamic" app:cardBackgroundColor="?uikitBackgroundContent" app:cardCornerRadius="@dimen/radius_24" app:cardElevation="@dimen/elevation_0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.header.DsHeader android:id="@id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12" android:layout_marginRight="@dimen/space_12" android:layout_marginHorizontal="@dimen/space_12" app:headerType="small" app:horizontalMarginEnd="@dimen/space_0" app:horizontalMarginStart="@dimen/space_4" app:isLoading="false" app:title="@string/additionally" />
+        <org.xplatform.promo.impl.settings.presentation.components.PromoAdditionalCardCollection android:id="@id/promoAdditionalCollection" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_12" app:placeholderIcon="@drawable/ic_promo_settings_placeholder_s" app:verticalEdgeSpace="@dimen/space_0" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
