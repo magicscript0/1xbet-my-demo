@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" app:headerType="large" />
+    <org.xplatform.uikit_web_games.game_collection.WebGamesGameCollection android:id="@id/collectionView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small_horizontal_margin_dynamic" android:layout_marginRight="@dimen/extra_small_horizontal_margin_dynamic" android:layout_marginHorizontal="@dimen/extra_small_horizontal_margin_dynamic" app:gameType="squareL" style="@style/Widget.GameCollection.SquareL" />
+</LinearLayout>

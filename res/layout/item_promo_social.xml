@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit_aggregator.aggregatorSocialNetworks.AggregatorSocialNetworksShimmer android:id="@id/aggregatorSocialNetworksShimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" android:layout_marginBottom="@dimen/space_12" />
+    <org.xplatform.uikit_aggregator.aggregatorSocialNetworks.AggregatorSocialNetworks android:id="@id/aggregatorSocialNetworks" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

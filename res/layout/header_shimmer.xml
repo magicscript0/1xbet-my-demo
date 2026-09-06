@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.shimmer.DsShimmerView android:layout_width="@dimen/size_96" android:layout_height="@dimen/size_12" android:layout_marginLeft="@dimen/space_16" android:layout_marginTop="@dimen/space_12" android:layout_marginRight="@dimen/space_16" android:layout_marginBottom="@dimen/space_12" android:radius="@dimen/radius_16" android:layout_marginHorizontal="@dimen/space_16" android:layout_marginVertical="@dimen/space_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/shimmersParent" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/shimmer1" android:layout_width="fill_parent" android:layout_height="@dimen/size_96" layout="@layout/aggregator_shimmers_type_large_header_item" />
+    <include android:id="@id/shimmer2" android:layout_width="fill_parent" android:layout_height="@dimen/size_156" layout="@layout/aggregator_shimmers_type_large_header_item" />
+    <include android:id="@id/shimmer3" android:layout_width="fill_parent" android:layout_height="@dimen/size_156" layout="@layout/aggregator_shimmers_type_large_header_item" />
+    <include android:id="@id/shimmer4" android:layout_width="fill_parent" android:layout_height="@dimen/size_156" layout="@layout/aggregator_shimmers_type_large_header_item" />
+    <include android:id="@id/shimmer5" android:layout_width="fill_parent" android:layout_height="@dimen/size_156" layout="@layout/aggregator_shimmers_type_large_header_item" />
+</LinearLayout>

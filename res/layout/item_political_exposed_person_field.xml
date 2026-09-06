@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="?uikitTheme" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Text.Regular" android:textColor="?uikitTextPrimary" android:id="@id/tvDescription" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" app:layout_constraintEnd_toStartOf="@id/ivInfo" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/ivInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_glyph_info_circle_filled" android:contentDescription="@string/info" android:layout_marginEnd="@dimen/space_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?uikitSecondary" />
+    <org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/scYesBlock" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/tvDescription">
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/cmtYesTitle" app:title="@string/yes" style="@style/Widget.DSCell.Middle.Title.L" />
+        <org.xplatform.uikit.components.cells.right.DsCellRightRadioButton android:id="@id/crrbYes" android:clickable="false" style="@style/Widget.DSCell.Right.RadioButton" />
+        <org.xplatform.uikit.components.separator.DsSeparator style="@style/Widget.DSSeparator.Cell" />
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+    <org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/scNoBlock" android:layout_width="fill_parent" android:layout_height="wrap_content" app:last="true" app:layout_constraintTop_toBottomOf="@id/scYesBlock" style="@style/Widget.DSCell.Settings">
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/cmtNoTitle" app:title="@string/no" style="@style/Widget.DSCell.Middle.Title.L" />
+        <org.xplatform.uikit.components.cells.right.DsCellRightRadioButton android:id="@id/crrbNo" android:clickable="false" style="@style/Widget.DSCell.Right.RadioButton" />
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.AppTheme.CardView.New"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/space_4"
+    app:cardCornerRadius="@dimen/corner_radius_8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/space_12">
+
+        <FrameLayout
+            android:id="@+id/flImageContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ivIconBackground"
+                android:layout_width="@dimen/space_40"
+                android:layout_height="@dimen/space_40"
+                app:srcCompat="@drawable/primary_circle"
+                app:tint="?attr/uikitBackground" />
+
+            <ImageView
+                android:id="@+id/ivIconTournament"
+                android:layout_width="@dimen/space_24"
+                android:layout_height="@dimen/space_24"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_tournament"
+                app:tint="?attr/uikitSecondary" />
+
+            <TextView
+                android:id="@+id/tvStageNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:textAppearance="?attr/textAppearanceSubtitle1BoldNew"
+                android:textColor="?attr/uikitTextPrimary"
+                android:textFontWeight="700"
+                android:textSize="@dimen/text_14"
+                android:visibility="gone"
+                tools:text="1" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="@dimen/space_0"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/space_12"
+            android:layout_marginEnd="@dimen/space_40"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:textAlignment="viewStart"
+            android:textAppearance="?textAppearanceSubtitle2MediumNew"
+            android:textColor="?attr/uikitTextPrimary"
+            android:textSize="@dimen/text_14"
+            app:layout_constraintBottom_toBottomOf="@+id/flImageContainer"
+            app:layout_constraintEnd_toStartOf="@+id/ivArrow"
+            app:layout_constraintStart_toEndOf="@+id/flImageContainer"
+            app:layout_constraintTop_toTopOf="@+id/flImageContainer"
+            tools:text="Общий турнир" />
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="@dimen/space_24"
+            android:layout_height="@dimen/space_24"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/space_14"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitle"
+            app:srcCompat="@drawable/ic_arrow_collaps_new"
+            app:tint="?attr/uikitSecondary" />
+
+        <LinearLayout
+            android:id="@+id/llContentInfo"
+            android:layout_width="@dimen/space_0"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/ivArrow"
+            app:layout_constraintStart_toStartOf="@+id/flImageContainer"
+            app:layout_constraintTop_toBottomOf="@+id/flImageContainer"
+            tools:visibility="visible">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_12"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:textAppearance="?attr/textAppearanceSubtitle1New"
+                android:textColor="?attr/uikitSecondary"
+                tools:text="1. Все призы будут зачислены в денежной форме на счета игроков в течение 72 часов с момента завершения турнира. Призы не требуют отыгрыша." />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvGamesList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_12"
+                android:textAppearance="?attr/textAppearanceSubtitle2New"
+                android:textColor="?attr/uikitTextPrimary"
+                android:visibility="gone"
+                tools:text="Blackjack/21\nClassic Auto Roulette\nSpace casino"
+                tools:visibility="visible" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvSubContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_12"
+                android:layout_marginBottom="@dimen/space_12"
+                android:textAppearance="?attr/textAppearanceSubtitle1New"
+                android:textColor="?attr/uikitSecondary"
+                android:visibility="gone"
+                tools:text="2. В случае, если на призовое место претендуют 2 игрока с одинаковым количеством очков, победителем становится "
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,557 @@
+.class public final La/wcr;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final h:La/wcr;
+
+
+# instance fields
+.field public final a:D
+
+.field public final b:La/icr;
+
+.field public final c:D
+
+.field public final d:D
+
+.field public final e:Ljava/util/List;
+
+.field public final f:D
+
+.field public final g:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 13
+
+    .line 1
+    new-instance v0, La/wcr;
+
+    .line 2
+    .line 3
+    sget-object v8, La/l6m;->a:La/l6m;
+
+    .line 4
+    .line 5
+    const-wide/16 v9, 0x0
+
+    .line 6
+    .line 7
+    const-wide/16 v11, 0x0
+
+    .line 8
+    .line 9
+    const-wide/16 v1, 0x0
+
+    .line 10
+    .line 11
+    sget-object v3, La/icr;->e:La/icr;
+
+    .line 12
+    .line 13
+    const-wide/16 v4, 0x0
+
+    .line 14
+    .line 15
+    const-wide/16 v6, 0x0
+
+    .line 16
+    .line 17
+    invoke-direct/range {v0 .. v12}, La/wcr;-><init>(DLa/icr;DDLjava/util/List;DJ)V
+
+    .line 18
+    .line 19
+    .line 20
+    sput-object v0, La/wcr;->h:La/wcr;
+
+    .line 21
+    .line 22
+    return-void
+.end method
+
+.method public constructor <init>(DLa/icr;DDLjava/util/List;DJ)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p8}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 8
+    .line 9
+    .line 10
+    iput-wide p1, p0, La/wcr;->a:D
+
+    .line 11
+    .line 12
+    iput-object p3, p0, La/wcr;->b:La/icr;
+
+    .line 13
+    .line 14
+    iput-wide p4, p0, La/wcr;->c:D
+
+    .line 15
+    .line 16
+    iput-wide p6, p0, La/wcr;->d:D
+
+    .line 17
+    .line 18
+    iput-object p8, p0, La/wcr;->e:Ljava/util/List;
+
+    .line 19
+    .line 20
+    iput-wide p9, p0, La/wcr;->f:D
+
+    .line 21
+    .line 22
+    iput-wide p11, p0, La/wcr;->g:J
+
+    .line 23
+    .line 24
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 7
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of v1, p1, La/wcr;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-nez v1, :cond_1
+
+    .line 9
+    .line 10
+    return v2
+
+    .line 11
+    :cond_1
+    check-cast p1, La/wcr;
+
+    .line 12
+    .line 13
+    iget-wide v3, p0, La/wcr;->a:D
+
+    .line 14
+    .line 15
+    iget-wide v5, p1, La/wcr;->a:D
+
+    .line 16
+    .line 17
+    invoke-static {v3, v4, v5, v6}, Ljava/lang/Double;->compare(DD)I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v1
+
+    .line 21
+    if-eqz v1, :cond_2
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_2
+    iget-object v1, p0, La/wcr;->b:La/icr;
+
+    .line 25
+    .line 26
+    iget-object v3, p1, La/wcr;->b:La/icr;
+
+    .line 27
+    .line 28
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 29
+    .line 30
+    .line 31
+    move-result v1
+
+    .line 32
+    if-nez v1, :cond_3
+
+    .line 33
+    .line 34
+    return v2
+
+    .line 35
+    :cond_3
+    iget-wide v3, p0, La/wcr;->c:D
+
+    .line 36
+    .line 37
+    iget-wide v5, p1, La/wcr;->c:D
+
+    .line 38
+    .line 39
+    invoke-static {v3, v4, v5, v6}, Ljava/lang/Double;->compare(DD)I
+
+    .line 40
+    .line 41
+    .line 42
+    move-result v1
+
+    .line 43
+    if-eqz v1, :cond_4
+
+    .line 44
+    .line 45
+    return v2
+
+    .line 46
+    :cond_4
+    iget-wide v3, p0, La/wcr;->d:D
+
+    .line 47
+    .line 48
+    iget-wide v5, p1, La/wcr;->d:D
+
+    .line 49
+    .line 50
+    invoke-static {v3, v4, v5, v6}, Ljava/lang/Double;->compare(DD)I
+
+    .line 51
+    .line 52
+    .line 53
+    move-result v1
+
+    .line 54
+    if-eqz v1, :cond_5
+
+    .line 55
+    .line 56
+    return v2
+
+    .line 57
+    :cond_5
+    iget-object v1, p0, La/wcr;->e:Ljava/util/List;
+
+    .line 58
+    .line 59
+    iget-object v3, p1, La/wcr;->e:Ljava/util/List;
+
+    .line 60
+    .line 61
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 62
+    .line 63
+    .line 64
+    move-result v1
+
+    .line 65
+    if-nez v1, :cond_6
+
+    .line 66
+    .line 67
+    return v2
+
+    .line 68
+    :cond_6
+    iget-wide v3, p0, La/wcr;->f:D
+
+    .line 69
+    .line 70
+    iget-wide v5, p1, La/wcr;->f:D
+
+    .line 71
+    .line 72
+    invoke-static {v3, v4, v5, v6}, Ljava/lang/Double;->compare(DD)I
+
+    .line 73
+    .line 74
+    .line 75
+    move-result v1
+
+    .line 76
+    if-eqz v1, :cond_7
+
+    .line 77
+    .line 78
+    return v2
+
+    .line 79
+    :cond_7
+    iget-wide v3, p0, La/wcr;->g:J
+
+    .line 80
+    .line 81
+    iget-wide p0, p1, La/wcr;->g:J
+
+    .line 82
+    .line 83
+    cmp-long p0, v3, p0
+
+    .line 84
+    .line 85
+    if-eqz p0, :cond_8
+
+    .line 86
+    .line 87
+    return v2
+
+    .line 88
+    :cond_8
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, La/wcr;->a:D
+
+    .line 2
+    .line 3
+    invoke-static {v0, v1}, Ljava/lang/Double;->hashCode(D)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    const/16 v1, 0x1f
+
+    .line 8
+    .line 9
+    mul-int/2addr v0, v1
+
+    .line 10
+    iget-object v2, p0, La/wcr;->b:La/icr;
+
+    .line 11
+    .line 12
+    invoke-virtual {v2}, La/icr;->hashCode()I
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v2
+
+    .line 16
+    add-int/2addr v2, v0
+
+    .line 17
+    mul-int/2addr v2, v1
+
+    .line 18
+    iget-wide v3, p0, La/wcr;->c:D
+
+    .line 19
+    .line 20
+    invoke-static {v3, v4, v2, v1}, La/mpn0;->a(DII)I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result v0
+
+    .line 24
+    iget-wide v2, p0, La/wcr;->d:D
+
+    .line 25
+    .line 26
+    invoke-static {v2, v3, v0, v1}, La/mpn0;->a(DII)I
+
+    .line 27
+    .line 28
+    .line 29
+    move-result v0
+
+    .line 30
+    iget-object v2, p0, La/wcr;->e:Ljava/util/List;
+
+    .line 31
+    .line 32
+    invoke-static {v0, v1, v2}, La/mm7;->a(IILjava/util/List;)I
+
+    .line 33
+    .line 34
+    .line 35
+    move-result v0
+
+    .line 36
+    iget-wide v2, p0, La/wcr;->f:D
+
+    .line 37
+    .line 38
+    invoke-static {v2, v3, v0, v1}, La/mpn0;->a(DII)I
+
+    .line 39
+    .line 40
+    .line 41
+    move-result v0
+
+    .line 42
+    iget-wide v1, p0, La/wcr;->g:J
+
+    .line 43
+    .line 44
+    invoke-static {v1, v2}, Ljava/lang/Long;->hashCode(J)I
+
+    .line 45
+    .line 46
+    .line 47
+    move-result p0
+
+    .line 48
+    add-int/2addr p0, v0
+
+    .line 49
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 5
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    const-string v1, "GamesManiaPlayModel(coef="
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget-wide v1, p0, La/wcr;->a:D
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+
+    .line 11
+    .line 12
+    .line 13
+    const-string v1, ", jackPot="
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    iget-object v1, p0, La/wcr;->b:La/icr;
+
+    .line 19
+    .line 20
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    const-string v1, ", winSum="
+
+    .line 24
+    .line 25
+    const-string v2, ", betSum="
+
+    .line 26
+    .line 27
+    iget-wide v3, p0, La/wcr;->c:D
+
+    .line 28
+    .line 29
+    invoke-static {v0, v1, v3, v4, v2}, La/vdd;->z(Ljava/lang/StringBuilder;Ljava/lang/String;DLjava/lang/String;)V
+
+    .line 30
+    .line 31
+    .line 32
+    iget-wide v1, p0, La/wcr;->d:D
+
+    .line 33
+    .line 34
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+
+    .line 35
+    .line 36
+    .line 37
+    const-string v1, ", result="
+
+    .line 38
+    .line 39
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 40
+    .line 41
+    .line 42
+    iget-object v1, p0, La/wcr;->e:Ljava/util/List;
+
+    .line 43
+    .line 44
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 45
+    .line 46
+    .line 47
+    const-string v1, ", balanceNew="
+
+    .line 48
+    .line 49
+    const-string v2, ", accountId="
+
+    .line 50
+    .line 51
+    iget-wide v3, p0, La/wcr;->f:D
+
+    .line 52
+    .line 53
+    invoke-static {v0, v1, v3, v4, v2}, La/vdd;->z(Ljava/lang/StringBuilder;Ljava/lang/String;DLjava/lang/String;)V
+
+    .line 54
+    .line 55
+    .line 56
+    const-string v1, ")"
+
+    .line 57
+    .line 58
+    iget-wide v2, p0, La/wcr;->g:J
+
+    .line 59
+    .line 60
+    invoke-static {v2, v3, v1, v0}, La/ue30;->h(JLjava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object p0
+
+    .line 64
+    return-object p0
+.end method

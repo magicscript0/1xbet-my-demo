@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.sport_cell.DsSportCell android:theme="?uikitTheme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium_horizontal_margin_dynamic" android:layout_marginRight="@dimen/medium_horizontal_margin_dynamic" android:layout_marginBottom="@dimen/space_2" android:layout_marginHorizontal="@dimen/medium_horizontal_margin_dynamic" app:sportCellRoundedBottom="true" app:sportCellRoundedTop="true" style="@style/Widget.SportCell"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit_sport.sport_cell.left.SportCellLeftView android:id="@id/cellLeftView" style="@style/Widget.SportCell.SportCellLeft.Icon" />
+    <org.xplatform.uikit_sport.sport_cell.middle.SportCellMiddleView android:id="@id/cellMiddleView" app:sportCellMiddleTitleMaxLines="2" style="@style/Widget.SportCell.SportCellMiddle.Static.M" />
+    <org.xplatform.uikit_sport.sport_cell.right.SportCellRightView android:id="@id/cellRightView" app:sportCellRightStyleType="chevron" style="@style/Widget.SportCell.SportCellRight" />
+</org.xplatform.uikit_sport.sport_cell.DsSportCell>

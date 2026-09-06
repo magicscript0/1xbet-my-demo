@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.journeyapps.barcodescanner.DecoratedBarcodeView android:id="@id/qrScanner" android:layout_width="fill_parent" android:layout_height="fill_parent" app:zxing_preview_scaling_strategy="fitXY" app:zxing_use_texture_view="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:padding="@dimen/space_40" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/qrScannerMask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_qr_scanner" />
+        <TextView android:textColor="@color/static_white" android:gravity="bottom|center" android:paddingBottom="@dimen/space_48" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/auth_qr_text" />
+    </FrameLayout>
+    <org.xplatform.uikit.components.toolbar.base.DsNavigationBarBasic android:id="@id/navigationBar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:title="@string/qr" style="@style/Widgets.BasicNavigationBar.Title" />
+</com.journeyapps.barcodescanner.DecoratedBarcodeView>

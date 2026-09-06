@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/rounded_background_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginTop="@dimen/space_12" android:layout_marginRight="@dimen/space_16" android:layout_marginBottom="@dimen/space_12" android:backgroundTint="?uikitBackground" android:layout_marginHorizontal="@dimen/space_16" android:layout_marginVertical="@dimen/space_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_12" android:text="@string/registration_bonus_rules_part1" style="@style/TextStyle.Caption.Regular.L.Secondary" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12" android:layout_marginRight="@dimen/space_12" android:layout_marginBottom="@dimen/space_12" android:text="@string/registration_bonus_rules_part2" android:layout_marginHorizontal="@dimen/space_12" style="@style/TextStyle.Caption.Regular.L.Secondary" />
+</LinearLayout>

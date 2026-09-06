@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="fill_parent" android:layout_height="@dimen/size_16" />
+    <org.xplatform.uikit.components.text_field.DsTextField android:id="@id/filledMultilineTextField" android:paddingLeft="@dimen/space_16" android:paddingRight="@dimen/space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_16" app:startIcon="@drawable/ic_glyph_favourite_active" style="@style/Widget.DSTextField.Filled.Multiline" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="fill_parent" android:layout_height="@dimen/size_16" />
+</LinearLayout>

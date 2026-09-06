@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.LoadableShapeableImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="@dimen/size_72" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contentView" android:layout_width="wrap_content" android:layout_height="@dimen/space_72" android:paddingStart="@dimen/size_16" android:paddingEnd="@dimen/space_72">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/static_white" android:ellipsize="end" android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_14" android:maxLines="1" app:autoSizeMinTextSize="@dimen/text_12" app:autoSizeTextType="uniform" style="@style/TextAppearance.Headline.Medium" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/static_white" android:ellipsize="end" android:id="@id/descriptionTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_4" android:maxLines="2" style="@style/TextAppearance.Caption.Regular.M" />
+    </LinearLayout>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmerView" android:layout_width="fill_parent" android:layout_height="@dimen/size_72" android:radius="@dimen/radius_16" />
+</merge>

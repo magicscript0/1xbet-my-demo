@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

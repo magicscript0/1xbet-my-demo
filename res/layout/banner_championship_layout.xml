@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/size_108"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.LoadableShapeableImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" app:shapeAppearance="@style/ShapeAppearance.Radius16" />
+    <org.xplatform.uikit.components.tag.DsTag android:id="@id/tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_12" android:maxWidth="@dimen/size_200" android:maxLines="1" android:layout_marginStart="@dimen/space_12" style="@style/Widget.DSTag.Cyber" />
+    <org.xplatform.uikit.components.tag.DsTag android:id="@id/liveTag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_12" android:maxLines="1" android:layout_marginStart="@dimen/space_4" android:layout_marginEnd="@dimen/space_12" style="@style/Widget.DSTag.RectangularS.Red" />
+    <TextView android:textColor="?uikitStaticWhite" android:ellipsize="end" android:layout_gravity="start|bottom|center" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12" android:layout_marginRight="@dimen/space_12" android:layout_marginBottom="@dimen/space_8" android:maxLines="2" android:textDirection="locale" android:textAlignment="textStart" android:layout_marginHorizontal="@dimen/space_12" style="@style/TextStyle.Title.Bold.L" />
+</merge>

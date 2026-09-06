@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="@color/static_white_60" android:layout_gravity="center" android:id="@id/tvMatchScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" android:layout_marginStart="@dimen/space_4" />
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="@color/static_white_60" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center" android:id="@id/tvTeams" android:layout_width="0.0dip" android:layout_height="@dimen/size_32" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingMultiplier="0.85" android:textDirection="ltr" android:layout_marginStart="@dimen/space_8" app:autoSizeMaxTextSize="@dimen/text_12" app:autoSizeMinTextSize="@dimen/text_10" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" />
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textColor="@color/static_white_60" android:layout_gravity="center" android:id="@id/tvTimeLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_8" android:layout_marginEnd="@dimen/space_4" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsMenuCell
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mcv_promocode"
+    style="@style/Widget.AppTheme.CardView.New"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="?attr/uikitTheme">
+
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+        android:id="@+id/ivPromo"
+        style="@style/Widget.DSCell.Left.Icon.Back"
+        android:tint="?attr/uikitPrimary"
+        app:backgroundTint="?attr/uikitBackground"
+        app:srcCompat="@drawable/ic_promocode_logo"
+        app:tint="?attr/uikitPrimary" />
+
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/tvPromoText"
+        style="@style/Widget.DSCell.Middle.Title.L"
+        app:title="@string/check_and_activate" />
+
+    <org.xplatform.uikit.components.cells.right.DsCellRightLabel
+        android:id="@+id/cellArrow"
+        android:autoMirrored="true"
+        style="@style/Widget.DSCell.Right.Label.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</org.xplatform.uikit.components.cells.DsMenuCell>
+
+

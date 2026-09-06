@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/firstView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" />
+    <View android:id="@id/secondView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" android:layout_marginTop="@dimen/space_8" />
+    <View android:id="@id/thirdView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" android:layout_marginTop="@dimen/space_8" />
+    <View android:id="@id/fourthView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" android:layout_marginTop="@dimen/space_8" />
+    <View android:id="@id/fifthView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" android:layout_marginTop="@dimen/space_8" />
+    <View android:id="@id/sixthView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" android:layout_marginTop="@dimen/space_8" />
+    <View android:id="@id/seventhView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" android:layout_marginTop="@dimen/space_8" />
+    <View android:id="@id/eighthView" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_background_height" android:layout_marginTop="@dimen/space_8" />
+</LinearLayout>

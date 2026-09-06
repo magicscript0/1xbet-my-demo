@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.ui_core.viewcomponents.webview.FixedWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/webProgressBar" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminateOnly="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStartWithNavigation="0.0dip" style="@style/Widget.AppTheme.Toolbar.New">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clToolbarContainer" android:background="@color/static_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constrainedWidth="true">
+                <TextView android:textAppearance="?textAppearanceHeadline6MediumNew" android:textColor="?uikitSecondary" android:ellipsize="end" android:gravity="center" android:id="@id/toolbarTitle" android:layout_width="0.0dip" android:layout_height="0.0dip" android:maxLines="1" android:layout_marginEnd="?actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.MaterialToolbar>
+    </LinearLayout>
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:textColor="?uikitSecondary" />
+</FrameLayout>

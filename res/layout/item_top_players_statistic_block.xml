@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceSubtitle2MediumHighlightNew" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_16" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPairStatistic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_16" />
+</LinearLayout>

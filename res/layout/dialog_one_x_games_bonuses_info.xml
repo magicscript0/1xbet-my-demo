@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="?uikitTheme" android:id="@id/dialog_one_x_games_bonuses_info" android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:padding="@dimen/space_32" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12" android:layout_marginTop="@dimen/space_4" android:layout_marginRight="@dimen/space_12" android:layout_marginBottom="@dimen/space_4" android:text="@string/bonuses_info_name" android:layout_marginHorizontal="@dimen/space_12" android:layout_marginVertical="@dimen/space_4" style="@style/TextStyle.Title.Medium.S.TextPrimary" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieEmptyView" android:paddingTop="@dimen/space_16" android:paddingBottom="@dimen/space_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingVertical="@dimen/space_16" />
+</FrameLayout>

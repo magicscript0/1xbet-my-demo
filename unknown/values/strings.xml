@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Lottie Background-->
+    <string name="app_update_background_lottie_1_12" translatable="false">app_update_lottie_background_1_12</string>
+    <string name="app_update_background_lottie_1_17" translatable="false">app_update_lottie_background_1_17</string>
+    <string name="app_update_background_lottie_1_2" translatable="false">app_update_lottie_background_1_2</string>
+
+    <!--    Image Background-->
+    <string name="app_update_background_image_1_12" translatable="false">app_update_image_background_1_12</string>
+    <string name="app_update_background_image_1_17" translatable="false">app_update_image_background_1_17</string>
+    <string name="app_update_background_image_1_2" translatable="false">app_update_image_background_1_2</string>
+
+    <!--    Lottie Image Background-->
+    <string name="app_update_background_lottie_image_1_12" translatable="false">app_update_lottie_image_background_1_12</string>
+    <string name="app_update_background_lottie_image_1_17" translatable="false">app_update_lottie_image_background_1_17</string>
+    <string name="app_update_background_lottie_image_1_2" translatable="false">app_update_lottie_image_background_1_2</string>
+    
+    <string name="download_bar_thick_line_icon" translatable="false">app_update_thick_line_icon</string>
+
+    <string name="download_progress_value" formatted="true" translatable="false">%d%%</string>
+</resources>

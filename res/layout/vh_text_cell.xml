@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="?uikitTheme" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/size_72"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tvContent" android:paddingLeft="@dimen/space_8" android:paddingRight="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="@dimen/size_14" android:maxLines="1" android:includeFontPadding="false" android:textDirection="ltr" android:paddingHorizontal="@dimen/space_8" style="@style/TextStyle.Caption.Medium.L.TextPrimary" />
+    <org.xplatform.uikit.components.separator.DsSeparator android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/size_1" style="@style/Widget.DSSeparator.Separator60" />
+</FrameLayout>

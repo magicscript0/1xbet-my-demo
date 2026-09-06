@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceSubtitle2MediumNew" android:textColor="?uikitPrimary" android:id="@id/titleTv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <org.xplatform.coupon.impl.generate_coupon.presentation.view.GenerateCouponFlexboxLayout android:id="@id/flexboxLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/titleTv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

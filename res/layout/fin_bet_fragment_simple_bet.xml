@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="vertical" android:paddingLeft="@dimen/space_16" android:paddingRight="@dimen/space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.ui_core.viewcomponents.views.MakeBetBalanceViewDs android:id="@id/makeBetBalance" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.xplatform.uikit.components.bottom_sheet.presets.DsPresetSpacing android:layout_width="fill_parent" android:layout_height="@dimen/space_4" />
+    <org.xplatform.ui_core.viewcomponents.views.BetInputView android:id="@id/betInputView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:inputHint="@string/pf_input_sum_title" />
+    <org.xplatform.ui_core.viewcomponents.views.TaxExpandableSpoiler android:id="@id/taxSpoiler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" />
+    <TextView android:id="@id/possibleWinTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_6" style="@style/TextStyle.Text.Regular" />
+</LinearLayout>

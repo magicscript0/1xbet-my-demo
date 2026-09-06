@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_quick_bet" android:id="@id/actionQuickBet" android:title="@string/quick_bet" app:iconTint="@color/static_white" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_more" android:id="@id/actionMore" android:title="@string/filter" app:iconTint="@color/static_white" app:showAsAction="always" />
+</menu>

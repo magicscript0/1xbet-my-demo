@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="aggregatorTournamentCardColorGradientLWidth">@dimen/size_280</item>
+    <dimen name="cybergame_dota_stage_view_height">160.0dip</dimen>
+    <dimen name="drop_down_card_width">280.0dip</dimen>
+    <dimen name="one_x_games_top_games_collection_skeleton_height">144.0dip</dimen>
+</resources>

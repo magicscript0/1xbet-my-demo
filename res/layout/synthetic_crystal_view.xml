@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/space_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/ivBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/cybergame_crystal_item_bg" />
+    <org.xplatform.cyber.game.universal.impl.presentation.crystal.view.CrystalGlowView android:layout_gravity="center" android:id="@id/ivWinBackground" android:background="@drawable/cybergame_crystal_glow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/ivCrystal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

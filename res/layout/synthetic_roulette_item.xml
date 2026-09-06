@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.cyber.game.universal.impl.presentation.roulette.gamefield.RouletteView android:id="@id/rouletteView" android:background="@drawable/cybergame_roulette_view_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

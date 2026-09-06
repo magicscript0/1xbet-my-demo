@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceSubtitle1New" android:id="@id/tvSubGameName" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/space_16" android:paddingBottom="@dimen/space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_24" android:paddingEnd="@dimen/space_16" android:paddingVertical="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

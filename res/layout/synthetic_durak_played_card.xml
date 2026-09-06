@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/attackedCard" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/size_28" android:layout_height="@dimen/size_38" android:rotation="352.0" />
+    <ImageView android:id="@id/defenderCard" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/size_28" android:layout_height="@dimen/size_38" android:layout_marginLeft="@dimen/space_6" android:layout_marginTop="@dimen/space_4" android:rotation="6.0" />
+</FrameLayout>

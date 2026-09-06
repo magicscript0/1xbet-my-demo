@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_view_padding">0.0dip</dimen>
+    <dimen name="african_roulette_chip_size">15.0dip</dimen>
+    <dimen name="african_roulette_field_margin">4.0dip</dimen>
+    <dimen name="african_roulette_field_small_margin">1.0dip</dimen>
+    <dimen name="african_roulette_field_text_size">10.0sp</dimen>
+    <dimen name="african_roulette_table_item_height">16.0dip</dimen>
+    <dimen name="african_roulette_table_item_text_size">8.0sp</dimen>
+    <dimen name="african_roulette_table_item_width">26.0dip</dimen>
+    <dimen name="african_roulette_table_text_size">10.0sp</dimen>
+    <dimen name="bet_select_button_chip_size">32.0dip</dimen>
+    <item type="dimen" name="bet_select_vertical_margin">@dimen/space_4</item>
+    <dimen name="default_card_height">56.0dip</dimen>
+    <dimen name="float_margin_16">0.0dip</dimen>
+    <dimen name="float_margin_32">0.0dip</dimen>
+    <dimen name="float_margin_8">0.0dip</dimen>
+    <dimen name="games_bet_container_margin">4.0dip</dimen>
+    <dimen name="games_bet_panel_button_height">32.0dip</dimen>
+    <dimen name="games_bet_panel_height">108.0dip</dimen>
+    <dimen name="games_bet_play_button_margin">6.0dip</dimen>
+    <dimen name="lottery_header_margin">2.0dip</dimen>
+    <dimen name="lottie_empty_size">140.0dip</dimen>
+    <dimen name="lottie_empty_text_size">16.0sp</dimen>
+    <dimen name="memory_view_margin">4.0dip</dimen>
+    <dimen name="multi_choice_bet_view_margin_bottom">210.0dip</dimen>
+    <dimen name="multi_choice_play_button_margin_bottom_bet">168.0dip</dimen>
+    <dimen name="nine_view_label_size">0.0sp</dimen>
+    <dimen name="nine_view_margin">2.0dip</dimen>
+    <item type="dimen" name="number_button_padding">@dimen/space_16</item>
+    <dimen name="number_button_size">65.0dip</dimen>
+    <item type="dimen" name="number_button_text_main">@dimen/text_24</item>
+    <dimen name="number_button_text_secondary">0.0sp</dimen>
+    <dimen name="spin_and_win_btn_height">34.0dip</dimen>
+    <dimen name="spin_and_win_btn_width">68.0dip</dimen>
+    <dimen name="ticket_action_view_width">180.0dip</dimen>
+    <item type="dimen" name="wheel_margin">0.0</item>
+    <dimen name="wheel_selector_margin">0.0dip</dimen>
+    <dimen name="games_text_padding">0.0dip</dimen>
+</resources>

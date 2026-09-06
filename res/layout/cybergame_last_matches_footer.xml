@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/cyber_game_last_matches_last_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/ivArrow" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:layout_margin="@dimen/space_6" app:tint="@color/static_white" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/cyber_game_match_video_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cyber_games_content_horizontal_margin" android:layout_marginRight="@dimen/cyber_games_content_horizontal_margin" android:layout_marginHorizontal="@dimen/cyber_games_content_horizontal_margin" app:layout_scrollFlags="scroll"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:theme="?uikitTheme" android:id="@id/segmentedContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.segmented_control.DsSegmentedGroup android:layout_gravity="center" android:id="@id/segmentedGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_4" app:halfWidthSizeForTablet="true" style="@style/Widget.DSSegmentedGroup.Cyber" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fragmentVideoContainer" android:padding="@dimen/space_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.xplatform.cyber.game.core.presentation.video.VideoPlaceholderView android:id="@id/pauseView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

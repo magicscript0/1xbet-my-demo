@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsMenuCell android:theme="?uikitTheme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_horizontal_margin_dynamic" android:layout_marginTop="@dimen/space_4" android:layout_marginRight="@dimen/large_horizontal_margin_dynamic" android:layout_marginBottom="@dimen/space_4" android:layout_marginHorizontal="@dimen/large_horizontal_margin_dynamic" android:layout_marginVertical="@dimen/space_4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/icon" app:srcCompat="@drawable/ic_glyph_lock" style="@style/Widget.DSCell.Left.Icon.Back" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/texts" style="@style/Widget.DSCell.Middle.Title.S" />
+</org.xplatform.uikit.components.cells.DsMenuCell>

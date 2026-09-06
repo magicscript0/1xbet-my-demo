@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.phone_text_field.DsPhoneTextField android:id="@id/phoneField" android:layout_width="fill_parent" android:layout_height="wrap_content" app:codeChevronVisible="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

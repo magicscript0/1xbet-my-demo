@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.journeyapps.barcodescanner.DecoratedBarcodeView android:id="@id/barcodeScanner" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:zxing_preview_scaling_strategy="fitXY" app:zxing_use_texture_view="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/barcodeScannerMask" android:background="@drawable/ic_coupon_scanner_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_14" android:layout_marginRight="@dimen/space_14" android:layout_marginHorizontal="@dimen/space_14" />
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/barcodeScannerToolbar" android:background="@null" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="@drawable/ic_back_games" app:title="@string/scanner" app:titleCentered="true" />
+</com.journeyapps.barcodescanner.DecoratedBarcodeView>

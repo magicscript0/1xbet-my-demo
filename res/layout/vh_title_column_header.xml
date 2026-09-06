@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_8" android:layout_marginRight="@dimen/space_8" android:textAlignment="center" android:layout_marginHorizontal="@dimen/space_8" />
+    <View android:layout_gravity="bottom" android:background="?uikitSeparator" android:layout_width="fill_parent" android:layout_height="@dimen/size_1" />
+</FrameLayout>

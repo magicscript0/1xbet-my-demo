@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceSubtitle1" android:id="@id/tvTitle" android:paddingTop="@dimen/space_20" android:paddingBottom="@dimen/space_18" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.material.radiobutton.MaterialRadioButton android:layout_gravity="end|center" android:id="@id/radioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rotationX="180.0" android:rotationY="180.0" />
+</FrameLayout>

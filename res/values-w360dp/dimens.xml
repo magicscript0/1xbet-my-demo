@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="auth_entry_points_margin">32.0dip</dimen>
+    <dimen name="auth_max_btn_with">164.0dip</dimen>
+    <dimen name="makebet_btn_max_width">124.0dip</dimen>
+</resources>

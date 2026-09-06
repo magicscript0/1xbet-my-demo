@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?uikitBackgroundContent" android:padding="@dimen/space_12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/chip_16_background" android:layout_width="fill_parent" android:layout_height="@dimen/shimmer_size_200" android:backgroundTint="?uikitBackgroundGroup" />
+    <View android:layout_gravity="center" android:background="@drawable/chip_16_background" android:layout_width="@dimen/shimmer_size_276" android:layout_height="@dimen/shimmer_size_12" android:layout_marginTop="@dimen/space_4" android:backgroundTint="?uikitBackgroundGroup" />
+</LinearLayout>

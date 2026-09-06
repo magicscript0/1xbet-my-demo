@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/cybergames_prize_distribution_bg" android:layout_width="fill_parent" android:layout_height="@dimen/size_40" android:layout_marginTop="@dimen/space_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:layout_gravity="start" android:id="@id/tvFullStatTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/full_statistic" android:maxLines="1" android:layout_marginStart="@dimen/space_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/ivTeamIcon" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextStyle.Caption.Medium.L" />
+    <org.xplatform.uikit.components.accordion.DsAccordion android:layout_gravity="end" android:id="@id/vAccordion" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.DSAccordion.Primary" />
+</FrameLayout>

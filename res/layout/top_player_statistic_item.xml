@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceCaptionNew" android:textSize="@dimen/text_12" android:gravity="center" android:id="@id/playerStatisticShortTitle" android:layout_width="@dimen/size_24" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_1" android:layout_marginRight="@dimen/space_1" android:layout_marginBottom="@dimen/size_4" android:layout_marginHorizontal="@dimen/space_1" />
+    <TextView android:textAppearance="?textAppearanceBody2MediumPrimaryNew" android:textSize="@dimen/text_14" android:gravity="center" android:id="@id/playerStatisticTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_1" android:layout_marginRight="@dimen/space_1" android:minWidth="@dimen/size_22" android:layout_marginHorizontal="@dimen/space_1" />
+</LinearLayout>

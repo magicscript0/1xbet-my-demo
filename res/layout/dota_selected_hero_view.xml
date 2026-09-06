@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/size_56" android:layout_height="@dimen/size_32"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/heroImageIv" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DotaBanPickHeroLogoStyle" />
+    <View android:id="@id/bgView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/aegisImage" android:paddingBottom="@dimen/space_1" android:visibility="gone" android:layout_width="@dimen/size_12" android:layout_height="@dimen/size_12" android:src="@drawable/dota_aegis_ic" android:scaleType="centerCrop" android:paddingStart="@dimen/space_1" android:layout_marginEnd="@dimen/space_2" />
+        <TextView android:textAppearance="?textAppearanceOverlineBold" android:textSize="@dimen/text_10" android:textColor="@color/static_white" android:gravity="center" android:id="@id/timerText" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</merge>

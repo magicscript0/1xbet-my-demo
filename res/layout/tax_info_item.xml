@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?uikitSecondary" android:ellipsize="end" android:id="@id/contentItemTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" android:layout_marginEnd="@dimen/space_12" app:layout_constraintEnd_toStartOf="@id/contentItemValue" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Caption.Regular.L" />
+    <TextView android:textColor="?uikitTextPrimary" android:layout_gravity="end" android:id="@id/contentItemValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="150 $" app:layout_constraintBaseline_toBaselineOf="@id/contentItemTitle" app:layout_constraintEnd_toEndOf="parent" style="@style/TextAppearance.Caption.Medium.L" />
+</androidx.constraintlayout.widget.ConstraintLayout>

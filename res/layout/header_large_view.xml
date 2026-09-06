@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_24" android:importantForAccessibility="no" app:tint="?uikitSecondary" />
+    <org.xplatform.uikit.components.badges.DsBadge android:id="@id/badge" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.DSBadge.Live.Header" />
+    <org.xplatform.uikit.components.tag.DsTag android:id="@id/tag" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.DSTag.RectangularL.Outlined.Primary" />
+    <org.xplatform.uikit.components.buttons.DsButton android:layout_gravity="end|center" android:id="@id/button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/size_16" app:dsButtonLabel="asdf" style="@style/DSButton.ExtraSmall.Quaternary" />
+</merge>

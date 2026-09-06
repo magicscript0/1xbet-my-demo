@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cases_image_size">110.0dip</dimen>
+    <item type="dimen" name="cases_item_image_bottom">0.7</item>
+    <dimen name="cases_padding">8.0dip</dimen>
+    <dimen name="cases_present_text_size">12.0sp</dimen>
+    <item type="dimen" name="cases_top_items_bottom">0.215</item>
+    <dimen name="cyber_synthetic_mortal_statistic_header_space">24.0dip</dimen>
+    <dimen name="spin_and_win_btn_height">60.0dip</dimen>
+    <dimen name="spin_and_win_btn_width">120.0dip</dimen>
+</resources>

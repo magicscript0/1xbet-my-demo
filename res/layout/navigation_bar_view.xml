@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.separator.DsSeparator android:layout_gravity="bottom" android:layout_marginBottom="@dimen/space_56" style="@style/Widget.DSSeparator.Separator60" />
+    <org.xplatform.uikit.components.views.AppCompatView android:layout_gravity="bottom" android:id="@id/viewBackground" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="@dimen/size_56" android:layout_marginTop="@dimen/space_4" />
+    <org.xplatform.uikit.components.tabbar.DsTabBar android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/navigationTabContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_2" android:layout_marginEnd="@dimen/space_2" />
+</merge>

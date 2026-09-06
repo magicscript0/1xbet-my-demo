@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_8" />
+    <org.xplatform.uikit_aggregator.aggregatorgamecardcollection.AggregatorGameCardCollection android:id="@id/recyclerViewGames" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_0" android:layout_marginBottom="@dimen/space_0" android:overScrollMode="never" android:nestedScrollingEnabled="false" android:layout_marginVertical="@dimen/space_0" style="@style/Widget.AggregatorGameCardCollection.BackgroundL.Horizontal" />
+</LinearLayout>

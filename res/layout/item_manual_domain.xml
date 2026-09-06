@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/scUrl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.text_field.DsTextField android:id="@id/tfUrl" android:layout_width="fill_parent" android:layout_height="wrap_content" app:drawableTint="?colorSecondary" app:hint="@string/manual_txt_hint" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

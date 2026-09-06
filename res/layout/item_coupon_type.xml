@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell android:theme="?uikitTheme" android:id="@id/scCoupon" android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.DSCell"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/cmtCoupon" android:paddingStart="@dimen/space_8" style="@style/Widget.DSCell.Middle.Title.L" />
+    <org.xplatform.uikit.components.cells.right.DsCellRightRadioButton android:id="@id/rbType" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/space_12" />
+    <org.xplatform.uikit.components.separator.DsSeparator android:id="@id/separator" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16" style="@style/Widget.DSSeparator.Separator60" />
+</org.xplatform.uikit.components.cells.DsSettingsCell>

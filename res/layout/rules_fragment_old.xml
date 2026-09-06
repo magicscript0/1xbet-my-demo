@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackgroundContent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/navigationBar" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="?actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationBarStyle="title" app:showSeparator="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:paddingBottom="@dimen/space_24" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" />
+    <FrameLayout android:id="@id/progress" android:background="?uikitBackground" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:layout_gravity="center" android:id="@id/lottieErrorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

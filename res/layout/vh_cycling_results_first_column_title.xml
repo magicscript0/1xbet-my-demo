@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackground" android:layout_width="@dimen/size_180" android:layout_height="@dimen/size_50"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:id="@id/position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="?textAppearanceSubtitle1New" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_16" android:layout_marginEnd="@dimen/space_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/position" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="?uikitSeparator" android:layout_width="0.0dip" android:layout_height="@dimen/size_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

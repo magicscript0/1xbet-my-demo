@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_widget_description">Seba maçanê şima yê favorîyan resayîşo lezin</string>
+    <string name="popular_live_widget_description">Aktîvîteyê ganîyê populerî</string>
+    <string name="widget_fast_access">Resayîşo lezin</string>
+    <string name="widget_fast_access_description">Seba taybetmendîyanê bingeyîyan resayîşo lezin</string>
+    <string name="widget_favorite">Favorîyî</string>
+    <string name="widget_popular_line">Ver-maço populer</string>
+    <string name="widget_popular_line_description">Aktîvîteyê ver-maçî yê populerî</string>
+    <string name="widget_popular_live">Ganîyo populer</string>
+</resources>

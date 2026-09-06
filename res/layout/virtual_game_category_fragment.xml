@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/rootVirtualCategory" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/headerContent" layout="@layout/app_bar_toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@id/content" layout="@layout/virtual_category_widget_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

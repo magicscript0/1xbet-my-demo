@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TournamentRules">
+        <attr name="android:title" format="reference|string"/>
+        <attr name="android:text" format="reference|string"/>
+        <attr name="cellIcon" format="reference" />
+        <attr name="cellText" format="reference|string" />
+    </declare-styleable>
+</resources>

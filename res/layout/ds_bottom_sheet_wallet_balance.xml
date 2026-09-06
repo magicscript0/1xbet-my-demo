@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginHorizontal="@dimen/space_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?uikitSecondary" android:id="@id/balanceTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/your_balance" style="@style/TextAppearance.Headline.Regular" />
+    <TextView android:textColor="?uikitTextPrimary" android:id="@id/balanceSum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space_4" style="@style/TextAppearance.Headline.Medium" />
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_aggregator_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.xplatform.uikit_aggregator.aggregatorgamecardcollection.AggregatorGameCardCollection
+        android:id="@+id/aggregatorGameCardCollection"
+        style="@style/Widget.AggregatorGameCardCollection.BackgroundL.Vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/space_16"
+        app:scrollablePaddingStart="@dimen/space_12"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <org.xplatform.uikit_aggregator.aggregatorgamecardcollection.AggregatorGameCardCollection
+        android:id="@+id/rvGamesPaging"
+        style="@style/Widget.AggregatorGameCardCollection.BackgroundL.Vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/space_4"
+        android:paddingBottom="@dimen/space_28"
+        android:scrollbarStyle="outsideOverlay"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:paging="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGames"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/space_12"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/space_28"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:spanCount="2" />
+
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer
+        android:id="@+id/errorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/space_82"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/view_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

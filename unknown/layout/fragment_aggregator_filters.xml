@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/uikitBackground">
+
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar
+        android:id="@+id/navigationBarAggregator"
+        app:navigationBarStyle="title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showSeparator="true"
+        app:title="@string/filter" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFilters"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic"
+        android:paddingTop="@dimen/space_12"
+        android:paddingBottom="@dimen/space_72"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navigationBarAggregator" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/generate_coupon_under_assemble_btn_bg"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/large_horizontal_margin_dynamic"
+        android:paddingTop="@dimen/space_20"
+        android:paddingBottom="@dimen/space_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <org.xplatform.uikit.components.buttons.DsButton
+            android:id="@+id/btnClear"
+            style="@style/DSButton.Large.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/space_6"
+            android:layout_weight="0.5"
+            app:dsButtonLabel="@string/dump" />
+
+        <org.xplatform.uikit.components.buttons.DsButton
+            android:id="@+id/actionButton"
+            style="@style/DSButton.Large.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_6"
+            android:layout_weight="0.5"
+            app:dsButtonLabel="@string/show" />
+    </LinearLayout>
+
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer
+        android:id="@+id/lottieEmptyView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navigationBarAggregator"
+        app:textColor="?attr/uikitSecondary"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

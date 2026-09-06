@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <org.xplatform.uikit.components.header.DsHeader
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_height="wrap_content"
+        tools:text="1xLIVE" />
+
+    <org.xplatform.uikit_aggregator.aggregatorgamecardcollection.AggregatorGameCardCollection
+        android:id="@+id/recyclerViewGames"
+        style="@style/Widget.AggregatorGameCardCollection.BackgroundL.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/space_0"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        android:overScrollMode="never"
+        tools:itemCount="6"
+        tools:listitem="@layout/aggregator_game_card_item_background_l" />
+
+</LinearLayout>

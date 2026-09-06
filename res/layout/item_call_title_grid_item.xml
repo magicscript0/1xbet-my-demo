@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsMenuCell android:id="@id/cell" android:layout_width="fill_parent" android:layout_height="@dimen/size_64" android:layout_marginLeft="@dimen/large_horizontal_margin_dynamic" android:layout_marginRight="@dimen/large_horizontal_margin_dynamic" android:layout_marginBottom="@dimen/space_8" android:minHeight="@dimen/size_64" android:layout_marginHorizontal="@dimen/large_horizontal_margin_dynamic" app:roundCorners="round_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon android:id="@id/icon" android:layout_width="@dimen/size_48" android:layout_height="@dimen/size_48" app:tint="?uikitStaticWhite" style="@style/Widget.DSCell.Left.Icon" />
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/title" style="@style/Widget.DSCell.Middle.Title.S.Foreground" />
+    <org.xplatform.uikit.components.cells.right.DsCellRightButtonCallEnd android:id="@id/endIcon" app:icon="@drawable/ic_call_button" style="@style/Widget.DSCell.Right.Button.Call" />
+</org.xplatform.uikit.components.cells.DsMenuCell>

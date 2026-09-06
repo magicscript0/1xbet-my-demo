@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view1"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shimmer_size_100"
+        android:layout_marginTop="@dimen/space_16"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view2"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="@dimen/size_76"
+        android:layout_height="@dimen/size_14"
+        android:layout_marginTop="@dimen/size_24"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view3"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/size_144"
+
+        android:layout_marginTop="@dimen/size_12"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view4"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="@dimen/size_76"
+        android:layout_height="@dimen/size_14"
+
+        android:layout_marginTop="@dimen/size_24"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view5"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_52"
+
+        android:layout_marginTop="@dimen/size_12"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view6"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_52"
+
+        android:layout_marginTop="@dimen/size_12"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view7"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_52"
+
+        android:layout_marginTop="@dimen/size_12"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view8"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_52"
+
+        android:layout_marginTop="@dimen/size_12"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/view9"
+        style="@style/Widget.DSShimmer.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_52"
+
+        android:layout_marginTop="@dimen/size_12"
+        android:radius="@dimen/radius_16"
+        android:theme="?attr/uikitTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

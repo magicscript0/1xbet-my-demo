@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llContent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.header.DsHeader android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:headerType="small" app:horizontalMargin="@dimen/space_8" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llProviders" android:background="@drawable/rounded_background_16_content" android:paddingBottom="@dimen/space_4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.cells.DsSettingsCell android:id="@id/settingsCellChooseProviders" android:background="@drawable/rounded_background_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_16" android:layout_marginTop="@dimen/space_16" android:layout_marginRight="@dimen/space_16" android:layout_marginBottom="@dimen/space_12" android:layout_marginHorizontal="@dimen/space_16" app:backgroundTint="?uikitBackground" style="@style/Widget.DSCell.Settings">
+            <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle android:id="@id/cellMiddleTitleProviders" app:title="@string/choose_providers" style="@style/Widget.DSCell.Middle.Title.L" />
+            <org.xplatform.uikit.components.cells.right.DsCellRightCounter android:id="@id/cellRightLabelProviders" app:icon="@drawable/ic_glyph_chevron_right_small" style="@style/Widget.DSCell.Right.Counter.Icon" />
+        </org.xplatform.uikit.components.cells.DsSettingsCell>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvProviders" android:paddingBottom="@dimen/space_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/space_16" android:paddingEnd="@dimen/space_8" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintTop_toTopOf="@id/line" app:spanCount="3" />
+    </LinearLayout>
+</LinearLayout>

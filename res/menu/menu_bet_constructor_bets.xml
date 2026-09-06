@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_glyph_filter_inactive" android:id="@id/oneClickSettings" android:title="@string/one_click_bet_title" app:showAsAction="always" />
+</menu>

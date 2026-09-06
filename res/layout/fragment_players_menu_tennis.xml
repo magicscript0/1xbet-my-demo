@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/navigationBar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:showSeparator="true" app:title="@string/players" style="@style/Widgets.BasicNavigationBar.Title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/playerMenuRv" android:background="?uikitBackgroundContent" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" app:layout_constraintVertical_bias="0.0" />
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationBar" />
+    <org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout android:orientation="vertical" android:id="@id/shimmer" android:background="?uikitBackgroundContent" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingVertical="@dimen/space_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/playerMenuRv" app:layout_constraintTop_toBottomOf="@id/navigationBar">
+        <include layout="@layout/shimmer_item_champ_statistic" />
+        <include layout="@layout/shimmer_item_champ_statistic" />
+    </org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

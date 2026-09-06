@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@drawable/rounded_background_16_content" android:paddingTop="@dimen/space_12" android:paddingBottom="@dimen/space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_16" android:paddingEnd="@dimen/space_16">
+        <TextView android:ellipsize="end" android:id="@id/tvSubTitle" android:paddingBottom="@dimen/space_4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextStyle.Title.Medium.S.TextPrimary" />
+        <TextView android:ellipsize="end" android:id="@id/dateTv" android:paddingBottom="@dimen/space_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextStyle.Caption.Regular.L.Secondary" />
+        <org.xplatform.uikit.components.buttons.DsButton android:id="@id/btnCashBack" android:tag="btnCashBackTag" android:layout_width="fill_parent" android:layout_height="wrap_content" app:dsButtonSize="large" app:dsButtonStyle="primary" app:dsButtonType="label" />
+    </LinearLayout>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView android:id="@id/shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/size_120" android:radius="@dimen/radius_16" />
+</merge>

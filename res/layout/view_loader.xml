@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/loaderWrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/ivProgress" android:layout_width="@dimen/size_40" android:layout_height="@dimen/size_40" app:srcCompat="@drawable/ic_glyph_loader" />
+        <ImageView android:layout_gravity="center" android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

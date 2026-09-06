@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?uikitBackgroundContent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="@color/static_transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_arrow_back" app:navigationIconTint="?uikitSecondary" app:title="@string/referee_tour" app:titleCentered="true" app:titleTextColor="?uikitSecondary" />
+    <View android:id="@id/view_shadow" android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="@dimen/space_4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/content" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_shadow">
+        <org.xplatform.ui_core.viewcomponents.views.scrollable_table.scrollable.ScrollablePanel android:id="@id/scrollable_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout android:orientation="vertical" android:id="@id/shimmer" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <include layout="@layout/shimmer_item_referee_tour" />
+    </org.xplatform.ui_core.viewcomponents.layouts.linear.ShimmerLinearLayout>
+    <org.xplatform.uikit.components.lottie.LottieView android:layout_gravity="center" android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

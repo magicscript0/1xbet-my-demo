@@ -1,0 +1,30 @@
+.class public final La/or00;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:La/ge7;
+
+
+# direct methods
+.method public constructor <init>(La/ge7;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 5
+    .line 6
+    .line 7
+    iput-object p1, p0, La/or00;->a:La/ge7;
+
+    .line 8
+    .line 9
+    return-void
+.end method

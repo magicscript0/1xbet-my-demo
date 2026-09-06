@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.eventcard.container.SyntheticsEventCard android:theme="?uikitTheme" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xplatform.uikit_sport.eventcard.top.EventCardHeader android:id="@id/gameCardHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.xplatform.uikit_sport.eventcard.middle.EventCardMiddleBaccarat android:id="@id/gameCardMiddle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.xplatform.uikit_sport.eventcard.bottom.EventCardBottomMarketMultiline android:id="@id/gameCardBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</org.xplatform.uikit_sport.eventcard.container.SyntheticsEventCard>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rectangleHorizontalSocialNetwork" android:background="@drawable/rounded_background_36_content" android:layout_width="fill_parent" android:layout_height="@dimen/size_52"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.LoadableShapeableImageView android:id="@id/ivSocial" android:layout_width="@dimen/size_36" android:layout_height="@dimen/size_36" android:layout_marginStart="@dimen/space_32" app:placeholder="@drawable/rounded_background_16_content" app:shapeAppearance="@style/ShapeAppearance.Circle" />
+    <TextView android:ellipsize="end" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/size_8" android:layout_marginEnd="@dimen/space_32" style="@style/TextStyle.Headline.Medium" />
+</LinearLayout>

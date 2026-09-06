@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" app:chipEndPadding="@dimen/space_12" app:chipStartPadding="@dimen/space_12" app:chipStrokeColor="?uikitSeparator" app:chipStrokeWidth="@dimen/one" app:ensureMinTouchTargetSize="false" app:textEndPadding="@dimen/space_0" app:textStartPadding="@dimen/space_0" style="@style/Widget.AppTheme.Chip.Choice"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

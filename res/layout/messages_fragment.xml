@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?uikitBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar android:id="@id/navigationBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:showSeparator="true" app:showShadow="false" app:title="@string/messages_title" style="@style/Widgets.BasicNavigationBar.Title" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/messages" android:paddingBottom="@dimen/space_24" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminateOnly="true" />
+            <org.xplatform.uikit.components.lottie.LottieView android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:textColor="?uikitSecondary" />
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

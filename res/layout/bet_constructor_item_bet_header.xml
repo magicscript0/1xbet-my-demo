@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_4" android:layoutDirection="locale" app:cardBackgroundColor="?uikitBackgroundContent" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:paddingLeft="@dimen/space_8" android:paddingTop="@dimen/space_16" android:paddingRight="@dimen/space_8" android:paddingBottom="@dimen/space_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/space_8" android:paddingVertical="@dimen/space_16">
+        <TextView android:textAppearance="?textAppearanceSubtitle1New" android:gravity="start" android:id="@id/tvHeaderTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ivArrow" android:layout_width="@dimen/size_24" android:layout_height="@dimen/size_24" android:src="@drawable/ic_arrow_expand_new" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

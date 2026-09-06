@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:id="@id/chipsTab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_4" android:layout_marginRight="@dimen/space_4" android:layout_marginHorizontal="@dimen/space_4" app:chipStrokeColor="?uikitSeparator" app:chipStrokeWidth="@dimen/size_1" style="@style/Widget.AppTheme.Chip.SingleChoice"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

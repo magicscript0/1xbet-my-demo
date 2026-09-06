@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?uikitTheme" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/tvAvailableAdvance" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_2" android:minHeight="@dimen/size_36" android:text="@string/available_prepayment" android:layout_weight="1.0" style="@style/TextStyle.Text.Medium.TextPrimary" />
+    <org.xplatform.uikit.components.buttons.DsButton android:id="@id/btnRequestAdvance" android:layout_width="wrap_content" android:layout_height="@dimen/size_36" android:drawablePadding="@dimen/size_8" android:layout_marginEnd="@dimen/space_8" app:dsButtonIconRes="@drawable/ic_request" app:dsButtonLabel="@string/advance_request" style="@style/DSButton.Medium.Tertiary.IconRight" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?uikitBackground" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.xplatform.uikit.components.views.OptimizedScrollRecyclerView android:id="@id/footerRecyclerView" android:paddingTop="@dimen/space_4" android:paddingBottom="@dimen/space_24" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.xplatform.uikit.components.lottie_empty.DSLottieEmptyContainer android:id="@id/lottieEmptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:textColor="?uikitSecondary" />
+    <include android:id="@id/shimmer" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/cybergames_filtered_champ_disciplines_shimmers_layout" />
+</FrameLayout>
