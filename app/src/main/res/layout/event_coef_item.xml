@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/size_58"
+    android:minWidth="@dimen/size_52">
+    <ImageView
+        android:id="@+id/ivSportIcon"
+        android:layout_width="@dimen/size_24"
+        android:layout_height="@dimen/size_24"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginBottom="@dimen/space_4"
+        app:tint="?attr/colorSecondary"/>
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/tvCoef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8"
+        android:maxLines="1"
+        style="@style/TextStyle.Caption.Bold.L.TextPrimary"/>
+</LinearLayout>

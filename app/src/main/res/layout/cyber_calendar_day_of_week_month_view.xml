@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.cyber.section.impl.calendar.presentation.container.CalendarEventTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/TextAppearance.AppTheme.Caption.Medium"
+    android:textSize="@dimen/text_12"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@+id/tvNumberDay"
+    android:layout_width="@dimen/size_20"
+    android:layout_height="@dimen/size_20"
+    android:layout_marginTop="@dimen/space_1"/>

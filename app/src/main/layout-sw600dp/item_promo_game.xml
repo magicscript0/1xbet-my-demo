@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_272"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/Widget.AppTheme.CardView.New.Radius.24"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/aggregator_popular_banner" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginHorizontal="@dimen/space_16"
+        android:layout_marginBottom="@dimen/space_34"
+        android:textAppearance="?attr/textAppearanceHeadline5Bold"
+        android:textColor="@color/static_white"
+        tools:text="Holdem" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/space_16"
+        android:textAppearance="?attr/textAppearanceSubtitle2MediumNew"
+        android:textColor="@color/static_white"
+        android:textSize="@dimen/text_12"
+        tools:text="@string/slot_game_of_the_week" />
+</FrameLayout>

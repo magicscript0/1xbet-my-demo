@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.cyber.section.impl.championships.esports_world_cup.presentation.discipline.discipline_banner.DisciplineBannerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="@dimen/size_128"
+    android:layout_height="@dimen/size_188"
+    android:layout_marginTop="@dimen/space_4"/>

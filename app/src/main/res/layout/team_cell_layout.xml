@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/space_8"
+    android:paddingTop="@dimen/space_4"
+    android:paddingRight="@dimen/space_8"
+    android:paddingBottom="@dimen/space_4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/space_8"
+    android:paddingVertical="@dimen/space_4">
+    <org.xplatform.uikit.components.team_logo.DsTeamLogo
+        android:layout_gravity="center"
+        android:id="@+id/ivTeamIcon"
+        android:layout_width="@dimen/size_20"
+        android:layout_height="@dimen/size_20"
+        style="@style/Widget.DSSportTeamLogo.Size20"/>
+    <TextView
+        android:ellipsize="end"
+        android:layout_gravity="center"
+        android:id="@+id/tvTeamTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_14"
+        android:maxLines="2"
+        android:includeFontPadding="false"
+        android:textDirection="ltr"
+        android:layout_marginStart="6dp"
+        style="@style/TextStyle.Caption.Medium.L.TextPrimary"/>
+</LinearLayout>

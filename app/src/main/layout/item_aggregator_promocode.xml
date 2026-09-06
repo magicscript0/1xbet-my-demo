@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginTop="@dimen/space_8">
+
+    <org.xplatform.uikit_aggregator.aggregator.AggregatorPromoCode
+        android:id="@+id/promoCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:promoCodeCaption="@string/check_and_activate"
+        app:promoCodeTitle="@string/promocode"
+        app:promoCodeButton="@string/promocode_input"
+        app:captionText="@string/activate_promocode_summary_from_casino"
+        app:promoCodeStyle="cell" />
+
+</LinearLayout>

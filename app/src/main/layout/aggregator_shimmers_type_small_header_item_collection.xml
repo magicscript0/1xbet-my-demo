@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shimmersParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/shimmer1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_92"
+        layout="@layout/aggregator_shimmers_type_small_header_item" />
+
+    <include
+        android:id="@+id/shimmer2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_152"
+        layout="@layout/aggregator_shimmers_type_small_header_item" />
+
+    <include
+        android:id="@+id/shimmer3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_152"
+        layout="@layout/aggregator_shimmers_type_small_header_item" />
+
+    <include
+        android:id="@+id/shimmer4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_152"
+        layout="@layout/aggregator_shimmers_type_small_header_item" />
+
+    <include
+        android:id="@+id/shimmer5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_152"
+        layout="@layout/aggregator_shimmers_type_small_header_item" />
+
+</LinearLayout>

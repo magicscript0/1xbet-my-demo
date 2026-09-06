@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1"
+        android:duration="166"
+        android:valueFrom="M 0 -12 A 12 12 0 1 0 12 0 A 12 12 0 0 0 0 -12 Z M -2 4.4 l -4 -4 L -4.6 -1 L -2 1.6 L 4.6 -5 L 6 -3.6 Z"
+        android:valueTo="M 0 -12 A 12 12 0 1 0 12 0 A 12 12 0 0 0 0 -12 Z M 0 1.4 l -1.4 -1.4 L -1.4 0 L 0 -1.4 L 0 -1.4 L 1.4 0 Z"
+        android:valueType="pathType"
+        android:propertyName="pathData"/>
+    <set android:ordering="sequentially">
+        <objectAnimator
+            android:interpolator="@android:interpolator/linear"
+            android:duration="133"
+            android:valueFrom="1"
+            android:valueTo="1"
+            android:propertyName="fillAlpha"/>
+        <objectAnimator
+            android:interpolator="@interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0"
+            android:duration="33"
+            android:valueFrom="1"
+            android:valueTo="0"
+            android:propertyName="fillAlpha"/>
+    </set>
+</set>

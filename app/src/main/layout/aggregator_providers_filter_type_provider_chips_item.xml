@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_background_16_content"
+    android:orientation="vertical">
+
+    <org.xplatform.uikit.components.header.DsHeader
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_6"
+        app:headerType="small"
+        app:horizontalMargin="@dimen/space_8" />
+
+    <LinearLayout
+        android:id="@+id/llProviders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_8"
+        tools:ignore="UselessParent">
+
+        <org.xplatform.uikit.components.cells.DsSettingsCell
+            android:id="@+id/settingsCellChooseProviders"
+            style="@style/Widget.DSCell.Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/space_16"
+            android:layout_marginTop="@dimen/space_16"
+            android:layout_marginBottom="@dimen/space_8"
+            android:background="@drawable/rounded_background_16"
+            app:backgroundTint="?attr/uikitBackground">
+
+            <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+                android:id="@+id/cellMiddleTitleProviders"
+                style="@style/Widget.DSCell.Middle.Title.L"
+                app:title="@string/choose_providers" />
+
+            <org.xplatform.uikit.components.cells.right.DsCellRightCounter
+                android:id="@+id/cellRightLabelProviders"
+                style="@style/Widget.DSCell.Right.Counter.Icon"
+                app:icon="@drawable/ic_glyph_chevron_right_small" />
+
+        </org.xplatform.uikit.components.cells.DsSettingsCell>
+
+        <org.xplatform.uikit.components.chips.ChipGroup
+            android:id="@+id/chipsGroupProviders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_background_16_content"
+            android:paddingHorizontal="@dimen/space_16"
+            app:chipSpacingHorizontal="@dimen/space_8"
+            app:chipSpacingVertical="@dimen/space_0" />
+
+    </LinearLayout>
+</LinearLayout>
+

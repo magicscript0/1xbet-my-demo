@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rating_chart_cell"
+    android:paddingLeft="@dimen/space_4"
+    android:paddingTop="@dimen/space_16"
+    android:paddingRight="@dimen/space_4"
+    android:paddingBottom="@dimen/space_16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_90"
+    android:layout_margin="@dimen/space_4"
+    android:paddingHorizontal="@dimen/space_4"
+    android:paddingVertical="@dimen/space_16"
+    app:layout_constraintEnd_toEndOf="parent">
+    <TextView
+        android:textAppearance="?attr/textAppearanceHeadline5BoldNew"
+        android:textSize="@dimen/text_28"
+        android:textColor="?attr/uikitPrimary"
+        android:id="@+id/tvRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionNew"
+        android:textColor="?attr/uikitTextPrimary"
+        android:gravity="center"
+        android:id="@+id/tvRankType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"/>
+</LinearLayout>

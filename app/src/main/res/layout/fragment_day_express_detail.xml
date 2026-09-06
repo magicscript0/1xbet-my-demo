@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:id="@+id/dayExpressContent"
+    android:background="?attr/uikitBackgroundContent"
+    android:paddingTop="@dimen/space_8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_60"
+        layout="@layout/coupon_express_card_top_bottom_sheet_preset"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@+id/dayExpressRv"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_60"
+        android:layout_marginBottom="@dimen/size_56"/>
+    <org.xplatform.uikit.components.bottom_sheet.presets.PresetButtonsLinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@+id/actionButtons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_56">
+        <org.xplatform.uikit.components.buttons.DsButton
+            android:id="@+id/addToCoupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dsButtonLabel="@string/to_coupon_express_card_button"
+            app:dsButtonSize="large"
+            app:dsButtonStyle="secondary"/>
+        <org.xplatform.uikit.components.buttons.DsButton
+            android:id="@+id/makeBet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dsButtonLabel="@string/make_bet"
+            app:dsButtonSize="large"
+            app:dsButtonStyle="primary"/>
+    </org.xplatform.uikit.components.bottom_sheet.presets.PresetButtonsLinearLayout>
+</FrameLayout>

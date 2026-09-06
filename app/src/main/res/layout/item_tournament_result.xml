@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.aggregator.impl.tournaments.presentation.pretendents.tournamentCard.TournamentCard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resultItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginTop="@dimen/space_8"
+    android:layout_marginRight="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginHorizontal="@dimen/medium_horizontal_margin_dynamic"/>

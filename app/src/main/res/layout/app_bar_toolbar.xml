@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.ui_core.viewcomponents.motion.AppBarMotionLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/uikitBackgroundContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    app:layoutDescription="@xml/app_bar_toolbar_scene"
+    app:layout_scrollFlags="snap|exitUntilCollapsed|scroll">
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/composeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/static_white"
+        android:ellipsize="end"
+        android:gravity="bottom"
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textDirection="locale"
+        app:autoSizeMaxTextSize="@dimen/text_32"
+        app:autoSizeMinTextSize="@dimen/text_12"
+        app:autoSizeStepGranularity="4sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/TextAppearance.Title.Bold.XL"/>
+</org.xplatform.ui_core.viewcomponents.motion.AppBarMotionLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/medium_horizontal_margin_dynamic"
+    android:paddingTop="@dimen/space_4"
+    android:paddingRight="@dimen/medium_horizontal_margin_dynamic"
+    android:paddingBottom="@dimen/space_4"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="false"
+    android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic"
+    android:paddingVertical="@dimen/space_4"/>

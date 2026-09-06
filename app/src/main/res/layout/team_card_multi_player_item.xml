@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.eventcard.container.statistics.StatisticsEventCard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_8"
+    android:layout_marginBottom="@dimen/space_8"
+    android:layoutDirection="ltr"
+    android:layout_marginStart="@dimen/space_12"
+    android:layout_marginEnd="@dimen/space_12">
+    <org.xplatform.uikit_sport.eventcard.top.StatisticsHeader
+        android:id="@+id/statisticsHeader"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit_sport.eventcard.middle.EventCardMiddlePairTeams
+        android:id="@+id/middleTwoTeamCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit_sport.eventcard.info.EventCardInfoSeeding
+        android:id="@+id/infoEventCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:layout_marginHorizontal="@dimen/space_8"/>
+</org.xplatform.uikit_sport.eventcard.container.statistics.StatisticsEventCard>

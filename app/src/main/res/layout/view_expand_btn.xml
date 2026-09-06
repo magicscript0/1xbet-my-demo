@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionBoldNew"
+        android:textSize="@dimen/text_8"
+        android:textColor="@color/static_white"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvAction"
+        android:background="@drawable/bg_expand_btn"
+        android:paddingLeft="@dimen/space_16"
+        android:paddingTop="@dimen/space_4"
+        android:paddingRight="@dimen/space_16"
+        android:paddingBottom="@dimen/space_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/space_4"
+        android:textAllCaps="true"
+        android:paddingHorizontal="@dimen/space_16"
+        android:paddingVertical="@dimen/space_4"/>
+</merge>

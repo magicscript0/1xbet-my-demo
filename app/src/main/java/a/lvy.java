@@ -1,0 +1,8 @@
+package a;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class lvy {
+    public final xdw serializer() {
+        return kvy.f17627a;
+    }
+}

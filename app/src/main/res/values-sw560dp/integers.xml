@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="aggregatorGameCardCollectionBackgroundLSpanCount">3</integer>
+    <integer name="aggregatorGameCardCollectionBackgroundSSpanCount">3</integer>
+    <integer name="aggregatorGameCardCollectionTransparencySpanCount">3</integer>
+    <integer name="promoAdditionalCollectionShimmerCount">10</integer>
+    <integer name="promoAdditionalCollectionSpanCount">5</integer>
+    <integer name="promoStoreCollectionShimmerCount">6</integer>
+    <integer name="promoStoreCollectionSpanCount">3</integer>
+</resources>

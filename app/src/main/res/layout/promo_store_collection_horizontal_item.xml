@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.promo.impl.promocodes.presentation.shop.components.HorizontalPromoStoreCollectionItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/size_144"
+    android:layout_height="@dimen/size_96"
+    style="@style/Widget.PromoStoreCollectionItem"/>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/round_background_16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_60"
+    android:layout_marginLeft="@dimen/space_12"
+    android:layout_marginTop="@dimen/space_8"
+    android:layout_marginRight="@dimen/space_12"
+    android:backgroundTint="?attr/uikitBackgroundContent"
+    android:layout_marginHorizontal="@dimen/space_12">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iconItem"
+        android:background="@drawable/circle_background"
+        android:padding="@dimen/space_8"
+        android:layout_width="@dimen/size_40"
+        android:layout_height="@dimen/size_40"
+        android:tint="?attr/uikitPrimary"
+        android:layout_marginStart="@dimen/space_12"
+        android:backgroundTint="?attr/uikitBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle1New"
+        android:id="@+id/titleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8"
+        android:layout_marginEnd="@dimen/space_16"/>
+</LinearLayout>

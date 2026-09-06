@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/parent"
+    android:padding="@dimen/space_24"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle1Medium"
+        android:id="@+id/qrText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_24"
+        android:layout_marginTop="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_24"
+        android:text="@string/authorization"
+        android:layout_marginHorizontal="@dimen/space_24"/>
+</LinearLayout>

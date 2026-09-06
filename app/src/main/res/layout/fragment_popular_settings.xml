@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <org.xplatform.uikit.components.navigation_bar.DsNavigationBar
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showSeparator="true"
+        app:showShadow="false"
+        app:title="@string/popular_settings_title_name"
+        style="@style/Widgets.BasicNavigationBar.Title"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSettingsOptions"
+        android:paddingTop="@dimen/space_8"
+        android:paddingBottom="@dimen/space_12"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

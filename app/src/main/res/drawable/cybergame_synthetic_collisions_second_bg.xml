@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/static_black_40"/>
+            <padding
+                android:left="@dimen/space_4"
+                android:right="@dimen/space_4"
+                android:bottom="@dimen/space_4"/>
+            <corners
+                android:bottomLeftRadius="@dimen/corner_radius_12"
+                android:bottomRightRadius="@dimen/corner_radius_12"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/uikit_cyber_brown_ton_9"/>
+            <corners
+                android:bottomLeftRadius="@dimen/corner_radius_12"
+                android:bottomRightRadius="@dimen/corner_radius_12"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cyber_game_marble_games_header"/>
+            <corners
+                android:bottomLeftRadius="@dimen/corner_radius_12"
+                android:bottomRightRadius="@dimen/corner_radius_12"/>
+        </shape>
+    </item>
+</layer-list>

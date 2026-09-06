@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.text_field.DsTextField xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="?attr/uikitSecondary"
+    android:id="@+id/inputTextField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:hint="@string/reg_country_x"
+    style="@style/Widget.DSTextField.Basic"/>

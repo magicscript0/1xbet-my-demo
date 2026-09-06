@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/emptyOneXGamesTape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:radius="@dimen/radius_16"
+        style="@style/Widget.DSShimmer.Primary"/>
+</FrameLayout>

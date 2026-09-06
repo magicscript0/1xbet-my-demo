@@ -1,0 +1,15 @@
+package a;
+
+import android.app.LocaleManager;
+import android.os.LocaleList;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class af3 {
+    public static LocaleList a(Object obj) {
+        return ((LocaleManager) obj).getApplicationLocales();
+    }
+
+    public static void b(Object obj, LocaleList localeList) {
+        ((LocaleManager) obj).setApplicationLocales(localeList);
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/size_56"
+    android:layout_height="@dimen/size_56"
+    style="@style/Widget.DSRollingCalendar.Item">
+    <TextView
+        android:textSize="@dimen/text_12"
+        android:textColor="@color/rolling_calendar_item_date_text_color_selector"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_2"
+        android:layout_marginRight="@dimen/space_2"
+        android:layout_marginHorizontal="@dimen/space_2"
+        style="@style/TextStyle.Caption.Medium.L"/>
+</FrameLayout>

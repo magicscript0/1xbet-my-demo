@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginRight="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginHorizontal="@dimen/medium_horizontal_margin_dynamic">
+    <org.xplatform.uikit_sport.bannerchampionship.BannerChampionshipShimmerView
+        android:id="@+id/emptyCyberChampBannerFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8"/>
+    <org.xplatform.uikit_sport.bannerchampionship.BannerChampionshipShimmerView
+        android:id="@+id/emptyCyberChampBannerSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_8"/>
+</LinearLayout>

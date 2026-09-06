@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.search_field.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_40"
+        android:layoutDirection="locale"
+        style="@style/Widget.DSSearchField.TextInputLayout.Overlay">
+        <org.xplatform.uikit.components.search_field.TextInputEditText
+            android:textColorHint="?attr/uikitStaticWhite60"
+            android:ellipsize="end"
+            android:id="@+id/textInputEditText"
+            android:padding="0dp"
+            android:saveEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/text_field_static_cursor"
+            style="@style/TextStyle.Headline.Regular.StaticWhite"/>
+    </org.xplatform.uikit.components.search_field.TextInputLayout>
+</merge>

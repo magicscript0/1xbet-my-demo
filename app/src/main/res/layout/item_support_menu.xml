@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsMenuCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/size_64">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+        android:id="@+id/icon"
+        style="@style/Widget.DSCell.Left.Icon.Back"/>
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/title"
+        style="@style/Widget.DSCell.Middle.Title.S"/>
+    <org.xplatform.uikit.components.cells.right.DsCellRightCounter
+        android:id="@+id/counter"
+        style="@style/Widget.DSCell.Right"/>
+</org.xplatform.uikit.components.cells.DsMenuCell>

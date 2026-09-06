@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DownloadBar">
+
+        <attr name="currentValue" format="integer" />
+        <attr name="minValue" format="integer" />
+        <attr name="maxValue" format="integer" />
+
+        <attr name="secondaryLineHeight" format="dimension" />
+        <attr name="secondaryLineWidth" format="dimension" />
+        <attr name="secondaryLineColor" format="color" />
+        <attr name="secondaryLineCornerRadius" format="dimension" />
+
+        <attr name="primaryLineColor" format="color" />
+
+        <attr name="thumbWithinSecondaryLineBounds" format="boolean" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumbWidth" format="dimension" />
+        <attr name="thumbHeight" format="dimension" />
+        <attr name="thumbColor" format="color" />
+        <attr name="thumbRadius" format="dimension" />
+        <attr name="thumbStrokeColor" format="color" />
+        <attr name="thumbStrokeWidth" format="dimension" />
+        <attr name="thumbShadowColor" format="color" />
+        <attr name="thumbBlurRadius" format="float" />
+
+        <attr name="circleStartAngle" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+
+        <attr name="circlePrimaryLineColor" format="color" />
+        <attr name="circleSecondaryLineColor" format="color" />
+        <attr name="circleLineThickness" format="dimension" />
+
+    </declare-styleable>
+
+</resources>

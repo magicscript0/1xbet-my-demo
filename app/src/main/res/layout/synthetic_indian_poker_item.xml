@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.cyber.game.universal.impl.presentation.indianpoker.SyntheticIndianPokerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/indianPokerView"
+    android:background="@drawable/cybergame_universal_black_40_view_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_172"/>

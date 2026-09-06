@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/expandedImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_116"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_tournament_banner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <org.xplatform.uikit.components.toolbar.statical.DsNavigationBarStatic
+        android:id="@+id/toolbar"
+        style="@style/Widgets.DSStaticNavigationBar.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_36"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showTitleIcon="false" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_64"
+        android:background="@drawable/gradient_tournament_fixed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/space_92"
+        android:background="@drawable/background_top_round_content_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <org.xplatform.uikit.components.chips.ChipGroup
+            android:id="@+id/tagGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/size_12"
+            android:paddingTop="@dimen/size_12"
+            app:chipSpacingHorizontal="@dimen/space_4"
+            app:chipSpacingVertical="@dimen/space_4"
+            app:singleLine="false">
+
+            <org.xplatform.uikit.components.tag.DsTag
+                android:id="@+id/chipStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1" />
+
+            <org.xplatform.uikit.components.tag.DsTag
+                android:id="@+id/chipStages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1" />
+
+        </org.xplatform.uikit.components.chips.ChipGroup>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            style="@style/TextAppearance.Title.Bold.L"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/space_12"
+            android:layout_marginTop="@dimen/space_12"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="?attr/uikitTextPrimary" />
+
+        <org.xplatform.uikit.components.tabs.DsTabs
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/uikitBackgroundContent" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/uikitBackground"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+
+    <org.xplatform.uikit.components.bottom_bar.DsBottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="@dimen/size_24"
+        android:visibility="gone"
+        app:bottomBarType="oneButton"
+        app:firstButtonStyle="@style/DSButton.Large.Commerce"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

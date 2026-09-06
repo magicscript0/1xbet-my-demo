@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+    <org.xplatform.cyber.game.universal.impl.presentation.russianlotto.view.RussianLottoCounterfoilView
+        android:id="@+id/russianLottoBiletCounterfoil"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_104"/>
+    <org.xplatform.cyber.game.universal.impl.presentation.russianlotto.view.RussianLottoBiletNumbersView
+        android:id="@+id/russianLottoBiletNumbers"
+        android:background="@drawable/ic_russian_lotto_second_part_bilet"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_104"/>
+</LinearLayout>

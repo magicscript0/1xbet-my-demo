@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:theme="?attr/uikitTheme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_122"
+        android:layout_marginLeft="@dimen/large_horizontal_margin_dynamic"
+        android:layout_marginTop="@dimen/space_12"
+        android:layout_marginRight="@dimen/large_horizontal_margin_dynamic"
+        android:radius="@dimen/radius_16"
+        android:layout_marginHorizontal="@dimen/large_horizontal_margin_dynamic"
+        style="@style/Widget.DSShimmer.Primary"/>
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/medium_horizontal_margin_dynamic"
+    android:paddingRight="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_60"
+    android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic">
+    <org.xplatform.uikit.components.cells.DsSettingsCell
+        android:id="@+id/cellSocialNetwork"
+        android:background="@drawable/bg_round_corners_with_background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/uikitBackgroundContent">
+        <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+            android:id="@+id/icSocial"
+            android:tint="@null"
+            app:tint="@null"
+            style="@style/Widget.DSCell.Left.Icon"/>
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+            android:id="@+id/mcSocialTitle"
+            android:layout_marginBottom="@dimen/space_2"
+            style="@style/Widget.DSCell.Middle.Title.L"/>
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+</FrameLayout>

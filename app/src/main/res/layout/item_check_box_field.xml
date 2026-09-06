@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.check_box.old.DsCheckBoxOld
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/checkBoxText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_48"
+        app:layout_constraintBottom_toBottomOf="@+id/checkbox"
+        app:layout_constraintEnd_toStartOf="@+id/ivError"
+        app:layout_constraintStart_toEndOf="@+id/checkbox"
+        app:layout_constraintTop_toTopOf="@+id/checkbox"
+        style="@style/TextStyle.Text.Regular.TextPrimary"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivError"
+        android:visibility="invisible"
+        android:layout_width="@dimen/size_16"
+        android:layout_height="@dimen/size_16"
+        android:src="@drawable/ic_warning"
+        android:tint="?attr/uikitWarning"
+        android:layout_marginStart="@dimen/space_12"
+        android:layout_marginEnd="@dimen/space_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxText"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/vBtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxText"
+        app:layout_constraintTop_toTopOf="@+id/checkBoxText"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

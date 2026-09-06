@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsMenuCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/size_64"
+    app:backgroundTint="@null"
+    app:roundCorners="round_16">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+        android:id="@+id/icon"
+        app:badge="dot"
+        app:tint="?attr/uikitStaticWhite"
+        style="@style/Widget.DSCell.Left.Icon"/>
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/title"
+        style="@style/Widget.DSCell.Middle.Title.S.Overlay"/>
+    <org.xplatform.uikit.components.cells.right.DsCellRightBanner
+        android:id="@+id/decorIcon"
+        style="@style/Widget.DSCell.Right.Banner"/>
+</org.xplatform.uikit.components.cells.DsMenuCell>

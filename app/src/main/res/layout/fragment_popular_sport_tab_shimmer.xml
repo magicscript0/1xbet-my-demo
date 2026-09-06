@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/medium_horizontal_margin_dynamic">
+    <include
+        android:id="@+id/gamesLineShimmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        layout="@layout/fragment_popular_sport_tab_shimmer_games"/>
+    <include
+        android:id="@+id/gamesLiveShimmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/gamesLineShimmer"
+        layout="@layout/fragment_popular_sport_tab_shimmer_games"/>
+    <include
+        android:id="@+id/champsLineShimmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/gamesLiveShimmer"
+        layout="@layout/fragment_popular_sport_tab_shimmer_champs"/>
+    <include
+        android:id="@+id/champsLiveShimmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/champsLineShimmer"
+        layout="@layout/fragment_popular_sport_tab_shimmer_champs"/>
+    <include
+        android:id="@+id/expressLiveShimmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/champsLiveShimmer"
+        layout="@layout/fragment_popular_sport_tab_shimmer_express"/>
+    <include
+        android:id="@+id/expressLineShimmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/expressLiveShimmer"
+        layout="@layout/fragment_popular_sport_tab_shimmer_express"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

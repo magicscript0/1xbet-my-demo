@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.DSCell.Middle.Title.L"/>
+    <org.xplatform.uikit.components.cells.right.DsCellRightCounter
+        android:id="@+id/rbGroupSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showCheckBox="true"
+        style="@style/Widget.DSCell.Right.Counter"/>
+    <org.xplatform.uikit.components.separator.DsSeparator
+        android:id="@+id/vSeparator"
+        style="@style/Widget.DSSeparator.Short60"/>
+</org.xplatform.uikit.components.cells.DsSettingsCell>

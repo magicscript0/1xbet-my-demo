@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+    <org.xplatform.uikit.components.views.LoadableShapeableImageView
+        android:id="@+id/uikitCategoryCardPicture"
+        android:tag="categoryCardPicture"
+        android:layout_width="@dimen/size_64"
+        android:layout_height="@dimen/size_64"
+        android:scaleType="centerCrop"
+        app:shapeAppearance="@style/ShapeAppearance.Radius16"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/uikitCategoryCardLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:maxWidth="@dimen/size_64"
+        android:minHeight="@dimen/size_24"
+        android:maxLines="2"
+        style="@style/TextStyle.Caption.Medium.M.TextPrimary"/>
+</merge>

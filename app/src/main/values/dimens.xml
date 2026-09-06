@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="favorite_game_card_width">170dp</dimen>
+    <dimen name="favorite_game_lists_padding_bottom">100dp</dimen>
+</resources>

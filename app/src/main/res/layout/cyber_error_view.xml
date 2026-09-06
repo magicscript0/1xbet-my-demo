@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppTheme.New.Subtitle1"
+        android:textSize="@dimen/text_16"
+        android:textColor="@color/static_white"
+        android:id="@+id/tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_get_data"/>
+    <com.google.android.material.button.MaterialButton
+        android:textColor="@color/static_white"
+        android:id="@+id/btnUpdate"
+        android:paddingLeft="@dimen/space_72"
+        android:paddingRight="@dimen/space_72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_16"
+        android:text="@string/try_again_text"
+        android:stateListAnimator="@null"
+        android:paddingHorizontal="@dimen/space_72"
+        app:backgroundTint="@color/static_white_20"
+        app:cornerRadius="@dimen/corner_radius_10"
+        style="@style/Widget.AppTheme.SolidButton.New"/>
+</LinearLayout>

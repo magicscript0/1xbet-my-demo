@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cellMainCoefficientCell"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textAppearance="?attr/textAppearanceSubtitle2Medium"
+        android:textColor="@color/static_white"
+        android:gravity="center"
+        android:id="@+id/coefficientCellText"
+        android:background="@drawable/coeff_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/space_4"
+        android:layout_marginBottom="@dimen/space_4"
+        android:lines="1"
+        android:includeFontPadding="false"
+        android:paddingStart="@dimen/space_2"
+        android:paddingEnd="@dimen/space_2"
+        android:layout_marginStart="@dimen/space_8"
+        android:layout_marginEnd="@dimen/space_4"/>
+</merge>

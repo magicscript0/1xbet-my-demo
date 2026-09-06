@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="?attr/textAppearanceSubtitle2New"
+    android:textColor="@color/static_white"
+    android:id="@+id/tvTournamentStatus"
+    android:paddingLeft="@dimen/space_12"
+    android:paddingTop="@dimen/space_4"
+    android:paddingRight="@dimen/space_12"
+    android:paddingBottom="@dimen/space_4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/space_4"
+    android:layout_marginRight="@dimen/space_4"
+    android:layout_marginHorizontal="@dimen/space_4"
+    android:paddingHorizontal="@dimen/space_12"
+    android:paddingVertical="@dimen/space_4"/>

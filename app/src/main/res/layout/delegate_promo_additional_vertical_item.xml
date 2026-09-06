@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_12">
+    <org.xplatform.uikit.components.header.DsHeader
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/large_horizontal_margin_dynamic"
+        android:layout_marginRight="@dimen/large_horizontal_margin_dynamic"
+        android:layout_marginHorizontal="@dimen/large_horizontal_margin_dynamic"
+        app:horizontalMargin="@dimen/space_0"
+        app:isLoading="false"
+        app:title="@string/additionally"/>
+    <org.xplatform.uikit.components.views.OptimizedScrollRecyclerView
+        android:id="@+id/optimizedScrollRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

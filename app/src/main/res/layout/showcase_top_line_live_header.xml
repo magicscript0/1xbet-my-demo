@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:background="@drawable/selectable_rounded_group_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_48">
+    <ImageView
+        android:id="@+id/ivSportIcon"
+        android:layout_width="@dimen/size_24"
+        android:layout_height="@dimen/size_24"
+        android:layout_marginTop="@dimen/space_12"
+        android:scaleType="fitCenter"
+        android:contentDescription="@null"
+        android:layout_marginStart="@dimen/space_8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/uikitSecondary80"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle1New"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/tvSportTitle"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="@dimen/size_0"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:maxLines="2"
+        android:layout_marginHorizontal="@dimen/space_8"
+        app:layout_constraintBottom_toBottomOf="@+id/ivSportIcon"
+        app:layout_constraintEnd_toStartOf="@+id/ivArrow"
+        app:layout_constraintStart_toEndOf="@+id/ivSportIcon"
+        app:layout_constraintTop_toTopOf="@+id/ivSportIcon"/>
+    <ImageView
+        android:id="@+id/ivArrow"
+        android:layout_width="@dimen/size_24"
+        android:layout_height="@dimen/size_24"
+        android:contentDescription="@null"
+        android:layout_marginEnd="@dimen/space_8"
+        app:layout_constraintBottom_toBottomOf="@+id/ivSportIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivSportIcon"
+        app:srcCompat="@drawable/ic_arrow_collaps_new"
+        app:tint="?attr/uikitPrimary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:background="@drawable/rounded_background_20"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?attr/uikitBackgroundContent">
+    <ImageView
+        android:id="@+id/ivEmpty"
+        android:background="@drawable/circle"
+        android:layout_width="@dimen/size_28"
+        android:layout_height="@dimen/size_28"
+        android:layout_marginTop="@dimen/space_12"
+        android:scaleType="center"
+        android:backgroundTint="?attr/uikitSecondary40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_glyph_move_vertical_large"
+        app:tint="?attr/uikitBackgroundContent"/>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_12"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_12"
+        android:layout_marginBottom="@dimen/space_12"
+        android:text="@string/no_events"
+        android:layout_marginHorizontal="@dimen/space_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivEmpty"
+        style="@style/TextStyle.Text.Medium.Secondary"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

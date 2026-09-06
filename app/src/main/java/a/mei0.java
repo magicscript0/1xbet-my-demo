@@ -1,0 +1,10 @@
+package a;
+
+import org.xplatform.uikit.compose.color.ThemeColors;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class mei0 extends ThemeColors {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final mei0 f20111a = new mei0(f8e0.m(4287245282L), f8e0.m(3431607266L), f8e0.m(2575969250L), f8e0.k(864693218), f8e0.k(445262818), f8e0.k(9055202), f8e0.m(4290277882L), f8e0.m(4294967295L), f8e0.m(3439329279L), f8e0.m(4279465769L), f8e0.m(4282035539L), f8e0.m(4291225293L), f8e0.m(4294967295L), f8e0.m(3439329279L), f8e0.m(4293411908L), f8e0.m(4294764776L), f8e0.m(4294898932L), f8e0.m(4286348412L), f8e0.m(3430710396L), f8e0.m(2575072380L), f8e0.k(1719434364), f8e0.k(863796348), f8e0.k(444365948), f8e0.k(8158332), f8e0.m(4280558628L), f8e0.m(4293979635L), f8e0.k(15789555), f8e0.m(4294967295L), f8e0.k(16777215), f8e0.m(4292926692L), f8e0.m(4294440441L), f8e0.m(4283056466L), f8e0.m(2581320928L), f8e0.m(4292060415L), f8e0.m(4293316859L), f8e0.m(4287245282L), f8e0.m(2579675592L), f8e0.m(4294967295L), f8e0.m(4292860389L), f8e0.m(4292860389L), f8e0.k(1306515941), f8e0.m(2581584357L), f8e0.m(4288894699L), f8e0.m(4284614837L), f8e0.m(4292655103L), f8e0.k(639238201), f8e0.k(436207616), f8e0.k(436207616), f8e0.k(687865856), f8e0.m(4278190080L), null);
+}

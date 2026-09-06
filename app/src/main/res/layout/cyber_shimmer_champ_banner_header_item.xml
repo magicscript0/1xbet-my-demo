@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginRight="@dimen/medium_horizontal_margin_dynamic"
+    android:layout_marginHorizontal="@dimen/medium_horizontal_margin_dynamic">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/vEmptyTitle"
+        android:layout_width="@dimen/shimmer_size_80"
+        android:layout_height="@dimen/icon_size_16"
+        android:layout_marginTop="@dimen/space_20"
+        android:layout_marginBottom="@dimen/space_12"
+        android:radius="@dimen/radius_10"
+        android:layout_marginStart="@dimen/space_8"/>
+</FrameLayout>

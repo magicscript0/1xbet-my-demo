@@ -1,0 +1,159 @@
+{
+  "cards": [
+    {
+      "id": 583990003,
+      "constId": 242196955,
+      "startTs": 1737230400,
+      "countryId": 78,
+      "sport": {
+        "id": 1,
+        "name": "Футбол"
+      },
+      "liga": {
+        "id": 127733,
+        "name": "Чемпионат Испании. Примера"
+      },
+      "opponent1": {
+        "fullName": "Реал Мадрид",
+        "countryId": 78,
+        "opps": [
+          {
+            "id": 2564,
+            "name": "Реал Мадрид",
+            "image": "/sfiles/logo_teams/65e3e972954419765c3ce21698edf6cb.png"
+          }
+        ]
+      },
+      "opponent2": {
+        "fullName": "Барселона",
+        "countryId": 78,
+        "opps": [
+          {
+            "id": 3442,
+            "name": "Барселона",
+            "image": "/sfiles/logo_teams/3442.png"
+          }
+        ]
+      },
+      "event": {
+        "group": 17,
+        "smallGroup": 4,
+        "type": 9,
+        "blocked": false,
+        "parameter": 2.5,
+        "cf": 1.886,
+        "cfView": "1.886",
+        "isCenter": true,
+        "eventParams": {
+          "params": ["2.5"],
+          "playerNames": []
+        }
+      },
+      "kind": 3
+    },
+    {
+      "id": 586461073,
+      "constId": 243732285,
+      "startTs": 1737304200,
+      "countryId": 231,
+      "sport": {
+        "id": 1,
+        "name": "Футбол"
+      },
+      "liga": {
+        "id": 88637,
+        "name": "Чемпионат Англии. Премьер-лига"
+      },
+      "opponent1": {
+        "fullName": "Арсенал",
+        "countryId": 39,
+        "opps": [
+          {
+            "id": 50679,
+            "name": "Арсенал",
+            "image": "/sfiles/logo_teams/08a25897e35d75d7261a8095b9599aad.png"
+          }
+        ]
+      },
+      "opponent2": {
+        "fullName": "Манчестер Сити",
+        "countryId": 39,
+        "opps": [
+          {
+            "id": 1994,
+            "name": "Манчестер Сити",
+            "image": "/sfiles/logo_teams/57060f6368da70fbdfff37cb4b0280a5.png"
+          }
+        ]
+      },
+      "event": {
+        "group": 17,
+        "smallGroup": 4,
+        "type": 9,
+        "blocked": false,
+        "parameter": 3.0,
+        "cf": 1.68,
+        "cfView": "1.68",
+        "isCenter": false,
+        "eventParams": {
+          "params": ["3.0"],
+          "playerNames": []
+        }
+      },
+      "kind": 3
+    },
+    {
+      "id": 586461061,
+      "constId": 243732269,
+      "startTs": 1737295200,
+      "countryId": 231,
+      "sport": {
+        "id": 1,
+        "name": "Футбол"
+      },
+      "liga": {
+        "id": 88637,
+        "name": "Чемпионат Англии. Премьер-лига"
+      },
+      "opponent1": {
+        "fullName": "Манчестер Юнайтед",
+        "countryId": 39,
+        "opps": [
+          {
+            "id": 1996,
+            "name": "Манчестер Юнайтед",
+            "image": "/sfiles/logo_teams/1996.png"
+          }
+        ]
+      },
+      "opponent2": {
+        "fullName": "Ливерпуль",
+        "countryId": 39,
+        "opps": [
+          {
+            "id": 1990,
+            "name": "Ливерпуль",
+            "image": "/sfiles/logo_teams/d3916206204ffc91b0471ff9484066d6.png"
+          }
+        ]
+      },
+      "event": {
+        "group": 1,
+        "smallGroup": 1,
+        "type": 1,
+        "blocked": false,
+        "parameter": 0.0,
+        "cf": 1.322,
+        "cfView": "1.322",
+        "isCenter": false,
+        "eventParams": {
+          "params": ["0.0"],
+          "playerNames": []
+        }
+      },
+      "kind": 3
+    }
+  ],
+  "switchFilter": false,
+  "timestamp": 1737104291
+}

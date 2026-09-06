@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.cells.DsShimmerCell
+        android:layout_height="@dimen/size_60"
+        app:first="true"
+        app:showLongTitle="true"
+        style="@style/Widget.DSCell.Shimmers.Settings"/>
+    <org.xplatform.uikit.components.cells.DsShimmerCell
+        android:layout_height="@dimen/size_60"
+        style="@style/Widget.DSCell.Shimmers.Settings">
+        <org.xplatform.uikit.components.separator.DsSeparator
+            android:layout_marginStart="@dimen/size_64"
+            style="@style/Widget.DSSeparator"/>
+    </org.xplatform.uikit.components.cells.DsShimmerCell>
+    <org.xplatform.uikit.components.cells.DsShimmerCell
+        android:layout_height="@dimen/size_60"
+        app:showLongTitle="true"
+        style="@style/Widget.DSCell.Shimmers.Settings">
+        <org.xplatform.uikit.components.separator.DsSeparator
+            android:layout_marginStart="@dimen/size_64"
+            style="@style/Widget.DSSeparator"/>
+    </org.xplatform.uikit.components.cells.DsShimmerCell>
+    <org.xplatform.uikit.components.cells.DsShimmerCell
+        android:layout_height="@dimen/size_60"
+        app:last="true"
+        style="@style/Widget.DSCell.Shimmers.Settings">
+        <org.xplatform.uikit.components.separator.DsSeparator
+            android:layout_marginStart="@dimen/size_64"
+            style="@style/Widget.DSSeparator"/>
+    </org.xplatform.uikit.components.cells.DsShimmerCell>
+</LinearLayout>

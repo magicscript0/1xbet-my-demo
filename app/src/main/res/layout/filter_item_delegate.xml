@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.views.OptimizedScrollRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filterRv"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_76"
+    android:overScrollMode="never"
+    android:nestedScrollingEnabled="false"/>

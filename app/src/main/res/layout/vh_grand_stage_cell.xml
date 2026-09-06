@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_50">
+    <ImageView
+        android:id="@+id/ivCountry"
+        android:background="@drawable/bg_icon_info"
+        android:layout_width="@dimen/icon_size_14"
+        android:layout_height="@dimen/icon_size_14"
+        android:layout_marginStart="@dimen/size_4"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionMediumNew"
+        android:textSize="@dimen/text_12"
+        android:ellipsize="end"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_marginStart="@dimen/space_4"
+        android:layout_marginEnd="@dimen/space_4"/>
+</LinearLayout>

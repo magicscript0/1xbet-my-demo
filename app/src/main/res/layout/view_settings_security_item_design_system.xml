@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+        android:id="@+id/cell_left"
+        android:layout_width="@dimen/size_40"
+        android:layout_height="@dimen/size_40"
+        style="@style/Widget.DSCell.Left.Icon.Back"/>
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/cell_middle"
+        style="@style/Widget.DSCell.Middle.Title.L"/>
+    <org.xplatform.uikit.components.cells.right.DsCellRightLabel
+        android:id="@+id/cell_right"
+        style="@style/Widget.DSCell.Right.Label.Icon"/>
+    <org.xplatform.uikit.components.separator.DsSeparator style="@style/Widget.DSSeparator.Cell"/>
+</org.xplatform.uikit.components.cells.DsSettingsCell>

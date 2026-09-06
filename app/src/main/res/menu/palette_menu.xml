@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_glyph_cookie"
+        android:id="@+id/contrast"
+        android:title="@string/collapse_all_title"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_light_theme"
+        android:id="@+id/theme"
+        android:visible="true"
+        android:title="@string/light_theme"
+        app:showAsAction="always"/>
+</menu>

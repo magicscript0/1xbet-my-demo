@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="17dp"
+    android:viewportWidth="17"
+    android:viewportHeight="24">
+    <group>
+        <clip-path android:pathData="M0,0h17v24h-17z"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__0_res_0x7f080037"
+            android:pathData="M8.5,0.25L-0.256,6.15V17.95L8.5,23.85L17.257,17.95V6.15L8.5,0.25Z"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__1_res_0x7f080038"
+            android:pathData="M8.5,23.85V18.35L13.177,14.85L13.774,15.65L17.257,17.95L8.5,23.85Z"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__2_res_0x7f080039"
+            android:pathData="M-0.256,6.15L3.226,8.35L4.619,9.25L8.6,6.05L8.5,4.75V0.25L-0.256,6.15Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M-0.157,6.05L3.326,8.35L4.719,9.15L8.699,5.95L8.6,4.65V0.15L-0.157,6.05Z"
+            android:strokeAlpha="0.3"
+            android:fillAlpha="0.3"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__3_res_0x7f08003a"
+            android:pathData="M17.257,6.15L13.774,8.35L10.789,8.85L8.6,6.05L8.5,0.25L17.257,6.15Z"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__4_res_0x7f08003b"
+            android:pathData="M-0.256,17.95L3.425,15.65L4.619,14.85L8.5,17.95V19.35V23.85L-0.256,17.95Z"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__5_res_0x7f08003c"
+            android:pathData="M6.411,10.25C6.311,10.25 3.425,8.45 3.425,8.45L-0.256,6.15V17.95L4.221,15.05L6.411,10.25Z"
+            android:strokeAlpha="0.6"
+            android:fillAlpha="0.6"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__6_res_0x7f08003d"
+            android:pathData="M12.48,9.35L13.774,8.35L17.157,6.15V17.95L12.281,14.75"
+            android:strokeAlpha="0.7"
+            android:fillAlpha="0.7"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__7_res_0x7f08003e"
+            android:pathData="M3.227,8.35V15.65L8.5,19.35L13.774,15.65V8.35L8.5,4.75L3.227,8.35Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M11.287,6.65L5.615,17.35L3.227,15.75V13.65L9.993,5.85C9.993,5.75 11.287,6.65 11.287,6.65Z"
+            android:strokeAlpha="0.35"
+            android:fillAlpha="0.35"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M3.227,15.65V8.35L8.5,4.75L13.774,8.35L8.5,4.95L3.326,8.45L3.227,15.65Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M3.326,15.75L8.5,19.35L13.774,15.65V8.35L13.675,15.65L8.5,19.15L3.326,15.75Z"/>
+        <path
+            android:fillColor="#592a00"
+            android:pathData="M8.5,0.55L16.958,6.25V17.85L8.5,23.55L0.042,17.85V6.25L8.5,0.55ZM8.5,0.25L-0.256,6.15V17.95L8.5,23.85L17.257,17.95V6.15L8.5,0.25Z"
+            android:strokeAlpha="0.2"
+            android:fillAlpha="0.2"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M8.501,0.55L8.601,4.85L8.401,4.95L8.501,0.55Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0.042,6.35L3.326,8.45L3.426,8.35L0.042,6.35Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0.042,17.75L3.227,15.55V15.65L0.042,17.75Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M8.501,19.25V19.35V23.55L8.401,19.15"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M13.674,15.55L13.774,15.65L16.958,17.75L13.774,15.55"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M16.958,6.25L13.774,8.35H13.674L16.958,6.25Z"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__8_res_0x7f08003f"
+            android:pathData="M10.888,4.85C10.888,6.25 9.794,7.35 8.401,7.35C7.008,7.35 5.813,6.25 5.813,4.85C5.813,3.45 6.908,2.35 8.301,2.35C9.794,2.25 10.888,3.45 10.888,4.85Z"/>
+        <path
+            android:fillColor="@drawable/_cybergame_crystal_orange__9_res_0x7f080040"
+            android:pathData="M4.918,15.55C4.918,16.35 4.321,16.95 3.525,16.95C2.729,16.95 2.032,16.35 2.032,15.55C2.032,14.75 2.629,14.15 3.425,14.15C4.221,14.05 4.918,14.75 4.918,15.55Z"
+            android:strokeAlpha="0.7"
+            android:fillAlpha="0.7"/>
+    </group>
+</vector>

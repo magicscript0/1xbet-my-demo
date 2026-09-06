@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:autoMirrored="true">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/tab_bar_central_item_background_selected_counted"
+        app:state_counted="true"/>
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/tab_bar_central_item_background_selected"/>
+    <item android:drawable="@drawable/tab_bar_central_item_background_default"/>
+</selector>

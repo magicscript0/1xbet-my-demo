@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:first="true"
+    app:last="true">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+        android:id="@+id/cliSocial"
+        style="@style/Widget.DSCell.Left.Icon.Tintless"/>
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/cmtSocial"
+        style="@style/Widget.DSCell.Middle.Title.L"/>
+</org.xplatform.uikit.components.cells.DsSettingsCell>

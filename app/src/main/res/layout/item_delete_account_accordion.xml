@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cellLogOut"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+        app:backgroundTint="?attr/uikitWarningTint"
+        app:srcCompat="@drawable/ic_glyph_trash"
+        app:tint="?attr/uikitWarning"
+        style="@style/Widget.DSCell.Left.Icon"/>
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/mcLogOut"
+        app:title="@string/delete_account_title"
+        app:titleTextColor="?attr/uikitStaticRed"
+        style="@style/Widget.DSCell.Middle.Title.L"/>
+    <org.xplatform.uikit.components.separator.DsSeparator style="@style/Widget.DSSeparator.Cell"/>
+</org.xplatform.uikit.components.cells.DsSettingsCell>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:background="?attr/uikitBackgroundContent"
+    android:paddingLeft="@dimen/space_8"
+    android:paddingRight="@dimen/space_8"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/row_height"
+    android:paddingHorizontal="@dimen/space_8">
+    <TextView
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textDirection="ltr"
+        android:autoSizeTextType="uniform"
+        android:autoSizeStepGranularity="@dimen/text_2"
+        android:autoSizeMinTextSize="@dimen/text_10"
+        android:autoSizeMaxTextSize="@dimen/text_12"
+        style="@style/TextStyle.Caption.Medium.L.TextPrimary"/>
+</FrameLayout>

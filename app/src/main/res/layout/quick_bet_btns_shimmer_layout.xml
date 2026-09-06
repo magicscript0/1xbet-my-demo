@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.ui_core.viewcomponents.layouts.constraint.ShimmerConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/quickBetBtnsShimmerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/viewFastBet1"
+        android:background="@drawable/rounded_shimmer_item"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/size_36"
+        android:layout_marginEnd="@dimen/space_4"
+        android:backgroundTint="?attr/uikitSeparator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewFastBet2"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/viewFastBet2"
+        android:background="@drawable/rounded_shimmer_item"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/size_36"
+        android:layout_marginLeft="@dimen/space_4"
+        android:layout_marginRight="@dimen/space_4"
+        android:backgroundTint="?attr/uikitSeparator"
+        android:layout_marginHorizontal="@dimen/space_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewFastBet3"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/viewFastBet1"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/viewFastBet3"
+        android:background="@drawable/rounded_shimmer_item"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/size_36"
+        android:layout_marginStart="@dimen/space_4"
+        android:backgroundTint="?attr/uikitSeparator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/viewFastBet2"
+        app:layout_constraintTop_toTopOf="parent"/>
+</org.xplatform.ui_core.viewcomponents.layouts.constraint.ShimmerConstraintLayout>

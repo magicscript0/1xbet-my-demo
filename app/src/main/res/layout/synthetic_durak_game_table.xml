@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/cybergame_synthetic_background"
+    android:padding="@dimen/space_4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.cyber.game.universal.impl.presentation.durak.view.CyberDurakGameView
+        android:id="@+id/gameView"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_250"/>
+</FrameLayout>

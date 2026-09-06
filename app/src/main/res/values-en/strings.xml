@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_widget_description">Fast access to all your favorite matches</string>
+    <string name="popular_live_widget_description">Popular live events</string>
+    <string name="vk_captcha_hint">Enter the code from the picture</string>
+    <string name="vk_confirm">Confirmation</string>
+    <string name="vk_message_login_error">Error signing in</string>
+    <string name="vk_retry">Try again</string>
+    <string name="widget_fast_access">Quick access</string>
+    <string name="widget_fast_access_description">Quick access to main features</string>
+    <string name="widget_favorite">Favorites</string>
+    <string name="widget_popular_line">Popular pre-match</string>
+    <string name="widget_popular_line_description">Popular pre-match events</string>
+    <string name="widget_popular_live">Popular live</string>
+</resources>

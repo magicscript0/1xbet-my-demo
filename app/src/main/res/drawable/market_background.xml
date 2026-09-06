@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tintItem"
+        android:top="@dimen/space_6"
+        android:bottom="@dimen/space_6">
+        <shape>
+            <corners android:radius="@dimen/radius_10"/>
+        </shape>
+    </item>
+</layer-list>

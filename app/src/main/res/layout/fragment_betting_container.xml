@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/viewPagerContainer"
+        layout="@layout/view_tab_viewpager_container_betting"/>
+    <include
+        android:id="@+id/viewLoadingErrorContainer"
+        layout="@layout/loading_error_container"/>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/express_card_bottom_view_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.feature.dayexpress.impl.presentation.view.ExpressCardBottomView
+        android:id="@+id/expressCardBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit.components.separator.DsSeparator
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1"
+        android:layout_marginTop="@dimen/space_12"
+        style="@style/Widget.DSSeparator.Separator60"/>
+</LinearLayout>

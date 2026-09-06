@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.eventcard.container.results.ResultsHistoryEventCard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit_sport.eventcard.top.EventCardHeader
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit_sport.eventcard.middle.EventCardMiddlePairTeams
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit_sport.eventcard.info.EventCardInfoHistory
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit_sport.eventcard.bottom.EventCardBottomInfo
+        android:id="@+id/bottomExpand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</org.xplatform.uikit_sport.eventcard.container.results.ResultsHistoryEventCard>

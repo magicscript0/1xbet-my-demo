@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.chips.DsChip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/primaryChip"
+    android:paddingTop="@dimen/space_8"
+    android:paddingBottom="@dimen/space_8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/space_8"
+    android:paddingVertical="@dimen/space_8"
+    style="@style/DSChip.Primary"/>

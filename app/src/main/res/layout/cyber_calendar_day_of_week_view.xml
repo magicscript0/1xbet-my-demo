@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="@dimen/size_0"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppTheme.Caption.Medium"
+        android:textSize="@dimen/text_10"
+        android:id="@+id/tvTitleDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_2"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppTheme.Caption.Medium"
+        android:textSize="@dimen/text_16"
+        android:gravity="center"
+        android:id="@+id/tvNumberDay"
+        android:layout_width="@dimen/size_28"
+        android:layout_height="@dimen/size_28"
+        android:layout_marginTop="@dimen/space_1"/>
+</LinearLayout>

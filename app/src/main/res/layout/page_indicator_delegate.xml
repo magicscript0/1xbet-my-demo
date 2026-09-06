@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.views.AppCompatView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/page_indicator_circle_background"
+    android:layout_width="@dimen/size_6"
+    android:layout_height="@dimen/size_6"/>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <org.xplatform.game_broadcasting.impl.presentation.zone.GameZoneWebView
+        android:layout_gravity="center"
+        android:id="@+id/vBroadcastingZone"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateOnly="true"/>
+    <View
+        android:id="@+id/containerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <org.xplatform.game_broadcasting.impl.presentation.views.GameBroadcastingControlPanelView
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/vGameBroadcastingControlPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</merge>

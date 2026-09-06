@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="@drawable/new_messages_label_bg"
+    android:paddingLeft="@dimen/space_16"
+    android:paddingRight="@dimen/space_16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_24"
+    android:layout_marginBottom="@dimen/space_8"
+    android:paddingHorizontal="@dimen/space_16">
+    <TextView
+        android:textSize="@dimen/text_12"
+        android:textColor="?attr/uikitSecondary"
+        android:ellipsize="end"
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/support_chat_unread_messages_label"
+        android:maxLines="1"
+        android:textDirection="locale"/>
+</LinearLayout>

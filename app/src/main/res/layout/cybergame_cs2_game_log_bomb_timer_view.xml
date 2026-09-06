@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/bombLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/bombIcon"
+        android:layout_width="@dimen/icon_size_12"
+        android:layout_height="@dimen/icon_size_12"
+        app:srcCompat="@drawable/cs2_gamelog_bomb_ic"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceOverlineBold"
+        android:textSize="@dimen/text_10"
+        android:textColor="@color/static_white_80"
+        android:id="@+id/bombTimerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_4"/>
+</merge>

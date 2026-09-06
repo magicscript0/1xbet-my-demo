@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message_list">
+        <item>@string/app_update_universal_message_1</item>
+        <item>@string/app_update_universal_message_2</item>
+        <item>@string/app_update_universal_message_3</item>
+        <item>@string/app_update_universal_message_4</item>
+        <item>@string/app_update_universal_message_5</item>
+        <item>@string/app_update_universal_message_6</item>
+        <item>@string/app_update_universal_message_7</item>
+        <item>@string/app_update_universal_message_8</item>
+        <item>@string/app_update_universal_message_9</item>
+        <item>@string/app_update_universal_message_10</item>
+        <item>@string/app_update_universal_message_11</item>
+        <item>@string/app_update_universal_message_12</item>
+        <item>@string/app_update_universal_message_13</item>
+        <item>@string/app_update_universal_message_14</item>
+        <item>@string/app_update_universal_message_15</item>
+        <item>@string/app_update_universal_message_16</item>
+        <item>@string/app_update_universal_message_17</item>
+        <item>@string/app_update_universal_message_18</item>
+    </string-array>
+</resources>

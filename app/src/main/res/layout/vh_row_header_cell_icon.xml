@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:background="?attr/uikitBackgroundGroup"
+    android:layout_width="@dimen/size_36"
+    android:layout_height="@dimen/size_36">
+    <org.xplatform.uikit.components.views.LoadableImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/ivSport"
+        android:layout_width="@dimen/size_16"
+        android:layout_height="@dimen/size_16"
+        android:textDirection="ltr"
+        android:backgroundTint="?attr/uikitSecondary"/>
+</FrameLayout>

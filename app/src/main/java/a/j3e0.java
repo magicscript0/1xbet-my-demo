@@ -1,0 +1,15 @@
+package a;
+
+import android.widget.AutoCompleteTextView;
+import androidx.appcompat.widget.SearchView$SearchAutoComplete;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class j3e0 {
+    public static void a(AutoCompleteTextView autoCompleteTextView) {
+        autoCompleteTextView.refreshAutoCompleteResults();
+    }
+
+    public static void b(SearchView$SearchAutoComplete searchView$SearchAutoComplete, int i) {
+        searchView$SearchAutoComplete.setInputMethodMode(i);
+    }
+}

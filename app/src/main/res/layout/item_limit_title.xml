@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="?attr/textAppearanceSubtitle2MediumNew"
+    android:textColor="?attr/uikitPrimary"
+    android:background="?attr/uikitBackgroundContent"
+    android:paddingTop="@dimen/space_16"
+    android:paddingBottom="@dimen/space_16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_8"
+    android:text="@string/bet_limit_title"
+    android:paddingStart="@dimen/space_16"
+    android:paddingVertical="@dimen/space_16"/>

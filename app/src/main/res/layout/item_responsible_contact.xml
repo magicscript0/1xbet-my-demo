@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/space_12"
+    android:layout_marginRight="@dimen/space_12"
+    android:layout_marginHorizontal="@dimen/space_12">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppTheme.New.Body1"
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppTheme.New.Body1.Medium"
+        android:textColor="?attr/uikitPrimary"
+        android:textColorLink="?attr/uikitPrimary"
+        android:autoLink="email"
+        android:linksClickable="true"
+        android:id="@+id/tvLinkTitle"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/upper"
+            layout="@layout/item_pager"/>
+        <include
+            android:id="@+id/lower"
+            layout="@layout/item_pager"/>
+    </LinearLayout>
+    <org.xplatform.statistic.stage.impl.champ_statistic_tour_net.presentation.view.bracket.BracketLineView
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

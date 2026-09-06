@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/space_16"
+    android:layout_marginTop="@dimen/space_8">
+    <ImageView
+        android:layout_width="@dimen/icon_size_16"
+        android:layout_height="@dimen/icon_size_16"
+        app:srcCompat="@drawable/sport_game_dice_icon"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionLightNew"
+        android:textSize="@dimen/text_14"
+        android:gravity="center"
+        android:id="@+id/tvDiceOneScore"
+        android:layout_width="@dimen/space_16"
+        android:layout_height="@dimen/space_16"
+        android:layout_marginStart="@dimen/space_16"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionLightNew"
+        android:textSize="@dimen/text_14"
+        android:gravity="center"
+        android:id="@+id/tvDiceTwoScore"
+        android:layout_width="@dimen/space_16"
+        android:layout_height="@dimen/space_16"
+        android:layout_marginStart="@dimen/space_16"/>
+    <View
+        android:background="@color/static_white_20"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_16"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionLightNew"
+        android:textSize="@dimen/text_14"
+        android:gravity="center"
+        android:id="@+id/tvTotalRoundScore"
+        android:layout_width="@dimen/space_16"
+        android:layout_height="@dimen/space_16"
+        android:layout_marginStart="@dimen/space_8"/>
+</LinearLayout>

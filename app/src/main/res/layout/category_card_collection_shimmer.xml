@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:layout_width="@dimen/size_84"
+        android:layout_height="@dimen/size_128"
+        android:radius="@dimen/size_16"
+        style="@style/Widget.DSShimmer.Primary"/>
+</merge>

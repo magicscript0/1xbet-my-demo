@@ -1,0 +1,17 @@
+package a;
+
+import kotlin.Pair;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final /* synthetic */ class p880 extends zn implements emp {
+    public static final p880 h = new p880(3, Pair.class, "<init>", "<init>(Ljava/lang/Object;Ljava/lang/Object;)V", 4);
+
+    @Override // a.emp
+    public final Object w(Object obj, Object obj2, Object obj3) {
+        Boolean bool = (Boolean) obj;
+        bool.booleanValue();
+        Boolean bool2 = (Boolean) obj2;
+        bool2.booleanValue();
+        return new Pair(bool, bool2);
+    }
+}

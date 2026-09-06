@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/shimmerViewLargeBanner"
+        layout="@layout/popular_classic_item_large_banner_games_shimmer"/>
+    <include layout="@layout/popular_classic_shimmer_games_slider"/>
+    <include layout="@layout/popular_classic_shimmer_games_slider"/>
+    <include
+        android:id="@+id/gameCollectionShimmerOne"
+        layout="@layout/popular_classic_game_collection_shimmer_item"/>
+    <include
+        android:id="@+id/gameCollectionShimmerTwo"
+        layout="@layout/popular_classic_game_collection_shimmer_item"/>
+    <include
+        android:id="@+id/bannerShimmerOne"
+        layout="@layout/popular_classic_banner_shimmer_item"/>
+    <include
+        android:id="@+id/gameCollectionShimmerThree"
+        layout="@layout/popular_classic_game_collection_shimmer_item"/>
+    <include
+        android:id="@+id/gameCollectionShimmerFour"
+        layout="@layout/popular_classic_game_collection_shimmer_item"/>
+    <include
+        android:id="@+id/bannerShimmerTwo"
+        layout="@layout/popular_classic_banner_shimmer_item"/>
+    <include
+        android:id="@+id/gameCollectionShimmerFive"
+        layout="@layout/popular_classic_game_collection_shimmer_item"/>
+    <include
+        android:id="@+id/gameCollectionShimmerSix"
+        layout="@layout/popular_classic_game_collection_shimmer_item"/>
+</LinearLayout>

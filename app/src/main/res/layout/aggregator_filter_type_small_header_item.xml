@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.header.DsHeader
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerType="small"
+        app:horizontalMargin="@dimen/space_8"/>
+    <FrameLayout
+        android:id="@+id/fmChipGroupBackground"
+        android:background="@drawable/rounded_background_16_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.chips.DsChips
+            android:id="@+id/chipsGroupFilters"
+            android:paddingTop="@dimen/space_8"
+            android:paddingBottom="@dimen/space_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:chipsHorizontalMargin="@dimen/space_16"
+            app:chipsStyle="secondary"
+            app:chipsType="vertical"/>
+    </FrameLayout>
+</LinearLayout>

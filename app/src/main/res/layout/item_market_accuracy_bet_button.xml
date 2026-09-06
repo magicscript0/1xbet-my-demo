@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/selectable_circle_background"
+    android:layout_width="@dimen/size_38"
+    android:layout_height="@dimen/size_38"
+    android:layout_marginTop="@dimen/space_12"
+    android:layout_marginEnd="@dimen/space_16">
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle1Medium"
+        android:layout_gravity="center"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textSize="@dimen/text_8"
+        android:layout_gravity="center"
+        android:id="@+id/tvExtra"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:includeFontPadding="false"/>
+</LinearLayout>

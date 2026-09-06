@@ -1,0 +1,13 @@
+package a;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class tug0 extends yug0 {
+    public final String b;
+    public final String c;
+
+    public tug0(int i, String str, String str2) {
+        super(i);
+        this.b = str;
+        this.c = str2;
+    }
+}

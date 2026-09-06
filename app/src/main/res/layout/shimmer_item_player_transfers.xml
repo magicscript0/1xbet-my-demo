@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:background="?attr/uikitBackgroundGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_96"
+        android:layout_marginTop="@dimen/space_4"
+        android:layout_marginBottom="@dimen/space_4"
+        android:layout_marginVertical="@dimen/space_4"/>
+</FrameLayout>

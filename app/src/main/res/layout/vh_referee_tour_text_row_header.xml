@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/uikitBackgroundGroup"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_50">
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionMediumNew"
+        android:textSize="@dimen/text_12"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/tvTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="2"
+        android:paddingStart="@dimen/space_8"
+        android:paddingEnd="@dimen/space_8"/>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivTeamIcon"
+        android:background="?attr/uikitBackgroundContent"
+        android:layout_width="@dimen/size_64"
+        android:layout_height="@dimen/size_64"
+        app:contentPadding="@dimen/space_14"
+        app:shapeAppearanceOverlay="@style/Widget.AppTheme.CardView.New.Radius.16"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tvTeamName"
+        android:layout_width="@dimen/size_64"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10"
+        android:maxLines="2"
+        style="@style/TextStyle.Caption.Medium.M.TextPrimary"/>
+</LinearLayout>

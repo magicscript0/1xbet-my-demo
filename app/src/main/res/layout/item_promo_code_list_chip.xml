@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/shape_chip_unchecked"
+    android:paddingLeft="@dimen/space_16"
+    android:paddingRight="@dimen/space_16"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/size_32"
+    android:layout_marginLeft="@dimen/space_4"
+    android:layout_marginRight="@dimen/space_4"
+    android:layout_marginHorizontal="@dimen/space_4"
+    android:paddingHorizontal="@dimen/space_16">
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle2New"
+        android:gravity="center_vertical"
+        android:id="@+id/tvChip"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:maxLines="1"/>
+</FrameLayout>

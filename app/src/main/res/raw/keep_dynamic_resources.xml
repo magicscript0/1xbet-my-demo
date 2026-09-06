@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@layout/*,@raw/*,@xml/*,@menu/*,@integer/*,@integer-array/*,@interpolator/*,@id/*,
+    @font/*,@bool/*,@color/*,@attr/*,@array/*,@animator/*,@anim/*,@style/*,@dimen/*,@item/*,
+    @mipmap/*,@string/*,@drawable/ic_currency_*,@drawable/sns_*,@drawable/app_start_*,
+    @drawable/app_update_*,@drawable/ic_tab_bar_logo,@drawable/ic_aggregator_tab_bar,@drawable/ic_virtual_tab_bar"
+    tools:shrinkMode="strict" />
+

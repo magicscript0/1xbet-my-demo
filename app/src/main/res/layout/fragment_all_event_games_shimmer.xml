@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/rootContainer"
+    android:paddingLeft="@dimen/medium_horizontal_margin_dynamic"
+    android:paddingRight="@dimen/medium_horizontal_margin_dynamic"
+    android:paddingBottom="@dimen/space_26"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/shimmerStatistic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_60"
+        android:layout_marginTop="@dimen/space_8"
+        android:radius="@dimen/radius_16"/>
+    <org.xplatform.uikit.components.header.DsHeader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:layout_marginHorizontal="@dimen/space_8"
+        app:horizontalMargin="@dimen/space_0"/>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_198"
+        android:radius="@dimen/radius_16"/>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_198"
+        android:layout_marginTop="@dimen/space_8"
+        android:radius="@dimen/radius_16"/>
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_198"
+        android:layout_marginTop="@dimen/space_8"
+        android:radius="@dimen/radius_16"/>
+</LinearLayout>

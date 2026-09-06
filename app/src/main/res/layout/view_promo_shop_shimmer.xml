@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:background="?attr/uikitBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/bonusPointsGroup"
+        layout="@layout/view_promo_shop_balance_shimmer"/>
+    <include
+        android:id="@+id/shimmerItem3"
+        layout="@layout/item_promo_shop_shimmer"/>
+    <include
+        android:id="@+id/shimmerItem4"
+        layout="@layout/item_promo_shop_shimmer"/>
+    <include
+        android:id="@+id/shimmerItem5"
+        layout="@layout/item_promo_shop_shimmer"/>
+    <include
+        android:id="@+id/shimmerItem6"
+        layout="@layout/item_promo_shop_shimmer"/>
+</LinearLayout>

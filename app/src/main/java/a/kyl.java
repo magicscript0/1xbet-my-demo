@@ -1,0 +1,36 @@
+package a;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class kyl implements Function0 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ int f17749a;
+    public final /* synthetic */ Function1 b;
+    public final /* synthetic */ pwl c;
+
+    public /* synthetic */ kyl(Function1 function1, pwl pwlVar, int i) {
+        this.f17749a = i;
+        this.b = function1;
+        this.c = pwlVar;
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        int i = this.f17749a;
+        pwl pwlVar = this.c;
+        Function1 function1 = this.b;
+        switch (i) {
+            case 0:
+                function1.invoke(new mul(pwlVar.f25765a));
+                break;
+            default:
+                function1.invoke(new nul(pwlVar.f25765a));
+                break;
+        }
+        return Unit.f42839a;
+    }
+}

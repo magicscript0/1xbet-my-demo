@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle1New"
+        android:id="@+id/tvDescription"
+        android:paddingLeft="@dimen/padding_triple"
+        android:paddingTop="@dimen/space_16"
+        android:paddingRight="@dimen/padding_triple"
+        android:paddingBottom="@dimen/space_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_triple"
+        android:paddingVertical="@dimen/space_16"/>
+    <org.xplatform.uikit.components.separator.DsSeparator
+        android:layout_gravity="bottom"
+        android:id="@+id/sellSeparator"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_16"
+        android:layout_marginHorizontal="@dimen/space_16"
+        style="@style/Widget.DSSeparator.Separator60"/>
+</FrameLayout>

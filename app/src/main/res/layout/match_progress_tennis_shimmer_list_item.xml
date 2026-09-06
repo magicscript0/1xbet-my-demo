@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:background="@drawable/rounded_background_16"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shimmer_size_46"
+        android:layout_marginLeft="@dimen/space_24"
+        android:layout_marginTop="@dimen/space_12"
+        android:layout_marginRight="@dimen/space_24"
+        android:layout_marginBottom="@dimen/space_12"
+        android:backgroundTint="?attr/uikitBackgroundGroup"
+        android:layout_marginHorizontal="@dimen/space_24"
+        android:layout_marginVertical="@dimen/space_12"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:inset="@dimen/space_12">
+    <shape android:shape="oval"/>
+</inset>

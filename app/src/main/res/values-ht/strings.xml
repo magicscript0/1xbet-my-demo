@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites_widget_description">Aksè rapid nan tout match prefere w yo</string>
+    <string name="popular_live_widget_description">Popilè evènman an dirèk</string>
+    <string name="widget_fast_access">Aksè rapid</string>
+    <string name="widget_fast_access_description">Aksè rapid nan fonksyonalite prensipal yo.</string>
+    <string name="widget_favorite">Prefere yo</string>
+    <string name="widget_popular_line">Popilè anvan-match</string>
+    <string name="widget_popular_line_description">Popilè evènman anvan-match yo</string>
+    <string name="widget_popular_live">Popilè An dirèk</string>
+</resources>

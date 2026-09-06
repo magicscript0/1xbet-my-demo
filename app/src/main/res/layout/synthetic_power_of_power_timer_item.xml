@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.cyber.game.universal.impl.presentation.powerofpower.timer.PowerOfPowerTimerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vTimer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_32"
+    android:layout_marginTop="@dimen/space_4"/>

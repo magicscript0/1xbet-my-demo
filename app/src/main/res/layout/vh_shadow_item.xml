@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+    <org.xplatform.uikit.components.header.DsHeader
+        android:id="@+id/group_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        app:headerType="small"
+        app:horizontalMargin="@dimen/extra_large_horizontal_margin_dynamic"/>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@+id/leftShadowView"
+        android:background="@drawable/solid_shadow"
+        android:layout_width="@dimen/space_12"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

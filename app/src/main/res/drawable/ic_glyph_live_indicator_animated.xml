@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_glyph_live_indicator">
+    <target
+        android:name="first_wave"
+        android:animation="@drawable/_ic_glyph_live_indicator_animated__0_res_0x7f08010f"/>
+    <target
+        android:name="second_wave"
+        android:animation="@drawable/_ic_glyph_live_indicator_animated__1_res_0x7f080110"/>
+</animated-vector>

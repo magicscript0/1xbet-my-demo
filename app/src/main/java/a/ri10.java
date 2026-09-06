@@ -1,0 +1,10 @@
+package a;
+
+import android.widget.PopupWindow;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class ri10 {
+    public static void a(PopupWindow popupWindow, boolean z) {
+        popupWindow.setTouchModal(z);
+    }
+}

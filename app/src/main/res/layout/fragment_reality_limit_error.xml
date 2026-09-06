@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/uikitBackgroundContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/ivConfirmDepositLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginTop="@dimen/space_96"
+        android:layout_marginRight="@dimen/space_16"
+        android:scaleType="fitCenter"
+        android:layout_marginHorizontal="@dimen/space_16"
+        app:srcCompat="@drawable/data_retrieval_error"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceHeadline5New"
+        android:textStyle="bold"
+        android:textColor="?attr/uikitTextPrimary"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginTop="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_16"
+        android:layout_marginBottom="@dimen/space_16"
+        android:text="@string/data_retrieval_error"
+        android:layout_marginHorizontal="@dimen/space_16"/>
+</LinearLayout>

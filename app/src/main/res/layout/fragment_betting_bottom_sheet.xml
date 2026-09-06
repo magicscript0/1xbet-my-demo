@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/shadow"
+        android:background="@drawable/bottomsheet_shadow_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cyber_bottomsheet_shadow_height"
+        android:layout_marginTop="@dimen/space_8"
+        app:layout_anchor="@+id/bottomSheet"/>
+    <FrameLayout
+        android:id="@+id/bottomSheet"
+        android:background="?attr/uikitBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="org.xplatform.cyber.game.core.betting.presentation.bottomsheet.BettingBottomSheetBehavior"/>
+    <View
+        android:id="@+id/draggerView"
+        android:background="@drawable/bg_bottom_sheet_top_view"
+        android:layout_width="@dimen/icon_size_40"
+        android:layout_height="@dimen/dragger_height"
+        android:translationY="@dimen/space_6"
+        app:layout_anchor="@+id/bottomSheet"
+        app:layout_anchorGravity="top|center_horizontal"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

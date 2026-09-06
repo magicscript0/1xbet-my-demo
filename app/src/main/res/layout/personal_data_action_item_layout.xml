@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.cells.DsSettingsCell
+        android:id="@+id/scItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+            android:id="@+id/cmtTitle"
+            style="@style/Widget.DSCell.Middle.Title.L"/>
+        <org.xplatform.uikit.components.cells.right.DsCellRightMediumLabel
+            android:textColor="?attr/uikitPrimary"
+            android:id="@+id/crlAction"
+            android:visibility="gone"
+            style="@style/Widget.DSCell.Right.Button.Label"/>
+        <org.xplatform.uikit.components.separator.DsSeparator style="@style/Widget.DSSeparator.Cell"/>
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+</FrameLayout>

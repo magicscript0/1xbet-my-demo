@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_focused="false"
+        android:color="?attr/uikitStaticWhite20"
+        app:state_error="false"/>
+    <item
+        android:color="?attr/uikitStaticRed"
+        app:state_error="true"/>
+    <item android:color="?attr/uikitStaticWhite"/>
+</selector>

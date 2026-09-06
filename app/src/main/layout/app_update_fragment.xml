@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="?attr/uikitTheme">
+
+    <org.xplatform.app_update.impl.presentation.update_screen.views.AppUpdateScreenLayout
+        android:id="@+id/screenContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/flLoader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/static_overlay_background_40"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <org.xplatform.uikit.components.loader.DsLoader
+            android:id="@+id/loader"
+            style="@style/Widget.DSLoader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+    </FrameLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.cyber.section.impl.calendar.presentation.content.calendarperiod.CyberCalendarPeriodEventItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/space_8"
+    android:paddingRight="@dimen/space_8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:paddingHorizontal="@dimen/space_8">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/ivEventImage"
+        android:layout_width="@dimen/size_24"
+        android:layout_height="match_parent"/>
+    <org.xplatform.cyber.section.impl.calendar.presentation.container.CalendarEventTextView
+        android:textColor="?attr/uikitSecondary"
+        android:ellipsize="end"
+        android:layout_gravity="center"
+        android:id="@+id/tvEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textDirection="locale"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/space_6"
+        app:event_default_color="?attr/uikitSecondary"
+        app:event_font="@font/roboto_medium"/>
+</org.xplatform.cyber.section.impl.calendar.presentation.content.calendarperiod.CyberCalendarPeriodEventItemView>

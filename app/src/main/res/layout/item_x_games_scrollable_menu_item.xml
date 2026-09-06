@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background_16_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/size_200">
+    <org.xplatform.uikit.components.cells.DsMenuCell
+        android:id="@+id/cell"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_64">
+        <org.xplatform.uikit.components.cells.left.DsCellLeftIcon
+            android:id="@+id/icon"
+            android:background="@drawable/circle_background"
+            android:layout_width="@dimen/size_40"
+            android:layout_height="@dimen/size_40"
+            android:backgroundTint="?attr/uikitBackground"
+            style="@style/Widget.DSCell.Left.Icon.Back"/>
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+            android:id="@+id/title"
+            style="@style/Widget.DSCell.Middle.Title.S"/>
+        <org.xplatform.uikit.components.cells.right.DsCellRightButton
+            android:id="@+id/moreButton"
+            app:dsButtonLabel="@string/all"
+            style="@style/Widget.DSCell.Right.Button.Label"/>
+    </org.xplatform.uikit.components.cells.DsMenuCell>
+    <org.xplatform.uikit_web_games.game_collection.WebGamesGameCollection
+        android:orientation="horizontal"
+        android:id="@+id/gameCollection"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_128"
+        style="@style/Widget.GameCollection.SquareL"/>
+</LinearLayout>

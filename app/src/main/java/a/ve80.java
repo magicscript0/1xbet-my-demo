@@ -1,0 +1,10 @@
+package a;
+
+import org.xplatform.uikit.compose.color.ThemeColors;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class ve80 extends ThemeColors {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final ve80 f34629a = new ve80(f8e0.m(4293018624L), f8e0.m(3437380608L), f8e0.m(2581742592L), f8e0.k(870466560), f8e0.k(451036160), f8e0.k(14828544), f8e0.m(4293619021L), f8e0.m(4294967295L), f8e0.m(3439329279L), f8e0.m(4284356352L), f8e0.m(4286463283L), f8e0.m(4293385433L), f8e0.m(4294967295L), f8e0.m(3439329279L), f8e0.m(4293411908L), f8e0.m(4294764776L), f8e0.m(4294898932L), f8e0.m(4286218374L), f8e0.m(3430580358L), f8e0.m(2574942342L), f8e0.k(1719304326), f8e0.k(863666310), f8e0.k(444235910), f8e0.k(8028294), f8e0.m(4281348918L), f8e0.m(4293980400L), f8e0.k(15790320), f8e0.m(4294967295L), f8e0.k(16777215), f8e0.m(4292598747L), f8e0.m(4294572537L), f8e0.m(4284506982L), f8e0.m(2582500553L), f8e0.m(4294041045L), f8e0.m(4294504170L), f8e0.m(4293018624L), f8e0.m(2580993750L), f8e0.m(4294967295L), f8e0.m(4292993505L), f8e0.m(4292993505L), f8e0.k(1306649057), f8e0.m(2581717473L), f8e0.m(4289217571L), f8e0.m(4286063882L), f8e0.m(4289874987L), f8e0.k(654311423), f8e0.k(436207616), f8e0.k(436207616), f8e0.k(687865856), f8e0.m(4278190080L), null);
+}

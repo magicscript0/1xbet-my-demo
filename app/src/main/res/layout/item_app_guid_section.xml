@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.cells.DsSettingsCell
+        android:id="@+id/scLetterCell"
+        android:paddingTop="@dimen/space_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/space_16">
+        <org.xplatform.uikit.components.text_field.DsTextField
+            android:id="@+id/tfAppGuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+    <org.xplatform.uikit.components.cells.DsSettingsCell
+        android:orientation="horizontal"
+        android:id="@+id/scToggleCell"
+        android:paddingBottom="@dimen/space_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tfLetters">
+        <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+            android:id="@+id/cmTitle"
+            app:title="@string/fake_app_guid"
+            style="@style/Widget.DSCell.Middle.Title.L"/>
+        <org.xplatform.uikit.components.cells.right.DsCellRightSwitch
+            android:id="@+id/crSwitch"
+            style="@style/Widget.DSCell.Right.Switch"/>
+    </org.xplatform.uikit.components.cells.DsSettingsCell>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="center"
+        android:id="@+id/mcv_container"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/icon_size_32"
+        android:layout_margin="@dimen/space_4"
+        app:cardCornerRadius="@dimen/corner_radius_16"
+        app:cardElevation="@dimen/elevation_2"
+        style="@style/Widget.AppTheme.CardView.New">
+        <TextView
+            android:textAppearance="?attr/textAppearanceSubtitle2New"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:maxLines="2"
+            android:lineSpacingMultiplier="0.82"
+            android:layout_marginHorizontal="@dimen/space_16"/>
+    </com.google.android.material.card.MaterialCardView>
+    <ImageView
+        android:layout_gravity="end|top"
+        android:id="@+id/badge"
+        android:background="@drawable/circle"
+        android:padding="@dimen/space_2"
+        android:visibility="gone"
+        android:layout_width="@dimen/size_12"
+        android:layout_height="@dimen/size_12"
+        android:layout_margin="@dimen/space_4"
+        android:elevation="@dimen/elevation_2"
+        android:backgroundTint="?attr/uikitBackground"
+        android:outlineProvider="none"
+        app:srcCompat="@drawable/circle"
+        app:tint="@color/static_green"/>
+</FrameLayout>

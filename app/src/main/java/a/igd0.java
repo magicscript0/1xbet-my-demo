@@ -1,0 +1,18 @@
+package a;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class igd0 extends hgd0 implements ggd0 {
+    public String n;
+    public afd0 o;
+    public fgd0 p;
+
+    @Override // a.ggd0
+    public final fgd0 c() {
+        return this.p;
+    }
+
+    @Override // a.wfd0
+    public final String n() {
+        return "textPath";
+    }
+}

@@ -1,0 +1,23 @@
+package a;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class g53 extends eko {
+    public static final dko b = new dko(2, 0, 2);
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final String f9954a;
+
+    public g53(String str) {
+        this.f9954a = str;
+    }
+
+    @Override // a.eko
+    public final dko a() {
+        return b;
+    }
+
+    @Override // a.eko
+    public final Object b() {
+        return this.f9954a;
+    }
+}

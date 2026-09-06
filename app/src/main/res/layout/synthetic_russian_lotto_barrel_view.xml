@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/TextAppearance.Caption.Bold.Caps.M"
+    android:textColor="@color/static_black"
+    android:gravity="center"
+    android:id="@+id/tvBarrelNum"
+    android:background="@drawable/ic_russian_lotto_barrel"
+    android:layout_width="@dimen/size_22"
+    android:layout_height="@dimen/size_22"/>

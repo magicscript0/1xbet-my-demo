@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="?attr/uikitBackgroundContent"/>
+            <corners android:radius="@dimen/radius_16"/>
+            <stroke
+                android:width="@dimen/size_1"
+                android:color="?attr/uikitPrimary"/>
+        </shape>
+    </item>
+    <item android:state_selected="false">
+        <shape>
+            <solid android:color="?attr/uikitBackgroundContent"/>
+            <corners android:radius="@dimen/radius_16"/>
+        </shape>
+    </item>
+</selector>

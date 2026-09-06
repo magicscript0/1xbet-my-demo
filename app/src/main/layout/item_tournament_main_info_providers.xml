@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_aggregator.aggregatorprovidercardcollection.AggregatorProviderCardCollection
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vAggregatorProviderCardCollection"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic"
+    android:clipToPadding="false"
+    tools:listitem="@layout/vh_aggregator_game_item" />

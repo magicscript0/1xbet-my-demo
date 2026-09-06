@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/text_20"
+    android:textColor="@color/static_white"
+    android:gravity="center"
+    android:id="@+id/countTv"
+    android:background="@drawable/background_item_bet_game_count"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/space_40"
+    android:minWidth="56dp"
+    android:fontFamily="sans-serif-medium"/>

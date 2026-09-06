@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="18dp"
+    android:width="18dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+    <group>
+        <clip-path android:pathData="M0,0h18v18H0z"/>
+        <path
+            android:fillColor="?attr/uikitWidgetIcon"
+            android:pathData="M9,4.5v2.25l3,-3 -3,-3L9,3C5.685,3 3,5.685 3,9c0,1.178 0.345,2.273 0.93,3.195L5.025,11.1A4.403,4.403 0,0 1,4.5 9c0,-2.482 2.018,-4.5 4.5,-4.5zM14.07,5.805L12.975,6.9c0.33,0.63 0.525,1.342 0.525,2.1 0,2.482 -2.018,4.5 -4.5,4.5v-2.25l-3,3 3,3L9,15c3.315,0 6,-2.685 6,-6a5.948,5.948 0,0 0,-0.93 -3.195z"/>
+    </group>
+</vector>

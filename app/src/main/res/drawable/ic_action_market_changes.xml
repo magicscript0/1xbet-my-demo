@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="?attr/uikitSecondary"
+        android:pathData="M3.373,17.258l5,-8.66l1.299,0.75l-5,8.66z"/>
+    <path
+        android:fillColor="?attr/uikitSecondary"
+        android:pathData="M8.031,8.689l8.66,5.001l-0.75,1.3l-8.66,-5.001z"/>
+    <path
+        android:fillColor="?attr/uikitSecondary"
+        android:pathData="M20.602,6.421l-5,8.66l-1.301,-0.751l5,-8.66z"/>
+    <path
+        android:fillColor="?attr/uikitSecondary"
+        android:pathData="M19.627,6.589m-2.165,-1.25a2.5,2.5 74.535,1 1,4.33 2.5a2.5,2.5 74.535,1 1,-4.33 -2.5"/>
+    <path
+        android:fillColor="?attr/uikitSecondary"
+        android:pathData="M15.464,14m-2.165,-1.25a2.5,2.5 47.478,1 1,4.33 2.5a2.5,2.5 47.478,1 1,-4.33 -2.5"/>
+    <path
+        android:fillColor="?attr/uikitSecondary"
+        android:pathData="M8.535,10m-2.165,-1.25a2.5,2.5 103.037,1 1,4.33 2.5a2.5,2.5 103.037,1 1,-4.33 -2.5"/>
+    <path
+        android:fillColor="?attr/uikitSecondary"
+        android:pathData="M4.285,17.361m-2.165,-1.25a2.5,2.5 126.182,1 1,4.33 2.5a2.5,2.5 126.182,1 1,-4.33 -2.5"/>
+</vector>

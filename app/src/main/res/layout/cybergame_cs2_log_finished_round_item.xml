@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/space_4"
+    android:paddingRight="@dimen/space_4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_4"
+    android:paddingHorizontal="@dimen/space_4">
+    <TextView
+        android:textAppearance="?attr/textAppearanceOverlineBold"
+        android:textSize="@dimen/text_10"
+        android:textColor="@color/static_white"
+        android:ellipsize="end"
+        android:id="@+id/tvGameLog"
+        android:paddingTop="@dimen/space_6"
+        android:paddingBottom="@dimen/space_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:maxLines="1"
+        android:paddingStart="@dimen/space_4"
+        android:paddingVertical="@dimen/space_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceOverlineBold"
+        android:textSize="@dimen/text_10"
+        android:textColor="@color/static_white"
+        android:id="@+id/tvWinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvGameLog"
+        app:layout_constraintStart_toEndOf="@+id/tvGameLog"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

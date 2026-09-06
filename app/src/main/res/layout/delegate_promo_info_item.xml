@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.cells.DsSettingsCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/uikitBackgroundContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.cells.middle.DsCellMiddleTitle
+        android:id="@+id/middleTitle"
+        style="@style/Widget.DSCell.Middle.Subtitle.Title.L"/>
+    <org.xplatform.uikit.components.separator.DsSeparator
+        android:id="@+id/separator"
+        style="@style/Widget.DSSeparator.Cell"/>
+</org.xplatform.uikit.components.cells.DsSettingsCell>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group>
+        <clip-path android:pathData="M-0.112,-0.112h24v24h-24z"/>
+        <path
+            android:fillColor="@drawable/_ic_white_dice_one__0_res_0x7f080171"
+            android:pathData="M21.663,23.888H2.113C0.885,23.888 -0.112,22.89 -0.112,21.663V2.112C-0.112,0.885 0.885,-0.112 2.113,-0.112H21.663C22.89,-0.112 23.888,0.885 23.888,2.112V21.663C23.888,22.89 22.89,23.888 21.663,23.888Z"/>
+        <path
+            android:fillColor="@drawable/_ic_white_dice_one__1_res_0x7f080172"
+            android:pathData="M12.022,22.865C18.159,22.865 23.133,17.89 23.133,11.753C23.133,5.617 18.159,0.642 12.022,0.642C5.885,0.642 0.911,5.617 0.911,11.753C0.911,17.89 5.885,22.865 12.022,22.865Z"/>
+        <path
+            android:fillColor="#010101"
+            android:pathData="M13.433,13.425C14.282,12.577 14.282,11.2 13.433,10.351C12.584,9.503 11.208,9.503 10.359,10.351C9.51,11.2 9.51,12.577 10.359,13.425C11.208,14.274 12.584,14.274 13.433,13.425Z"/>
+        <path
+            android:fillColor="@drawable/_ic_white_dice_one__2_res_0x7f080173"
+            android:pathData="M13.736,11.306C14.119,11.689 13.889,12.559 13.224,13.224C12.546,13.901 11.69,14.132 11.306,13.735C10.922,13.352 11.153,12.482 11.818,11.817C12.495,11.139 13.352,10.909 13.736,11.306Z"/>
+    </group>
+</vector>

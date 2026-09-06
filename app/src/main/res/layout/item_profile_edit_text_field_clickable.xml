@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.text_field.DsTextField xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textField"
+    android:focusable="false"
+    android:clickable="true"
+    android:longClickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:cursorVisible="false"
+    android:inputType="textNoSuggestions"
+    style="@style/Widget.DSTextField.Basic.Chevron"/>

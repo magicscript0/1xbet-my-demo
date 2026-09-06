@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:layout_width="@dimen/size_56"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/space_6"
+    android:layout_marginRight="@dimen/space_6"
+    android:layout_marginHorizontal="@dimen/space_6">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_gravity="center"
+            android:id="@+id/imageViewGame"
+            android:layout_width="@dimen/icon_size_56"
+            android:layout_height="@dimen/icon_size_56"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.AppTheme.Circle"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivTechnicalWorks"
+            android:background="@drawable/ic_game_technical_works"
+            android:visibility="gone"
+            android:layout_width="@dimen/icon_size_56"
+            android:layout_height="@dimen/icon_size_56"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.AppTheme.Circle"/>
+    </FrameLayout>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle2MediumNew"
+        android:textSize="@dimen/text_12"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tvGameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:lines="2"/>
+</LinearLayout>

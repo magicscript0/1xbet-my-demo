@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/uikitBackgroundContent">
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:id="@+id/collapsingToolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="?attr/uikitBackground"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways|snap">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/uikitBackgroundContent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_16">
+
+            <TextView
+                android:id="@+id/tvCollapsingTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginBottom="@dimen/space_2"
+                android:paddingStart="@dimen/space_16"
+                android:paddingEnd="@dimen/space_16"
+                android:text="@string/favorites_name"
+                android:textAppearance="?attr/textAppearanceHeadline5BoldNew" />
+
+            <TextView
+                android:id="@+id/tvCollapsingSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/space_16"
+                android:paddingEnd="@dimen/space_16"
+                android:text="@string/casino_favorites_description"
+                android:textAppearance="?attr/textAppearanceCaptionNew" />
+
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    <org.xplatform.ui_core.viewcomponents.tabs.TabLayoutRectangle
+        android:id="@+id/tvCollapsingTabLayout"
+        style="@style/Widget.AppTheme.TabLayout.New"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_4"
+        android:layout_marginTop="@dimen/space_8"
+        android:background="?attr/uikitBackgroundContent"
+        android:paddingBottom="@dimen/space_8"
+        app:tabGravity="center" />
+
+    <View
+        android:id="@+id/viewShadow"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shadow_reverse" />
+</com.google.android.material.appbar.AppBarLayout>
+

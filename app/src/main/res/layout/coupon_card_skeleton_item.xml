@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/space_8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit_sport.sport_coupon_card.coupon_card_style_views.SportCouponCardCoefWithBg
+        android:theme="?attr/uikitTheme"
+        android:id="@+id/couponCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.SportCouponCard.Skeleton"/>
+</FrameLayout>

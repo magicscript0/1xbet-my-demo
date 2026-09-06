@@ -1,0 +1,20 @@
+package a;
+
+import android.view.View;
+import androidx.compose.ui.platform.ComposeView;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class sp20 extends ymp implements Function1 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final sp20 f30224a = new sp20(1, n8p.class, "bind", "bind(Landroid/view/View;)Lorg/xplatform/aggregator/impl/databinding/FragmentNewGamesFolderBinding;", 0);
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        View view = (View) obj;
+        view.getClass();
+        ComposeView composeView = (ComposeView) view;
+        return new n8p(composeView, composeView);
+    }
+}

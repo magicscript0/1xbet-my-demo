@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:background="?attr/uikitBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/shimmerItem1"
+        layout="@layout/item_promo_shop_category_shimmer"/>
+    <include
+        android:id="@+id/shimmerItem2"
+        layout="@layout/item_promo_shop_category_shimmer"/>
+    <include
+        android:id="@+id/shimmerItem3"
+        layout="@layout/item_promo_shop_category_shimmer"/>
+</LinearLayout>

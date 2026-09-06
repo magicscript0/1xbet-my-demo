@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit.components.views.OptimizedScrollRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/recyclerView"
+    android:tag="cyberGamesItemTopGamesListRv"
+    android:paddingLeft="@dimen/medium_horizontal_margin_dynamic"
+    android:paddingRight="@dimen/medium_horizontal_margin_dynamic"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:nestedScrollingEnabled="false"
+    android:paddingHorizontal="@dimen/medium_horizontal_margin_dynamic"/>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <org.xplatform.uikit.components.buttons.DsButton
+        android:id="@+id/btnDeposit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dsButtonIconRes="@drawable/ic_glyph_plus_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/DSButton.Large.Commerce.IconCircle"/>
+    <org.xplatform.uikit.components.account_info.DsAccountInfo
+        android:id="@+id/accountInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8"
+        app:buttonStyle="@style/DSButton.Medium.Tertiary.IconRight"
+        app:buttonText="@string/change_balance_account"
+        app:dsButtonIconRes="@drawable/ic_glyph_chevron_right_small"
+        app:label="@string/demo_dialog_balance_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnDeposit"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.DSAccountInfo.Small.WithButton"/>
+</merge>

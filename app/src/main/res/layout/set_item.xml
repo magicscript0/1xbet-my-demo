@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <CheckedTextView
+        android:theme="@style/ThemeOverlay.AppTheme.RadioButton.New"
+        android:textAppearance="?attr/textAppearanceSubtitle1New"
+        android:textColor="@drawable/radio_button_text_color"
+        android:gravity="center_vertical"
+        android:id="@+id/limitValue"
+        android:paddingLeft="@dimen/space_16"
+        android:paddingRight="@dimen/space_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:checkMark="?android:attr/listChoiceIndicatorSingle"
+        android:minHeight="@dimen/menu_item_height"
+        android:text="@string/coef_change_confirm_request"
+        android:paddingHorizontal="@dimen/space_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

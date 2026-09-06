@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <org.xplatform.cyber.section.impl.calendar.presentation.content.daysofweekview.CyberCalendarDaysOfWeekView
+        android:id="@+id/daysOfWeekView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_12"
+        android:layoutDirection="locale"
+        app:event_current_color="?attr/uikitPrimary"
+        app:event_default_color="?attr/uikitSecondary"
+        app:event_font="@font/roboto_medium"
+        app:event_text_size="@dimen/text_10"
+        app:event_un_intersection_color="?attr/uikitSecondary"/>
+    <org.xplatform.cyber.section.impl.calendar.presentation.content.daysofweekview.CyberCalendarDaysOfWeekView
+        android:id="@+id/numberOfWeekView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_28"
+        android:layout_marginTop="@dimen/space_2"
+        android:layout_marginBottom="@dimen/space_2"
+        android:layoutDirection="locale"
+        app:event_current_color="?attr/uikitBackgroundContent"
+        app:event_default_color="?attr/uikitSecondary"
+        app:event_font="@font/roboto_medium"
+        app:event_text_size="@dimen/text_16"
+        app:event_un_intersection_color="?attr/uikitSecondary"/>
+</merge>

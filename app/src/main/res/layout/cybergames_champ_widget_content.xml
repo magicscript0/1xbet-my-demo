@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <FrameLayout
+        android:background="?attr/uikitBackgroundContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elevation_2">
+        <org.xplatform.uikit.components.segmented_control.DsSegmentedGroup
+            android:theme="?attr/uikitTheme"
+            android:id="@+id/segmentedGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginTop="@dimen/space_12"
+            android:layout_marginRight="@dimen/space_16"
+            android:layout_marginBottom="@dimen/space_12"
+            android:layout_marginHorizontal="@dimen/space_16"
+            android:layout_marginVertical="@dimen/space_12"/>
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

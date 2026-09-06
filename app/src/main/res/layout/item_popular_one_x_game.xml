@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/size_96"
+        android:layout_height="@dimen/size_96"
+        app:cardBackgroundColor="?attr/uikitBackgroundContent"
+        app:cardCornerRadius="@dimen/corner_radius_24"
+        app:strokeWidth="@dimen/size_0"
+        style="@style/Widget.AppTheme.CardView.New">
+        <ImageView
+            android:id="@+id/ivGameImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"/>
+        <FrameLayout
+            android:id="@+id/flTechnicalWorks"
+            android:background="?attr/uikitBackgroundLight60"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_technical_works"
+                android:contentDescription="@null"/>
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:textAppearance="?attr/textAppearanceCaptionMediumPrimaryNew"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tvGameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:lines="2"/>
+</LinearLayout>

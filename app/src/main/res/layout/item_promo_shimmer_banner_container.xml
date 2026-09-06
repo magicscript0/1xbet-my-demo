@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_8">
+    <org.xplatform.uikit.components.shimmer.DsShimmerView
+        android:id="@+id/shimmerView"
+        android:layout_width="@dimen/size_128"
+        android:layout_height="@dimen/size_20"
+        android:layout_marginLeft="@dimen/extra_large_horizontal_margin_dynamic"
+        android:layout_marginTop="@dimen/space_10"
+        android:layout_marginRight="@dimen/extra_large_horizontal_margin_dynamic"
+        android:layout_marginBottom="@dimen/space_6"
+        android:radius="@dimen/radius_full"
+        android:layout_marginHorizontal="@dimen/extra_large_horizontal_margin_dynamic"
+        style="@style/Widget.DSShimmer.Primary"/>
+    <org.xplatform.uikit.components.banner_collection.DsBannerCollection
+        android:theme="?attr/uikitTheme"
+        android:id="@+id/bannerCollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:nestedScrollingEnabled="false"/>
+</LinearLayout>

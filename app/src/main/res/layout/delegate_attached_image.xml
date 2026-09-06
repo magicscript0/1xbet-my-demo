@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgPicture"
+        android:background="@android:color/white"
+        android:layout_width="@dimen/size_60"
+        android:layout_height="@dimen/size_60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/AttachedFileImageStyle"/>
+    <ImageView
+        android:id="@+id/imgCancelAttach"
+        android:padding="@dimen/space_4"
+        android:layout_width="@dimen/size_24"
+        android:layout_height="@dimen/size_24"
+        app:layout_constraintEnd_toEndOf="@+id/imgPicture"
+        app:layout_constraintTop_toTopOf="@+id/imgPicture"
+        app:srcCompat="@drawable/ic_cancel_attach_file_16"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

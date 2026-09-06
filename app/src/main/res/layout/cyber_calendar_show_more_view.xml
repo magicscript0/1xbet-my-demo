@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="?attr/uikitTheme"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="?attr/uikitSecondary60"
+        android:id="@+id/tvChampCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Caption.Medium.M"/>
+    <ImageView
+        android:layout_width="@dimen/size_10"
+        android:layout_height="@dimen/size_10"
+        android:src="@drawable/ic_glyph_awards"
+        app:tint="?attr/uikitSecondary60"/>
+</LinearLayout>

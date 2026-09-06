@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height_size"
+        app:navigationIcon="@drawable/ic_back_games"
+        app:navigationIconTint="?attr/uikitSecondary"
+        app:title="@string/responsible_game"
+        style="@style/Widget.AppTheme.Toolbar.New"/>
+    <org.xplatform.uikit.components.lottie.LottieView
+        android:id="@+id/errorView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include
+        android:id="@+id/webProgress"
+        layout="@layout/view_progress_bar"/>
+    <org.xplatform.ui_core.viewcomponents.webview.FixedWebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"/>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.sport_cell.DsSportCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cellChampionshipLargeGroupItem"
+    app:sportCellRoundedBottom="true"
+    app:sportCellRoundedTop="true"
+    app:sportCellSeparatorAvailable="false"
+    style="@style/Widget.SportCell">
+    <org.xplatform.uikit_sport.sport_cell.left.SportCellLeftView
+        android:id="@+id/cellLeft"
+        style="@style/Widget.SportCell.SportCellLeft.BackgroundIcon"/>
+    <org.xplatform.uikit_sport.sport_cell.middle.SportCellMiddleView
+        android:id="@+id/cellMiddle"
+        style="@style/Widget.SportCell.SportCellMiddle.Dynamic.L"/>
+    <org.xplatform.uikit_sport.sport_cell.right.SportCellRightView
+        android:id="@+id/cellRight"
+        app:sportCellRightStyleType="accordion"
+        style="@style/Widget.SportCell.SportFeedCellRight.Large"/>
+</org.xplatform.uikit_sport.sport_cell.DsSportCell>

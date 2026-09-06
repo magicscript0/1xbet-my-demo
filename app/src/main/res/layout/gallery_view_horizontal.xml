@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:background="@color/static_black_60"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageContainer"
+        android:background="@color/static_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginTop="@dimen/space_64"
+        android:layout_marginRight="@dimen/space_16"
+        android:layout_marginBottom="@dimen/space_6"
+        android:layout_marginHorizontal="@dimen/space_16"
+        app:cardCornerRadius="@dimen/corner_radius_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/pickedImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/collapseImageView"
+        android:background="@drawable/circle_background"
+        android:layout_width="@dimen/size_32"
+        android:layout_height="@dimen/size_32"
+        android:layout_margin="@dimen/space_8"
+        android:scaleType="center"
+        android:elevation="@dimen/space_8"
+        android:backgroundTint="@color/static_black_40"
+        app:layout_constraintEnd_toEndOf="@+id/imageContainer"
+        app:layout_constraintTop_toTopOf="@+id/imageContainer"
+        app:srcCompat="@drawable/ic_collapse_all_white"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

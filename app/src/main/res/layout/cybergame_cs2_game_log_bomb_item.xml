@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_4">
+    <TextView
+        android:textAppearance="?attr/textAppearanceOverlineBold"
+        android:textSize="@dimen/text_10"
+        android:ellipsize="end"
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_6"
+        android:layout_marginBottom="@dimen/space_6"
+        android:maxLines="1"
+        android:maxEms="8"
+        android:layout_marginStart="@dimen/space_8"
+        android:layout_marginVertical="@dimen/space_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/bombImage"
+        android:background="@drawable/cs2_log_bg"
+        android:layout_width="@dimen/size_28"
+        android:layout_height="@dimen/size_24"
+        android:layout_marginStart="@dimen/space_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bombText"
+        app:layout_constraintStart_toEndOf="@+id/playerName"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceOverlineBold"
+        android:textSize="@dimen/text_10"
+        android:ellipsize="end"
+        android:id="@+id/bombText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_marginStart="@dimen/space_6"
+        android:layout_marginEnd="@dimen/space_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_background_16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?attr/uikitBackgroundContent">
+    <org.xplatform.uikit_sport.sport_cell.DsSportCell
+        android:id="@+id/venueLocationTitleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/blDescription"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:sportCellBackgroundTint="@null"
+        app:sportCellSeparatorAvailable="false"
+        style="@style/Widget.SportCell">
+        <org.xplatform.uikit_sport.sport_cell.left.SportCellLeftView
+            android:id="@+id/cellLeft"
+            app:sportCellLeftIcon="@drawable/ic_glyph_map_pin"
+            app:sportCellLeftIconTint="?attr/uikitSecondary"
+            style="@style/Widget.SportCell.SportCellLeft.Icon"/>
+        <org.xplatform.uikit_sport.sport_cell.middle.SportCellMiddleView
+            android:id="@+id/cellMiddle"
+            style="@style/Widget.SportCell.SportCellMiddle.Static.M"/>
+    </org.xplatform.uikit_sport.sport_cell.DsSportCell>
+    <org.xplatform.uikit.components.password_requirement.DsBulletList
+        android:id="@+id/blDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:layout_marginBottom="@dimen/space_12"
+        android:layout_marginHorizontal="@dimen/space_8"
+        app:bulletListColor="?attr/uikitSecondary"
+        app:bulletListTextStyle="@style/TextStyle.Text.Regular"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/venueLocationTitleContainer"/>
+    <View
+        android:id="@+id/vClickableArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

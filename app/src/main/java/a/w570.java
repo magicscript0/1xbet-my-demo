@@ -1,0 +1,8 @@
+package a;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class w570 {
+    public final xdw serializer() {
+        return t570.f30968a;
+    }
+}

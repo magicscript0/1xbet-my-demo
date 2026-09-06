@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <org.xplatform.game_broadcasting.impl.presentation.zone.GameZoneView
+        android:id="@+id/gameZoneView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:textAppearance="?attr/textAppearanceSubtitle2New"
+        android:textColor="@color/static_white"
+        android:gravity="center"
+        android:id="@+id/tvErrorMessage"
+        android:background="@color/static_black_40"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_data"/>
+</FrameLayout>

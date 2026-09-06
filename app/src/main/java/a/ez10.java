@@ -1,0 +1,10 @@
+package a;
+
+import org.xplatform.uikit.compose.color.ThemeColors;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class ez10 extends ThemeColors {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final ez10 f8072a = new ez10(f8e0.m(4282427272L), f8e0.m(3426789256L), f8e0.m(2571151240L), f8e0.k(859875208), f8e0.k(440444808), f8e0.k(4237192), f8e0.m(4284922016L), f8e0.m(4294967295L), f8e0.m(3439329279L), f8e0.m(4282427272L), f8e0.m(4284922016L), f8e0.m(4292866283L), f8e0.m(4294967295L), f8e0.m(3439329279L), f8e0.m(4293411908L), f8e0.m(4294764776L), f8e0.m(4294898932L), f8e0.m(4285762454L), f8e0.m(3430124438L), f8e0.m(2574486422L), f8e0.k(1718848406), f8e0.k(863210390), f8e0.k(443779990), f8e0.k(7572374), f8e0.m(4280233011L), f8e0.m(4293652468L), f8e0.k(15462388), f8e0.m(4294967295L), f8e0.k(16777215), f8e0.m(4292272614L), f8e0.m(4294572793L), f8e0.m(4284512644L), f8e0.m(2580143831L), f8e0.m(4292866283L), f8e0.m(4293916661L), f8e0.m(4282427272L), f8e0.m(2580864487L), f8e0.m(4294967295L), f8e0.m(4292206561L), f8e0.m(4292206561L), f8e0.k(1305862113), f8e0.m(2580930529L), f8e0.m(4280914302L), f8e0.m(4281101155L), f8e0.m(4280853660L), f8e0.k(640566590), f8e0.k(436207616), f8e0.k(436207616), f8e0.k(687865856), f8e0.m(4278190080L), null);
+}

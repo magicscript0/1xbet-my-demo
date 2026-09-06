@@ -1,0 +1,27 @@
+package a;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class kco implements nco {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final int f16783a;
+
+    public kco(int i) {
+        this.f16783a = i;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof kco) && this.f16783a == ((kco) obj).f16783a;
+    }
+
+    public final int hashCode() {
+        return Integer.hashCode(this.f16783a);
+    }
+
+    public final String toString() {
+        return ue30.g(this.f16783a, "OnSeasonSelected(season=", ")");
+    }
+}

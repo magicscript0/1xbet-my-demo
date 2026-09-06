@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.sport_collection.SportsCollectionMain xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sportCollection"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_8"
+    android:layout_marginBottom="@dimen/space_4"
+    app:buttonAllTitle="@string/filter_all"
+    app:buttonFilterTitle="@string/bet_filter"
+    app:headerTitle="@string/kind_sports"
+    app:iconAllResId="@drawable/ic_glyph_all"
+    app:iconFilterResId="@drawable/ic_glyph_filter_line_inactive"
+    style="@style/Widget.SportCollection.NoSpecificScroll"/>

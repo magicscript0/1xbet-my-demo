@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/social_button_default_background"
+    android:paddingLeft="@dimen/space_2"
+    android:paddingTop="@dimen/space_8"
+    android:paddingRight="@dimen/space_2"
+    android:paddingBottom="@dimen/space_8"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_56"
+    android:minWidth="@dimen/size_56"
+    android:paddingHorizontal="@dimen/space_2"
+    android:paddingVertical="@dimen/space_8">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center"
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/size_20"
+        android:layout_height="@dimen/size_20"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/space_4"
+        android:maxLines="1"
+        style="@style/TextStyle.Caption.Medium.M.TextPrimary"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

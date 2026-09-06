@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:background="?attr/uikitBackgroundGroup"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/row_height">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:textDirection="ltr"
+        android:layout_marginHorizontal="@dimen/space_8"
+        style="@style/TextStyle.Caption.Medium.L.TextPrimary"/>
+</FrameLayout>

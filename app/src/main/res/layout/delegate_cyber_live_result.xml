@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.xplatform.uikit_sport.eventcard.container.results.ResultsLiveEventCard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="?attr/uikitTheme"
+    android:padding="@dimen/space_4"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_142"
+    android:stateListAnimator="@animator/lift_on_touch">
+    <org.xplatform.uikit_sport.eventcard.top.EventCardHeader
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit_sport.eventcard.middle.EventCardMiddleCyber
+        android:id="@+id/teams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <org.xplatform.uikit_sport.eventcard.info.EventCardInfoLive
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</org.xplatform.uikit_sport.eventcard.container.results.ResultsLiveEventCard>
