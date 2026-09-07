@@ -35,6 +35,8 @@ Endpoint list implemented:
 - GET  /RestCoreService/v1/Mb/GetCheckBlock        -> BaseDataResponse<{allowedCountry,allowedPartner}> (lqa/iqa)
 - GET  /RestCoreService/v1/Mb/GetUtcLocalTimeDiff  -> {"data": double} (bjy/jlp0)
 - GET  /RestCoreService/v1/mb/GetAllowedCountries  -> BaseDataResponse<[Country]> (tpr/z72)
+- GET  /RestCoreService/v1/Mb/GetMobileMarketingName
+        -> BaseDataResponse<{retailBranding,marketingName}> (zms/j1j)
 - GET  /translate/v1/mobile/GetTranslationsOfKeys  -> BaseDataResponse<{lastUpdate,keys}> (x5j/xho0)
 - GET  /translate/v1/mobile/GetRules               -> BaseDataResponse<[Rule]> (kug0)
 - GET  /ProphylaxisStatus/v2/mobile               -> BaseDataResponse<{state,...}> (ou90/lu90)
@@ -390,6 +392,14 @@ async def demo_check_token() -> JSONResponse:
             {"Auth": {"Guid": "demo-guid-0000", "Token": "demo-check-token"}}
         )
     )
+
+
+@router.get("/RestCoreService/v1/Mb/GetMobileMarketingName")
+async def demo_mobile_marketing_name() -> JSONResponse:
+    """zms -> yt5<j1j> (BaseDataResponse<DeviceNameResponse>); j1j keys from
+    serializer h1j: retailBranding, marketingName (nullable String; consumer
+    sbm.b maps null -> "", f800 persists both only when non-empty)."""
+    return JSONResponse(_data_response({"retailBranding": "", "marketingName": ""}))
 
 
 @router.get("/RestCoreService/v1/mb/GetPhoneNumber")

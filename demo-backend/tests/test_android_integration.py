@@ -213,6 +213,21 @@ def test_count_messages(client: TestClient):
         assert client.get(path).json()["data"] == {"countNew": 0, "countNewPopUp": 0}
 
 
+def test_mobile_marketing_name_contract(client: TestClient):
+    """zms -> yt5<j1j> (BaseDataResponse<DeviceNameResponse>). Keys exactly
+    retailBranding/marketingName (serializer h1j); `data` must be non-null —
+    yt5.a() throws mc4.k(null) otherwise, which is what hung the App Start
+    loading screen when this endpoint fell into the catch-all `{}`."""
+    resp = client.get("/RestCoreService/v1/Mb/GetMobileMarketingName")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert set(body.keys()) == {"error", "data"}
+    assert body["error"] is None
+    assert set(body["data"].keys()) == {"retailBranding", "marketingName"}
+    assert isinstance(body["data"]["retailBranding"], str)
+    assert isinstance(body["data"]["marketingName"], str)
+
+
 def test_payment_requests_serves_cashier_html_for_browser(client: TestClient):
     resp = client.get(
         "/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1",

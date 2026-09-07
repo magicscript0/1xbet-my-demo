@@ -122,7 +122,9 @@ Implemented contract endpoints (Demo data only):
   `/Account/v1/GetPhoneMasks`
 - `GET /RestCoreService/v1/Mb/GetCheckBlock` (always allowed),
   `/RestCoreService/v1/Mb/GetUtcLocalTimeDiff`,
-  `/RestCoreService/v1/mb/GetAllowedCountries`, `/RestCoreService/v1/mb/GetPhoneNumber`
+  `/RestCoreService/v1/mb/GetAllowedCountries`, `/RestCoreService/v1/mb/GetPhoneNumber`,
+  `/RestCoreService/v1/Mb/GetMobileMarketingName` (empty branding → APK falls back
+  to defaults; `data` non-null — the loading screen hangs if it is null)
 - `GET /ProphylaxisStatus/v2/mobile`, `/ProphylaxisStatus/v1/technicalProblems`
   (gate open), `/GeoIpService/v1/GeoIp/GetLocation` (Egypt Demo values)
 - `GET /translate/v1/mobile/GetTranslationsOfKeys`, `/GetRules`
