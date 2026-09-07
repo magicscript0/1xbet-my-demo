@@ -37,6 +37,9 @@ Endpoint list implemented:
 - GET  /RestCoreService/v1/mb/GetAllowedCountries  -> BaseDataResponse<[Country]> (tpr/z72)
 - GET  /RestCoreService/v1/Mb/GetMobileMarketingName
         -> BaseDataResponse<{retailBranding,marketingName}> (zms/j1j)
+- GET  /RestCoreService/v1/mb/getEventsTypeSmall
+        -> BaseDictionaryResponse<EventsTypeSmallResponse> (x5j.e/ku5/lum;
+           envelope has only key `data`: {lastUpdate, items, errors})
 - GET  /translate/v1/mobile/GetTranslationsOfKeys  -> BaseDataResponse<{lastUpdate,keys}> (x5j/xho0)
 - GET  /translate/v1/mobile/GetRules               -> BaseDataResponse<[Rule]> (kug0)
 - GET  /ProphylaxisStatus/v2/mobile               -> BaseDataResponse<{state,...}> (ou90/lu90)
@@ -415,6 +418,36 @@ async def demo_phone_number() -> JSONResponse:
                 "status": 0,
             }
         )
+    )
+
+
+@router.get("/RestCoreService/v1/mb/getEventsTypeSmall")
+async def demo_get_events_type_small() -> JSONResponse:
+    """x5j.e -> ku5<lum> (BaseDictionaryResponse<EventsTypeSmallResponse>).
+
+    Top-level envelope is BaseDictionaryResponse (serializer fu5, model ku5):
+    exactly ONE key `data` — NOT BaseDataResponse, so a top-level `error` key
+    would be unknown to the APK's strict Json (ignoreUnknownKeys=false) and
+    break decoding. `data` must be non-null (ku5.a() throws mc4.k on null),
+    `errors` must be null (non-null -> v0f0), and every item must carry a
+    non-null `type` (the w5j consumer throws mc4.k on null). Deterministic
+    Demo-safe values only.
+    """
+    return JSONResponse(
+        {
+            "data": {
+                "lastUpdate": 1,
+                "items": [
+                    {
+                        "eventsId": [1],
+                        "name": "Demo",
+                        "type": 0,
+                        "specialType": 0,
+                    }
+                ],
+                "errors": None,
+            }
+        }
     )
 
 

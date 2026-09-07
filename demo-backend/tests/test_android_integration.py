@@ -228,6 +228,32 @@ def test_mobile_marketing_name_contract(client: TestClient):
     assert isinstance(body["data"]["marketingName"], str)
 
 
+def test_get_events_type_small_contract(client: TestClient):
+    """x5j.e -> ku5<lum> (BaseDictionaryResponse<EventsTypeSmallResponse>).
+
+    Envelope is BaseDictionaryResponse (serializer fu5): exactly one key
+    `data` — a BaseDataResponse-style `error` key would be an unknown key for
+    the APK's strict Json and must NOT be present. `data` non-null (ku5.a()
+    throws mc4.k on null), `errors` null (non-null -> v0f0), and the item's
+    `type` non-null (w5j consumer throws mc4.k on null). This is the first
+    request of the App Start dictionary sequence (e -> c -> f -> a -> d) and
+    hung the ~50% spinner when it silently fell into the catch-all `{}`."""
+    resp = client.get(
+        "/RestCoreService/v1/mb/getEventsTypeSmall",
+        params={"lastUpdate": 0, "lng": "en"},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert set(body.keys()) == {"data"}, body
+    data = body["data"]
+    assert set(data.keys()) == {"lastUpdate", "items", "errors"}, data
+    assert isinstance(data["lastUpdate"], int)
+    assert data["errors"] is None
+    item = data["items"][0]
+    assert set(item.keys()) == {"eventsId", "name", "type", "specialType"}, item
+    assert item == {"eventsId": [1], "name": "Demo", "type": 0, "specialType": 0}
+
+
 def test_payment_requests_serves_cashier_html_for_browser(client: TestClient):
     resp = client.get(
         "/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1",
