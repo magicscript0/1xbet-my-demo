@@ -3396,6 +3396,10 @@
 .method public final i(La/cad;)Ljava/lang/Object;
     .locals 5
 
+    sget-object v0, La/wtt;->h:Ljava/lang/String;
+
+    return-object v0
+
     .line 1
     instance-of v0, p1, La/xfz;
 
@@ -3629,6 +3633,10 @@
 
 .method public final j(La/cad;)Ljava/lang/Object;
     .locals 17
+
+    sget-object v0, La/wtt;->h:Ljava/lang/String;
+
+    return-object v0
 
     .line 1
     move-object/from16 v0, p0
