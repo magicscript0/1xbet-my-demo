@@ -38,15 +38,18 @@ def create_method(
     cur = conn.execute(
         """
         INSERT INTO payment_methods
-            (method, display_name, display_number, status, sort_order,
-             icon_key, description, version, created_at, updated_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, 1, ?, ?)
+            (method, display_name, display_number, status, category,
+             recommended, sort_order, icon_key, description,
+             version, created_at, updated_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?)
         """,
         (
             payload.method,
             payload.display_name,
             payload.display_number,
             payload.status,
+            payload.category,
+            1 if payload.recommended else 0,
             payload.sort_order,
             payload.icon_key,
             payload.description,
@@ -75,6 +78,8 @@ def update_method(
         "display_name": payload.display_name if payload.display_name is not None else row["display_name"],
         "display_number": payload.display_number if payload.display_number is not None else row["display_number"],
         "status": payload.status if payload.status is not None else row["status"],
+        "category": payload.category if payload.category is not None else row["category"],
+        "recommended": (1 if payload.recommended else 0) if payload.recommended is not None else row["recommended"],
         "sort_order": payload.sort_order if payload.sort_order is not None else row["sort_order"],
         "icon_key": payload.icon_key if payload.icon_key is not None else row["icon_key"],
         "description": payload.description if payload.description is not None else row["description"],
@@ -85,6 +90,8 @@ def update_method(
            SET display_name = :display_name,
                display_number = :display_number,
                status = :status,
+               category = :category,
+               recommended = :recommended,
                sort_order = :sort_order,
                icon_key = :icon_key,
                description = :description,

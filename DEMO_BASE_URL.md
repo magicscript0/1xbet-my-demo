@@ -42,12 +42,18 @@ interceptor/analytics gates.
 ## The demo backend
 
 * Run it: `cd demo-backend && ./run.sh` (binds `0.0.0.0:8000`).
-* Seed DB: created automatically on first run (Vodafone `00000000`,
-  Orange, Etisalat, InstaPay).
+* Seed DB: created automatically on first run (six synthetic methods —
+  Vodafone `00000000`, Orange, Etisalat, InstaPay, Bank Transfer, USDT TRC20),
+  each with a category (`mobile`/`ewallet`/`bank`/`crypto`) and a
+  `recommended` flag driving the Cashier tabs.
 * Admin (change phone numbers live, no APK rebuild):
   `http://localhost:8000/admin` — token from `DEMO_ADMIN_TOKEN`
   (default from `.env.example`).
 * Demo Cashier page: `http://localhost:8000/demo-cashier`.
+  The page shows the same six sections as the original Cashier UI —
+  **Recommended / All systems / Bank transfer / E-wallet / Mobile / Crypto** —
+  as filter tabs (metadata comes from the API; the numbers are always fetched
+  fresh from `GET /api/payment-methods/{method}` when a method is clicked).
 * APK-facing endpoint the WebView opens:
   `GET /PaymentConsultant/office/payment/requests?...` (described in
   `demo-backend/app/routers/demo_android.py`).
@@ -55,6 +61,9 @@ interceptor/analytics gates.
   controlled by the Admin UI (SQLite), e.g. change Vodafone
   `00000000` → `55555555`, save, then refresh/reopen the Cashier — the new
   number appears without rebuilding the APK.
+* DB migration: databases created before the category/recommended columns
+  are upgraded in place on first start (`app/db.py`), and seed metadata is
+  backfilled only once — Admin edits are never overwritten by restarts.
 
 ## Rebuilding after changing DEMO_BASE_URL
 

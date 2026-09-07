@@ -16,6 +16,20 @@ def test_demo_cashier_page_lists_seeds(client):
     assert "payment-methods" in html        # page reads fresh from the Demo API
 
 
+def test_demo_cashier_page_has_required_category_tabs(client):
+    r = client.get("/demo-cashier")
+    assert r.status_code == 200
+    html = r.text
+    for key in ("recommended", "all", "bank", "ewallet", "mobile", "crypto"):
+        assert f'data-filter="{key}"' in html
+    # Each method card carries its category/recommended metadata.
+    assert 'data-category="mobile"' in html
+    assert 'data-category="bank"' in html
+    assert 'data-category="crypto"' in html
+    assert 'data-recommended="1"' in html
+    assert 'data-recommended="0"' in html
+
+
 def test_modal_endpoint_serves_synthetic_number(client):
     r = client.get("/demo-cashier/modal/vodafone?nocache=1")
     assert r.status_code == 200

@@ -69,6 +69,13 @@ seeded automatically at `demo-backend/data/demo_payments.db`.
 | API docs | `http://localhost:8000/docs` |
 | Health | `http://localhost:8000/api/health` |
 
+The Demo Cashier page replicates the original Cashier's six sections as filter
+tabs — **Recommended / All systems / Bank transfer / E-wallet / Mobile /
+Crypto**. Each method carries `category` (`mobile`/`ewallet`/`bank`/`crypto`)
+and `recommended` (bool) metadata; the tab filter is pure client-side and the
+display number is always fetched fresh from `/api/payment-methods/{method}`
+when a method is clicked, so Admin edits appear without any rebuild.
+
 ## API endpoints
 
 Read (open, Demo-only):

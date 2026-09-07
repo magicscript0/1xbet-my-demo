@@ -15,6 +15,7 @@ METHOD_RE = re.compile(r"^[a-z0-9_]+$")
 NUMBER_RE = re.compile(r"^[0-9 +\-]{1,64}$")
 
 Status = Literal["active", "inactive"]
+Category = Literal["mobile", "ewallet", "bank", "crypto"]
 
 
 class PaymentMethodCreate(BaseModel):
@@ -24,6 +25,8 @@ class PaymentMethodCreate(BaseModel):
     display_name: str = Field(min_length=1, max_length=120)
     display_number: str = Field(min_length=1, max_length=64)
     status: Status = "active"
+    category: Category = "mobile"
+    recommended: bool = False
     sort_order: int = Field(default=0, ge=0, le=1_000_000)
     icon_key: Optional[str] = Field(default=None, max_length=64)
     description: Optional[str] = Field(default=None, max_length=500)
@@ -49,6 +52,8 @@ class PaymentMethodUpdate(BaseModel):
     display_name: Optional[str] = Field(default=None, min_length=1, max_length=120)
     display_number: Optional[str] = Field(default=None, min_length=1, max_length=64)
     status: Optional[Status] = None
+    category: Optional[Category] = None
+    recommended: Optional[bool] = None
     sort_order: Optional[int] = Field(default=None, ge=0, le=1_000_000)
     icon_key: Optional[str] = Field(default=None, max_length=64)
     description: Optional[str] = Field(default=None, max_length=500)
@@ -72,6 +77,8 @@ class PaymentMethodOut(BaseModel):
     display_name: str
     display_number: str
     status: Status
+    category: Category
+    recommended: bool
     sort_order: int
     icon_key: Optional[str]
     description: Optional[str]

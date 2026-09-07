@@ -8,6 +8,26 @@ EXPECTED = {
     "orange": "00000001",
     "etisalat": "00000002",
     "instapay": "00000003",
+    "bank_transfer": "00000004",
+    "usdt_trc20": "00000005",
+}
+
+EXPECTED_CATEGORIES = {
+    "vodafone": "mobile",
+    "orange": "mobile",
+    "etisalat": "mobile",
+    "instapay": "ewallet",
+    "bank_transfer": "bank",
+    "usdt_trc20": "crypto",
+}
+
+EXPECTED_RECOMMENDED = {
+    "vodafone": True,
+    "orange": True,
+    "etisalat": False,
+    "instapay": True,
+    "bank_transfer": True,
+    "usdt_trc20": False,
 }
 
 
@@ -21,9 +41,11 @@ def test_seeded_methods(client):
     r = client.get("/api/payment-methods")
     assert r.status_code == 200
     body = r.json()
-    assert len(body) == 4
+    assert len(body) == 6
     got = {m["method"]: m["display_number"] for m in body}
     assert got == EXPECTED
+    assert {m["method"]: m["category"] for m in body} == EXPECTED_CATEGORIES
+    assert {m["method"]: m["recommended"] for m in body} == EXPECTED_RECOMMENDED
     assert all(m["status"] == "active" for m in body)
     assert all(m["version"] == 1 for m in body)
 

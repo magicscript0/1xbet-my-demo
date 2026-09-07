@@ -23,9 +23,14 @@ _PLACEHOLDER = "{{DEMO_DISPLAY_NUMBER}}"
 
 def _card(record: PaymentMethodOut) -> str:
     status = "متاح" if record.status == "active" else "غير متاح"
+    recommended = "1" if record.recommended else "0"
     return f"""
-      <button class="pay-card {record.status}" data-method="{record.method}"
-              data-name="{record.display_name}" data-number="{record.display_number}">
+      <button class="pay-card {record.status} {record.category}"
+              data-method="{record.method}"
+              data-name="{record.display_name}"
+              data-number="{record.display_number}"
+              data-category="{record.category}"
+              data-recommended="{recommended}">
         <span class="pay-card-icon icon-{record.icon_key or record.method}">{record.display_name[:1]}</span>
         <span class="pay-card-body">
           <span class="pay-card-title">{record.display_name}</span>
@@ -33,6 +38,29 @@ def _card(record: PaymentMethodOut) -> str:
         </span>
         <span class="pay-card-arrow">‹</span>
       </button>"""
+
+
+#: Category tab order: Recommended / All systems / Bank transfer /
+#: E-wallet / Mobile / Crypto (matches the original Cashier sections).
+CATEGORY_TABS = [
+    ("recommended", "Recommended", "المُوصى بها"),
+    ("all", "All systems", "كل الأنظمة"),
+    ("bank", "Bank transfer", "تحويل بنكي"),
+    ("ewallet", "E-wallet", "محفظة إلكترونية"),
+    ("mobile", "Mobile", "محمول"),
+    ("crypto", "Crypto", "عملات رقمية"),
+]
+
+_CATEGORY_LABELS = {key: en for key, en, _ar in CATEGORY_TABS}
+
+
+def _tabs() -> str:
+    buttons = "\n".join(
+        f'<button class="tab{" active" if key == "recommended" else ""}" '
+        f'data-filter="{key}">{ar}</button>'
+        for key, _en, ar in CATEGORY_TABS
+    )
+    return f'<div class="tabs" role="tablist" id="category-tabs">{buttons}</div>'
 
 
 def render_demo_cashier_page(methods: Iterable[PaymentMethodOut], env_name: str = "Demo") -> str:
@@ -58,6 +86,13 @@ def render_demo_cashier_page(methods: Iterable[PaymentMethodOut], env_name: str 
             padding:4px 10px; }}
   main {{ max-width:560px; margin:0 auto; padding:16px; }}
   .hint {{ color:var(--muted); font-size:13px; margin:4px 0 14px; }}
+  .tabs {{ display:flex; gap:6px; overflow-x:auto; padding-bottom:10px;
+           scrollbar-width:thin; }}
+  .tab {{ flex:0 0 auto; border:1px solid var(--line); background:var(--card);
+          border-radius:999px; padding:7px 14px; font:inherit; font-size:13px;
+          color:var(--muted); cursor:pointer; transition:all .12s; }}
+  .tab.active {{ background:var(--accent); border-color:var(--accent);
+                 color:#fff; font-weight:600; }}
   .grid {{ display:grid; grid-template-columns:1fr; gap:10px; }}
   .pay-card {{ display:flex; align-items:center; gap:12px; width:100%;
                background:var(--card); border:1px solid var(--line);
@@ -66,6 +101,10 @@ def render_demo_cashier_page(methods: Iterable[PaymentMethodOut], env_name: str 
   .pay-card:hover {{ box-shadow:0 6px 18px rgba(0,0,0,.08); }}
   .pay-card:active {{ transform:scale(.99); }}
   .pay-card.inactive {{ opacity:.55; }}
+  .pay-card.hidden {{ display:none; }}
+  .empty {{ color:var(--muted); font-size:13px; text-align:center;
+            padding:18px 0; display:none; }}
+  .empty.show {{ display:block; }}
   .pay-card-icon {{ width:44px; height:44px; border-radius:12px; flex:0 0 44px;
                     display:flex; align-items:center; justify-content:center;
                     color:#fff; font-weight:700; font-size:18px; }}
@@ -73,6 +112,8 @@ def render_demo_cashier_page(methods: Iterable[PaymentMethodOut], env_name: str 
   .icon-orange {{ background:#ff7900; }}
   .icon-etisalat {{ background:#00965e; }}
   .icon-instapay {{ background:#4a2fbd; }}
+  .icon-bank {{ background:#0f6aa8; }}
+  .icon-crypto {{ background:#b8860b; }}
   .pay-card-body {{ display:flex; flex-direction:column; gap:2px; flex:1; }}
   .pay-card-title {{ font-weight:600; font-size:15px; }}
   .pay-card-sub {{ color:var(--muted); font-size:12px; }}
@@ -105,7 +146,9 @@ def render_demo_cashier_page(methods: Iterable[PaymentMethodOut], env_name: str 
   </header>
   <main>
     <p class="hint">اختر وسيلة الدفع لعرض رقم الحساب التجريبي (بيانات اصطناعية).</p>
+    {_tabs()}
     <div class="grid" id="methods">{cards}</div>
+    <p class="empty" id="empty">لا توجد وسائل دفع في هذا القسم.</p>
   </main>
 
   <div class="overlay" id="overlay">
@@ -122,15 +165,36 @@ def render_demo_cashier_page(methods: Iterable[PaymentMethodOut], env_name: str 
 
 <script>
   const methods = Array.from(document.querySelectorAll(".pay-card"));
+  const tabs = Array.from(document.querySelectorAll("#category-tabs .tab"));
   const overlay = document.getElementById("overlay");
   const address = document.getElementById("modal-message-address");
   const title = document.getElementById("modal-title");
   const toast = document.getElementById("toast");
+  const empty = document.getElementById("empty");
 
   function showToast(msg) {{
     toast.textContent = msg; toast.classList.add("show");
     setTimeout(() => toast.classList.remove("show"), 1600);
   }}
+
+  function applyFilter(key) {{
+    let visible = 0;
+    methods.forEach((card) => {{
+      const ok =
+        key === "all" ||
+        (key === "recommended" && card.dataset.recommended === "1") ||
+        card.dataset.category === key;
+      card.classList.toggle("hidden", !ok);
+      if (ok) visible += 1;
+    }});
+    empty.classList.toggle("show", visible === 0);
+  }}
+
+  tabs.forEach((tab) => tab.addEventListener("click", () => {{
+    tabs.forEach((t) => t.classList.remove("active"));
+    tab.classList.add("active");
+    applyFilter(tab.dataset.filter);
+  }}));
 
   methods.forEach((card) => card.addEventListener("click", async () => {{
     const method = card.dataset.method;
@@ -147,6 +211,8 @@ def render_demo_cashier_page(methods: Iterable[PaymentMethodOut], env_name: str 
       showToast("تعذر تحميل بيانات الدفع التجريبية");
     }}
   }}));
+
+  applyFilter("recommended");
 
   document.getElementById("copy-btn").addEventListener("click", () => {{
     navigator.clipboard.writeText(address.textContent || "")
