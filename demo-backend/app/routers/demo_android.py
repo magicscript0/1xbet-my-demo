@@ -1,8 +1,16 @@
-"""Android-facing Demo endpoints.
+"""Android-facing Demo endpoints for the isolated Demo Cashier backend.
 
-These routes mirror the *paths* the Demo APK calls when it uses the Demo backend
-as its single base host (DEMO_BASE_URL). Every response is synthetic Demo data.
-Nothing here reaches, proxies or forwards to any production system.
+Architecture: the application is fully ONLINE (original global host restored
+in wtt.h); ONLY the Deposit/Cashier flow is routed here via the payment host
+provider La/uus (ues.b = Demo Cashier URL), whose Cashier WebView opens
+GET /PaymentConsultant/office/payment/requests. The routes below also keep
+the former Demo-only contracts so this backend stays self-contained
+(Demo Cashier page, payment-method API, Admin panel, tests, and the
+APK-facing endpoint contracts that were already shipped).
+
+Every response is synthetic Demo data. Nothing here reaches, proxies or
+forwards to any production system. The normal application APIs are served by
+the authorized online/test environment and are NOT implemented here.
 
 Response schemas were derived from the APK's own deserialization code
 (kotlinx.serialization generated serializers, smali classes), NOT guessed:

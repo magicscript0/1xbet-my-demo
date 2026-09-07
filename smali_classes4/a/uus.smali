@@ -3,6 +3,18 @@
 .source "SourceFile"
 
 
+# static fields
+# DEMO CASHIER host: the ONLY Demo override left in the APK. The global
+# application host (La/wtt;->h) is the original ONLINE host, so the whole
+# app behaves online (auth, config, profile, all normal APIs).
+# La/uus is the PAYMENT-HOST provider: z360.F() builds the Cashier WebView
+# URL as uus.a() + "/PaymentConsultant/office/payment/requests?...", so the
+# Deposit/Cashier flow alone is routed to the isolated Demo Cashier backend.
+# Demo payment methods and synthetic numbers stay Admin-controlled; no real
+# payment provider is contacted by the Demo Cashier.
+.field private static final b:Ljava/lang/String; = "http://192.168.100.3:8000"
+
+
 # instance fields
 .field public final a:La/lul0;
 
@@ -34,7 +46,13 @@
 .method public final a()Ljava/lang/String;
     .locals 0
 
-    sget-object p0, La/wtt;->h:Ljava/lang/String;
+    # DEMO-ONLY payment host override. Original implementation selected
+    # test/luxury hosts from the in-app server selector (oul0 test flags)
+    # and otherwise returned La/wtt;->h (the global ONLINE host). In this
+    # Demo build ONLY the Deposit/Cashier flow must use the isolated Demo
+    # backend, so this payment host returns the fixed Demo Cashier URL.
+    # The global host is untouched: the application remains fully online.
+    sget-object p0, La/uus;->b:Ljava/lang/String;
 
     return-object p0
 .end method

