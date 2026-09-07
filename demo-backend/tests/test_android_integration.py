@@ -287,6 +287,43 @@ def test_get_events_type_small_groups_contract(client: TestClient):
     }
 
 
+def test_get_geo_country_full_info_contract(client: TestClient):
+    """x5j.a -> ku5<xhd> (BaseDictionaryResponse<CountryResponse>).
+
+    Same BaseDictionaryResponse envelope (serializer fu5): exactly one key
+    `data`, no top-level `error` (strict Json). `data` non-null (ku5.a()
+    throws mc4.k on null), `errors` null (non-null -> v0f0). Item (xhd,
+    descriptor rhd) keys exactly: id(Integer), name(String), phoneCode(Integer),
+    alpha2(String), defaultCurrency(Long), countryImage(String) — w5j
+    consumer throws mc4.k when id or phoneCode are null; name/alpha2/
+    countryImage null is tolerated ("") and defaultCurrency null -> 0L.
+    This is the next App Start dictionary endpoint in the aey loader after
+    the device-gate, currently the FIRST catch-all hit after the Groups
+    contract is served.
+    """
+    resp = client.get(
+        "/RestCoreService/v1/mb/GetGeoCountryFullInfo",
+        params={"lastUpdate": 0, "lng": "en_GB"},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert set(body.keys()) == {"data"}, body
+    data = body["data"]
+    assert set(data.keys()) == {"lastUpdate", "items", "errors"}, data
+    assert isinstance(data["lastUpdate"], int)
+    assert data["errors"] is None
+    item = data["items"][0]
+    assert set(item.keys()) == {"id", "name", "phoneCode", "alpha2", "defaultCurrency", "countryImage"}
+    assert item == {
+        "id": 818,
+        "name": "Egypt",
+        "phoneCode": 20,
+        "alpha2": "EG",
+        "defaultCurrency": 840,
+        "countryImage": "",
+    }
+
+
 def test_payment_requests_serves_cashier_html_for_browser(client: TestClient):
     resp = client.get(
         "/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1",

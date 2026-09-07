@@ -43,6 +43,9 @@ Endpoint list implemented:
 - GET  /RestCoreService/v1/mb/getEventsTypeSmallGroups
         -> BaseDictionaryResponse<EventsTypeSmallGroupsResponse> (x5j.c/ku5/ium;
            item keys: eventId,name,position,countCols,hasAutoSub)
+- GET  /RestCoreService/v1/mb/GetGeoCountryFullInfo
+        -> BaseDictionaryResponse<CountryResponse> (x5j.a/ku5/xhd;
+           item keys: id,name,phoneCode,alpha2,defaultCurrency,countryImage)
 - GET  /translate/v1/mobile/GetTranslationsOfKeys  -> BaseDataResponse<{lastUpdate,keys}> (x5j/xho0)
 - GET  /translate/v1/mobile/GetRules               -> BaseDataResponse<[Rule]> (kug0)
 - GET  /ProphylaxisStatus/v2/mobile               -> BaseDataResponse<{state,...}> (ou90/lu90)
@@ -481,6 +484,43 @@ async def demo_get_events_type_small_groups() -> JSONResponse:
                         "position": 0,
                         "countCols": 0,
                         "hasAutoSub": False,
+                    }
+                ],
+                "errors": None,
+            }
+        }
+    )
+
+
+@router.get("/RestCoreService/v1/mb/GetGeoCountryFullInfo")
+async def demo_get_geo_country_full_info() -> JSONResponse:
+    """x5j.a -> ku5<xhd> (BaseDictionaryResponse<CountryResponse>).
+
+    Same BaseDictionaryResponse envelope as getEventsTypeSmall (serializer
+    fu5: exactly ONE key `data`; no BaseDataResponse-style `error` key — the
+    APK Json is strict, ignoreUnknownKeys=false). `data` non-null (ku5.a()
+    throws mc4.k on null), `errors` null (non-null -> v0f0).
+
+    Item is xhd (descriptor rhd, key order): id(Integer)=a, name(String)=b,
+    phoneCode(Integer)=c, alpha2(String)=d, defaultCurrency(Long)=e,
+    countryImage(String)=f. The w5j consumer throws mc4.k when id or
+    phoneCode are null (no other consumer exists — checked La/xhd;
+    references are rhd/w5j/x5j/xhd only); name/alpha2/countryImage null ->
+    "" and defaultCurrency null -> 0L are safe. All six keys are sent
+    non-null for a deterministic Demo-safe item.
+    """
+    return JSONResponse(
+        {
+            "data": {
+                "lastUpdate": 1,
+                "items": [
+                    {
+                        "id": 818,
+                        "name": "Egypt",
+                        "phoneCode": 20,
+                        "alpha2": "EG",
+                        "defaultCurrency": 840,
+                        "countryImage": "",
                     }
                 ],
                 "errors": None,
