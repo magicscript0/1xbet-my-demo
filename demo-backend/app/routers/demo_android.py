@@ -50,6 +50,8 @@ Endpoint list implemented:
         -> BaseDictionaryResponse<CurrencyResponse> (x5j.f/ku5/ile;
            item keys: id,code,currencyName,top,baseRate,symbol,minOutDeposit,
            minOutElectronDeposit,minSumBets,round,hide,crypto,initialBet,betStep)
+- GET  /champs-api/v1/get-champs-by-params -> BaseDataResponse<SpecialEventInfoResponse>
+        (m0h0.a/yt5/w0h0; w0h0 keys exactly {response}; Demo profile returns [])
 - GET  /translate/v1/mobile/GetTranslationsOfKeys  -> BaseDataResponse<{lastUpdate,keys}> (x5j/xho0)
 - GET  /translate/v1/mobile/GetRules               -> BaseDataResponse<[Rule]> (kug0)
 - GET  /ProphylaxisStatus/v2/mobile               -> BaseDataResponse<{state,...}> (ou90/lu90)
@@ -494,6 +496,25 @@ async def demo_get_events_type_small_groups() -> JSONResponse:
             }
         }
     )
+
+
+@router.get("/champs-api/v1/get-champs-by-params")
+async def demo_champs_by_params() -> JSONResponse:
+    """m0h0.a -> yt5<w0h0> (BaseDataResponse<SpecialEventInfoResponse>).
+
+    Envelope (yt5, descriptor xt5): keys exactly `error` (any) and `data`
+    (any) — strict Json, ignoreUnknownKeys=false. Consumer q6v.F calls
+    yt5.a(): non-null `error` -> v0f0 IOException; null `data` -> mc4.k
+    RuntimeException. So `error` MUST be null and `data` MUST be an object.
+
+    w0h0 (SpecialEventInfoResponse, descriptor u0h0) has exactly one key
+    `response` (List<l2h0>). The same consumer requires the list non-null
+    (`if-eqz -> mc4.k`), then iterates it; an EMPTY list is valid and
+    minimal (q6v serializes the empty result list and stores it under the
+    special-events cache key — no item fields are touched). No demo champ
+    items are fabricated.
+    """
+    return JSONResponse(_data_response({"response": []}))
 
 
 @router.get("/RestCoreService/v1/mb/getStaticCurrency")

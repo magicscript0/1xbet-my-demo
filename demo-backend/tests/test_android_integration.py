@@ -385,6 +385,26 @@ def test_get_static_currency_contract(client: TestClient):
     }
 
 
+def test_champs_by_params_contract(client: TestClient):
+    """m0h0.a -> yt5<w0h0> (BaseDataResponse<SpecialEventInfoResponse>).
+
+    Envelope yt5 (descriptor xt5): keys exactly `error` and `data` — strict
+    Json (ignoreUnknownKeys=false). Consumer q6v.F calls yt5.a() and throws
+    v0f0 on non-null `error` and mc4.k on null `data`; the same consumer
+    then requires `response` non-null (`if-eqz -> mc4.k`) and iterates it.
+    An empty list is valid and minimal: the consumer stores an empty
+    special-events list under the cache key and never touches item fields
+    (l2h0/o0h0 21 keys), so no champ items are invented for Demo.
+    """
+    resp = client.get("/champs-api/v1/get-champs-by-params")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert set(body.keys()) == {"error", "data"}, body
+    assert body["error"] is None
+    assert set(body["data"].keys()) == {"response"}, body["data"]
+    assert body["data"]["response"] == []
+
+
 def test_payment_requests_serves_cashier_html_for_browser(client: TestClient):
     resp = client.get(
         "/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1",
