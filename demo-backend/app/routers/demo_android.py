@@ -40,6 +40,9 @@ Endpoint list implemented:
 - GET  /RestCoreService/v1/mb/getEventsTypeSmall
         -> BaseDictionaryResponse<EventsTypeSmallResponse> (x5j.e/ku5/lum;
            envelope has only key `data`: {lastUpdate, items, errors})
+- GET  /RestCoreService/v1/mb/getEventsTypeSmallGroups
+        -> BaseDictionaryResponse<EventsTypeSmallGroupsResponse> (x5j.c/ku5/ium;
+           item keys: eventId,name,position,countCols,hasAutoSub)
 - GET  /translate/v1/mobile/GetTranslationsOfKeys  -> BaseDataResponse<{lastUpdate,keys}> (x5j/xho0)
 - GET  /translate/v1/mobile/GetRules               -> BaseDataResponse<[Rule]> (kug0)
 - GET  /ProphylaxisStatus/v2/mobile               -> BaseDataResponse<{state,...}> (ou90/lu90)
@@ -443,6 +446,41 @@ async def demo_get_events_type_small() -> JSONResponse:
                         "name": "Demo",
                         "type": 0,
                         "specialType": 0,
+                    }
+                ],
+                "errors": None,
+            }
+        }
+    )
+
+
+@router.get("/RestCoreService/v1/mb/getEventsTypeSmallGroups")
+async def demo_get_events_type_small_groups() -> JSONResponse:
+    """x5j.c -> ku5<ium> (BaseDictionaryResponse<EventsTypeSmallGroupsResponse>).
+
+    Same BaseDictionaryResponse envelope as getEventsTypeSmall (serializer fu5:
+    exactly ONE key `data`; no BaseDataResponse-style `error` key — the APK
+    Json is strict, ignoreUnknownKeys=false). `data` non-null (ku5.a() throws
+    mc4.k on null), `errors` null (non-null -> v0f0).
+
+    Item is ium (descriptor gum, key order): eventId(Long)=a, name(String)=b,
+    position(Long)=c, countCols(Long)=d, hasAutoSub(Boolean)=e. The w5j
+    consumer throws mc4.k when eventId/position/countCols are null (no other
+    consumer exists — checked La/ium; references are gum/ium/w5j/x5j only);
+    name null -> "" and hasAutoSub null -> false are safe. All five keys are
+    sent non-null for a deterministic Demo-safe item.
+    """
+    return JSONResponse(
+        {
+            "data": {
+                "lastUpdate": 1,
+                "items": [
+                    {
+                        "eventId": 1,
+                        "name": "Demo",
+                        "position": 0,
+                        "countCols": 0,
+                        "hasAutoSub": False,
                     }
                 ],
                 "errors": None,

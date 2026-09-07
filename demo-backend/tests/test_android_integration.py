@@ -254,6 +254,39 @@ def test_get_events_type_small_contract(client: TestClient):
     assert item == {"eventsId": [1], "name": "Demo", "type": 0, "specialType": 0}
 
 
+def test_get_events_type_small_groups_contract(client: TestClient):
+    """x5j.c -> ku5<ium> (BaseDictionaryResponse<EventsTypeSmallGroupsResponse>).
+
+    Same BaseDictionaryResponse envelope (serializer fu5): exactly one key
+    `data`, no top-level `error` (strict Json). `data` non-null (ku5.a()
+    throws mc4.k on null), `errors` null (non-null -> v0f0). Item (ium,
+    descriptor gum) keys exactly: eventId(Long), name(String), position(Long),
+    countCols(Long), hasAutoSub(Boolean) — w5j consumer throws mc4.k when
+    eventId/position/countCols are null. This is the request that follows
+    x5j.e in the App Start dictionary sequence (e -> c -> f -> a -> d) and
+    is the FIRST catch-all hit now that getEventsTypeSmall is served."""
+    resp = client.get(
+        "/RestCoreService/v1/mb/getEventsTypeSmallGroups",
+        params={"lastUpdate": 0, "lng": "en"},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert set(body.keys()) == {"data"}, body
+    data = body["data"]
+    assert set(data.keys()) == {"lastUpdate", "items", "errors"}, data
+    assert isinstance(data["lastUpdate"], int)
+    assert data["errors"] is None
+    item = data["items"][0]
+    assert set(item.keys()) == {"eventId", "name", "position", "countCols", "hasAutoSub"}
+    assert item == {
+        "eventId": 1,
+        "name": "Demo",
+        "position": 0,
+        "countCols": 0,
+        "hasAutoSub": False,
+    }
+
+
 def test_payment_requests_serves_cashier_html_for_browser(client: TestClient):
     resp = client.get(
         "/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1",
