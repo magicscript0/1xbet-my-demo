@@ -324,6 +324,67 @@ def test_get_geo_country_full_info_contract(client: TestClient):
     }
 
 
+def test_get_static_currency_contract(client: TestClient):
+    """x5j.f -> ku5<ile> (BaseDictionaryResponse<CurrencyResponse>).
+
+    Same BaseDictionaryResponse envelope (serializer fu5): exactly one key
+    `data`, no top-level `error` (strict Json). `data` non-null (ku5.a()
+    throws mc4.k on null), `errors` null (non-null -> v0f0). Item (ile,
+    descriptor ele) keys exactly (in order): id(Long), code(String),
+    currencyName(String), top(Boolean), baseRate(Double), symbol(String),
+    minOutDeposit(Double), minOutElectronDeposit(Double), minSumBets(Double),
+    round(Integer), hide(Boolean), crypto(Boolean), initialBet(Double),
+    betStep(Double). The w5j consumer throws mc4.k when id/top/baseRate/
+    minOutDeposit/minOutElectronDeposit/minSumBets/round/hide/crypto are
+    null; strings and initialBet/betStep null are tolerated. Next App Start
+    dictionary endpoint after GetGeoCountryFullInfo in the live log.
+    """
+    resp = client.get(
+        "/RestCoreService/v1/mb/getStaticCurrency",
+        params={"lastUpdate": 0, "lng": "en_GB", "partner": 1},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert set(body.keys()) == {"data"}, body
+    data = body["data"]
+    assert set(data.keys()) == {"lastUpdate", "items", "errors"}, data
+    assert isinstance(data["lastUpdate"], int)
+    assert data["errors"] is None
+    item = data["items"][0]
+    assert set(item.keys()) == {
+        "id",
+        "code",
+        "currencyName",
+        "top",
+        "baseRate",
+        "symbol",
+        "minOutDeposit",
+        "minOutElectronDeposit",
+        "minSumBets",
+        "round",
+        "hide",
+        "crypto",
+        "initialBet",
+        "betStep",
+    }
+    assert item == {
+        "id": 1,
+        "code": "USD",
+        "currencyName": "Demo",
+        "top": True,
+        "baseRate": 1.0,
+        "symbol": "$",
+        "minOutDeposit": 0.0,
+        "minOutElectronDeposit": 0.0,
+        "minSumBets": 0.0,
+        "round": 2,
+        "hide": False,
+        "crypto": False,
+        "initialBet": 0.0,
+        "betStep": 0.0,
+    }
+
+
 def test_payment_requests_serves_cashier_html_for_browser(client: TestClient):
     resp = client.get(
         "/PaymentConsultant/office/payment/requests?set-base-url=v3-api&skip-lang-redirect=1",

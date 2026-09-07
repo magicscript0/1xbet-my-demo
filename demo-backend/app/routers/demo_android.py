@@ -46,6 +46,10 @@ Endpoint list implemented:
 - GET  /RestCoreService/v1/mb/GetGeoCountryFullInfo
         -> BaseDictionaryResponse<CountryResponse> (x5j.a/ku5/xhd;
            item keys: id,name,phoneCode,alpha2,defaultCurrency,countryImage)
+- GET  /RestCoreService/v1/mb/getStaticCurrency
+        -> BaseDictionaryResponse<CurrencyResponse> (x5j.f/ku5/ile;
+           item keys: id,code,currencyName,top,baseRate,symbol,minOutDeposit,
+           minOutElectronDeposit,minSumBets,round,hide,crypto,initialBet,betStep)
 - GET  /translate/v1/mobile/GetTranslationsOfKeys  -> BaseDataResponse<{lastUpdate,keys}> (x5j/xho0)
 - GET  /translate/v1/mobile/GetRules               -> BaseDataResponse<[Rule]> (kug0)
 - GET  /ProphylaxisStatus/v2/mobile               -> BaseDataResponse<{state,...}> (ou90/lu90)
@@ -484,6 +488,54 @@ async def demo_get_events_type_small_groups() -> JSONResponse:
                         "position": 0,
                         "countCols": 0,
                         "hasAutoSub": False,
+                    }
+                ],
+                "errors": None,
+            }
+        }
+    )
+
+
+@router.get("/RestCoreService/v1/mb/getStaticCurrency")
+async def demo_get_static_currency() -> JSONResponse:
+    """x5j.f -> ku5<ile> (BaseDictionaryResponse<CurrencyResponse>).
+
+    Same BaseDictionaryResponse envelope (serializer fu5): exactly ONE key
+    `data`, no BaseDataResponse-style `error` key (strict Json,
+    ignoreUnknownKeys=false). `data` non-null (ku5.a() throws mc4.k on null),
+    `errors` null (non-null -> v0f0).
+
+    Item is ile (descriptor ele, key order): id(Long)=a, code(String)=b,
+    currencyName(String)=c, top(Boolean)=d, baseRate(Double)=e,
+    symbol(String)=f, minOutDeposit(Double)=g, minOutElectronDeposit(Double)=h,
+    minSumBets(Double)=i, round(Integer)=j, hide(Boolean)=k,
+    crypto(Boolean)=l, initialBet(Double)=m, betStep(Double)=n.
+    The w5j consumer (only consumer — La/ile is referenced by
+    ele/ile/w5j/x5j) throws mc4.k when id/top/baseRate/minOutDeposit/
+    minOutElectronDeposit/minSumBets/round/hide/crypto are null; the string
+    fields tolerate null ("") and initialBet/betStep tolerate null (0.0).
+    All fourteen keys are sent non-null for a deterministic Demo-safe item.
+    """
+    return JSONResponse(
+        {
+            "data": {
+                "lastUpdate": 1,
+                "items": [
+                    {
+                        "id": 1,
+                        "code": "USD",
+                        "currencyName": "Demo",
+                        "top": True,
+                        "baseRate": 1.0,
+                        "symbol": "$",
+                        "minOutDeposit": 0.0,
+                        "minOutElectronDeposit": 0.0,
+                        "minSumBets": 0.0,
+                        "round": 2,
+                        "hide": False,
+                        "crypto": False,
+                        "initialBet": 0.0,
+                        "betStep": 0.0,
                     }
                 ],
                 "errors": None,
