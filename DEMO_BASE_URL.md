@@ -9,7 +9,7 @@ Cashier served by `demo-backend/`. Do not ship this build to production.
 `smali_classes2/a/wtt.smali` line 39 — static field initializer:
 
 ```smali
-.field public static h:Ljava/lang/String; = "http://10.0.2.2:8000"
+.field public static h:Ljava/lang/String; = "http://192.168.100.3:8000"
 ```
 
 `La/wtt;->h` is the **single base URL constant** used by every Demo-relevant
@@ -28,13 +28,11 @@ Old production literal `https://mob-experience.space` is no longer reachable
 from Demo flows; the only remaining occurrences are dead comparisons in the
 interceptor/analytics gates.
 
-## Correct value per environment
+## Current value
 
-* **Android emulator (recommended, default):** `http://10.0.2.2:8000`
-  (host machine loopback as seen from the emulator).
-* **Physical device:** the host LAN IP, e.g. `http://192.168.1.50:8000`
-  (device and host must be on the same network; open port 8000 in the host
-  firewall).
+* **Demo backend host:** `http://192.168.100.3:8000` — this build's single
+  Demo base URL (LAN IP; the device and the host running `demo-backend/` must
+  be on the same network, and port 8000 must be open on the host firewall).
 * Cleartext HTTP is permitted by the app's existing
   `res/xml/network_security_config.xml` (`cleartextTrafficPermitted="true"`),
   so no res changes are needed.
